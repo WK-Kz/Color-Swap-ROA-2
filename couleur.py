@@ -639,7 +639,7 @@ def create_character_menu(characters):
 
 # Créer la fenêtre Tkinter
 root = tk.Tk()
-root.title("UEXP Color Replacer")
+root.title("ROA 2 Colorswap")
 root.geometry("800x600")
 root.configure(bg="#f2f2f2")
 
