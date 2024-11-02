@@ -40,4 +40,8 @@ Ce programme vous permet de changer les couleurs des personnages dans **Rivals o
 - Cliquez sur le bouton jaune et indiquez l'emplacement du dossier `Mods` que vous avez créé.
 
 ### Personnalisation
-- Suivez les instructions à l'écran pour effectuer les échanges de couleurs selon vos préférences.
+- Vous pouvez maintenant choisir le personnage/skin/couleur à modifier.
+- Cliquez sur "Charger fichiers".
+- Choisissez la couleur de votre choix pour la partie sélectionnée en cliquant sur le petit bouton à droite des couleurs ou en entrant directement le code HEX de la couleur (par exemple, #FFFFFF).
+- Après modification, vous pouvez sauvegarder le preset pour réutiliser ces couleurs plus tard.
+- Enfin, cliquez sur "Remplacer les couleurs" pour appliquer la modification dans le jeu.
