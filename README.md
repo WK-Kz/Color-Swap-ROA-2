@@ -1,6 +1,8 @@
 
 # Guide d'utilisation Color Swap Rivals of Aether 2
 
+[English](README.en.md)
+
 ![Capture d’écran 2024-11-02 194847](https://github.com/user-attachments/assets/5d3e014a-74ef-4476-a3e2-0f56453ce117)
 
 
