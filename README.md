@@ -1,7 +1,8 @@
 
 # Guide d'utilisation Color Swap Rivals of Aether 2
 
-![Capture d’écran 2024-11-02 194847](https://github.com/user-attachments/assets/39825c6c-bd76-49d4-b3c6-d448882ec338)
+![Capture d’écran 2024-11-02 194847](https://github.com/user-attachments/assets/5d3e014a-74ef-4476-a3e2-0f56453ce117)
+
 
 
 Ce programme vous permet de changer les couleurs des personnages dans **Rivals of Aether 2**. Deux versions du programme sont disponibles :
