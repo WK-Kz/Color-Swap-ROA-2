@@ -95,6 +95,10 @@ def save_preset():
                             g = int(hex_color[2:4], 16) / 255.0
                             b = int(hex_color[4:6], 16) / 255.0
                             color["Value"] = {"R": r, "G": g, "B": b}
+                        else:
+                            # Si le champ est vide, supprimer la clé "Value"
+                            if "Value" in color:
+                                del color["Value"]
 
         with open(preset_file, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, indent=4)
@@ -111,21 +115,30 @@ def load_preset():
                 data = json.load(f)
                 global json_data
                 json_data = data
-                populate_color_selectors(data)
+                # Ne pas repopuler les sélecteurs de couleurs ici pour conserver les couleurs de base
+                # populate_color_selectors(data)
                 for entry in data:
                     if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
                         for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                             key = color["Key"]
-                            value = color["Value"]
-                            hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
-                            if key in color_entries:
-                                color_entries[key].delete(0, tk.END)
-                                color_entries[key].insert(0, hex_color)
-                                update_color_display(key)
+                            if "Value" in color:
+                                value = color["Value"]
+                                hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
+                                if key in color_entries:
+                                    color_entries[key].delete(0, tk.END)
+                                    color_entries[key].insert(0, hex_color)
+                                    update_color_display(key)
+                            # Ne pas modifier les couleurs qui n'ont pas de "Value"
+                            # else:
+                                # Ne rien faire pour conserver la couleur de base
+                                # pass
                 messagebox.showinfo("Succès", "Preset chargé avec succès.")
             except json.JSONDecodeError:
                 messagebox.showerror(
                     "Erreur", "Erreur de chargement du preset.")
+            except Exception as e:
+                messagebox.showerror(
+                    "Erreur", f"Une erreur s'est produite lors du chargement du preset : {e}")
 
 
 def precise_float_to_hex(value):
@@ -271,9 +284,6 @@ def filter_colors_in_uexp(data):
 
 
 def populate_color_selectors(data):
-    """
-    Crée les champs d'affichage pour chaque couleur ayant une correspondance dans le fichier UEXP.
-    """
     # Effacer les widgets précédents
     for widget in color_frame.winfo_children():
         widget.destroy()
@@ -296,23 +306,23 @@ def populate_color_selectors(data):
                 # Créer les champs pour chaque clé filtrée
                 label = tk.Label(color_frame, text=key,
                                  font=("Arial", 10, "bold"))
-                label.grid(row=row, column=col*4, padx=5, pady=5, sticky="w")
+                label.grid(row=row, column=col*3, padx=5, pady=5, sticky="w")
 
                 color_entry = tk.Entry(
                     color_frame, width=10, font=("Arial", 10))
-                color_entry.grid(row=row, column=col*4 + 1, padx=5, pady=5)
+                color_entry.grid(row=row, column=col*3 + 1, padx=5, pady=5)
                 color_entries[key] = color_entry
                 color_entry.bind("<KeyRelease>", lambda e,
                                  k=key: update_color_display(k))
 
                 color_display = tk.Label(
                     color_frame, width=2, height=1, bg="#FFFFFF", relief="solid", borderwidth=1)
-                color_display.grid(row=row, column=col*4 + 2, padx=5, pady=5)
+                color_display.grid(row=row, column=col*3 + 2, padx=5, pady=5)
                 color_displays[key] = color_display
 
-                choose_button = tk.Button(
-                    color_frame, text="🎨", command=lambda k=key: choose_color(k), font=("Arial", 8))
-                choose_button.grid(row=row, column=col*4 + 3, padx=5, pady=5)
+                # Ajouter l'événement de clic sur le carré de couleur
+                color_display.bind("<Button-1>", lambda e,
+                                   k=key: choose_color(k))
 
                 col += 1
                 if col >= 2:
@@ -321,8 +331,17 @@ def populate_color_selectors(data):
 
 
 def choose_color(key):
-    # Ouvre un sélecteur de couleurs pour choisir une couleur
-    color_code = colorchooser.askcolor(title="Choisir une couleur")[1]
+    # Obtenir la couleur actuelle à partir du champ d'entrée
+    current_color = color_entries[key].get()
+    if not current_color:
+        # Si le champ d'entrée est vide, obtenir la couleur du carré de couleur
+        current_color = color_displays[key].cget("bg")
+    if not current_color or current_color == 'SystemButtonFace':
+        # Si aucune couleur n'est définie, utiliser le blanc par défaut
+        current_color = "#FFFFFF"
+    # Ouvre un sélecteur de couleurs pour choisir une couleur, en commençant par la couleur actuelle
+    color_code = colorchooser.askcolor(
+        title="Choisir une couleur", initialcolor=current_color)[1]
     if color_code:
         color_entries[key].delete(0, tk.END)
         color_entries[key].insert(0, color_code)
@@ -389,7 +408,7 @@ def replace_colors_in_uexp():
         for key, entry in color_entries.items():
             hex_color_input = entry.get()
             if not hex_color_input:
-                continue
+                continue  # Ignorer les champs vides
 
             # Conversion de la couleur hex en valeurs linéaires RGB pour remplacement
             r, g, b = hex_to_linear_rgb(hex_color_input)
@@ -426,6 +445,11 @@ def replace_colors_in_uexp():
 
                     # Mettre à jour la position courante pour continuer après cet emplacement
                     current_position = position + len(new_hex)
+                else:
+                    print(f"Couleur '{key}' non trouvée dans le fichier UEXP.")
+            else:
+                print(
+                    f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
 
         # Convertir les données modifiées en bytes et les écrire dans le fichier UEXP modifié
         uexp_bytes = bytes.fromhex(modified_data)
@@ -433,7 +457,6 @@ def replace_colors_in_uexp():
             f.write(uexp_bytes)
 
         ask_for_pak_directory_and_create(unrealpak_folder_path)
-        # Informer l'utilisateur en cas d'erreur
     except Exception as e:
         messagebox.showerror("Erreur", str(e))
 
@@ -483,6 +506,13 @@ def ask_for_pak_directory_and_create(unrealpak_folder_path):
                 "Erreur", "Le fichier .pak n'a pas été trouvé.")
     except subprocess.CalledProcessError as e:
         messagebox.showerror("Erreur", f"Échec de l'exécution du script : {e}")
+    except PermissionError as e:
+        if e.errno == 13:
+            messagebox.showerror(
+                "Erreur", "Vérifier que le jeu est bien fermé")
+        else:
+            messagebox.showerror(
+                "Erreur", f"Échec de la création du .pak : {e}")
     except Exception as e:
         messagebox.showerror("Erreur", f"Échec de la création du .pak : {e}")
 
@@ -697,7 +727,7 @@ update_selected_character_icon()
 update_skin_menu()
 
 # Bouton pour charger les fichiers UEXP et JSON
-load_button = tk.Button(header_frame, text="Charger fichiers",
+load_button = tk.Button(header_frame, text="Charger les couleurs",
                         command=load_files, font=("Arial", 10), bg="#4CAF50", fg="white")
 load_button.grid(row=1, column=0, columnspan=9, pady=10)
 
