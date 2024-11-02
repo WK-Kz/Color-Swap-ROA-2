@@ -10,9 +10,10 @@ This program allows you to change character colors in **Rivals of Aether 2**. Tw
 
 ## Program Versions
 
-1. **Embedded Python Version**: This version includes everything needed to run the program without additional installation.
+1. **Embedded Python Version**: This version includes everything needed to run the program without additional installation. [Download](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.2/Color_Swap_ROA_2_python.zip)
 
-2. **Non-Embedded Python Version**: For users who already have Python installed on their system. In this case, you need to install the PIL (Python Imaging Library) dependency with the following command:
+2. **Non-Embedded Python Version**: For users who already have Python installed on their system. [Download](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.2/Color_Swap_ROA_2.zip) <br>
+In this case, you need to install the PIL (Python Imaging Library) dependency with the following command:
 
    ```bash
    pip install Pillow
