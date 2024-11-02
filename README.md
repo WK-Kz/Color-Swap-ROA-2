@@ -27,6 +27,9 @@ Ce programme vous permet de changer les couleurs des personnages dans **Rivals o
 
 ## Utilisation
 
+### Attention
+- Bien fermer le jeu avant utilisation.
+
 ### Lancement du programme
 - Ouvrez l'application.
 

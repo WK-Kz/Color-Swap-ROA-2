@@ -13,7 +13,7 @@ CONFIG_FILE = 'config.pkl'
 
 BASE_DIR = r"Base_pas_edit\Rivals2\Content\Characters"
 
-# Global variable initialization
+# Initialisation des variables globales
 unrealpak_script_path = None
 mods_folder_path = None
 json_data = None
@@ -25,6 +25,7 @@ file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 
 
 def save_config():
+    # Sauvegarde de la configuration dans un fichier pickle
     config = {
         'unrealpak_script_path': unrealpak_script_path,
         'mods_folder_path': mods_folder_path
@@ -34,6 +35,7 @@ def save_config():
 
 
 def load_config():
+    # Chargement de la configuration depuis le fichier pickle
     global unrealpak_script_path, mods_folder_path, preset_dir
     project_root = os.path.dirname(
         os.path.abspath(__file__))  # Chemin du projet racine
@@ -53,6 +55,7 @@ def load_config():
 
 
 def get_output_and_unrealpak_dirs():
+    # Obtient les chemins des dossiers de sortie pour UnrealPak
     character = selected_character.get()
     skin = selected_skin.get()
     color = selected_color.get()
@@ -74,6 +77,7 @@ def get_output_and_unrealpak_dirs():
 
 
 def save_preset():
+    # Sauvegarde le preset actuel dans un fichier JSON
     if json_data is None:
         messagebox.showerror("Erreur", "Aucun fichier JSON chargé.")
         return
@@ -98,6 +102,7 @@ def save_preset():
 
 
 def load_preset():
+    # Charge un preset depuis un fichier JSON et met à jour les couleurs dans l'interface
     preset_file = filedialog.askopenfilename(
         filetypes=[("JSON files", "*.json")], initialdir=preset_dir)
     if preset_file:
@@ -124,22 +129,26 @@ def load_preset():
 
 
 def precise_float_to_hex(value):
+    # Convertit un float en représentation hexadécimale précise
     binary = struct.unpack('>I', struct.pack('>f', value))[0]
     hex_value = f'{binary:08X}'
     return hex_value
 
 
 def invert_hex(hex_value):
+    # Inverse les octets dans une chaîne hexadécimale
     return ''.join([hex_value[i:i+2] for i in range(0, len(hex_value), 2)][::-1])
 
 
 def hex_to_linear_rgb(color_hex):
+    # Convertit une couleur hexadécimale en valeurs RGB linéaires
     color_hex = color_hex.lstrip('#')
     r = int(color_hex[0:2], 16) / 255.0
     g = int(color_hex[2:4], 16) / 255.0
     b = int(color_hex[4:6], 16) / 255.0
 
     def linearize(value):
+        # Applique la correction gamma pour obtenir une valeur linéaire
         if value <= 0.04045:
             return value / 12.92
         else:
@@ -153,6 +162,7 @@ def hex_to_linear_rgb(color_hex):
 
 
 def load_json():
+    # Charge le fichier JSON associé au fichier UEXP et met à jour l'interface
     global json_data
     json_file_path = uexp_file_path.replace(".uexp", ".json")
 
@@ -187,7 +197,7 @@ def load_json():
 
 
 def set_initial_colors(data):
-    # Accéder aux définitions de couleurs sous "Properties"
+    # Initialise les couleurs affichées dans l'interface à partir des données JSON
     for entry in data:
         if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
             for color in entry["Properties"]["CustomColorSlotDefinitions"]:
@@ -205,6 +215,7 @@ def set_initial_colors(data):
 
 
 def load_files():
+    # Charge le fichier UEXP et le JSON associé
     if load_uexp():
         load_json()
 
@@ -227,7 +238,7 @@ def filter_colors_in_uexp(data):
                 key = color["Key"]
                 value = color["Value"]
 
-                # Convertir chaque composante RGB en hexadécimal
+                # Convertir chaque composante RGB en hexadécimale
                 hex_r = invert_hex(precise_float_to_hex(value["R"]))
                 hex_g = invert_hex(precise_float_to_hex(value["G"]))
                 hex_b = invert_hex(precise_float_to_hex(value["B"]))
@@ -310,6 +321,7 @@ def populate_color_selectors(data):
 
 
 def choose_color(key):
+    # Ouvre un sélecteur de couleurs pour choisir une couleur
     color_code = colorchooser.askcolor(title="Choisir une couleur")[1]
     if color_code:
         color_entries[key].delete(0, tk.END)
@@ -318,12 +330,14 @@ def choose_color(key):
 
 
 def update_color_display(key):
+    # Met à jour le carré de couleur en fonction de l'entrée utilisateur
     hex_color = color_entries[key].get()
     if hex_color.startswith('#') and len(hex_color) == 7:
         color_displays[key].config(bg=hex_color)
 
 
 def load_uexp():
+    # Charge le fichier UEXP basé sur la sélection de l'utilisateur
     global uexp_file_path
     character = selected_character.get()
     skin = selected_skin.get()
@@ -349,6 +363,7 @@ def load_uexp():
 
 
 def replace_colors_in_uexp():
+    # Remplace les couleurs dans le fichier UEXP en fonction des entrées utilisateur
     if json_data is None:
         messagebox.showerror("Erreur", "Aucun fichier JSON chargé.")
         return
@@ -403,7 +418,7 @@ def replace_colors_in_uexp():
                         modified_data[:position] + new_hex +
                         modified_data[position + len(original_hex):]
                     )
-                    # Print des détails de la modification
+                    # Afficher les détails de la modification
                     print(f"Modification pour la clé '{key}':")
                     print(f"  Couleur d'origine : {original_hex}")
                     print(f"  Nouvelle couleur  : {new_hex}")
@@ -417,15 +432,14 @@ def replace_colors_in_uexp():
         with open(modified_uexp_path, 'wb') as f:
             f.write(uexp_bytes)
 
-        # Informer l'utilisateur que la version modifiée est dans le dossier de sortie
-        messagebox.showinfo(
-            "Succès", f"Couleurs remplacées et fichier modifié enregistré dans {modified_uexp_path}")
         ask_for_pak_directory_and_create(unrealpak_folder_path)
+        # Informer l'utilisateur en cas d'erreur
     except Exception as e:
         messagebox.showerror("Erreur", str(e))
 
 
 def configure_script_and_mods_folder():
+    # Permet à l'utilisateur de sélectionner le dossier mods
     global mods_folder_path
     # Demander uniquement le dossier mods
     mods_folder_path = filedialog.askdirectory(
@@ -435,6 +449,7 @@ def configure_script_and_mods_folder():
 
 
 def ask_for_pak_directory_and_create(unrealpak_folder_path):
+    # Exécute UnrealPak pour créer le fichier .pak et le déplace dans le dossier mods
     character = selected_character.get()
     # Construire le chemin du dossier de sortie pour UnrealPak basé sur le personnage sélectionné
     unrealpak_folder_path = os.path.join(
@@ -444,7 +459,7 @@ def ask_for_pak_directory_and_create(unrealpak_folder_path):
     os.makedirs(unrealpak_folder_path, exist_ok=True)
 
     try:
-        # Exécuter UnrealPak.bat en utilisant le dossier unrealpak_folder_path
+        # Exécuter UnrealPak-With-Compression.bat en utilisant le dossier unrealpak_folder_path
         subprocess.run(
             [unrealpak_script_path, unrealpak_folder_path], check=True)
         time.sleep(0.2)  # Pause pour s'assurer que le fichier est créé
@@ -473,6 +488,7 @@ def ask_for_pak_directory_and_create(unrealpak_folder_path):
 
 
 def load_character_icons():
+    # Charge les icônes des personnages depuis le dossier 'icons'
     characters_path = os.path.join(BASE_DIR)
     characters = [name for name in os.listdir(
         characters_path) if os.path.isdir(os.path.join(characters_path, name))]
@@ -493,6 +509,7 @@ def load_character_icons():
 
 
 def update_selected_character_icon(*args):
+    # Met à jour l'icône affichée du personnage sélectionné
     selected_character_name = selected_character.get()
     # Mettre à jour l'icône dans le Label
     selected_character_icon_label.config(
@@ -504,6 +521,7 @@ def update_selected_character_icon(*args):
 
 
 def update_skin_menu(*args):
+    # Met à jour le menu des skins en fonction du personnage sélectionné
     character_name = selected_character.get()
     skins_path = os.path.join(BASE_DIR, character_name, 'Skins')
     if os.path.exists(skins_path):
@@ -531,6 +549,7 @@ def update_skin_menu(*args):
 
 
 def update_color_menu(*args):
+    # Met à jour le menu des couleurs en fonction du skin sélectionné
     character_name = selected_character.get()
     skin_name = selected_skin.get()
     palettes_path = os.path.join(
@@ -557,6 +576,7 @@ def update_color_menu(*args):
 
 
 def update_file_type_menu(*args):
+    # Met à jour le menu des types de fichiers en fonction de la couleur sélectionnée
     character_name = selected_character.get()
     skin_name = selected_skin.get()
     color_name = selected_color.get()
@@ -597,7 +617,7 @@ def update_file_type_menu(*args):
 
 
 def create_character_menu(characters):
-    # Créer le menu déroulant des personnages avec icônes
+    # Crée le menu déroulant des personnages avec icônes
     character_menu = tk.Menubutton(
         header_frame, textvariable=selected_character, indicatoron=True, borderwidth=1, relief="raised")
     character_menu.grid(row=0, column=2, padx=5, pady=5, sticky="w")
@@ -632,7 +652,7 @@ selected_file_type = tk.StringVar()
 # Charger les icônes et les personnages
 characters = load_character_icons()
 
-# Load configuration on startup
+# Charger la configuration au démarrage
 load_config()
 
 # Frame d'en-tête pour les menus et la configuration
