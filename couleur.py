@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import time
 import pickle
+import threading  # Importer threading pour le debounce
 from PIL import Image, ImageTk  # Importer Pillow pour gérer les PNG
 
 CONFIG_FILE = 'config.pkl'
@@ -27,7 +28,6 @@ file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 translations = {
     'fr': {
         'title': "ROA 2 Colorswap",
-        'load_files': "Charger les couleurs",
         'configure_mods': "Configurer le dossier Mods",
         'save_preset': "Sauvegarder Preset",
         'load_preset': "Charger Preset",
@@ -38,6 +38,7 @@ translations = {
         'file_type': "Type de fichier:",
         'success_title': "Succès",
         'preset_loaded': "Preset chargé avec succès.",
+        'preset_saved': "Preset sauvegardé avec succès.",
         'error_title': "Erreur",
         'json_decode_error': "Erreur de décodage JSON.",
         'no_json_loaded': "Aucun fichier JSON chargé.",
@@ -49,13 +50,13 @@ translations = {
         'pak_not_found': "Le fichier .pak n'a pas été trouvé.",
         'script_execution_failed': "Échec de l'exécution du script : {}",
         'pak_creation_failed': "Échec de la création du .pak : {}",
-        'game_not_closed': "Vérifier que le jeu est bien fermé",
+        'game_not_closed': "Vérifiez que le jeu est bien fermé",
         'load_error': "Une erreur s'est produite lors du chargement du preset : {}",
         'pak_creation_success': "Fichier .pak créé et déplacé vers le dossier mods",
+        'preset_mismatch': "Le preset ne correspond pas au personnage ou au skin sélectionné.",
     },
     'en': {
         'title': "ROA 2 Colorswap",
-        'load_files': "Load Colors",
         'configure_mods': "Configure Mods Folder",
         'save_preset': "Save Preset",
         'load_preset': "Load Preset",
@@ -66,6 +67,7 @@ translations = {
         'file_type': "File Type:",
         'success_title': "Success",
         'preset_loaded': "Preset loaded successfully.",
+        'preset_saved': "Preset saved successfully.",
         'error_title': "Error",
         'json_decode_error': "JSON decoding error.",
         'no_json_loaded': "No JSON file loaded.",
@@ -80,6 +82,7 @@ translations = {
         'game_not_closed': "Make sure the game is closed",
         'load_error': "An error occurred while loading the preset: {}",
         'pak_creation_success': "Pak file created and moved to mods folder",
+        'preset_mismatch': "The preset does not match the selected character or skin.",
     }
 }
 
@@ -92,7 +95,6 @@ def update_texts():
     root.title(translations[current_language]['title'])
 
     # Mettre à jour les textes des widgets
-    load_button.config(text=translations[current_language]['load_files'])
     config_button.config(text=translations[current_language]['configure_mods'])
     save_preset_button.config(
         text=translations[current_language]['save_preset'])
@@ -172,7 +174,7 @@ def get_output_and_unrealpak_dirs():
 
 
 def save_preset():
-    # Sauvegarde le preset actuel dans un fichier JSON
+    # Vérifier que les données JSON sont chargées
     if json_data is None:
         messagebox.showerror(
             translations[current_language]['error_title'], translations[current_language]['no_json_loaded'])
@@ -180,6 +182,11 @@ def save_preset():
     preset_file = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[
                                                ("JSON files", "*.json")], initialdir=preset_dir)
     if preset_file:
+        preset_data = {
+            "Character": selected_character.get(),
+            "Skin": selected_skin.get(),
+            "Colors": []
+        }
         for entry in json_data:
             if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
                 for color in entry["Properties"]["CustomColorSlotDefinitions"]:
@@ -190,36 +197,45 @@ def save_preset():
                             r = int(hex_color[0:2], 16) / 255.0
                             g = int(hex_color[2:4], 16) / 255.0
                             b = int(hex_color[4:6], 16) / 255.0
-                            color["Value"] = {"R": r, "G": g, "B": b}
-                        else:
-                            # Si le champ est vide, supprimer la clé "Value"
-                            if "Value" in color:
-                                del color["Value"]
-
+                            new_color = {
+                                "Key": key,
+                                "Value": {"R": r, "G": g, "B": b}
+                            }
+                            preset_data["Colors"].append(new_color)
+        # Sauvegarder les données du preset
         with open(preset_file, 'w', encoding='utf-8') as f:
-            json.dump(json_data, f, indent=4)
+            json.dump(preset_data, f, indent=4)
         messagebox.showinfo(translations[current_language]['success_title'],
-                            translations[current_language]['preset_loaded'])
+                            translations[current_language]['preset_saved'])
 
 
 def load_preset():
-    # Charge un preset depuis un fichier JSON et met à jour les couleurs dans l'interface
+    # Charge un preset et l'applique aux couleurs actuelles
     preset_file = filedialog.askopenfilename(
         filetypes=[("JSON files", "*.json")], initialdir=preset_dir)
     if preset_file:
         with open(preset_file, 'r', encoding='utf-8') as f:
             try:
-                data = json.load(f)
-                global json_data
-                json_data = data
-                # Ne pas repopuler les sélecteurs de couleurs ici pour conserver les couleurs de base
-                # populate_color_selectors(data)
-                for entry in data:
+                preset_data = json.load(f)
+                # Vérifier que le preset correspond au personnage et au skin actuels
+                if preset_data.get("Character") != selected_character.get() or preset_data.get("Skin") != selected_skin.get():
+                    messagebox.showerror(
+                        translations[current_language]['error_title'],
+                        translations[current_language]['preset_mismatch'])
+                    return
+                if json_data is None:
+                    messagebox.showerror(
+                        translations[current_language]['error_title'], translations[current_language]['no_json_loaded'])
+                    return
+                # Appliquer les données du preset à json_data
+                preset_colors = {color["Key"]: color["Value"]
+                                 for color in preset_data.get("Colors", [])}
+                for entry in json_data:
                     if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
                         for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                             key = color["Key"]
-                            if "Value" in color:
-                                value = color["Value"]
+                            if key in preset_colors:
+                                value = preset_colors[key]
                                 hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
                                 if key in color_entries:
                                     color_entries[key].delete(0, tk.END)
@@ -302,8 +318,6 @@ def load_json():
                 translations[current_language]['error_title'], translations[current_language]['json_decode_error'])
             return False
 
-# Définir les couleurs initiales des entrées à partir du JSON (affiche uniquement dans les carrés)
-
 
 def set_initial_colors(data):
     # Initialise les couleurs affichées dans l'interface à partir des données JSON
@@ -325,8 +339,37 @@ def set_initial_colors(data):
 
 def load_files():
     # Charge le fichier UEXP et le JSON associé
-    if load_uexp():
-        load_json()
+    try:
+        # Afficher le curseur d'attente
+        root.config(cursor="wait")
+        root.update()
+        # Désactiver les menus déroulants
+        disable_selection_menus()
+        # Désactiver le bouton "Remplacer les couleurs"
+        replace_button.config(state='disabled')
+        # Cacher les clés et les couleurs
+        clear_color_selectors()
+        if load_uexp():
+            if load_json():
+                # Si le chargement est réussi, réactiver le bouton "Remplacer les couleurs"
+                replace_button.config(state='normal')
+    except Exception as e:
+        messagebox.showerror(
+            translations[current_language]['error_title'], str(e))
+    finally:
+        # Réactiver les menus après le chargement
+        enable_selection_menus()
+        # Réinitialiser le curseur
+        root.config(cursor="")
+
+
+def clear_color_selectors():
+    # Efface les widgets des clés et des couleurs
+    for widget in color_frame.winfo_children():
+        widget.destroy()
+    global color_entries, color_displays
+    color_entries = {}
+    color_displays = {}
 
 
 def filter_colors_in_uexp(data):
@@ -428,15 +471,12 @@ def populate_color_selectors(data):
 
 
 def choose_color(key):
-    # Obtenir la couleur actuelle à partir du champ d'entrée
+    # Ouvre un sélecteur de couleurs pour choisir une couleur
     current_color = color_entries[key].get()
     if not current_color:
-        # Si le champ d'entrée est vide, obtenir la couleur du carré de couleur
         current_color = color_displays[key].cget("bg")
     if not current_color or current_color == 'SystemButtonFace':
-        # Si aucune couleur n'est définie, utiliser le blanc par défaut
         current_color = "#FFFFFF"
-    # Ouvre un sélecteur de couleurs pour choisir une couleur, en commençant par la couleur actuelle
     color_code = colorchooser.askcolor(
         title="Choisir une couleur", initialcolor=current_color)[1]
     if color_code:
@@ -771,6 +811,43 @@ def create_character_menu(characters):
     return character_menu
 
 
+def disable_selection_menus():
+    # Désactiver les menus déroulants pendant le chargement
+    character_menu.config(state='disabled')
+    skin_menu.config(state='disabled')
+    color_menu.config(state='disabled')
+    file_type_menu.config(state='disabled')
+
+
+def enable_selection_menus():
+    # Réactiver les menus déroulants après le chargement
+    character_menu.config(state='normal')
+    skin_menu.config(state='normal')
+    color_menu.config(state='normal')
+    file_type_menu.config(state='normal')
+
+
+def on_selection_change(*args):
+    # Fonction appelée lorsque les sélections changent
+    global last_change_time
+    # Mettre à jour le moment du dernier changement
+    last_change_time = time.time()
+    # Démarrer un thread pour attendre et charger les fichiers
+    threading.Thread(target=delayed_load).start()
+
+
+def delayed_load():
+    global last_change_time
+    # Attendre 0.5 secondes
+    time.sleep(0.5)
+    # Vérifier si suffisamment de temps s'est écoulé depuis le dernier changement
+    if time.time() - last_change_time >= 0.5:
+        # Vérifie que toutes les sélections sont faites
+        if selected_character.get() and selected_skin.get() and selected_color.get() and selected_file_type.get():
+            # Charger les fichiers sur le thread principal
+            root.after(0, load_files)
+
+
 # Créer la fenêtre Tkinter
 root = tk.Tk()
 root.title(translations[current_language]['title'])
@@ -782,6 +859,9 @@ selected_character = tk.StringVar()
 selected_skin = tk.StringVar()
 selected_color = tk.StringVar()
 selected_file_type = tk.StringVar()
+
+# Variable pour stocker le moment du dernier changement
+last_change_time = 0
 
 # Charger les icônes et les personnages
 characters = load_character_icons()
@@ -836,30 +916,31 @@ selected_color.trace('w', update_file_type_menu)
 file_type_menu = tk.OptionMenu(header_frame, selected_file_type, '')
 file_type_menu.grid(row=0, column=9, padx=2, pady=5, sticky="w")
 
+# Lier les variables de sélection à la fonction de changement
+selected_character.trace('w', on_selection_change)
+selected_skin.trace('w', on_selection_change)
+selected_color.trace('w', on_selection_change)
+selected_file_type.trace('w', on_selection_change)
+
 # Mettre à jour l'icône du personnage initial
 update_selected_character_icon()
 
 # Appeler la fonction une première fois pour initialiser le menu des skins
 update_skin_menu()
 
-# Bouton pour charger les fichiers UEXP et JSON
-load_button = tk.Button(header_frame, command=load_files,
-                        font=("Arial", 10), bg="#4CAF50", fg="white")
-load_button.grid(row=1, column=0, columnspan=10, pady=10)
-
 # Bouton unique de configuration pour UnrealPak et Mods
 config_button = tk.Button(header_frame, command=configure_script_and_mods_folder,
                           font=("Arial", 10), bg="#FFC107", fg="black")
-config_button.grid(row=2, column=0, columnspan=10, pady=10)
+config_button.grid(row=1, column=0, columnspan=10, pady=10)
 
 # Boutons pour sauvegarder et charger des presets
 save_preset_button = tk.Button(header_frame, command=save_preset,
                                font=("Arial", 9), bg="#2196F3", fg="white")
-save_preset_button.grid(row=3, column=0, padx=(5, 5), pady=5, sticky="w")
+save_preset_button.grid(row=2, column=0, padx=(5, 5), pady=5, sticky="w")
 
 load_preset_button = tk.Button(header_frame, command=load_preset,
                                font=("Arial", 9), bg="#2196F3", fg="white")
-load_preset_button.grid(row=3, column=1, padx=(5, 5), pady=5, sticky="w")
+load_preset_button.grid(row=2, column=1, padx=(5, 5), pady=5, sticky="w")
 
 # Frame pour afficher les couleurs
 color_frame = tk.Frame(root, bg="#ffffff", borderwidth=1, relief="solid")
@@ -870,7 +951,7 @@ action_frame = tk.Frame(root, bg="#f2f2f2")
 action_frame.pack(pady=5)
 
 replace_button = tk.Button(action_frame, command=replace_colors_in_uexp,
-                           font=("Arial", 10), bg="#4CAF50", fg="white")
+                           font=("Arial", 10), bg="#4CAF50", fg="white", state='disabled')
 replace_button.grid(row=0, column=0, padx=5, pady=2)
 
 # Mise à jour initiale des textes
