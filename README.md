@@ -11,10 +11,10 @@ Ce programme vous permet de changer les couleurs des personnages dans **Rivals o
 
 ## Versions du programme
 
-1. **Version avec Python embarqué** : Cette version inclut tout ce dont vous avez besoin pour exécuter le programme sans installation supplémentaire. [ICI](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.2/Color_Swap_ROA_2_python.zip)
+1. **Version avec Python embarqué** : Cette version inclut tout ce dont vous avez besoin pour exécuter le programme sans installation supplémentaire. [Télécharger](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.2/Color_Swap_ROA_2_python.zip)
 
    
-2. **Version sans Python** : Pour les utilisateurs ayant déjà Python installé sur leur système. [ICI](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.2/Color_Swap_ROA_2.zip) <br>
+2. **Version sans Python** : Pour les utilisateurs ayant déjà Python installé sur leur système. [Télécharger](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.2/Color_Swap_ROA_2.zip) <br>
    Dans ce cas, vous devez installer la bibliothèque PIL (Python Imaging Library) avec la commande suivante :
 
    ```bash
