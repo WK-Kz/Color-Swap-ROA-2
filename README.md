@@ -1,5 +1,5 @@
 
-# Guide d'utilisation du programme de Color Swap pour Rivals of Aether 2
+# Guide d'utilisation Color Swap Rivals of Aether 2
 
 Ce programme vous permet de changer les couleurs des personnages dans **Rivals of Aether 2**. Deux versions du programme sont disponibles :
 
