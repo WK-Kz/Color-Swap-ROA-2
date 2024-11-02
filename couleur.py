@@ -23,6 +23,101 @@ color_displays = {}
 character_icons = {}
 file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 
+# Dictionnaire des traductions
+translations = {
+    'fr': {
+        'title': "ROA 2 Colorswap",
+        'load_files': "Charger les couleurs",
+        'configure_mods': "Configurer le dossier Mods",
+        'save_preset': "Sauvegarder Preset",
+        'load_preset': "Charger Preset",
+        'replace_colors': "Remplacer les couleurs",
+        'character': "Personnage:",
+        'skin': "Skin:",
+        'color': "Couleur:",
+        'file_type': "Type de fichier:",
+        'success_title': "Succès",
+        'preset_loaded': "Preset chargé avec succès.",
+        'error_title': "Erreur",
+        'json_decode_error': "Erreur de décodage JSON.",
+        'no_json_loaded': "Aucun fichier JSON chargé.",
+        'json_load_error': "Erreur de chargement du preset.",
+        'uexp_not_found': "Fichier UEXP introuvable : {}",
+        'json_not_found': "Fichier JSON introuvable : {}",
+        'unexpected_json_format': "Format JSON inattendu.",
+        'mods_configured': "Dossier mods configuré.",
+        'pak_not_found': "Le fichier .pak n'a pas été trouvé.",
+        'script_execution_failed': "Échec de l'exécution du script : {}",
+        'pak_creation_failed': "Échec de la création du .pak : {}",
+        'game_not_closed': "Vérifier que le jeu est bien fermé",
+        'load_error': "Une erreur s'est produite lors du chargement du preset : {}",
+        'pak_creation_success': "Fichier .pak créé et déplacé vers le dossier mods",
+    },
+    'en': {
+        'title': "ROA 2 Colorswap",
+        'load_files': "Load Colors",
+        'configure_mods': "Configure Mods Folder",
+        'save_preset': "Save Preset",
+        'load_preset': "Load Preset",
+        'replace_colors': "Replace Colors",
+        'character': "Character:",
+        'skin': "Skin:",
+        'color': "Color:",
+        'file_type': "File Type:",
+        'success_title': "Success",
+        'preset_loaded': "Preset loaded successfully.",
+        'error_title': "Error",
+        'json_decode_error': "JSON decoding error.",
+        'no_json_loaded': "No JSON file loaded.",
+        'json_load_error': "Error loading preset.",
+        'uexp_not_found': "UEXP file not found: {}",
+        'json_not_found': "JSON file not found: {}",
+        'unexpected_json_format': "Unexpected JSON format.",
+        'mods_configured': "Mods folder configured.",
+        'pak_not_found': "The .pak file was not found.",
+        'script_execution_failed': "Script execution failed: {}",
+        'pak_creation_failed': "Failed to create .pak: {}",
+        'game_not_closed': "Make sure the game is closed",
+        'load_error': "An error occurred while loading the preset: {}",
+        'pak_creation_success': "Pak file created and moved to mods folder",
+    }
+}
+
+# Langue actuelle
+current_language = 'fr'
+
+
+def update_texts():
+    # Mettre à jour le titre de la fenêtre
+    root.title(translations[current_language]['title'])
+
+    # Mettre à jour les textes des widgets
+    load_button.config(text=translations[current_language]['load_files'])
+    config_button.config(text=translations[current_language]['configure_mods'])
+    save_preset_button.config(
+        text=translations[current_language]['save_preset'])
+    load_preset_button.config(
+        text=translations[current_language]['load_preset'])
+    replace_button.config(
+        text=translations[current_language]['replace_colors'])
+
+    # Mettre à jour les labels
+    character_label.config(
+        text=translations[current_language]['character'])
+    skin_label.config(text=translations[current_language]['skin'])
+    color_label.config(text=translations[current_language]['color'])
+    file_type_label.config(
+        text=translations[current_language]['file_type'])
+
+    # Mettre à jour le menu des langues
+    language_menu['text'] = selected_language.get()
+
+
+def change_language(*args):
+    global current_language
+    current_language = language_options[selected_language.get()]
+    update_texts()
+
 
 def save_config():
     # Sauvegarde de la configuration dans un fichier pickle
@@ -79,7 +174,8 @@ def get_output_and_unrealpak_dirs():
 def save_preset():
     # Sauvegarde le preset actuel dans un fichier JSON
     if json_data is None:
-        messagebox.showerror("Erreur", "Aucun fichier JSON chargé.")
+        messagebox.showerror(
+            translations[current_language]['error_title'], translations[current_language]['no_json_loaded'])
         return
     preset_file = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[
                                                ("JSON files", "*.json")], initialdir=preset_dir)
@@ -102,7 +198,8 @@ def save_preset():
 
         with open(preset_file, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, indent=4)
-        messagebox.showinfo("Succès", "Preset sauvegardé avec succès.")
+        messagebox.showinfo(translations[current_language]['success_title'],
+                            translations[current_language]['preset_loaded'])
 
 
 def load_preset():
@@ -128,17 +225,14 @@ def load_preset():
                                     color_entries[key].delete(0, tk.END)
                                     color_entries[key].insert(0, hex_color)
                                     update_color_display(key)
-                            # Ne pas modifier les couleurs qui n'ont pas de "Value"
-                            # else:
-                                # Ne rien faire pour conserver la couleur de base
-                                # pass
-                messagebox.showinfo("Succès", "Preset chargé avec succès.")
+                messagebox.showinfo(translations[current_language]['success_title'],
+                                    translations[current_language]['preset_loaded'])
             except json.JSONDecodeError:
                 messagebox.showerror(
-                    "Erreur", "Erreur de chargement du preset.")
+                    translations[current_language]['error_title'], translations[current_language]['json_load_error'])
             except Exception as e:
                 messagebox.showerror(
-                    "Erreur", f"Une erreur s'est produite lors du chargement du preset : {e}")
+                    translations[current_language]['error_title'], translations[current_language]['load_error'].format(e))
 
 
 def precise_float_to_hex(value):
@@ -182,7 +276,7 @@ def load_json():
     # Vérifier si le fichier JSON existe
     if not os.path.exists(json_file_path):
         messagebox.showerror(
-            "Erreur", f"Fichier JSON introuvable : {json_file_path}")
+            translations[current_language]['error_title'], translations[current_language]['json_not_found'].format(json_file_path))
         return False
 
     # Charger le fichier JSON
@@ -200,10 +294,12 @@ def load_json():
                 print(f"Fichier JSON chargé et filtré : {json_file_path}")
                 return True
             else:
-                messagebox.showerror("Erreur", "Format JSON inattendu.")
+                messagebox.showerror(
+                    translations[current_language]['error_title'], translations[current_language]['unexpected_json_format'])
                 return False
         except json.JSONDecodeError:
-            messagebox.showerror("Erreur", "Erreur de décodage JSON.")
+            messagebox.showerror(
+                translations[current_language]['error_title'], translations[current_language]['json_decode_error'])
             return False
 
 # Définir les couleurs initiales des entrées à partir du JSON (affiche uniquement dans les carrés)
@@ -317,7 +413,8 @@ def populate_color_selectors(data):
 
                 color_display = tk.Label(
                     color_frame, width=2, height=1, bg="#FFFFFF", relief="solid", borderwidth=1)
-                color_display.grid(row=row, column=col*3 + 2, padx=5, pady=5)
+                color_display.grid(
+                    row=row, column=col*3 + 2, padx=5, pady=5)
                 color_displays[key] = color_display
 
                 # Ajouter l'événement de clic sur le carré de couleur
@@ -375,7 +472,7 @@ def load_uexp():
     # Vérification de l'existence du fichier
     if not os.path.exists(uexp_file_path):
         messagebox.showerror(
-            "Erreur", f"Fichier UEXP introuvable : {uexp_file_path}")
+            translations[current_language]['error_title'], translations[current_language]['uexp_not_found'].format(uexp_file_path))
         return False
     print(f"Fichier UEXP chargé : {uexp_file_path}")
     return True
@@ -384,7 +481,8 @@ def load_uexp():
 def replace_colors_in_uexp():
     # Remplace les couleurs dans le fichier UEXP en fonction des entrées utilisateur
     if json_data is None:
-        messagebox.showerror("Erreur", "Aucun fichier JSON chargé.")
+        messagebox.showerror(
+            translations[current_language]['error_title'], translations[current_language]['no_json_loaded'])
         return
 
     try:
@@ -398,7 +496,7 @@ def replace_colors_in_uexp():
         print(
             f"Fichier UEXP copié dans le dossier de sortie : {modified_uexp_path}")
 
-        # Charger les données de la copie du fichier UEXP en hexadécimal pour modification
+        # Charger les données de la copie du fichier UEXP en hexadécimale pour modification
         with open(modified_uexp_path, 'rb') as f:
             uexp_data = f.read().hex().upper()
 
@@ -430,7 +528,8 @@ def replace_colors_in_uexp():
             if selected_color_entry:
                 original_hex = selected_color_entry["UEXP_Hex"]
                 # Rechercher la première occurrence après la position courante
-                position = modified_data.find(original_hex, current_position)
+                position = modified_data.find(
+                    original_hex, current_position)
                 if position != -1:
                     # Remplacer cette occurrence uniquement et afficher les informations de modification
                     modified_data = (
@@ -446,7 +545,8 @@ def replace_colors_in_uexp():
                     # Mettre à jour la position courante pour continuer après cet emplacement
                     current_position = position + len(new_hex)
                 else:
-                    print(f"Couleur '{key}' non trouvée dans le fichier UEXP.")
+                    print(
+                        f"Couleur '{key}' non trouvée dans le fichier UEXP.")
             else:
                 print(
                     f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
@@ -458,7 +558,8 @@ def replace_colors_in_uexp():
 
         ask_for_pak_directory_and_create(unrealpak_folder_path)
     except Exception as e:
-        messagebox.showerror("Erreur", str(e))
+        messagebox.showerror(
+            translations[current_language]['error_title'], str(e))
 
 
 def configure_script_and_mods_folder():
@@ -468,7 +569,8 @@ def configure_script_and_mods_folder():
     mods_folder_path = filedialog.askdirectory(
         title="Choisir le dossier mods existant")
     save_config()
-    messagebox.showinfo("Succès", "Dossier mods configuré.")
+    messagebox.showinfo(translations[current_language]['success_title'],
+                        translations[current_language]['mods_configured'])
 
 
 def ask_for_pak_directory_and_create(unrealpak_folder_path):
@@ -500,21 +602,23 @@ def ask_for_pak_directory_and_create(unrealpak_folder_path):
                 mods_folder_path, os.path.basename(generated_pak))
             shutil.move(generated_pak, destination)
             messagebox.showinfo(
-                "Succès", f"Fichier .pak créé et déplacé vers le dossier mods : {mods_folder_path}")
+                translations[current_language]['success_title'], f"{translations[current_language]['pak_creation_success']} : {mods_folder_path}")
         else:
             messagebox.showerror(
-                "Erreur", "Le fichier .pak n'a pas été trouvé.")
+                translations[current_language]['error_title'], translations[current_language]['pak_not_found'])
     except subprocess.CalledProcessError as e:
-        messagebox.showerror("Erreur", f"Échec de l'exécution du script : {e}")
+        messagebox.showerror(
+            translations[current_language]['error_title'], translations[current_language]['script_execution_failed'].format(e))
     except PermissionError as e:
         if e.errno == 13:
             messagebox.showerror(
-                "Erreur", "Vérifier que le jeu est bien fermé")
+                translations[current_language]['error_title'], translations[current_language]['game_not_closed'])
         else:
             messagebox.showerror(
-                "Erreur", f"Échec de la création du .pak : {e}")
+                translations[current_language]['error_title'], translations[current_language]['pak_creation_failed'].format(e))
     except Exception as e:
-        messagebox.showerror("Erreur", f"Échec de la création du .pak : {e}")
+        messagebox.showerror(
+            translations[current_language]['error_title'], translations[current_language]['pak_creation_failed'].format(e))
 
 
 def load_character_icons():
@@ -650,7 +754,7 @@ def create_character_menu(characters):
     # Crée le menu déroulant des personnages avec icônes
     character_menu = tk.Menubutton(
         header_frame, textvariable=selected_character, indicatoron=True, borderwidth=1, relief="raised")
-    character_menu.grid(row=0, column=2, padx=5, pady=5, sticky="w")
+    character_menu.grid(row=0, column=3, padx=2, pady=5, sticky="w")
     character_menu.menu = tk.Menu(character_menu, tearoff=False)
     character_menu["menu"] = character_menu.menu
 
@@ -669,8 +773,8 @@ def create_character_menu(characters):
 
 # Créer la fenêtre Tkinter
 root = tk.Tk()
-root.title("ROA 2 Colorswap")
-root.geometry("800x600")
+root.title(translations[current_language]['title'])
+root.geometry("900x600")
 root.configure(bg="#f2f2f2")
 
 # Variables pour les menus déroulants (après création de root)
@@ -689,36 +793,48 @@ load_config()
 header_frame = tk.Frame(root, bg="#f2f2f2")
 header_frame.pack(pady=10)
 
+# Sélecteur de langue
+selected_language = tk.StringVar(value='Français')
+language_options = {'Français': 'fr', 'English': 'en'}
+language_menu = tk.OptionMenu(
+    header_frame, selected_language, *language_options.keys())
+language_menu.grid(row=0, column=0, padx=5, pady=5, sticky="w")
+selected_language.trace('w', change_language)
+
 # Label pour afficher l'icône sélectionnée
 selected_character_icon_label = tk.Label(header_frame, bg="#f2f2f2")
-selected_character_icon_label.grid(row=0, column=0, padx=5, pady=5)
+selected_character_icon_label.grid(row=0, column=1, padx=2, pady=5)
+
+# Labels pour les menus déroulants
+character_label = tk.Label(header_frame, font=("Arial", 10))
+character_label.grid(row=0, column=2, padx=2, pady=5, sticky="e")
+
+skin_label = tk.Label(header_frame, font=("Arial", 10))
+skin_label.grid(row=0, column=4, padx=2, pady=5, sticky="e")
+
+color_label = tk.Label(header_frame, font=("Arial", 10))
+color_label.grid(row=0, column=6, padx=2, pady=5, sticky="e")
+
+file_type_label = tk.Label(header_frame, font=("Arial", 10))
+file_type_label.grid(row=0, column=8, padx=2, pady=5, sticky="e")
 
 # Menu déroulant pour le personnage avec icônes
-tk.Label(header_frame, text="Personnage:", font=("Arial", 10)).grid(
-    row=0, column=1, padx=5, pady=5, sticky="e")
-
 character_menu = create_character_menu(characters)
 selected_character.trace("w", update_selected_character_icon)
 selected_character.set(characters[0])
 
-# Label et menu pour le skin
-tk.Label(header_frame, text="Skin:", font=("Arial", 10)).grid(
-    row=0, column=3, padx=5, pady=5, sticky="e")
+# Menu pour le skin
 skin_menu = tk.OptionMenu(header_frame, selected_skin, '')
-skin_menu.grid(row=0, column=4, padx=5, pady=5, sticky="w")
+skin_menu.grid(row=0, column=5, padx=2, pady=5, sticky="w")
 selected_skin.trace('w', update_color_menu)
 
 # Menus déroulants pour la couleur et le type de fichier
-tk.Label(header_frame, text="Couleur:", font=("Arial", 10)).grid(
-    row=0, column=5, padx=5, pady=5, sticky="e")
 color_menu = tk.OptionMenu(header_frame, selected_color, '')
-color_menu.grid(row=0, column=6, padx=5, pady=5, sticky="w")
+color_menu.grid(row=0, column=7, padx=2, pady=5, sticky="w")
 selected_color.trace('w', update_file_type_menu)
 
-tk.Label(header_frame, text="Type de fichier:", font=("Arial", 10)).grid(
-    row=0, column=7, padx=5, pady=5, sticky="e")
 file_type_menu = tk.OptionMenu(header_frame, selected_file_type, '')
-file_type_menu.grid(row=0, column=8, padx=5, pady=5, sticky="w")
+file_type_menu.grid(row=0, column=9, padx=2, pady=5, sticky="w")
 
 # Mettre à jour l'icône du personnage initial
 update_selected_character_icon()
@@ -727,22 +843,22 @@ update_selected_character_icon()
 update_skin_menu()
 
 # Bouton pour charger les fichiers UEXP et JSON
-load_button = tk.Button(header_frame, text="Charger les couleurs",
-                        command=load_files, font=("Arial", 10), bg="#4CAF50", fg="white")
-load_button.grid(row=1, column=0, columnspan=9, pady=10)
+load_button = tk.Button(header_frame, command=load_files,
+                        font=("Arial", 10), bg="#4CAF50", fg="white")
+load_button.grid(row=1, column=0, columnspan=10, pady=10)
 
 # Bouton unique de configuration pour UnrealPak et Mods
-config_button = tk.Button(header_frame, text="Configurer le dossier Mods",
-                          command=configure_script_and_mods_folder, font=("Arial", 10), bg="#FFC107", fg="black")
-config_button.grid(row=2, column=0, columnspan=9, pady=10)
+config_button = tk.Button(header_frame, command=configure_script_and_mods_folder,
+                          font=("Arial", 10), bg="#FFC107", fg="black")
+config_button.grid(row=2, column=0, columnspan=10, pady=10)
 
 # Boutons pour sauvegarder et charger des presets
-save_preset_button = tk.Button(header_frame, text="Sauvegarder Preset",
-                               command=save_preset, font=("Arial", 9), bg="#2196F3", fg="white")
+save_preset_button = tk.Button(header_frame, command=save_preset,
+                               font=("Arial", 9), bg="#2196F3", fg="white")
 save_preset_button.grid(row=3, column=0, padx=(5, 5), pady=5, sticky="w")
 
-load_preset_button = tk.Button(header_frame, text="Charger Preset",
-                               command=load_preset, font=("Arial", 9), bg="#2196F3", fg="white")
+load_preset_button = tk.Button(header_frame, command=load_preset,
+                               font=("Arial", 9), bg="#2196F3", fg="white")
 load_preset_button.grid(row=3, column=1, padx=(5, 5), pady=5, sticky="w")
 
 # Frame pour afficher les couleurs
@@ -753,8 +869,11 @@ color_frame.pack(fill="both", expand=True, padx=10, pady=5)
 action_frame = tk.Frame(root, bg="#f2f2f2")
 action_frame.pack(pady=5)
 
-replace_button = tk.Button(action_frame, text="Remplacer les couleurs",
-                           command=replace_colors_in_uexp, font=("Arial", 10), bg="#4CAF50", fg="white")
+replace_button = tk.Button(action_frame, command=replace_colors_in_uexp,
+                           font=("Arial", 10), bg="#4CAF50", fg="white")
 replace_button.grid(row=0, column=0, padx=5, pady=2)
+
+# Mise à jour initiale des textes
+update_texts()
 
 root.mainloop()
