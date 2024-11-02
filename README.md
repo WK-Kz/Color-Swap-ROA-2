@@ -39,7 +39,7 @@ Ce programme vous permet de changer les couleurs des personnages dans **Rivals o
 - Bien fermer le jeu avant utilisation.
 
 ### Lancement du programme
-- Ouvrez l'application.
+- Ouvrez l'application avec Start.bat .
 
 ### Sélection du dossier Mods
 - Cliquez sur le bouton jaune et indiquez l'emplacement du dossier `Mods` que vous avez créé.
