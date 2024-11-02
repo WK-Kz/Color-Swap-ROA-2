@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Scarab_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Scarab_Red_C'Default__PS_Kra_Scarab_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Scarab/Data/Palettes/Red/PS_Kra_Scarab_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Scarab_Red_C",
+    "Name": "Default__PS_Kra_Scarab_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Scarab/Data/Palettes/Red/PS_Kra_Scarab_Red.PS_Kra_Scarab_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.030713,
+            "G": 0.011069,
+            "B": 0.016332,
+            "A": 1.0,
+            "Hex": "311B22"
+          }
+        },
+        {
+          "Key": "Gold",
+          "Value": {
+            "R": 0.723958,
+            "G": 0.249947,
+            "B": 0.214925,
+            "A": 1.0,
+            "Hex": "DD8980"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Paint",
+          "Value": {
+            "R": 0.140625,
+            "G": 0.003662,
+            "B": 0.02752,
+            "A": 1.0,
+            "Hex": "690C2E"
+          }
+        },
+        {
+          "Key": "Gem",
+          "Value": {
+            "R": 0.0,
+            "G": 0.822917,
+            "B": 0.384028,
+            "A": 1.0,
+            "Hex": "00EAA7"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.614583,
+            "B": 0.307292,
+            "A": 1.0,
+            "Hex": "00CE97"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.287441,
+            "G": 0.18791,
+            "B": 0.199522,
+            "A": 1.0,
+            "Hex": "92787B"
+          }
+        },
+        {
+          "Key": "Stone",
+          "Value": {
+            "R": 0.723055,
+            "G": 0.250158,
+            "B": 0.215861,
+            "A": 1.0,
+            "Hex": "DD8980"
+          }
+        }
+      ]
+    }
+  }
+]

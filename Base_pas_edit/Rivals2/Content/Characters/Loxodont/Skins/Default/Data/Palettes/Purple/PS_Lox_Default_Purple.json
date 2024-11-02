@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Default_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Default_Purple_C'Default__PS_Lox_Default_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Purple/PS_Lox_Default_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Default_Purple_C",
+    "Name": "Default__PS_Lox_Default_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Purple/PS_Lox_Default_Purple.PS_Lox_Default_Purple_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.1333,
+            "G": 0.11696,
+            "B": 0.215,
+            "A": 1.0,
+            "Hex": "666080"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.694,
+            "G": 0.562418,
+            "B": 0.036088,
+            "A": 1.0,
+            "Hex": "D9C635"
+          }
+        },
+        {
+          "Key": "Axe Blade",
+          "Value": {
+            "R": 0.424,
+            "G": 0.424,
+            "B": 0.424,
+            "A": 1.0,
+            "Hex": "AEAEAE"
+          }
+        },
+        {
+          "Key": "Axe Head",
+          "Value": {
+            "R": 0.024581,
+            "G": 0.010757,
+            "B": 0.114435,
+            "A": 1.0,
+            "Hex": "2B1A5F"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.498,
+            "G": 0.220448,
+            "B": 0.05976,
+            "A": 1.0,
+            "Hex": "BB8145"
+          }
+        },
+        {
+          "Key": "Axe Wraps",
+          "Value": {
+            "R": 0.145403,
+            "G": 0.019104,
+            "B": 0.398,
+            "A": 1.0,
+            "Hex": "6A25A9"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Value": {
+            "R": 0.185256,
+            "G": 0.218066,
+            "B": 0.279,
+            "A": 1.0,
+            "Hex": "778190"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.024581,
+            "G": 0.010757,
+            "B": 0.114435,
+            "A": 1.0,
+            "Hex": "2B1A5F"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.141855,
+            "G": 0.033213,
+            "B": 0.467784,
+            "A": 1.0,
+            "Hex": "6933B6"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Value": {
+            "R": 0.01309,
+            "G": 0.003135,
+            "B": 0.033,
+            "A": 1.0,
+            "Hex": "1E0A33"
+          }
+        },
+        {
+          "Key": "ThroneStone",
+          "Value": {
+            "R": 0.147027,
+            "G": 0.116971,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "6B6060"
+          }
+        },
+        {
+          "Key": "ThroneMetal",
+          "Value": {
+            "R": 0.498,
+            "G": 0.220448,
+            "B": 0.05976,
+            "A": 1.0,
+            "Hex": "BB8145"
+          }
+        },
+        {
+          "Key": "ThroneCloth",
+          "Value": {
+            "R": 0.141855,
+            "G": 0.033213,
+            "B": 0.467784,
+            "A": 1.0,
+            "Hex": "6933B6"
+          }
+        },
+        {
+          "Key": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

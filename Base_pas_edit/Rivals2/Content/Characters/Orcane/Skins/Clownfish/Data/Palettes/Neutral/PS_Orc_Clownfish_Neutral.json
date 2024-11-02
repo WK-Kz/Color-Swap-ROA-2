@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Clownfish_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Clownfish_Neutral_C'Default__PS_Orc_Clownfish_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Clownfish/Data/Palettes/Neutral/PS_Orc_Clownfish_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Clownfish_Neutral_C",
+    "Name": "Default__PS_Orc_Clownfish_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Clownfish/Data/Palettes/Neutral/PS_Orc_Clownfish_Neutral.PS_Orc_Clownfish_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 1.0,
+            "G": 0.124241,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF6300"
+          }
+        },
+        {
+          "Key": "Stripe",
+          "Value": {
+            "R": 0.895833,
+            "G": 0.844073,
+            "B": 0.793186,
+            "A": 1.0,
+            "Hex": "F3EDE7"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.005208,
+            "G": 0.004086,
+            "B": 0.003825,
+            "A": 1.0,
+            "Hex": "100D0C"
+          }
+        }
+      ]
+    }
+  }
+]

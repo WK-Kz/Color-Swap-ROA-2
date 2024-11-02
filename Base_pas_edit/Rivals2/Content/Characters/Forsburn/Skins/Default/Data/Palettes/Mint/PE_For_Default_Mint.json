@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Default_Mint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Default_Mint_C'Default__PE_For_Default_Mint_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Mint/PE_For_Default_Mint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Default_Mint_C",
+    "Name": "Default__PE_For_Default_Mint_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Mint/PE_For_Default_Mint.PE_For_Default_Mint_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.39044,
+            "G": 0.620965,
+            "B": 0.649,
+            "A": 1.0,
+            "Hex": "A8CFD3"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.141276,
+            "G": 0.645833,
+            "B": 0.519694,
+            "A": 1.0,
+            "Hex": "69D3BF"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.003483,
+            "G": 0.005464,
+            "B": 0.01,
+            "A": 1.0,
+            "Hex": "0B1019"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.008518,
+            "G": 0.817708,
+            "B": 0.561465,
+            "A": 1.0,
+            "Hex": "16EAC6"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 0.411458,
+            "B": 0.656684,
+            "A": 1.0,
+            "Hex": "FFACD4"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.783538,
+            "G": 0.947307,
+            "B": 0.982251,
+            "A": 1.0,
+            "Hex": "E5F9FD"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Soccer_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Soccer_Neutral_C'Default__PS_Kra_Soccer_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Soccer/Data/Palettes/Neutral/PS_Kra_Soccer_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Soccer_Neutral_C",
+    "Name": "Default__PS_Kra_Soccer_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Soccer/Data/Palettes/Neutral/PS_Kra_Soccer_Neutral.PS_Kra_Soccer_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.362,
+            "G": 0.129586,
+            "B": 0.032917,
+            "A": 1.0,
+            "Hex": "A26533"
+          }
+        },
+        {
+          "Key": "Shorts",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.0185,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "3F2518"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.040838,
+            "G": 0.35,
+            "B": 0.013009,
+            "A": 1.0,
+            "Hex": "39A01E"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.630757,
+            "G": 0.376262,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "D0A500"
+          }
+        },
+        {
+          "Key": "Shoes",
+          "Value": {
+            "R": 0.631,
+            "G": 0.3786,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "D0A600"
+          }
+        },
+        {
+          "Key": "Shin",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.0185,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "3F2518"
+          }
+        },
+        {
+          "Key": "BallBlack",
+          "Value": {
+            "R": 0.016807,
+            "G": 0.015209,
+            "B": 0.011612,
+            "A": 1.0,
+            "Hex": "23211C"
+          }
+        },
+        {
+          "Key": "Helmet",
+          "Value": {
+            "R": 0.040915,
+            "G": 0.351533,
+            "B": 0.012983,
+            "A": 1.0,
+            "Hex": "39A01E"
+          }
+        },
+        {
+          "Key": "Spike",
+          "Value": {
+            "R": 0.955973,
+            "G": 0.73791,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "FADF18"
+          }
+        },
+        {
+          "Key": "ShinTrim",
+          "Value": {
+            "R": 0.040915,
+            "G": 0.351533,
+            "B": 0.012983,
+            "A": 1.0,
+            "Hex": "39A01E"
+          }
+        },
+        {
+          "Key": "BallWhite",
+          "Value": {
+            "R": 0.515,
+            "G": 0.476368,
+            "B": 0.399125,
+            "A": 1.0,
+            "Hex": "BEB8AA"
+          }
+        },
+        {
+          "Key": "HelmTrim",
+          "Value": {
+            "R": 0.016807,
+            "G": 0.015209,
+            "B": 0.011612,
+            "A": 1.0,
+            "Hex": "23211C"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.982251,
+            "G": 0.62396,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "FDCF42"
+          }
+        },
+        {
+          "Key": "EmblemTop",
+          "Value": {
+            "R": 0.775822,
+            "G": 0.417885,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "E4AD0D"
+          }
+        },
+        {
+          "Key": "EmblemBack",
+          "Value": {
+            "R": 0.05448,
+            "G": 0.021219,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "422818"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Default_CoolBlue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Default_CoolBlue_C'Default__PS_For_Default_CoolBlue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/CoolBlue/PS_For_Default_CoolBlue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Default_CoolBlue_C",
+    "Name": "Default__PS_For_Default_CoolBlue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/CoolBlue/PS_For_Default_CoolBlue.PS_For_Default_CoolBlue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.039931,
+            "G": 0.040654,
+            "B": 0.041667,
+            "A": 1.0,
+            "Hex": "383939"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.301161,
+            "G": 0.764669,
+            "B": 0.947917,
+            "A": 1.0,
+            "Hex": "95E3FA"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.010091,
+            "G": 0.010216,
+            "B": 0.010417,
+            "A": 1.0,
+            "Hex": "19191A"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.0,
+            "G": 0.073004,
+            "B": 0.151042,
+            "A": 0.993,
+            "Hex": "FE004C6C"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Value": {
+            "R": 0.116907,
+            "G": 0.879,
+            "B": 0.510655,
+            "A": 0.993,
+            "Hex": "FE60F1BE"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.0,
+            "G": 0.22118,
+            "B": 0.473958,
+            "A": 1.0,
+            "Hex": "0081B7"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Value": {
+            "R": 0.316162,
+            "G": 0.565027,
+            "B": 0.578125,
+            "A": 1.0,
+            "Hex": "99C6C8"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.009494,
+            "G": 0.072917,
+            "B": 0.072917,
+            "A": 1.0,
+            "Hex": "184C4C"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.006512,
+            "G": 0.693872,
+            "B": 0.464752,
+            "A": 1.0,
+            "Hex": "13D9B6"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Value": {
+            "R": 0.005697,
+            "G": 0.020177,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "112731"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Value": {
+            "R": 0.005712,
+            "G": 0.007996,
+            "B": 0.021,
+            "A": 1.0,
+            "Hex": "111627"
+          }
+        },
+        {
+          "Key": "Mask Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.65,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00D3FF"
+          }
+        },
+        {
+          "Key": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

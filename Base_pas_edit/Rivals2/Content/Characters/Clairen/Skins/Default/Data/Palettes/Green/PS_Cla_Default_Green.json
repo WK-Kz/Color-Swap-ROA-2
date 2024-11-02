@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Default_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Default_Green_C'Default__PS_Cla_Default_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Default/Data/Palettes/Green/PS_Cla_Default_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Default_Green_C",
+    "Name": "Default__PS_Cla_Default_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Default/Data/Palettes/Green/PS_Cla_Default_Green.PS_Cla_Default_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.039423,
+            "G": 0.039423,
+            "B": 0.076389,
+            "A": 1.0,
+            "Hex": "38384E"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.155926,
+            "G": 0.152926,
+            "B": 0.23074,
+            "A": 1.0,
+            "Hex": "6E6D84"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.162029,
+            "G": 0.093059,
+            "B": 0.191202,
+            "A": 1.0,
+            "Hex": "705679"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Value": {
+            "R": 0.039167,
+            "G": 0.034787,
+            "B": 0.043,
+            "A": 1.0,
+            "Hex": "37343A"
+          }
+        },
+        {
+          "Key": "Boot",
+          "Value": {
+            "R": 0.014053,
+            "G": 0.053,
+            "B": 0.012003,
+            "A": 1.0,
+            "Hex": "1F411C"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.052912,
+            "G": 0.134,
+            "B": 0.025883,
+            "A": 1.0,
+            "Hex": "41662C"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Value": {
+            "R": 0.43465,
+            "G": 0.634,
+            "B": 0.062132,
+            "A": 1.0,
+            "Hex": "B0D146"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.00721,
+            "G": 0.206,
+            "B": 0.012805,
+            "A": 1.0,
+            "Hex": "147D1D"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.854993,
+            "A": 1.0,
+            "Hex": "FF00EE"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Value": {
+            "R": 0.144928,
+            "G": 0.156,
+            "B": 0.142584,
+            "A": 1.0,
+            "Hex": "6A6E69"
+          }
+        },
+        {
+          "Key": "Glow",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Value": {
+            "R": 0.047221,
+            "G": 0.156,
+            "B": 0.023336,
+            "A": 1.0,
+            "Hex": "3D6E2A"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.031481,
+            "G": 0.031481,
+            "B": 0.061,
+            "A": 1.0,
+            "Hex": "313146"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Value": {
+            "R": 1.0,
+            "G": 0.045186,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF3C00"
+          }
+        }
+      ]
+    }
+  }
+]

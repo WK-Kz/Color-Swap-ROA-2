@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Skunk_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Skunk_Green_C'Default__PS_May_Skunk_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Skunk/Data/Palettes/Green/PS_May_Skunk_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Skunk_Green_C",
+    "Name": "Default__PS_May_Skunk_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Skunk/Data/Palettes/Green/PS_May_Skunk_Green.PS_May_Skunk_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.006764,
+            "G": 0.019,
+            "B": 0.008395,
+            "A": 1.0,
+            "Hex": "132516"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.315657,
+            "G": 0.617,
+            "B": 0.114762,
+            "A": 1.0,
+            "Hex": "98CE5F"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Value": {
+            "R": 0.143,
+            "G": 0.08675,
+            "B": 0.064512,
+            "A": 1.0,
+            "Hex": "6A5348"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Value": {
+            "R": 0.0,
+            "G": 0.385,
+            "B": 0.109083,
+            "A": 1.0,
+            "Hex": "00A75D"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Value": {
+            "R": 0.467784,
+            "G": 0.309469,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "B6973D"
+          }
+        }
+      ]
+    }
+  }
+]

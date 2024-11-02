@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Abyss_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Abyss_Green_C'Default__PS_Cla_Abyss_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Green/PS_Cla_Abyss_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Abyss_Green_C",
+    "Name": "Default__PS_Cla_Abyss_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Green/PS_Cla_Abyss_Green.PS_Cla_Abyss_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.191153,
+            "G": 0.159442,
+            "B": 0.252083,
+            "A": 1.0,
+            "Hex": "796F8A"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.144128,
+            "G": 0.074214,
+            "B": 0.075379,
+            "A": 1.0,
+            "Hex": "6A4D4D"
+          }
+        },
+        {
+          "Key": "Corruption",
+          "Value": {
+            "R": 0.056128,
+            "G": 0.514918,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "43BE38"
+          }
+        },
+        {
+          "Key": "Corruption2",
+          "Value": {
+            "R": 1.0,
+            "G": 0.14996,
+            "B": 0.47932,
+            "A": 1.0,
+            "Hex": "FF6CB8"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Value": {
+            "R": 0.630263,
+            "G": 0.846873,
+            "B": 0.581843,
+            "A": 1.0,
+            "Hex": "D0EDC9"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Value": {
+            "R": 0.059,
+            "G": 0.053462,
+            "B": 0.045182,
+            "A": 1.0,
+            "Hex": "44413C"
+          }
+        },
+        {
+          "Key": "ClothingAccent",
+          "Value": {
+            "R": 0.182179,
+            "G": 0.238122,
+            "B": 0.241,
+            "A": 1.0,
+            "Hex": "768687"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.191202,
+            "G": 0.158961,
+            "B": 0.254152,
+            "A": 1.0,
+            "Hex": "796F8A"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Value": {
+            "R": 0.401978,
+            "G": 0.508881,
+            "B": 0.009721,
+            "A": 1.0,
+            "Hex": "AABD19"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.071059,
+            "G": 0.427083,
+            "B": 0.125762,
+            "A": 1.0,
+            "Hex": "4BAF63"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

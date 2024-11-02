@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Ranger_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Ranger_Green_C'Default__PS_Cla_Ranger_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Green/PS_Cla_Ranger_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Ranger_Green_C",
+    "Name": "Default__PS_Cla_Ranger_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Green/PS_Cla_Ranger_Green.PS_Cla_Ranger_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Armor",
+          "Value": {
+            "R": 0.5,
+            "G": 0.475,
+            "B": 0.475,
+            "A": 1.0,
+            "Hex": "BCB7B7"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.0185,
+            "G": 0.024158,
+            "B": 0.020669,
+            "A": 1.0,
+            "Hex": "252B27"
+          }
+        },
+        {
+          "Key": "Padding",
+          "Value": {
+            "R": 0.079861,
+            "G": 0.166667,
+            "B": 0.097222,
+            "A": 1.0,
+            "Hex": "507158"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.024818,
+            "G": 0.072917,
+            "B": 0.01633,
+            "A": 1.0,
+            "Hex": "2B4C22"
+          }
+        }
+      ]
+    }
+  }
+]

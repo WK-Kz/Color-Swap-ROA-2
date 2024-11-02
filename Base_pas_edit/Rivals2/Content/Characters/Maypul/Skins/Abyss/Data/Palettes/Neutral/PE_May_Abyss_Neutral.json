@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_May_Abyss_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_May_Abyss_Neutral_C'Default__PE_May_Abyss_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Abyss/Data/Palettes/Neutral/PE_May_Abyss_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_May_Abyss_Neutral_C",
+    "Name": "Default__PE_May_Abyss_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Abyss/Data/Palettes/Neutral/PE_May_Abyss_Neutral.PE_May_Abyss_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.010197,
+            "G": 0.014284,
+            "B": 0.025426,
+            "A": 1.0,
+            "Hex": "191F2C"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.768151,
+            "G": 0.234551,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "E385FC"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.155926,
+            "G": 0.033105,
+            "B": 0.212231,
+            "A": 1.0,
+            "Hex": "6E337F"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.47932,
+            "G": 0.127438,
+            "B": 0.637597,
+            "A": 1.0,
+            "Hex": "B864D1"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.768151,
+            "G": 0.234551,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "E385FC"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

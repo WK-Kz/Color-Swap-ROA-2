@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Default_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Default_Neutral_C'Default__PS_Kra_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Neutral/PS_Kra_Default_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Default_Neutral_C",
+    "Name": "Default__PS_Kra_Default_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Neutral/PS_Kra_Default_Neutral.PS_Kra_Default_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.152945,
+            "G": 0.409722,
+            "B": 0.080715,
+            "A": 1.0,
+            "Hex": "6DAC50"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.665387,
+            "G": 0.686685,
+            "B": 0.723055,
+            "A": 1.0,
+            "Hex": "D5D8DD"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Value": {
+            "R": 0.243055,
+            "G": 0.095834,
+            "B": 0.05148,
+            "A": 1.0,
+            "Hex": "875740"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Value": {
+            "R": 0.391572,
+            "G": 0.401978,
+            "B": 0.391572,
+            "A": 1.0,
+            "Hex": "A8AAA8"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.955973,
+            "G": 0.491021,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "FABA3D"
+          }
+        }
+      ]
+    }
+  }
+]

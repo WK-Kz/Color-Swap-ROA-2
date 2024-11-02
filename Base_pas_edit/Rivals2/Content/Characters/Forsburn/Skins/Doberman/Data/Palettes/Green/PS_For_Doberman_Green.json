@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Doberman_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Doberman_Green_C'Default__PS_For_Doberman_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Green/PS_For_Doberman_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Doberman_Green_C",
+    "Name": "Default__PS_For_Doberman_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Green/PS_For_Doberman_Green.PS_For_Doberman_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.023153,
+            "G": 0.014444,
+            "B": 0.008023,
+            "A": 1.0,
+            "Hex": "2A2016"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.200584,
+            "G": 0.298,
+            "B": 0.019668,
+            "A": 1.0,
+            "Hex": "7C9526"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Value": {
+            "R": 0.03434,
+            "G": 0.009721,
+            "B": 0.004391,
+            "A": 1.0,
+            "Hex": "34190E"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.024743,
+            "G": 0.086,
+            "B": 0.013932,
+            "A": 1.0,
+            "Hex": "2B531F"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Value": {
+            "R": 0.630757,
+            "G": 0.496933,
+            "B": 0.371238,
+            "A": 1.0,
+            "Hex": "D0BBA4"
+          }
+        }
+      ]
+    }
+  }
+]

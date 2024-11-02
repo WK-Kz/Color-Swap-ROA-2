@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Leon_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Leon_Green_C'Default__PS_Cla_Leon_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Leon/Data/Palettes/Green/PS_Cla_Leon_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Leon_Green_C",
+    "Name": "Default__PS_Cla_Leon_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Leon/Data/Palettes/Green/PS_Cla_Leon_Green.PS_Cla_Leon_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.672443,
+            "G": 0.597302,
+            "B": 0.40724,
+            "A": 1.0,
+            "Hex": "D6CBAB"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.084,
+            "G": 0.062719,
+            "B": 0.036708,
+            "A": 1.0,
+            "Hex": "524736"
+          }
+        },
+        {
+          "Key": "Ears",
+          "Value": {
+            "R": 0.191202,
+            "G": 0.14321,
+            "B": 0.169606,
+            "A": 1.0,
+            "Hex": "796A72"
+          }
+        },
+        {
+          "Key": "Claws",
+          "Value": {
+            "R": 0.020833,
+            "G": 0.017021,
+            "B": 0.017021,
+            "A": 1.0,
+            "Hex": "272323"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.341914,
+            "G": 0.341914,
+            "B": 0.341914,
+            "A": 1.0,
+            "Hex": "9E9E9E"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.132049,
+            "G": 0.191202,
+            "B": 0.036889,
+            "A": 1.0,
+            "Hex": "667936"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Value": {
+            "R": 0.019382,
+            "G": 0.042311,
+            "B": 0.023204,
+            "A": 1.0,
+            "Hex": "263A2A"
+          }
+        },
+        {
+          "Key": "Gloves/Boots",
+          "Value": {
+            "R": 0.011612,
+            "G": 0.016807,
+            "B": 0.012391,
+            "A": 1.0,
+            "Hex": "1C231D"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.0,
+            "G": 0.65,
+            "B": 0.043333,
+            "A": 1.0,
+            "Hex": "00D33A"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.023028,
+            "G": 0.162718,
+            "B": 0.404,
+            "A": 1.0,
+            "Hex": "2A70AB"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.672443,
+            "G": 0.597302,
+            "B": 0.40724,
+            "A": 1.0,
+            "Hex": "D6CBAB"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Value": {
+            "R": 0.466667,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "B600FF"
+          }
+        }
+      ]
+    }
+  }
+]

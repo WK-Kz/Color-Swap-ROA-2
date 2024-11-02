@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_LeopardShark_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_LeopardShark_Red_C'Default__PE_Orc_LeopardShark_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Red/PE_Orc_LeopardShark_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_LeopardShark_Red_C",
+    "Name": "Default__PE_Orc_LeopardShark_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Red/PE_Orc_LeopardShark_Red.PE_Orc_LeopardShark_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.148,
+            "G": 0.013912,
+            "B": 0.013912,
+            "A": 1.0,
+            "Hex": "6B1F1F"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.342,
+            "G": 0.031122,
+            "B": 0.031122,
+            "A": 1.0,
+            "Hex": "9E3131"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.973446,
+            "G": 0.973446,
+            "B": 0.973446,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.55834,
+            "G": 0.388046,
+            "B": 0.388046,
+            "A": 1.0,
+            "Hex": "C5A7A7"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 0.846873,
+            "B": 0.361307,
+            "A": 1.0,
+            "Hex": "FFEDA2"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

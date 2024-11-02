@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Axolotl_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Axolotl_Red_C'Default__PS_Orc_Axolotl_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Axolotl/Data/Palettes/Red/PS_Orc_Axolotl_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Axolotl_Red_C",
+    "Name": "Default__PS_Orc_Axolotl_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Axolotl/Data/Palettes/Red/PS_Orc_Axolotl_Red.PS_Orc_Axolotl_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.144228,
+            "B": 0.144228,
+            "A": 1.0,
+            "Hex": "E96A6A"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.575,
+            "G": 0.022425,
+            "B": 0.068473,
+            "A": 1.0,
+            "Hex": "C8294A"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.569,
+            "B": 0.132767,
+            "A": 1.0,
+            "Hex": "00C766"
+          }
+        }
+      ]
+    }
+  }
+]

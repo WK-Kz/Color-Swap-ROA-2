@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Abyss_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Abyss_Green_C'Default__PS_Zet_Abyss_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Abyss/Data/Palettes/Green/PS_Zet_Abyss_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Abyss_Green_C",
+    "Name": "Default__PS_Zet_Abyss_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Abyss/Data/Palettes/Green/PS_Zet_Abyss_Green.PS_Zet_Abyss_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Corruption",
+          "Value": {
+            "R": 0.025515,
+            "G": 0.05,
+            "B": 0.0251,
+            "A": 1.0,
+            "Hex": "2C3F2C"
+          }
+        },
+        {
+          "Key": "Corruption2",
+          "Value": {
+            "R": 0.088402,
+            "G": 0.45,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "54B300"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.034448,
+            "G": 0.104167,
+            "B": 0.020504,
+            "A": 1.0,
+            "Hex": "345B27"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.528,
+            "G": 0.434338,
+            "B": 0.476486,
+            "A": 1.0,
+            "Hex": "C0B0B8"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Value": {
+            "R": 0.016807,
+            "G": 0.019382,
+            "B": 0.036889,
+            "A": 1.0,
+            "Hex": "232636"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.073283,
+            "G": 0.57,
+            "B": 0.046835,
+            "A": 1.0,
+            "Hex": "4CC73D"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Value": {
+            "R": 0.317,
+            "G": 0.208244,
+            "B": 0.025069,
+            "A": 1.0,
+            "Hex": "997E2C"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.332452,
+            "G": 0.571125,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "9CC728"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Value": {
+            "R": 0.095307,
+            "G": 0.48515,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "57B900"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.13319,
+            "G": 0.19,
+            "B": 0.15118,
+            "A": 1.0,
+            "Hex": "66796C"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.5,
+            "G": 0.40928,
+            "B": 0.348958,
+            "A": 1.0,
+            "Hex": "BCACA0"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Solid_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Solid_Red_C'Default__PS_Ran_Solid_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Red/PS_Ran_Solid_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Solid_Red_C",
+    "Name": "Default__PS_Ran_Solid_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Red/PS_Ran_Solid_Red.PS_Ran_Solid_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.489583,
+            "G": 0.018688,
+            "B": 0.021934,
+            "A": 1.0,
+            "Hex": "BA2528"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.823,
+            "G": 0.529608,
+            "B": 0.393645,
+            "A": 1.0,
+            "Hex": "EAC1A9"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Value": {
+            "R": 0.484,
+            "G": 0.059532,
+            "B": 0.208096,
+            "A": 1.0,
+            "Hex": "B9457E"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.251,
+            "G": 0.171714,
+            "B": 0.078611,
+            "A": 1.0,
+            "Hex": "89734F"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.127438,
+            "G": 0.030151,
+            "B": 0.012983,
+            "A": 1.0,
+            "Hex": "64301E"
+          }
+        }
+      ]
+    }
+  }
+]

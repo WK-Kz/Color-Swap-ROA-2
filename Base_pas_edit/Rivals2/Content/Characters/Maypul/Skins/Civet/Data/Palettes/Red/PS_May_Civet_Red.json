@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Civet_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Civet_Red_C'Default__PS_May_Civet_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Civet/Data/Palettes/Red/PS_May_Civet_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Civet_Red_C",
+    "Name": "Default__PS_May_Civet_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Civet/Data/Palettes/Red/PS_May_Civet_Red.PS_May_Civet_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.005,
+            "G": 0.005,
+            "B": 0.005,
+            "A": 1.0,
+            "Hex": "0F0F0F"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.212231,
+            "G": 0.043932,
+            "B": 0.043932,
+            "A": 1.0,
+            "Hex": "7F3B3B"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.539479,
+            "G": 0.47932,
+            "B": 0.351533,
+            "A": 1.0,
+            "Hex": "C2B8A0"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Value": {
+            "R": 0.03,
+            "G": 0.024562,
+            "B": 0.022078,
+            "A": 1.0,
+            "Hex": "302B29"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Value": {
+            "R": 0.105,
+            "G": 0.04641,
+            "B": 0.055131,
+            "A": 1.0,
+            "Hex": "5B3D42"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.093,
+            "G": 0.031789,
+            "B": 0.01023,
+            "A": 1.0,
+            "Hex": "563219"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Value": {
+            "R": 0.705,
+            "G": 0.264375,
+            "B": 0.403906,
+            "A": 1.0,
+            "Hex": "DB8DAB"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Value": {
+            "R": 0.071,
+            "G": 0.049707,
+            "B": 0.034861,
+            "A": 1.0,
+            "Hex": "4B3F34"
+          }
+        }
+      ]
+    }
+  }
+]

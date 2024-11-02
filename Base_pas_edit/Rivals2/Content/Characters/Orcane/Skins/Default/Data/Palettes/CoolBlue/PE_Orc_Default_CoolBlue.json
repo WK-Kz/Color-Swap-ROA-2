@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_Default_CoolBlue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_Default_CoolBlue_C'Default__PE_Orc_Default_CoolBlue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/CoolBlue/PE_Orc_Default_CoolBlue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_Default_CoolBlue_C",
+    "Name": "Default__PE_Orc_Default_CoolBlue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/CoolBlue/PE_Orc_Default_CoolBlue.PE_Orc_Default_CoolBlue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.008708,
+            "G": 0.011936,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "171C21"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.384375,
+            "B": 0.854167,
+            "A": 1.0,
+            "Hex": "00A7EE"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.211642,
+            "G": 0.991102,
+            "B": 0.991102,
+            "A": 1.0,
+            "Hex": "7FFEFE"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.59375,
+            "G": 1.0,
+            "B": 0.966146,
+            "A": 1.0,
+            "Hex": "CBFFFC"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.192708,
+            "G": 1.0,
+            "B": 0.878906,
+            "A": 1.0,
+            "Hex": "79FFF1"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

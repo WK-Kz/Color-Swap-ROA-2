@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_EarlyBird_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_EarlyBird_Neutral_C'Default__PS_Wra_EarlyBird_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/EarlyBird/Data/Palettes/Neutral/PS_Wra_EarlyBird_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_EarlyBird_Neutral_C",
+    "Name": "Default__PS_Wra_EarlyBird_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/EarlyBird/Data/Palettes/Neutral/PS_Wra_EarlyBird_Neutral.PS_Wra_EarlyBird_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.679542,
+            "B": 0.296138,
+            "A": 1.0,
+            "Hex": "3FD794"
+          }
+        },
+        {
+          "Key": "Hearts",
+          "Value": {
+            "R": 1.0,
+            "G": 0.031896,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "FF3231"
+          }
+        },
+        {
+          "Key": "Slippers",
+          "Value": {
+            "R": 0.361307,
+            "G": 0.630757,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "A2D0F2"
+          }
+        },
+        {
+          "Key": "Worm",
+          "Value": {
+            "R": 1.0,
+            "G": 0.247,
+            "B": 0.402156,
+            "A": 1.0,
+            "Hex": "FF88AA"
+          }
+        },
+        {
+          "Key": "Logo",
+          "Value": {
+            "R": 0.876736,
+            "G": 0.876736,
+            "B": 0.876736,
+            "A": 1.0,
+            "Hex": "F1F1F1"
+          }
+        }
+      ]
+    }
+  }
+]

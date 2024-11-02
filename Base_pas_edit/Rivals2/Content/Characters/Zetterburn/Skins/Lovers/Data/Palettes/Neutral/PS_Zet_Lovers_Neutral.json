@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Lovers_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Lovers_Neutral_C'Default__PS_Zet_Lovers_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Lovers/Data/Palettes/Neutral/PS_Zet_Lovers_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Lovers_Neutral_C",
+    "Name": "Default__PS_Zet_Lovers_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Lovers/Data/Palettes/Neutral/PS_Zet_Lovers_Neutral.PS_Zet_Lovers_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Sleeves",
+          "Value": {
+            "R": 0.527115,
+            "G": 0.508881,
+            "B": 0.434154,
+            "A": 1.0,
+            "Hex": "C0BDB0"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.047521,
+            "G": 0.062739,
+            "B": 0.099899,
+            "A": 1.0,
+            "Hex": "3D4759"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Value": {
+            "R": 0.184475,
+            "G": 0.000607,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "770223"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.473531,
+            "G": 0.011612,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "B71C38"
+          }
+        }
+      ]
+    }
+  }
+]

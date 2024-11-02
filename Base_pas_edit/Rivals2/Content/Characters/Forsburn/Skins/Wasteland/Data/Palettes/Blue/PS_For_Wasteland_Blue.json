@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Wasteland_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Wasteland_Blue_C'Default__PS_For_Wasteland_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Blue/PS_For_Wasteland_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Wasteland_Blue_C",
+    "Name": "Default__PS_For_Wasteland_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Blue/PS_For_Wasteland_Blue.PS_For_Wasteland_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.008952,
+            "G": 0.010532,
+            "B": 0.057292,
+            "A": 1.0,
+            "Hex": "171A43"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.113281,
+            "G": 0.131532,
+            "B": 0.151042,
+            "A": 1.0,
+            "Hex": "5E656C"
+          }
+        },
+        {
+          "Key": "PaddingTrim",
+          "Value": {
+            "R": 0.499674,
+            "G": 0.496419,
+            "B": 0.520833,
+            "A": 1.0,
+            "Hex": "BCBBBF"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Value": {
+            "R": 0.42869,
+            "G": 0.23074,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "AF8429"
+          }
+        },
+        {
+          "Key": "MaskEyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.05,
+            "A": 1.0,
+            "Hex": "FF003F"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.018989,
+            "G": 0.02749,
+            "B": 0.260417,
+            "A": 1.0,
+            "Hex": "252E8C"
+          }
+        },
+        {
+          "Key": "Padding",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.228973,
+            "B": 0.022244,
+            "A": 1.0,
+            "Hex": "AF8429"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Value": {
+            "R": 0.015096,
+            "G": 0.012722,
+            "B": 0.036458,
+            "A": 1.0,
+            "Hex": "201D35"
+          }
+        },
+        {
+          "Key": "Mask",
+          "Value": {
+            "R": 0.314426,
+            "G": 0.331692,
+            "B": 0.348958,
+            "A": 1.0,
+            "Hex": "989CA0"
+          }
+        },
+        {
+          "Key": "WeaponCloth",
+          "Value": {
+            "R": 0.027317,
+            "G": 0.085352,
+            "B": 0.276042,
+            "A": 1.0,
+            "Hex": "2E528F"
+          }
+        },
+        {
+          "Key": "MetalTrim",
+          "Value": {
+            "R": 0.102242,
+            "G": 0.078187,
+            "B": 0.074214,
+            "A": 1.0,
+            "Hex": "5A4F4D"
+          }
+        },
+        {
+          "Key": "Pipe",
+          "Value": {
+            "R": 0.242281,
+            "G": 0.099899,
+            "B": 0.066626,
+            "A": 1.0,
+            "Hex": "875949"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.236979,
+            "G": 0.546636,
+            "B": 0.875,
+            "A": 1.0,
+            "Hex": "86C3F1"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Value": {
+            "R": 0.645833,
+            "G": 0.976417,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "D3FDFF"
+          }
+        },
+        {
+          "Key": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

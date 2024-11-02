@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_WinterStoat_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_WinterStoat_Green_C'Default__PS_May_WinterStoat_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/WinterStoat/Data/Palettes/Green/PS_May_WinterStoat_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_WinterStoat_Green_C",
+    "Name": "Default__PS_May_WinterStoat_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/WinterStoat/Data/Palettes/Green/PS_May_WinterStoat_Green.PS_May_WinterStoat_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.723055,
+            "G": 0.665387,
+            "B": 0.533276,
+            "A": 1.0,
+            "Hex": "DDD5C1"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.038086,
+            "G": 0.09375,
+            "B": 0.045507,
+            "A": 1.0,
+            "Hex": "37563C"
+          }
+        },
+        {
+          "Key": "Ear",
+          "Value": {
+            "R": 0.57758,
+            "G": 0.318547,
+            "B": 0.274677,
+            "A": 1.0,
+            "Hex": "C8998F"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.101,
+            "G": 0.023735,
+            "B": 0.025023,
+            "A": 1.0,
+            "Hex": "592A2C"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Value": {
+            "R": 0.038204,
+            "G": 0.093059,
+            "B": 0.045186,
+            "A": 1.0,
+            "Hex": "37563C"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.982251,
+            "G": 0.385839,
+            "B": 0.368344,
+            "A": 1.0,
+            "Hex": "FDA7A4"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Value": {
+            "R": 0.021159,
+            "G": 0.052083,
+            "B": 0.044388,
+            "A": 1.0,
+            "Hex": "28403B"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Value": {
+            "R": 0.278592,
+            "G": 0.822917,
+            "B": 0.435877,
+            "A": 1.0,
+            "Hex": "90EAB1"
+          }
+        }
+      ]
+    }
+  }
+]

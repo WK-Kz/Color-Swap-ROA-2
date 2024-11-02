@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_BlackWidow_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_BlackWidow_Red_C'Default__PS_Ran_BlackWidow_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/BlackWidow/Data/Palettes/Red/PS_Ran_BlackWidow_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_BlackWidow_Red_C",
+    "Name": "Default__PS_Ran_BlackWidow_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/BlackWidow/Data/Palettes/Red/PS_Ran_BlackWidow_Red.PS_Ran_BlackWidow_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.205,
+            "G": 0.083025,
+            "B": 0.101321,
+            "A": 1.0,
+            "Hex": "7D5159"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.825,
+            "G": 0.49005,
+            "B": 0.49005,
+            "A": 1.0,
+            "Hex": "EBBABA"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.059,
+            "G": 0.015615,
+            "B": 0.029233,
+            "A": 1.0,
+            "Hex": "44212F"
+          }
+        },
+        {
+          "Key": "Emblem",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.06301,
+            "B": 0.024158,
+            "A": 1.0,
+            "Hex": "E7472B"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Value": {
+            "R": 0.520996,
+            "G": 0.093059,
+            "B": 0.093059,
+            "A": 1.0,
+            "Hex": "BF5656"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.21,
+            "G": 0.13062,
+            "B": 0.10416,
+            "A": 1.0,
+            "Hex": "7E655B"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.258,
+            "G": 0.026832,
+            "B": 0.069213,
+            "A": 1.0,
+            "Hex": "8B2D4A"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.23081,
+            "B": 0.024158,
+            "A": 1.0,
+            "Hex": "E7842B"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.818397,
+            "G": 0.320382,
+            "B": 0.918,
+            "A": 1.0,
+            "Hex": "EA9AF6"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.258183,
+            "G": 0.026241,
+            "B": 0.068478,
+            "A": 1.0,
+            "Hex": "8B2D4A"
+          }
+        },
+        {
+          "Key": "Bug1",
+          "Value": {
+            "R": 0.057805,
+            "G": 0.015209,
+            "B": 0.028426,
+            "A": 1.0,
+            "Hex": "44212F"
+          }
+        },
+        {
+          "Key": "Bug2",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.063489,
+            "B": 0.024772,
+            "A": 1.0,
+            "Hex": "E7472B"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Value": {
+            "R": 0.133,
+            "G": 0.056991,
+            "B": 0.048545,
+            "A": 1.0,
+            "Hex": "66433E"
+          }
+        },
+        {
+          "Key": "Skull",
+          "Value": {
+            "R": 0.745,
+            "G": 0.57365,
+            "B": 0.57365,
+            "A": 1.0,
+            "Hex": "E0C8C8"
+          }
+        },
+        {
+          "Key": "Webbing",
+          "Value": {
+            "R": 0.532986,
+            "G": 0.361897,
+            "B": 0.450293,
+            "A": 1.0,
+            "Hex": "C1A2B3"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Default_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Default_Green_C'Default__PS_Kra_Default_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Green/PS_Kra_Default_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Default_Green_C",
+    "Name": "Default__PS_Kra_Default_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Green/PS_Kra_Default_Green.PS_Kra_Default_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.349,
+            "G": 0.135761,
+            "B": 0.135761,
+            "A": 1.0,
+            "Hex": "A06767"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.60525,
+            "G": 0.681,
+            "B": 0.584298,
+            "A": 1.0,
+            "Hex": "CDD8C9"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Value": {
+            "R": 0.026676,
+            "G": 0.234,
+            "B": 0.032357,
+            "A": 1.0,
+            "Hex": "2D8532"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Value": {
+            "R": 0.610496,
+            "G": 0.686685,
+            "B": 0.584078,
+            "A": 1.0,
+            "Hex": "CDD8C9"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Abyss_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Abyss_Red_C'Default__PE_Fle_Abyss_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Abyss/Data/Palettes/Red/PE_Fle_Abyss_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Abyss_Red_C",
+    "Name": "Default__PE_Fle_Abyss_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Abyss/Data/Palettes/Red/PE_Fle_Abyss_Red.PE_Fle_Abyss_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.48515,
+            "G": 0.035601,
+            "B": 0.035601,
+            "A": 1.0,
+            "Hex": "B93535"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.8,
+            "G": 0.058705,
+            "B": 0.058705,
+            "A": 1.0,
+            "Hex": "E84444"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 1.0,
+            "G": 0.198069,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "FF7B26"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.887923,
+            "G": 0.331048,
+            "B": 0.37526,
+            "A": 1.0,
+            "Hex": "F29CA5"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 0.198069,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "FF7B26"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.059511,
+            "B": 0.059511,
+            "A": 1.0,
+            "Hex": "E74545"
+          }
+        }
+      ]
+    }
+  }
+]

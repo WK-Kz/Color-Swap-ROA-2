@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Leopard_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Leopard_Red_C'Default__PS_Cla_Leopard_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Leopard/Data/Palettes/Red/PS_Cla_Leopard_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Leopard_Red_C",
+    "Name": "Default__PS_Cla_Leopard_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Leopard/Data/Palettes/Red/PS_Cla_Leopard_Red.PS_Cla_Leopard_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 1.0,
+            "G": 0.194618,
+            "B": 0.107023,
+            "A": 1.0,
+            "Hex": "FF7A5C"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 1.0,
+            "G": 0.610496,
+            "B": 0.238398,
+            "A": 1.0,
+            "Hex": "FFCD86"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.011612,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "3C1C2D"
+          }
+        },
+        {
+          "Key": "PatternInner",
+          "Value": {
+            "R": 0.42869,
+            "G": 0.042311,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "AF3A00"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.011612,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "3C1C2D"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.42869,
+            "G": 0.174647,
+            "B": 0.254152,
+            "A": 1.0,
+            "Hex": "AF748A"
+          }
+        },
+        {
+          "Key": "Belts",
+          "Value": {
+            "R": 0.05448,
+            "G": 0.029557,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "423028"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.313989,
+            "G": 0.046665,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "983D3D"
+          }
+        },
+        {
+          "Key": "Gloves/Boots",
+          "Value": {
+            "R": 0.313989,
+            "G": 0.030713,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "983131"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.274677,
+            "G": 0.013702,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "8F1F18"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.201556,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF7C00"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Value": {
+            "R": 1.0,
+            "G": 0.341914,
+            "B": 0.879622,
+            "A": 1.0,
+            "Hex": "FF9EF1"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 1.0,
+            "G": 0.194618,
+            "B": 0.107023,
+            "A": 1.0,
+            "Hex": "FF7A5C"
+          }
+        }
+      ]
+    }
+  }
+]

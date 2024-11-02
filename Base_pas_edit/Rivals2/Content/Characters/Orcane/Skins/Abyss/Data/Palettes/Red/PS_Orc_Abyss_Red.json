@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Abyss_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Abyss_Red_C'Default__PS_Orc_Abyss_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Abyss/Data/Palettes/Red/PS_Orc_Abyss_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Abyss_Red_C",
+    "Name": "Default__PS_Orc_Abyss_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Abyss/Data/Palettes/Red/PS_Orc_Abyss_Red.PS_Orc_Abyss_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.25,
+            "G": 0.0375,
+            "B": 0.041042,
+            "A": 1.0,
+            "Hex": "893639"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.8,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "E8CCCC"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Value": {
+            "R": 0.52,
+            "G": 0.133033,
+            "B": 0.026,
+            "A": 1.0,
+            "Hex": "BF662C"
+          }
+        },
+        {
+          "Key": "AbyssEyesSclera",
+          "Value": {
+            "R": 0.95,
+            "G": 0.363375,
+            "B": 0.0475,
+            "A": 1.0,
+            "Hex": "FAA33D"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.523,
+            "G": 0.0,
+            "B": 0.008717,
+            "A": 1.0,
+            "Hex": "C00017"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Wasteland_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Wasteland_Neutral_C'Default__PS_For_Wasteland_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Neutral/PS_For_Wasteland_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Wasteland_Neutral_C",
+    "Name": "Default__PS_For_Wasteland_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Neutral/PS_For_Wasteland_Neutral.PS_For_Wasteland_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.052861,
+            "G": 0.031896,
+            "B": 0.017642,
+            "A": 1.0,
+            "Hex": "413224"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.181164,
+            "G": 0.177888,
+            "B": 0.181164,
+            "A": 1.0,
+            "Hex": "767576"
+          }
+        },
+        {
+          "Key": "PaddingTrim",
+          "Value": {
+            "R": 0.029557,
+            "G": 0.042311,
+            "B": 0.042311,
+            "A": 1.0,
+            "Hex": "303A3A"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Value": {
+            "R": 0.590619,
+            "G": 0.366253,
+            "B": 0.01033,
+            "A": 1.0,
+            "Hex": "CAA31A"
+          }
+        },
+        {
+          "Key": "MaskEyes",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E90000"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.610496,
+            "G": 0.07036,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "CD4B25"
+          }
+        },
+        {
+          "Key": "Padding",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.06301,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "3C472E"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.036889,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "3F3638"
+          }
+        },
+        {
+          "Key": "Mask",
+          "Value": {
+            "R": 0.401978,
+            "G": 0.391572,
+            "B": 0.323143,
+            "A": 1.0,
+            "Hex": "AAA89A"
+          }
+        },
+        {
+          "Key": "MetalTrim",
+          "Value": {
+            "R": 0.102242,
+            "G": 0.078187,
+            "B": 0.074214,
+            "A": 1.0,
+            "Hex": "5A4F4D"
+          }
+        },
+        {
+          "Key": "Pipe",
+          "Value": {
+            "R": 0.242281,
+            "G": 0.099899,
+            "B": 0.066626,
+            "A": 1.0,
+            "Hex": "875949"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.963542,
+            "G": 0.781454,
+            "B": 0.205756,
+            "A": 1.0,
+            "Hex": "FBE57D"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Value": {
+            "R": 0.822917,
+            "G": 0.757927,
+            "B": 0.548611,
+            "A": 1.0,
+            "Hex": "EAE2C4"
+          }
+        },
+        {
+          "Key": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

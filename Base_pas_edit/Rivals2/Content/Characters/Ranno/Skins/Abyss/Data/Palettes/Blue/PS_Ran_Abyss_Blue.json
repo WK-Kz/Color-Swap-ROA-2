@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Abyss_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Abyss_Blue_C'Default__PS_Ran_Abyss_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Blue/PS_Ran_Abyss_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Abyss_Blue_C",
+    "Name": "Default__PS_Ran_Abyss_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Blue/PS_Ran_Abyss_Blue.PS_Ran_Abyss_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.876667,
+            "G": 0.03994,
+            "B": 0.19334,
+            "A": 1.0,
+            "Hex": "F1387A"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.223382,
+            "G": 0.194618,
+            "B": 0.296138,
+            "A": 1.0,
+            "Hex": "827A94"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.028838,
+            "G": 0.363093,
+            "B": 0.40724,
+            "A": 1.0,
+            "Hex": "2FA2AB"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.473668,
+            "B": 0.603827,
+            "A": 1.0,
+            "Hex": "ADB7CC"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.0,
+            "G": 0.034343,
+            "B": 0.226966,
+            "A": 1.0,
+            "Hex": "003483"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Value": {
+            "R": 0.132868,
+            "G": 1.0,
+            "B": 0.696504,
+            "A": 1.0,
+            "Hex": "66FFDA"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Value": {
+            "R": 0.146586,
+            "G": 0.33654,
+            "B": 0.472222,
+            "A": 1.0,
+            "Hex": "6B9DB7"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.210176,
+            "B": 0.545724,
+            "A": 1.0,
+            "Hex": "007EC3"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.001466,
+            "G": 0.051289,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "0440FF"
+          }
+        }
+      ]
+    }
+  }
+]

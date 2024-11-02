@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Default_Black_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Default_Black_C'Default__PS_May_Default_Black_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Black/PS_May_Default_Black.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Default_Black_C",
+    "Name": "Default__PS_May_Default_Black_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Black/PS_May_Default_Black.PS_May_Default_Black_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pal",
+          "Value": {
+            "R": 0.335,
+            "G": 0.335,
+            "B": 0.335,
+            "A": 1.0,
+            "Hex": "9D9D9D"
+          }
+        },
+        {
+          "Key": "PVine",
+          "Value": {
+            "R": 0.194,
+            "G": 0.06376,
+            "B": 0.041963,
+            "A": 1.0,
+            "Hex": "7A4739"
+          }
+        },
+        {
+          "Key": "Vine2",
+          "Value": {
+            "R": 0.364,
+            "G": 0.119632,
+            "B": 0.078735,
+            "A": 1.0,
+            "Hex": "A3614F"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Value": {
+            "R": 0.335,
+            "G": 0.335,
+            "B": 0.335,
+            "A": 1.0,
+            "Hex": "9D9D9D"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Value": {
+            "R": 0.194,
+            "G": 0.06376,
+            "B": 0.041963,
+            "A": 1.0,
+            "Hex": "7A4739"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.037582,
+            "G": 0.038575,
+            "B": 0.043,
+            "A": 1.0,
+            "Hex": "36373A"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.347,
+            "G": 0.293651,
+            "B": 0.283846,
+            "A": 1.0,
+            "Hex": "9F9491"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.015,
+            "G": 0.01206,
+            "B": 0.0108,
+            "A": 1.0,
+            "Hex": "201C1A"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.009666,
+            "G": 0.085138,
+            "B": 0.358,
+            "A": 1.0,
+            "Hex": "1952A1"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Value": {
+            "R": 0.789931,
+            "G": 0.74139,
+            "B": 0.647701,
+            "A": 1.0,
+            "Hex": "E6E0D3"
+          }
+        }
+      ]
+    }
+  }
+]

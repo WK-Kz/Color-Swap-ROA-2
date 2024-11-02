@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Chef_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Chef_Blue_C'Default__PS_Lox_Chef_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Chef/Data/Palettes/Blue/PS_Lox_Chef_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Chef_Blue_C",
+    "Name": "Default__PS_Lox_Chef_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Chef/Data/Palettes/Blue/PS_Lox_Chef_Blue.PS_Lox_Chef_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.346027,
+            "G": 0.365261,
+            "B": 0.379,
+            "A": 1.0,
+            "Hex": "9FA3A6"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.021794,
+            "G": 0.021794,
+            "B": 0.034,
+            "A": 1.0,
+            "Hex": "282833"
+          }
+        },
+        {
+          "Key": "Apron",
+          "Value": {
+            "R": 0.023222,
+            "G": 0.0538,
+            "B": 0.329,
+            "A": 1.0,
+            "Hex": "2A419B"
+          }
+        },
+        {
+          "Key": "Mustache",
+          "Value": {
+            "R": 0.076,
+            "G": 0.069958,
+            "B": 0.063916,
+            "A": 1.0,
+            "Hex": "4E4B47"
+          }
+        },
+        {
+          "Key": "ShirtM",
+          "Value": {
+            "R": 0.144128,
+            "G": 0.190468,
+            "B": 0.283149,
+            "A": 1.0,
+            "Hex": "6A7991"
+          }
+        },
+        {
+          "Key": "Pasta",
+          "Value": {
+            "R": 0.366253,
+            "G": 0.181164,
+            "B": 0.0865,
+            "A": 1.0,
+            "Hex": "A37653"
+          }
+        },
+        {
+          "Key": "Sauce",
+          "Value": {
+            "R": 0.046834,
+            "G": 0.024057,
+            "B": 0.081,
+            "A": 1.0,
+            "Hex": "3D2B50"
+          }
+        },
+        {
+          "Key": "Wood",
+          "Value": {
+            "R": 0.289,
+            "G": 0.150473,
+            "B": 0.076874,
+            "A": 1.0,
+            "Hex": "926C4E"
+          }
+        },
+        {
+          "Key": "Meatball",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.03434,
+            "B": 0.028426,
+            "A": 1.0,
+            "Hex": "56342F"
+          }
+        },
+        {
+          "Key": "Parsley",
+          "Value": {
+            "R": 0.004391,
+            "G": 0.093059,
+            "B": 0.007499,
+            "A": 1.0,
+            "Hex": "0E5615"
+          }
+        },
+        {
+          "Key": "Brick1",
+          "Value": {
+            "R": 0.027321,
+            "G": 0.050087,
+            "B": 0.198069,
+            "A": 1.0,
+            "Hex": "2E3F7B"
+          }
+        },
+        {
+          "Key": "Brick2",
+          "Value": {
+            "R": 0.088371,
+            "G": 0.040915,
+            "B": 0.23074,
+            "A": 1.0,
+            "Hex": "543984"
+          }
+        },
+        {
+          "Key": "Brick3",
+          "Value": {
+            "R": 0.038204,
+            "G": 0.065033,
+            "B": 0.162029,
+            "A": 1.0,
+            "Hex": "374870"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.040915,
+            "G": 0.048232,
+            "B": 0.072272,
+            "A": 1.0,
+            "Hex": "393E4C"
+          }
+        },
+        {
+          "Key": "Cement",
+          "Value": {
+            "R": 0.122139,
+            "G": 0.164812,
+            "B": 0.250158,
+            "A": 1.0,
+            "Hex": "627189"
+          }
+        }
+      ]
+    }
+  }
+]

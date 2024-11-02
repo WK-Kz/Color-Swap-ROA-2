@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Kra_Default_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Kra_Default_Red_C'Default__PE_Kra_Default_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Red/PE_Kra_Default_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Kra_Default_Red_C",
+    "Name": "Default__PE_Kra_Default_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Red/PE_Kra_Default_Red.PE_Kra_Default_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.286,
+            "G": 0.018669,
+            "B": 0.018669,
+            "A": 1.0,
+            "Hex": "922525"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.69,
+            "G": 0.129375,
+            "B": 0.129375,
+            "A": 1.0,
+            "Hex": "D96565"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.708376,
+            "G": 0.300544,
+            "B": 0.300544,
+            "A": 1.0,
+            "Hex": "DB9595"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.982251,
+            "G": 0.700877,
+            "B": 0.700877,
+            "A": 1.0,
+            "Hex": "FDDADA"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

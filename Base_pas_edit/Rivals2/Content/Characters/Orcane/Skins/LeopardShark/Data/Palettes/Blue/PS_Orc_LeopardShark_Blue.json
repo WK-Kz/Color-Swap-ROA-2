@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_LeopardShark_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_LeopardShark_Blue_C'Default__PS_Orc_LeopardShark_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Blue/PS_Orc_LeopardShark_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_LeopardShark_Blue_C",
+    "Name": "Default__PS_Orc_LeopardShark_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Blue/PS_Orc_LeopardShark_Blue.PS_Orc_LeopardShark_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.361246,
+            "G": 0.472933,
+            "B": 0.55834,
+            "A": 1.0,
+            "Hex": "A2B7C5"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.005278,
+            "G": 0.166357,
+            "B": 0.377,
+            "A": 1.0,
+            "Hex": "1071A5"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.008832,
+            "G": 0.04061,
+            "B": 0.128,
+            "A": 1.0,
+            "Hex": "173964"
+          }
+        }
+      ]
+    }
+  }
+]

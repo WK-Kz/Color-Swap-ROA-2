@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Bluejay_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Bluejay_Blue_C'Default__PS_Wra_Bluejay_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/BlueJay/Data/Palettes/Blue/PS_Wra_Bluejay_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Bluejay_Blue_C",
+    "Name": "Default__PS_Wra_Bluejay_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/BlueJay/Data/Palettes/Blue/PS_Wra_Bluejay_Blue.PS_Wra_Bluejay_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.351984,
+            "B": 0.447,
+            "A": 1.0,
+            "Hex": "00A0B3"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.560384,
+            "G": 0.744779,
+            "B": 0.806952,
+            "A": 1.0,
+            "Hex": "C6E0E8"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.01798,
+            "G": 0.031987,
+            "B": 0.058,
+            "A": 1.0,
+            "Hex": "243244"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Value": {
+            "R": 0.055,
+            "G": 0.053022,
+            "B": 0.049192,
+            "A": 1.0,
+            "Hex": "42413E"
+          }
+        },
+        {
+          "Key": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Value": {
+            "R": 0.022304,
+            "G": 0.168488,
+            "B": 0.697,
+            "A": 1.0,
+            "Hex": "2972DA"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Value": {
+            "R": 0.066,
+            "G": 0.066,
+            "B": 0.066,
+            "A": 1.0,
+            "Hex": "484848"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Value": {
+            "R": 0.059351,
+            "G": 0.199878,
+            "B": 0.913099,
+            "A": 1.0,
+            "Hex": "457CF5"
+          }
+        },
+        {
+          "Key": "LensGradient",
+          "Value": {
+            "R": 0.269,
+            "G": 0.768517,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "8EE3FF"
+          }
+        }
+      ]
+    }
+  }
+]

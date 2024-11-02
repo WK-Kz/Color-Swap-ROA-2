@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_May_Default_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_May_Default_Purple_C'Default__PE_May_Default_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Purple/PE_May_Default_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_May_Default_Purple_C",
+    "Name": "Default__PE_May_Default_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Purple/PE_May_Default_Purple.PE_May_Default_Purple_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.07036,
+            "G": 0.0,
+            "B": 0.434154,
+            "A": 1.0,
+            "Hex": "4B00B0"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.033036,
+            "B": 0.991102,
+            "A": 1.0,
+            "Hex": "0033FE"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.072081,
+            "G": 0.050299,
+            "B": 0.237,
+            "A": 1.0,
+            "Hex": "4C3F86"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.153285,
+            "G": 0.106964,
+            "B": 0.504,
+            "A": 1.0,
+            "Hex": "6D5CBC"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 0.916,
+            "G": 0.703003,
+            "B": 0.174956,
+            "A": 1.0,
+            "Hex": "F6DB74"
+          }
+        }
+      ]
+    }
+  }
+]

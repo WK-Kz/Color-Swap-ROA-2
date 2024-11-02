@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Aardwolf_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Aardwolf_Blue_C'Default__PS_For_Aardwolf_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Aardwolf/Data/Palettes/Blue/PS_For_Aardwolf_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Aardwolf_Blue_C",
+    "Name": "Default__PS_For_Aardwolf_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Aardwolf/Data/Palettes/Blue/PS_For_Aardwolf_Blue.PS_For_Aardwolf_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Node",
+          "Value": {
+            "R": 0.006336,
+            "G": 0.010252,
+            "B": 0.022,
+            "A": 1.0,
+            "Hex": "121928"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.028142,
+            "G": 0.143162,
+            "B": 0.258183,
+            "A": 1.0,
+            "Hex": "2E6A8B"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.264698,
+            "G": 0.450453,
+            "B": 0.518,
+            "A": 1.0,
+            "Hex": "8DB3BF"
+          }
+        },
+        {
+          "Key": "Back",
+          "Value": {
+            "R": 0.004512,
+            "G": 0.039582,
+            "B": 0.096,
+            "A": 1.0,
+            "Hex": "0E3857"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Value": {
+            "R": 0.00805,
+            "G": 0.015395,
+            "B": 0.025,
+            "A": 1.0,
+            "Hex": "16212B"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.037767,
+            "G": 0.018618,
+            "B": 0.107,
+            "A": 1.0,
+            "Hex": "36255C"
+          }
+        },
+        {
+          "Key": "CStripes",
+          "Value": {
+            "R": 0.006706,
+            "G": 0.003306,
+            "B": 0.019,
+            "A": 1.0,
+            "Hex": "130A25"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Value": {
+            "R": 0.300544,
+            "G": 0.181164,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "95763D"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Value": {
+            "R": 0.006511,
+            "G": 0.028144,
+            "B": 0.051269,
+            "A": 1.0,
+            "Hex": "132E40"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.018919,
+            "G": 0.012884,
+            "B": 0.033,
+            "A": 1.0,
+            "Hex": "251D33"
+          }
+        },
+        {
+          "Key": "Blade",
+          "Value": {
+            "R": 0.346704,
+            "G": 0.307214,
+            "B": 0.253787,
+            "A": 1.0,
+            "Hex": "9F978A"
+          }
+        }
+      ]
+    }
+  }
+]

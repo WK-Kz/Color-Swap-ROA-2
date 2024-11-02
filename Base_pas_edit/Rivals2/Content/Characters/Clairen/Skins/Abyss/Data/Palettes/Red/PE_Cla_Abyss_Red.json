@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cla_Abyss_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cla_Abyss_Red_C'Default__PE_Cla_Abyss_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Red/PE_Cla_Abyss_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cla_Abyss_Red_C",
+    "Name": "Default__PE_Cla_Abyss_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Red/PE_Cla_Abyss_Red.PE_Cla_Abyss_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 0.201556,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF7C00"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.679543,
+            "G": 0.027321,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "D72E2E"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 1.0,
+            "G": 0.201556,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF7C00"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.672443,
+            "G": 0.57758,
+            "B": 0.679542,
+            "A": 1.0,
+            "Hex": "D6C8D7"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.47932,
+            "G": 0.361307,
+            "B": 0.033105,
+            "A": 1.0,
+            "Hex": "B8A233"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.597202,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "CB0000"
+          }
+        }
+      ]
+    }
+  }
+]

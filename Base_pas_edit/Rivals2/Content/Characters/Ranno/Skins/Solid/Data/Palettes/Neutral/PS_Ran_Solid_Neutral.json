@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Solid_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Solid_Neutral_C'Default__PS_Ran_Solid_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Neutral/PS_Ran_Solid_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Solid_Neutral_C",
+    "Name": "Default__PS_Ran_Solid_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Neutral/PS_Ran_Solid_Neutral.PS_Ran_Solid_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.229234,
+            "G": 0.347222,
+            "B": 0.010114,
+            "A": 1.0,
+            "Hex": "849F19"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.730461,
+            "G": 0.658375,
+            "B": 0.296138,
+            "A": 1.0,
+            "Hex": "DED494"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Value": {
+            "R": 0.215,
+            "G": 0.025782,
+            "B": 0.022575,
+            "A": 1.0,
+            "Hex": "802C29"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.467784,
+            "G": 0.401978,
+            "B": 0.291771,
+            "A": 1.0,
+            "Hex": "B6AA93"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.128,
+            "G": 0.057276,
+            "B": 0.013312,
+            "A": 1.0,
+            "Hex": "64431E"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.793403,
+            "G": 0.793403,
+            "B": 0.793403,
+            "A": 1.0,
+            "Hex": "E7E7E7"
+          }
+        }
+      ]
+    }
+  }
+]

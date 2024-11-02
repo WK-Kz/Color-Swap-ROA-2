@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Mammoth_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Mammoth_Neutral_C'Default__PS_Lox_Mammoth_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Mammoth/Data/Palettes/Neutral/PS_Lox_Mammoth_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Mammoth_Neutral_C",
+    "Name": "Default__PS_Lox_Mammoth_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Mammoth/Data/Palettes/Neutral/PS_Lox_Mammoth_Neutral.PS_Lox_Mammoth_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.407986,
+            "G": 0.103425,
+            "B": 0.017112,
+            "A": 1.0,
+            "Hex": "AB5A23"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.3564,
+            "B": 0.194618,
+            "A": 1.0,
+            "Hex": "ADA17A"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Value": {
+            "R": 0.090842,
+            "G": 0.033105,
+            "B": 0.01096,
+            "A": 1.0,
+            "Hex": "55331B"
+          }
+        },
+        {
+          "Key": "Stone",
+          "Value": {
+            "R": 0.181164,
+            "G": 0.122139,
+            "B": 0.124772,
+            "A": 1.0,
+            "Hex": "766263"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.264,
+            "G": 0.014784,
+            "B": 0.014784,
+            "A": 1.0,
+            "Hex": "8C2020"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.376262,
+            "G": 0.337395,
+            "B": 0.220793,
+            "A": 1.0,
+            "Hex": "A59D81"
+          }
+        }
+      ]
+    }
+  }
+]

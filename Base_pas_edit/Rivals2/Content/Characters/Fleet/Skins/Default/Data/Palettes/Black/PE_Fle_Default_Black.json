@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Default_Black_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Default_Black_C'Default__PE_Fle_Default_Black_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Black/PE_Fle_Default_Black.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Default_Black_C",
+    "Name": "Default__PE_Fle_Default_Black_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Black/PE_Fle_Default_Black.PE_Fle_Default_Black_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.059,
+            "G": 0.059,
+            "B": 0.059,
+            "A": 1.0,
+            "Hex": "444444"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.284,
+            "G": 0.25702,
+            "B": 0.272385,
+            "A": 1.0,
+            "Hex": "918B8F"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.611,
+            "G": 0.548067,
+            "B": 0.611,
+            "A": 1.0,
+            "Hex": "CDC4CD"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.87703,
+            "G": 0.777821,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "F1E5F2"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 0.231,
+            "G": 0.178049,
+            "B": 0.161469,
+            "A": 1.0,
+            "Hex": "847570"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Value": {
+            "R": 0.053,
+            "G": 0.040851,
+            "B": 0.037047,
+            "A": 1.0,
+            "Hex": "413936"
+          }
+        }
+      ]
+    }
+  }
+]

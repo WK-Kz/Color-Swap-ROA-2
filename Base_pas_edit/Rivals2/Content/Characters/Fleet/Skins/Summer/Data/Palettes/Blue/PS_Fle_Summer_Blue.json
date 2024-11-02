@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Summer_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Summer_Blue_C'Default__PS_Fle_Summer_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Summer/Data/Palettes/Blue/PS_Fle_Summer_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Summer_Blue_C",
+    "Name": "Default__PS_Fle_Summer_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Summer/Data/Palettes/Blue/PS_Fle_Summer_Blue.PS_Fle_Summer_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Skirt",
+          "Value": {
+            "R": 0.130136,
+            "G": 0.359055,
+            "B": 0.679542,
+            "A": 1.0,
+            "Hex": "65A2D7"
+          }
+        },
+        {
+          "Key": "Towel",
+          "Value": {
+            "R": 0.00579,
+            "G": 0.129985,
+            "B": 0.579,
+            "A": 1.0,
+            "Hex": "1165C9"
+          }
+        },
+        {
+          "Key": "Suit1",
+          "Value": {
+            "R": 0.054188,
+            "G": 0.045922,
+            "B": 0.232,
+            "A": 1.0,
+            "Hex": "423C84"
+          }
+        },
+        {
+          "Key": "Suit2",
+          "Value": {
+            "R": 0.535,
+            "G": 0.528268,
+            "B": 0.535,
+            "A": 1.0,
+            "Hex": "C2C0C2"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.386429,
+            "G": 0.111932,
+            "B": 0.076185,
+            "A": 1.0,
+            "Hex": "A75E4E"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.095307,
+            "G": 0.051269,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "574037"
+          }
+        },
+        {
+          "Key": "Bow",
+          "Value": {
+            "R": 0.676,
+            "G": 0.417197,
+            "B": 0.014636,
+            "A": 1.0,
+            "Hex": "D7AD20"
+          }
+        },
+        {
+          "Key": "Bow2",
+          "Value": {
+            "R": 0.913099,
+            "G": 0.226966,
+            "B": 0.005182,
+            "A": 1.0,
+            "Hex": "F58310"
+          }
+        },
+        {
+          "Key": "Bow3",
+          "Value": {
+            "R": 0.00579,
+            "G": 0.129985,
+            "B": 0.579,
+            "A": 1.0,
+            "Hex": "1165C9"
+          }
+        },
+        {
+          "Key": "Tank",
+          "Value": {
+            "R": 0.027321,
+            "G": 0.514918,
+            "B": 0.799103,
+            "A": 1.0,
+            "Hex": "2EBEE7"
+          }
+        }
+      ]
+    }
+  }
+]

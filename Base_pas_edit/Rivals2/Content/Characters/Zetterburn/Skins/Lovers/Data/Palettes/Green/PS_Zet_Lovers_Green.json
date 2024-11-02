@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Lovers_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Lovers_Green_C'Default__PS_Zet_Lovers_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Lovers/Data/Palettes/Green/PS_Zet_Lovers_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Lovers_Green_C",
+    "Name": "Default__PS_Zet_Lovers_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Lovers/Data/Palettes/Green/PS_Zet_Lovers_Green.PS_Zet_Lovers_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Sleeves",
+          "Value": {
+            "R": 0.423844,
+            "G": 0.519,
+            "B": 0.328689,
+            "A": 1.0,
+            "Hex": "AEBF9B"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.067435,
+            "G": 0.094,
+            "B": 0.034968,
+            "A": 1.0,
+            "Hex": "495634"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Value": {
+            "R": 0.032351,
+            "G": 0.159,
+            "B": 0.027984,
+            "A": 1.0,
+            "Hex": "326F2E"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.217672,
+            "G": 0.451,
+            "B": 0.013509,
+            "A": 1.0,
+            "Hex": "80B31E"
+          }
+        }
+      ]
+    }
+  }
+]

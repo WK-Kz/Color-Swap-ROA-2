@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Default_Orange_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Default_Orange_C'Default__PS_Ran_Default_Orange_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Default/Data/Palettes/Orange/PS_Ran_Default_Orange.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Default_Orange_C",
+    "Name": "Default__PS_Ran_Default_Orange_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Default/Data/Palettes/Orange/PS_Ran_Default_Orange.PS_Ran_Default_Orange_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.082748,
+            "G": 0.151,
+            "B": 0.106636,
+            "A": 1.0,
+            "Hex": "516C5C"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.278384,
+            "G": 0.508,
+            "B": 0.358749,
+            "A": 1.0,
+            "Hex": "90BDA2"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.00822,
+            "G": 0.015,
+            "B": 0.010593,
+            "A": 1.0,
+            "Hex": "16201A"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.305,
+            "G": 0.066185,
+            "B": 0.14181,
+            "A": 1.0,
+            "Hex": "964969"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.062927,
+            "G": 0.008064,
+            "B": 0.192,
+            "A": 1.0,
+            "Hex": "471679"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.248,
+            "G": 0.041747,
+            "B": 0.000496,
+            "A": 1.0,
+            "Hex": "883901"
+          }
+        },
+        {
+          "Key": "Eyes_Iris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.971,
+            "G": 0.110384,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FC5D00"
+          }
+        },
+        {
+          "Key": "Eyes_Shine",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

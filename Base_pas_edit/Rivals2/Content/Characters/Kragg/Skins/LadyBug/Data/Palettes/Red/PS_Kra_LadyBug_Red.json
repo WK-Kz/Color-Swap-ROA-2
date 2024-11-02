@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_LadyBug_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_LadyBug_Red_C'Default__PS_Kra_LadyBug_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/LadyBug/Data/Palettes/Red/PS_Kra_LadyBug_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_LadyBug_Red_C",
+    "Name": "Default__PS_Kra_LadyBug_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/LadyBug/Data/Palettes/Red/PS_Kra_LadyBug_Red.PS_Kra_LadyBug_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.107,
+            "G": 0.043549,
+            "B": 0.066814,
+            "A": 1.0,
+            "Hex": "5C3B49"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.221,
+            "G": 0.033241,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "813300"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Value": {
+            "R": 0.349,
+            "G": 0.0,
+            "B": 0.098883,
+            "A": 1.0,
+            "Hex": "A00058"
+          }
+        },
+        {
+          "Key": "Dots",
+          "Value": {
+            "R": 0.012983,
+            "G": 0.012286,
+            "B": 0.024158,
+            "A": 1.0,
+            "Hex": "1E1D2B"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Value": {
+            "R": 0.778,
+            "G": 0.713176,
+            "B": 0.679399,
+            "A": 1.0,
+            "Hex": "E5DCD7"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.017,
+            "G": 0.006919,
+            "B": 0.010615,
+            "A": 1.0,
+            "Hex": "23131A"
+          }
+        }
+      ]
+    }
+  }
+]

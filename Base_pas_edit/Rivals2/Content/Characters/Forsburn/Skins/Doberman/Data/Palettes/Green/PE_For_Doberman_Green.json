@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Doberman_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Doberman_Green_C'Default__PE_For_Doberman_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Green/PE_For_Doberman_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Doberman_Green_C",
+    "Name": "Default__PE_For_Doberman_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Green/PE_For_Doberman_Green.PE_For_Doberman_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.506241,
+            "G": 0.8,
+            "B": 0.4544,
+            "A": 1.0,
+            "Hex": "BDE8B4"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.05754,
+            "G": 0.2,
+            "B": 0.0324,
+            "A": 1.0,
+            "Hex": "447C32"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.002877,
+            "G": 0.01,
+            "B": 0.00162,
+            "A": 1.0,
+            "Hex": "091905"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.003347,
+            "G": 0.099899,
+            "B": 0.001214,
+            "A": 1.0,
+            "Hex": "0B5904"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.000607,
+            "G": 0.201556,
+            "B": 0.07036,
+            "A": 1.0,
+            "Hex": "027C4B"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.973445,
+            "B": 0.135633,
+            "A": 1.0,
+            "Hex": "F7FC67"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

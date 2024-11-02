@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Aussie_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Aussie_Green_C'Default__PS_Fle_Aussie_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Aussie/Data/Palettes/Green/PS_Fle_Aussie_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Aussie_Green_C",
+    "Name": "Default__PS_Fle_Aussie_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Aussie/Data/Palettes/Green/PS_Fle_Aussie_Green.PS_Fle_Aussie_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.08112,
+            "G": 0.16,
+            "B": 0.082435,
+            "A": 1.0,
+            "Hex": "506F51"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.620454,
+            "G": 0.739,
+            "B": 0.565518,
+            "A": 1.0,
+            "Hex": "CFE0C6"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.315496,
+            "G": 0.383,
+            "B": 0.112985,
+            "A": 1.0,
+            "Hex": "98A65E"
+          }
+        },
+        {
+          "Key": "Spots",
+          "Value": {
+            "R": 0.012983,
+            "G": 0.011612,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "1E1C18"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.618,
+            "G": 0.2575,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "CE8B00"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.025187,
+            "G": 0.104616,
+            "B": 0.055635,
+            "A": 1.0,
+            "Hex": "2C5B42"
+          }
+        },
+        {
+          "Key": "CapeTrim",
+          "Value": {
+            "R": 0.042295,
+            "G": 0.769,
+            "B": 0.066519,
+            "A": 1.0,
+            "Hex": "3AE449"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.242942,
+            "G": 0.469,
+            "B": 0.337133,
+            "A": 1.0,
+            "Hex": "87B69D"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.0185,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "292525"
+          }
+        },
+        {
+          "Key": "Shirt2",
+          "Value": {
+            "R": 0.042295,
+            "G": 0.769,
+            "B": 0.066519,
+            "A": 1.0,
+            "Hex": "3AE449"
+          }
+        },
+        {
+          "Key": "Belts",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.0185,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "292525"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Ranger_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Ranger_Blue_C'Default__PS_Cla_Ranger_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Blue/PS_Cla_Ranger_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Ranger_Blue_C",
+    "Name": "Default__PS_Cla_Ranger_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Blue/PS_Cla_Ranger_Blue.PS_Cla_Ranger_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Armor",
+          "Value": {
+            "R": 0.5,
+            "G": 0.475,
+            "B": 0.475,
+            "A": 1.0,
+            "Hex": "BCB7B7"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.014092,
+            "G": 0.015099,
+            "B": 0.024158,
+            "A": 1.0,
+            "Hex": "1F202B"
+          }
+        },
+        {
+          "Key": "Padding",
+          "Value": {
+            "R": 0.056017,
+            "G": 0.104737,
+            "B": 0.307292,
+            "A": 1.0,
+            "Hex": "435B97"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.0,
+            "G": 0.03613,
+            "B": 0.083333,
+            "A": 1.0,
+            "Hex": "003551"
+          }
+        }
+      ]
+    }
+  }
+]

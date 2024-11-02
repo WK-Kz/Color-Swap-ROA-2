@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cla_Ranger_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cla_Ranger_Neutral_C'Default__PE_Cla_Ranger_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Neutral/PE_Cla_Ranger_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cla_Ranger_Neutral_C",
+    "Name": "Default__PE_Cla_Ranger_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Neutral/PE_Cla_Ranger_Neutral.PE_Cla_Ranger_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 0.227117,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8300"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.539649,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00C2FF"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.141032,
+            "B": 0.958333,
+            "A": 1.0,
+            "Hex": "0069FB"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 1.0,
+            "G": 0.124238,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF6300"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 0.226966,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8300"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 0.957013,
+            "B": 0.734375,
+            "A": 1.0,
+            "Hex": "FFFBDF"
+          }
+        }
+      ]
+    }
+  }
+]

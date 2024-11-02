@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Panther_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Panther_Neutral_C'Default__PS_Zet_Panther_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Panther/Data/Palettes/Neutral/PS_Zet_Panther_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Panther_Neutral_C",
+    "Name": "Default__PS_Zet_Panther_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Panther/Data/Palettes/Neutral/PS_Zet_Panther_Neutral.PS_Zet_Panther_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nails",
+          "Value": {
+            "R": 0.01096,
+            "G": 0.006995,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "1B140F"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.111487,
+            "G": 0.082716,
+            "B": 0.113,
+            "A": 1.0,
+            "Hex": "5E515E"
+          }
+        },
+        {
+          "Key": "Spots",
+          "Value": {
+            "R": 0.027776,
+            "G": 0.027776,
+            "B": 0.056,
+            "A": 1.0,
+            "Hex": "2E2E43"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Value": {
+            "R": 0.208,
+            "G": 0.066716,
+            "B": 0.05928,
+            "A": 1.0,
+            "Hex": "7E4945"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.022,
+            "G": 0.018346,
+            "B": 0.018346,
+            "A": 1.0,
+            "Hex": "282424"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.013143,
+            "G": 0.013143,
+            "B": 0.027,
+            "A": 1.0,
+            "Hex": "1E1E2D"
+          }
+        },
+        {
+          "Key": "Tips",
+          "Value": {
+            "R": 0.003252,
+            "G": 0.003127,
+            "B": 0.005,
+            "A": 1.0,
+            "Hex": "0A0A0F"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Value": {
+            "R": 0.7,
+            "G": 0.7,
+            "B": 0.7,
+            "A": 1.0,
+            "Hex": "DADADA"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 1.0,
+            "G": 0.511467,
+            "B": 0.084,
+            "A": 1.0,
+            "Hex": "FFBE52"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.015996,
+            "B": 0.012286,
+            "A": 1.0,
+            "Hex": "56221D"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.5,
+            "G": 0.146216,
+            "B": 0.065,
+            "A": 1.0,
+            "Hex": "BC6B48"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Value": {
+            "R": 0.476,
+            "G": 0.276687,
+            "B": 0.105672,
+            "A": 1.0,
+            "Hex": "B8905B"
+          }
+        }
+      ]
+    }
+  }
+]

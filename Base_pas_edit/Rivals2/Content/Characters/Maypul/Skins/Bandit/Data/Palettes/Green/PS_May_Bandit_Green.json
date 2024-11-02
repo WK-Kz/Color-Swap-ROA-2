@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Bandit_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Bandit_Green_C'Default__PS_May_Bandit_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Bandit/Data/Palettes/Green/PS_May_Bandit_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Bandit_Green_C",
+    "Name": "Default__PS_May_Bandit_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Bandit/Data/Palettes/Green/PS_May_Bandit_Green.PS_May_Bandit_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.073826,
+            "G": 0.124772,
+            "B": 0.023332,
+            "A": 1.0,
+            "Hex": "4D632A"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.536281,
+            "G": 0.864,
+            "B": 0.370656,
+            "A": 1.0,
+            "Hex": "C2F0A4"
+          }
+        },
+        {
+          "Key": "Hat and Gloves",
+          "Value": {
+            "R": 0.06566,
+            "G": 0.268,
+            "B": 0.025192,
+            "A": 1.0,
+            "Hex": "488D2C"
+          }
+        },
+        {
+          "Key": "Bling",
+          "Value": {
+            "R": 0.42869,
+            "G": 0.396755,
+            "B": 0.082283,
+            "A": 1.0,
+            "Hex": "AFA951"
+          }
+        },
+        {
+          "Key": "Weapon Blade",
+          "Value": {
+            "R": 0.053738,
+            "G": 0.194,
+            "B": 0.006984,
+            "A": 1.0,
+            "Hex": "417A14"
+          }
+        },
+        {
+          "Key": "Weapon Trim",
+          "Value": {
+            "R": 0.427,
+            "G": 0.395437,
+            "B": 0.082838,
+            "A": 1.0,
+            "Hex": "AFA951"
+          }
+        },
+        {
+          "Key": "Weapon Wood",
+          "Value": {
+            "R": 0.198069,
+            "G": 0.093059,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "7B5642"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.049,
+            "G": 0.043377,
+            "B": 0.036505,
+            "A": 1.0,
+            "Hex": "3E3A35"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.278894,
+            "G": 0.274936,
+            "B": 0.219526,
+            "A": 1.0,
+            "Hex": "908F81"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.020289,
+            "G": 0.015172,
+            "B": 0.011991,
+            "A": 1.0,
+            "Hex": "27211C"
+          }
+        },
+        {
+          "Key": "TerryBandit",
+          "Value": {
+            "R": 0.012451,
+            "G": 0.095,
+            "B": 0.006555,
+            "A": 1.0,
+            "Hex": "1D5713"
+          }
+        },
+        {
+          "Key": "LilyBandit",
+          "Value": {
+            "R": 0.039257,
+            "G": 0.066,
+            "B": 0.012247,
+            "A": 1.0,
+            "Hex": "38481D"
+          }
+        },
+        {
+          "Key": "Chain",
+          "Value": {
+            "R": 0.171701,
+            "G": 0.2,
+            "B": 0.164627,
+            "A": 1.0,
+            "Hex": "737C71"
+          }
+        }
+      ]
+    }
+  }
+]

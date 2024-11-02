@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Abyss_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Abyss_Green_C'Default__PS_May_Abyss_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Abyss/Data/Palettes/Green/PS_May_Abyss_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Abyss_Green_C",
+    "Name": "Default__PS_May_Abyss_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Abyss/Data/Palettes/Green/PS_May_Abyss_Green.PS_May_Abyss_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.08243,
+            "G": 0.47932,
+            "B": 0.208112,
+            "A": 1.0,
+            "Hex": "51B87E"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.089558,
+            "G": 0.090842,
+            "B": 0.013821,
+            "A": 1.0,
+            "Hex": "54551F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.806952,
+            "G": 0.717531,
+            "B": 0.508881,
+            "A": 1.0,
+            "Hex": "E8DDBD"
+          }
+        },
+        {
+          "Key": "Body2",
+          "Value": {
+            "R": 0.012983,
+            "G": 0.007499,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "1E152E"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Value": {
+            "R": 0.982251,
+            "G": 0.910144,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "FDF560"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Value": {
+            "R": 0.007731,
+            "G": 0.296875,
+            "B": 0.021679,
+            "A": 1.0,
+            "Hex": "159428"
+          }
+        },
+        {
+          "Key": "Eye",
+          "Value": {
+            "R": 0.601512,
+            "G": 0.982251,
+            "B": 0.068478,
+            "A": 1.0,
+            "Hex": "CCFD4A"
+          }
+        },
+        {
+          "Key": "Eye2",
+          "Value": {
+            "R": 0.008023,
+            "G": 0.539479,
+            "B": 0.335754,
+            "A": 1.0,
+            "Hex": "16C29D"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Value": {
+            "R": 0.151534,
+            "G": 0.155926,
+            "B": 0.024158,
+            "A": 1.0,
+            "Hex": "6C6E2B"
+          }
+        }
+      ]
+    }
+  }
+]

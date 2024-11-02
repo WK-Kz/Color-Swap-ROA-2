@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Abyss_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Abyss_Blue_C'Default__PS_Kra_Abyss_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Abyss/Data/Palettes/Blue/PS_Kra_Abyss_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Abyss_Blue_C",
+    "Name": "Default__PS_Kra_Abyss_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Abyss/Data/Palettes/Blue/PS_Kra_Abyss_Blue.PS_Kra_Abyss_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.174647,
+            "G": 0.246795,
+            "B": 0.445201,
+            "A": 1.0,
+            "Hex": "7488B2"
+          }
+        },
+        {
+          "Key": "Chest",
+          "Value": {
+            "R": 0.070519,
+            "G": 0.234638,
+            "B": 0.727,
+            "A": 1.0,
+            "Hex": "4B85DE"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Value": {
+            "R": 0.061246,
+            "G": 0.061246,
+            "B": 0.141263,
+            "A": 1.0,
+            "Hex": "464669"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Value": {
+            "R": 0.063,
+            "G": 0.2504,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "4789FF"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Value": {
+            "R": 0.0,
+            "G": 0.708376,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00DBFF"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.252833,
+            "B": 0.37,
+            "A": 1.0,
+            "Hex": "008AA4"
+          }
+        }
+      ]
+    }
+  }
+]

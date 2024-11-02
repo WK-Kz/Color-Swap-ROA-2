@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Abyss_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Abyss_Green_C'Default__PS_For_Abyss_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Abyss/Data/Palettes/Green/PS_For_Abyss_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Abyss_Green_C",
+    "Name": "Default__PS_For_Abyss_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Abyss/Data/Palettes/Green/PS_For_Abyss_Green.PS_For_Abyss_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.233958,
+            "G": 0.25,
+            "B": 0.1125,
+            "A": 1.0,
+            "Hex": "85895E"
+          }
+        },
+        {
+          "Key": "Horn",
+          "Value": {
+            "R": 0.020833,
+            "G": 0.016284,
+            "B": 0.015263,
+            "A": 1.0,
+            "Hex": "272221"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.0275,
+            "G": 0.55,
+            "B": 0.088458,
+            "A": 1.0,
+            "Hex": "2EC454"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.552011,
+            "B": 0.490699,
+            "A": 1.0,
+            "Hex": "00C4BA"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.02628,
+            "G": 0.069444,
+            "B": 0.031683,
+            "A": 1.0,
+            "Hex": "2D4A32"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Value": {
+            "R": 0.572917,
+            "G": 0.510125,
+            "B": 0.418904,
+            "A": 1.0,
+            "Hex": "C8BDAD"
+          }
+        },
+        {
+          "Key": "AbyssEyesSclera",
+          "Value": {
+            "R": 0.439657,
+            "G": 0.425912,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "B1AF2E"
+          }
+        },
+        {
+          "Key": "AbyssEyesIris",
+          "Value": {
+            "R": 0.018139,
+            "G": 0.262251,
+            "B": 0.009721,
+            "A": 1.0,
+            "Hex": "248C19"
+          }
+        }
+      ]
+    }
+  }
+]

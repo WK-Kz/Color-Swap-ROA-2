@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Default_CoolBlue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Default_CoolBlue_C'Default__PS_Orc_Default_CoolBlue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/CoolBlue/PS_Orc_Default_CoolBlue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Default_CoolBlue_C",
+    "Name": "Default__PS_Orc_Default_CoolBlue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/CoolBlue/PS_Orc_Default_CoolBlue.PS_Orc_Default_CoolBlue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.024158,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "292B2D"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.015366,
+            "G": 0.446941,
+            "B": 0.755208,
+            "A": 1.0,
+            "Hex": "21B3E2"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.151479,
+            "G": 0.630757,
+            "B": 0.401717,
+            "A": 1.0,
+            "Hex": "6CD0AA"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Value": {
+            "R": 0.07505,
+            "G": 0.233216,
+            "B": 0.354167,
+            "A": 1.0,
+            "Hex": "4D85A1"
+          }
+        },
+        {
+          "Key": "Liner",
+          "Value": {
+            "R": 0.02257,
+            "G": 0.02257,
+            "B": 0.02257,
+            "A": 1.0,
+            "Hex": "292929"
+          }
+        }
+      ]
+    }
+  }
+]

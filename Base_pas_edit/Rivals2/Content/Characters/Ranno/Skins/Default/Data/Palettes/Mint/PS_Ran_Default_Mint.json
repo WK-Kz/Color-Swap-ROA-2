@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Default_Mint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Default_Mint_C'Default__PS_Ran_Default_Mint_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Default/Data/Palettes/Mint/PS_Ran_Default_Mint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Default_Mint_C",
+    "Name": "Default__PS_Ran_Default_Mint_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Default/Data/Palettes/Mint/PS_Ran_Default_Mint.PS_Ran_Default_Mint_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.118001,
+            "G": 0.453125,
+            "B": 0.363759,
+            "A": 1.0,
+            "Hex": "60B4A3"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.864583,
+            "G": 0.423286,
+            "B": 0.43064,
+            "A": 1.0,
+            "Hex": "F0AEB0"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.009277,
+            "G": 0.098958,
+            "B": 0.075043,
+            "A": 1.0,
+            "Hex": "18584D"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.020289,
+            "G": 0.665387,
+            "B": 0.493361,
+            "A": 1.0,
+            "Hex": "27D5BB"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 1.0,
+            "G": 0.25,
+            "B": 0.3625,
+            "A": 1.0,
+            "Hex": "FF89A2"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.442708,
+            "G": 0.416576,
+            "B": 0.350477,
+            "A": 1.0,
+            "Hex": "B2ADA0"
+          }
+        },
+        {
+          "Key": "Eyes_Iris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.708376,
+            "B": 0.799103,
+            "A": 1.0,
+            "Hex": "FFDBE7"
+          }
+        },
+        {
+          "Key": "Eyes_Shine",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

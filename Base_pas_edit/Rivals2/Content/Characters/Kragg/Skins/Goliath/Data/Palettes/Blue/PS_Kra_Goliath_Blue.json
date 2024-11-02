@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Goliath_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Goliath_Blue_C'Default__PS_Kra_Goliath_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Blue/PS_Kra_Goliath_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Goliath_Blue_C",
+    "Name": "Default__PS_Kra_Goliath_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Blue/PS_Kra_Goliath_Blue.PS_Kra_Goliath_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Head",
+          "Value": {
+            "R": 0.031987,
+            "G": 0.06533,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "32487C"
+          }
+        },
+        {
+          "Key": "Back",
+          "Value": {
+            "R": 0.047092,
+            "G": 0.096006,
+            "B": 0.291667,
+            "A": 1.0,
+            "Hex": "3D5793"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.90625,
+            "G": 0.325684,
+            "B": 0.056641,
+            "A": 1.0,
+            "Hex": "F59B43"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.871367,
+            "G": 0.791298,
+            "B": 0.651406,
+            "A": 1.0,
+            "Hex": "F0E6D3"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.037609,
+            "G": 0.019531,
+            "B": 0.041667,
+            "A": 1.0,
+            "Hex": "362639"
+          }
+        },
+        {
+          "Key": "Chest",
+          "Value": {
+            "R": 0.132921,
+            "G": 0.290211,
+            "B": 0.510417,
+            "A": 1.0,
+            "Hex": "6693BD"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.56875,
+            "B": 0.041667,
+            "A": 1.0,
+            "Hex": "FFC739"
+          }
+        }
+      ]
+    }
+  }
+]

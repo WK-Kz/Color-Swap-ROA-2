@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Wra_Default_Black_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Wra_Default_Black_C'Default__PE_Wra_Default_Black_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Default/Data/Palettes/Black/PE_Wra_Default_Black.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Wra_Default_Black_C",
+    "Name": "Default__PE_Wra_Default_Black_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Default/Data/Palettes/Black/PE_Wra_Default_Black.PE_Wra_Default_Black_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.109,
+            "G": 0.109,
+            "B": 0.109,
+            "A": 1.0,
+            "Hex": "5D5D5D"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.246,
+            "G": 0.246,
+            "B": 0.246,
+            "A": 1.0,
+            "Hex": "888888"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.422,
+            "G": 0.422,
+            "B": 0.422,
+            "A": 1.0,
+            "Hex": "AEAEAE"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.598,
+            "G": 0.598,
+            "B": 0.598,
+            "A": 1.0,
+            "Hex": "CBCBCB"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

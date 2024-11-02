@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Tiger_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Tiger_Red_C'Default__PS_Zet_Tiger_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Tiger/Data/Palettes/Red/PS_Zet_Tiger_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Tiger_Red_C",
+    "Name": "Default__PS_Zet_Tiger_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Tiger/Data/Palettes/Red/PS_Zet_Tiger_Red.PS_Zet_Tiger_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.473531,
+            "G": 0.030713,
+            "B": 0.03434,
+            "A": 1.0,
+            "Hex": "B73134"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.596078,
+            "G": 0.388235,
+            "B": 0.337255,
+            "A": 1.0,
+            "Hex": "CBA89D"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Value": {
+            "R": 0.048,
+            "G": 0.004512,
+            "B": 0.004512,
+            "A": 1.0,
+            "Hex": "3E0E0E"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.096,
+            "G": 0.011135,
+            "B": 0.009408,
+            "A": 1.0,
+            "Hex": "571B18"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.197,
+            "G": 0.025796,
+            "B": 0.009753,
+            "A": 1.0,
+            "Hex": "7B2C19"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.265625,
+            "G": 0.265625,
+            "B": 0.265625,
+            "A": 1.0,
+            "Hex": "8D8D8D"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Value": {
+            "R": 0.051,
+            "G": 0.022444,
+            "B": 0.025383,
+            "A": 1.0,
+            "Hex": "40292C"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.351696,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00A0FF"
+          }
+        }
+      ]
+    }
+  }
+]

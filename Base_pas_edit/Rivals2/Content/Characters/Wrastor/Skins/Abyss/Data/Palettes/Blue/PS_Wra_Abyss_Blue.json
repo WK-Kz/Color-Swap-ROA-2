@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Abyss_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Abyss_Blue_C'Default__PS_Wra_Abyss_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Abyss/Data/Palettes/Blue/PS_Wra_Abyss_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Abyss_Blue_C",
+    "Name": "Default__PS_Wra_Abyss_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Abyss/Data/Palettes/Blue/PS_Wra_Abyss_Blue.PS_Wra_Abyss_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.045972,
+            "G": 0.111975,
+            "B": 0.234551,
+            "A": 1.0,
+            "Hex": "3C5E85"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Value": {
+            "R": 0.056128,
+            "G": 0.067075,
+            "B": 0.14996,
+            "A": 1.0,
+            "Hex": "43496C"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Value": {
+            "R": 0.327778,
+            "G": 0.418672,
+            "B": 0.630757,
+            "A": 1.0,
+            "Hex": "9BADD0"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.068478,
+            "G": 0.751594,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "4AE1FF"
+          }
+        },
+        {
+          "Key": "Eyes2",
+          "Value": {
+            "R": 0.002729,
+            "G": 0.256126,
+            "B": 0.545724,
+            "A": 1.0,
+            "Hex": "098BC3"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Value": {
+            "R": 0.0,
+            "G": 0.235061,
+            "B": 0.783538,
+            "A": 1.0,
+            "Hex": "0085E5"
+          }
+        }
+      ]
+    }
+  }
+]

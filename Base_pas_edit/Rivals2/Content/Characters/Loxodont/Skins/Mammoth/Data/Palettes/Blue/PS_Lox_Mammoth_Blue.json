@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Mammoth_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Mammoth_Blue_C'Default__PS_Lox_Mammoth_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Mammoth/Data/Palettes/Blue/PS_Lox_Mammoth_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Mammoth_Blue_C",
+    "Name": "Default__PS_Lox_Mammoth_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Mammoth/Data/Palettes/Blue/PS_Lox_Mammoth_Blue.PS_Lox_Mammoth_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.203342,
+            "G": 0.237711,
+            "B": 0.293,
+            "A": 1.0,
+            "Hex": "7C8693"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Value": {
+            "R": 0.326764,
+            "G": 0.458876,
+            "B": 0.541,
+            "A": 1.0,
+            "Hex": "9BB5C3"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Value": {
+            "R": 0.0689,
+            "G": 0.058891,
+            "B": 0.179,
+            "A": 1.0,
+            "Hex": "4A4475"
+          }
+        },
+        {
+          "Key": "Stone",
+          "Value": {
+            "R": 0.105504,
+            "G": 0.141053,
+            "B": 0.224,
+            "A": 1.0,
+            "Hex": "5B6982"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.019314,
+            "G": 0.087792,
+            "B": 0.261,
+            "A": 1.0,
+            "Hex": "26538C"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.092588,
+            "G": 0.182773,
+            "B": 0.293,
+            "A": 1.0,
+            "Hex": "567693"
+          }
+        }
+      ]
+    }
+  }
+]

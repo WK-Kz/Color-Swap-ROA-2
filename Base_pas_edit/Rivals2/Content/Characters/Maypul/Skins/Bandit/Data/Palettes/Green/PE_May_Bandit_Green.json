@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_May_Bandit_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_May_Bandit_Green_C'Default__PE_May_Bandit_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Bandit/Data/Palettes/Green/PE_May_Bandit_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_May_Bandit_Green_C",
+    "Name": "Default__PE_May_Bandit_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Bandit/Data/Palettes/Green/PE_May_Bandit_Green.PE_May_Bandit_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.106875,
+            "G": 0.125,
+            "B": 0.08875,
+            "A": 1.0,
+            "Hex": "5C6354"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.202032,
+            "G": 0.376262,
+            "B": 0.144485,
+            "A": 1.0,
+            "Hex": "7CA56A"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.358661,
+            "G": 0.412543,
+            "B": 0.155941,
+            "A": 1.0,
+            "Hex": "A2AC6E"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.982251,
+            "G": 0.93631,
+            "B": 0.404687,
+            "A": 1.0,
+            "Hex": "FDF8AB"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.728,
+            "G": 0.728,
+            "B": 0.728,
+            "A": 1.0,
+            "Hex": "DEDEDE"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 0.916,
+            "G": 0.775933,
+            "B": 0.428688,
+            "A": 1.0,
+            "Hex": "F6E4AF"
+          }
+        }
+      ]
+    }
+  }
+]

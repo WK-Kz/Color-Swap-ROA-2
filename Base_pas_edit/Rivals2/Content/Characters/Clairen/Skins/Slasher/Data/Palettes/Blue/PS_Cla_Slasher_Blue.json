@@ -1,0 +1,194 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Slasher_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Slasher_Blue_C'Default__PS_Cla_Slasher_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Slasher/Data/Palettes/Blue/PS_Cla_Slasher_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Slasher_Blue_C",
+    "Name": "Default__PS_Cla_Slasher_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Slasher/Data/Palettes/Blue/PS_Cla_Slasher_Blue.PS_Cla_Slasher_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.059511,
+            "G": 0.141263,
+            "B": 0.131725,
+            "A": 1.0,
+            "Hex": "456965"
+          }
+        },
+        {
+          "Key": "InnerEar",
+          "Value": {
+            "R": 0.258183,
+            "G": 0.396755,
+            "B": 0.375969,
+            "A": 1.0,
+            "Hex": "8BA9A5"
+          }
+        },
+        {
+          "Key": "Socket",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.363,
+            "B": 0.23595,
+            "A": 1.0,
+            "Hex": "00A285"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.016107,
+            "G": 0.046064,
+            "B": 0.091,
+            "A": 1.0,
+            "Hex": "223C55"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.031746,
+            "G": 0.169005,
+            "B": 0.62,
+            "A": 1.0,
+            "Hex": "3272CF"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Value": {
+            "R": 0.021336,
+            "G": 0.031114,
+            "B": 0.168,
+            "A": 1.0,
+            "Hex": "283172"
+          }
+        },
+        {
+          "Key": "Mask",
+          "Value": {
+            "R": 0.696,
+            "G": 0.696,
+            "B": 0.696,
+            "A": 1.0,
+            "Hex": "DADADA"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Value": {
+            "R": 0.12,
+            "G": 0.061284,
+            "B": 0.03612,
+            "A": 1.0,
+            "Hex": "614635"
+          }
+        },
+        {
+          "Key": "Grip",
+          "Value": {
+            "R": 0.019382,
+            "G": 0.016807,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "262323"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.109462,
+            "G": 0.107023,
+            "B": 0.109462,
+            "A": 1.0,
+            "Hex": "5D5C5D"
+          }
+        },
+        {
+          "Key": "Weapon",
+          "Value": {
+            "R": 0.008676,
+            "G": 0.071786,
+            "B": 0.482,
+            "A": 1.0,
+            "Hex": "174CB9"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.126316,
+            "G": 0.037536,
+            "B": 0.204,
+            "A": 1.0,
+            "Hex": "63367D"
+          }
+        },
+        {
+          "Key": "Pumpkin_Face",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.491021,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FCBA00"
+          }
+        },
+        {
+          "Key": "Pumpkin_Shell",
+          "Value": {
+            "R": 0.101602,
+            "G": 0.045149,
+            "B": 0.151,
+            "A": 1.0,
+            "Hex": "5A3C6C"
+          }
+        },
+        {
+          "Key": "Pumpkin_Vines",
+          "Value": {
+            "R": 0.037632,
+            "G": 0.098,
+            "B": 0.090957,
+            "A": 1.0,
+            "Hex": "365855"
+          }
+        }
+      ]
+    }
+  }
+]

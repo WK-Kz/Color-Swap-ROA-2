@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Default_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Default_Green_C'Default__PS_Zet_Default_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Default/Data/Palettes/Green/PS_Zet_Default_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Default_Green_C",
+    "Name": "Default__PS_Zet_Default_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Default/Data/Palettes/Green/PS_Zet_Default_Green.PS_Zet_Default_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.013507,
+            "G": 0.149,
+            "B": 0.028242,
+            "A": 1.0,
+            "Hex": "1E6C2F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.176925,
+            "G": 0.561,
+            "B": 0.093126,
+            "A": 1.0,
+            "Hex": "75C656"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.517015,
+            "G": 0.962,
+            "B": 0.419432,
+            "A": 1.0,
+            "Hex": "BFFBAD"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Value": {
+            "R": 0.003035,
+            "G": 0.030713,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "0A3137"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.152926,
+            "G": 0.0,
+            "B": 0.401978,
+            "A": 1.0,
+            "Hex": "6D00AA"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.01864,
+            "G": 0.529,
+            "B": 0.002111,
+            "A": 1.0,
+            "Hex": "25C106"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Value": {
+            "R": 0.45,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "B3FF00"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.0039,
+            "G": 0.064335,
+            "B": 0.075,
+            "A": 1.0,
+            "Hex": "0C484D"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.265625,
+            "G": 0.265625,
+            "B": 0.265625,
+            "A": 1.0,
+            "Hex": "8D8D8D"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Value": {
+            "R": 0.002964,
+            "G": 0.030409,
+            "B": 0.038,
+            "A": 1.0,
+            "Hex": "093037"
+          }
+        },
+        {
+          "Key": "Gums",
+          "Value": {
+            "R": 0.23074,
+            "G": 0.057805,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "844442"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Value": {
+            "R": 0.730461,
+            "G": 0.679542,
+            "B": 0.672443,
+            "A": 1.0,
+            "Hex": "DED7D6"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Value": {
+            "R": 0.752942,
+            "G": 0.760525,
+            "B": 0.752942,
+            "A": 1.0,
+            "Hex": "E1E2E1"
+          }
+        }
+      ]
+    }
+  }
+]

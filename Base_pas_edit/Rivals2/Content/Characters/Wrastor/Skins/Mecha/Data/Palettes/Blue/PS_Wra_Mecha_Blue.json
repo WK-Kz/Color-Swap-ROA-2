@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Mecha_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Mecha_Blue_C'Default__PS_Wra_Mecha_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Blue/PS_Wra_Mecha_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Mecha_Blue_C",
+    "Name": "Default__PS_Wra_Mecha_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Blue/PS_Wra_Mecha_Blue.PS_Wra_Mecha_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Wing",
+          "Value": {
+            "R": 0.0,
+            "G": 0.035585,
+            "B": 0.266,
+            "A": 1.0,
+            "Hex": "00358D"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.233333,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "0085FF"
+          }
+        },
+        {
+          "Key": "Beak",
+          "Value": {
+            "R": 1.0,
+            "G": 0.2392,
+            "B": 0.049,
+            "A": 1.0,
+            "Hex": "FF863E"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Value": {
+            "R": 0.0,
+            "G": 0.054133,
+            "B": 0.406,
+            "A": 1.0,
+            "Hex": "0042AB"
+          }
+        },
+        {
+          "Key": "Joints",
+          "Value": {
+            "R": 0.028805,
+            "G": 0.035072,
+            "B": 0.078125,
+            "A": 1.0,
+            "Hex": "2F344F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.089,
+            "G": 0.711516,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "54DCFF"
+          }
+        },
+        {
+          "Key": "Emissive",
+          "Value": {
+            "R": 0.440913,
+            "G": 0.264536,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "B18DFF"
+          }
+        }
+      ]
+    }
+  }
+]

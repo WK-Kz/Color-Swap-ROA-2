@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Tuxedo_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Tuxedo_Red_C'Default__PS_Ran_Tuxedo_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Tuxedo/Data/Palettes/Red/PS_Ran_Tuxedo_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Tuxedo_Red_C",
+    "Name": "Default__PS_Ran_Tuxedo_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Tuxedo/Data/Palettes/Red/PS_Ran_Tuxedo_Red.PS_Ran_Tuxedo_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shirt/Socks",
+          "Value": {
+            "R": 0.415,
+            "G": 0.415,
+            "B": 0.415,
+            "A": 1.0,
+            "Hex": "ADADAD"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.075,
+            "G": 0.055001,
+            "B": 0.051001,
+            "A": 1.0,
+            "Hex": "4D4240"
+          }
+        },
+        {
+          "Key": "Shoes",
+          "Value": {
+            "R": 0.144,
+            "G": 0.004464,
+            "B": 0.016092,
+            "A": 1.0,
+            "Hex": "6A0E22"
+          }
+        },
+        {
+          "Key": "Suit",
+          "Value": {
+            "R": 0.074214,
+            "G": 0.05448,
+            "B": 0.051269,
+            "A": 1.0,
+            "Hex": "4D4240"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.151,
+            "G": 0.025519,
+            "B": 0.03594,
+            "A": 1.0,
+            "Hex": "6C2C35"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.209,
+            "G": 0.013167,
+            "B": 0.017074,
+            "A": 1.0,
+            "Hex": "7E1E23"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 1.0,
+            "G": 0.073,
+            "B": 0.08845,
+            "A": 1.0,
+            "Hex": "FF4C54"
+          }
+        },
+        {
+          "Key": "Rose",
+          "Value": {
+            "R": 1.0,
+            "G": 0.066626,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF4900"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.896269,
+            "G": 0.208637,
+            "B": 0.001214,
+            "A": 1.0,
+            "Hex": "F37E04"
+          }
+        }
+      ]
+    }
+  }
+]

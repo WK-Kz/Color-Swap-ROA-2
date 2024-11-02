@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Abyss_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Abyss_Blue_C'Default__PS_Fle_Abyss_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Abyss/Data/Palettes/Blue/PS_Fle_Abyss_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Abyss_Blue_C",
+    "Name": "Default__PS_Fle_Abyss_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Abyss/Data/Palettes/Blue/PS_Fle_Abyss_Blue.PS_Fle_Abyss_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.291771,
+            "G": 0.437924,
+            "B": 0.584078,
+            "A": 1.0,
+            "Hex": "93B1C9"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.548914,
+            "G": 0.527115,
+            "B": 0.672443,
+            "A": 1.0,
+            "Hex": "C4C0D6"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.147582,
+            "G": 0.105882,
+            "B": 0.14902,
+            "A": 1.0,
+            "Hex": "6B5B6C"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Value": {
+            "R": 0.423529,
+            "G": 0.54902,
+            "B": 0.523922,
+            "A": 1.0,
+            "Hex": "AEC4C0"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.052861,
+            "G": 0.076435,
+            "B": 0.141263,
+            "A": 1.0,
+            "Hex": "414E69"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.201573,
+            "G": 0.141263,
+            "B": 0.270498,
+            "A": 1.0,
+            "Hex": "7C698E"
+          }
+        },
+        {
+          "Key": "Buckle",
+          "Value": {
+            "R": 0.412543,
+            "G": 0.401978,
+            "B": 0.412543,
+            "A": 1.0,
+            "Hex": "ACAAAC"
+          }
+        },
+        {
+          "Key": "Tentacles",
+          "Value": {
+            "R": 0.10054,
+            "G": 0.057805,
+            "B": 0.48515,
+            "A": 1.0,
+            "Hex": "5944B9"
+          }
+        },
+        {
+          "Key": "TentacleSpines",
+          "Value": {
+            "R": 0.019382,
+            "G": 0.313567,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "2698FF"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Value": {
+            "R": 0.844225,
+            "G": 0.776841,
+            "B": 0.863157,
+            "A": 1.0,
+            "Hex": "EDE5EF"
+          }
+        },
+        {
+          "Key": "AbyssSclera",
+          "Value": {
+            "R": 0.06301,
+            "G": 1.0,
+            "B": 0.37534,
+            "A": 1.0,
+            "Hex": "47FFA5"
+          }
+        },
+        {
+          "Key": "AbyssIris",
+          "Value": {
+            "R": 0.047916,
+            "G": 0.194834,
+            "B": 0.726,
+            "A": 1.0,
+            "Hex": "3E7ADE"
+          }
+        }
+      ]
+    }
+  }
+]

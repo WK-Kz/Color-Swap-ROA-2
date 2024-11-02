@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cla_Default_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cla_Default_Purple_C'Default__PE_Cla_Default_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Default/Data/Palettes/Purple/PE_Cla_Default_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cla_Default_Purple_C",
+    "Name": "Default__PE_Cla_Default_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Default/Data/Palettes/Purple/PE_Cla_Default_Purple.PE_Cla_Default_Purple_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 1.0,
+            "G": 0.152,
+            "B": 0.788,
+            "A": 1.0,
+            "Hex": "FF6DE6"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.498331,
+            "G": 0.0,
+            "B": 0.679542,
+            "A": 1.0,
+            "Hex": "BB00D7"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.265808,
+            "G": 0.008336,
+            "B": 0.68,
+            "A": 1.0,
+            "Hex": "8D16D7"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.077424,
+            "G": 0.002428,
+            "B": 0.198069,
+            "A": 1.0,
+            "Hex": "4E087B"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

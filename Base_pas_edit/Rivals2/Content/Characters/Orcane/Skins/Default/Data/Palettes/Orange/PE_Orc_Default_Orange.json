@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_Default_Orange_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_Default_Orange_C'Default__PE_Orc_Default_Orange_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Orange/PE_Orc_Default_Orange.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_Default_Orange_C",
+    "Name": "Default__PE_Orc_Default_Orange_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Orange/PE_Orc_Default_Orange.PE_Orc_Default_Orange_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.00822,
+            "G": 0.01048,
+            "B": 0.015,
+            "A": 1.0,
+            "Hex": "161A20"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.026304,
+            "G": 0.033536,
+            "B": 0.048,
+            "A": 1.0,
+            "Hex": "2D333E"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.973446,
+            "G": 0.973446,
+            "B": 0.973446,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.624,
+            "G": 0.125101,
+            "B": 0.013104,
+            "A": 1.0,
+            "Hex": "CF631E"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.455,
+            "G": 0.084903,
+            "B": 0.00182,
+            "A": 1.0,
+            "Hex": "B45206"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

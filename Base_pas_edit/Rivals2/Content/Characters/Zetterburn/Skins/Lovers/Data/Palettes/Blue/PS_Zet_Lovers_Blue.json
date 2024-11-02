@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Lovers_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Lovers_Blue_C'Default__PS_Zet_Lovers_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Lovers/Data/Palettes/Blue/PS_Zet_Lovers_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Lovers_Blue_C",
+    "Name": "Default__PS_Zet_Lovers_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Lovers/Data/Palettes/Blue/PS_Zet_Lovers_Blue.PS_Zet_Lovers_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Sleeves",
+          "Value": {
+            "R": 0.39962,
+            "G": 0.507597,
+            "B": 0.631,
+            "A": 1.0,
+            "Hex": "AABDD0"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.108556,
+            "G": 0.078898,
+            "B": 0.206,
+            "A": 1.0,
+            "Hex": "5C4F7D"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Value": {
+            "R": 0.007963,
+            "G": 0.069318,
+            "B": 0.417,
+            "A": 1.0,
+            "Hex": "154AAD"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.016115,
+            "G": 0.329246,
+            "B": 0.538,
+            "A": 1.0,
+            "Hex": "229BC2"
+          }
+        }
+      ]
+    }
+  }
+]

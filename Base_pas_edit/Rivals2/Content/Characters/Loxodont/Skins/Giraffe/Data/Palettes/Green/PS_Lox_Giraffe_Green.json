@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Giraffe_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Giraffe_Green_C'Default__PS_Lox_Giraffe_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Giraffe/Data/Palettes/Green/PS_Lox_Giraffe_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Giraffe_Green_C",
+    "Name": "Default__PS_Lox_Giraffe_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Giraffe/Data/Palettes/Green/PS_Lox_Giraffe_Green.PS_Lox_Giraffe_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.167369,
+            "G": 0.40724,
+            "B": 0.163303,
+            "A": 1.0,
+            "Hex": "72AB70"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.460847,
+            "G": 0.568,
+            "B": 0.373176,
+            "A": 1.0,
+            "Hex": "B5C7A5"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.037548,
+            "G": 0.084,
+            "B": 0.054581,
+            "A": 1.0,
+            "Hex": "365242"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Value": {
+            "R": 0.246201,
+            "G": 0.208637,
+            "B": 0.208637,
+            "A": 1.0,
+            "Hex": "887E7E"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.03676,
+            "G": 0.351,
+            "B": 0.028169,
+            "A": 1.0,
+            "Hex": "36A02E"
+          }
+        }
+      ]
+    }
+  }
+]

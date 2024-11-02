@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Zebra_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Zebra_Neutral_C'Default__PS_Lox_Zebra_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Zebra/Data/Palettes/Neutral/PS_Lox_Zebra_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Zebra_Neutral_C",
+    "Name": "Default__PS_Lox_Zebra_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Zebra/Data/Palettes/Neutral/PS_Lox_Zebra_Neutral.PS_Lox_Zebra_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.484375,
+            "G": 0.428202,
+            "B": 0.360758,
+            "A": 1.0,
+            "Hex": "B9AFA2"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Value": {
+            "R": 0.026042,
+            "G": 0.017903,
+            "B": 0.013835,
+            "A": 1.0,
+            "Hex": "2C241F"
+          }
+        },
+        {
+          "Key": "Axe Blade",
+          "Value": {
+            "R": 0.838799,
+            "G": 0.854993,
+            "B": 0.838799,
+            "A": 1.0,
+            "Hex": "ECEEEC"
+          }
+        },
+        {
+          "Key": "Axe Head",
+          "Value": {
+            "R": 0.049487,
+            "G": 0.029557,
+            "B": 0.099899,
+            "A": 1.0,
+            "Hex": "3F3059"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.5625,
+            "G": 0.320236,
+            "B": 0.067383,
+            "A": 1.0,
+            "Hex": "C69949"
+          }
+        },
+        {
+          "Key": "Axe Wraps",
+          "Value": {
+            "R": 0.09694,
+            "G": 0.083008,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "585178"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Value": {
+            "R": 0.064803,
+            "G": 0.031896,
+            "B": 0.090842,
+            "A": 1.0,
+            "Hex": "483255"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Value": {
+            "R": 0.052083,
+            "G": 0.029568,
+            "B": 0.041951,
+            "A": 1.0,
+            "Hex": "403039"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Value": {
+            "R": 0.087683,
+            "G": 0.018799,
+            "B": 0.171875,
+            "A": 1.0,
+            "Hex": "532573"
+          }
+        }
+      ]
+    }
+  }
+]

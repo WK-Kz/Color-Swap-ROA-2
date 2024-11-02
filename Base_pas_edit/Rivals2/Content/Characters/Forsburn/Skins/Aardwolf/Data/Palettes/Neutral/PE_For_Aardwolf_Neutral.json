@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Aardwolf_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Aardwolf_Neutral_C'Default__PE_For_Aardwolf_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Aardwolf/Data/Palettes/Neutral/PE_For_Aardwolf_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Aardwolf_Neutral_C",
+    "Name": "Default__PE_For_Aardwolf_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Aardwolf/Data/Palettes/Neutral/PE_For_Aardwolf_Neutral.PE_For_Aardwolf_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.5,
+            "G": 0.398945,
+            "B": 0.37367,
+            "A": 1.0,
+            "Hex": "BCAAA5"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.1,
+            "G": 0.03085,
+            "B": 0.0078,
+            "A": 1.0,
+            "Hex": "593115"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.01,
+            "G": 0.003588,
+            "B": 0.00145,
+            "A": 1.0,
+            "Hex": "190B04"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.672443,
+            "G": 0.004391,
+            "B": 0.001518,
+            "A": 1.0,
+            "Hex": "D60E05"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.921582,
+            "G": 0.226966,
+            "B": 0.012286,
+            "A": 1.0,
+            "Hex": "F6831D"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.806952,
+            "B": 0.049707,
+            "A": 1.0,
+            "Hex": "FCE83F"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

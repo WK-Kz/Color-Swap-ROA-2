@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Vampire_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Vampire_Red_C'Default__PS_Zet_Vampire_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Vampire/Data/Palettes/Red/PS_Zet_Vampire_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Vampire_Red_C",
+    "Name": "Default__PS_Zet_Vampire_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Vampire/Data/Palettes/Red/PS_Zet_Vampire_Red.PS_Zet_Vampire_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.439657,
+            "G": 0.349527,
+            "B": 0.408503,
+            "A": 1.0,
+            "Hex": "B1A0AB"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Value": {
+            "R": 0.031,
+            "G": 0.022816,
+            "B": 0.022816,
+            "A": 1.0,
+            "Hex": "312929"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.42,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "AE0000"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.539479,
+            "G": 0.260973,
+            "B": 0.256253,
+            "A": 1.0,
+            "Hex": "C28C8B"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.035601,
+            "G": 0.023153,
+            "B": 0.009721,
+            "A": 1.0,
+            "Hex": "352A19"
+          }
+        },
+        {
+          "Key": "Coat",
+          "Value": {
+            "R": 0.112,
+            "G": 0.007504,
+            "B": 0.007504,
+            "A": 1.0,
+            "Hex": "5E1515"
+          }
+        },
+        {
+          "Key": "Inner",
+          "Value": {
+            "R": 0.047,
+            "G": 0.029845,
+            "B": 0.029845,
+            "A": 1.0,
+            "Hex": "3D3030"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.313989,
+            "G": 0.194618,
+            "B": 0.035601,
+            "A": 1.0,
+            "Hex": "987A35"
+          }
+        }
+      ]
+    }
+  }
+]

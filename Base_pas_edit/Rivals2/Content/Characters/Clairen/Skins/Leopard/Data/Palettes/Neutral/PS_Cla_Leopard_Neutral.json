@@ -1,0 +1,174 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Leopard_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Leopard_Neutral_C'Default__PS_Cla_Leopard_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Leopard/Data/Palettes/Neutral/PS_Cla_Leopard_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Leopard_Neutral_C",
+    "Name": "Default__PS_Cla_Leopard_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Leopard/Data/Palettes/Neutral/PS_Cla_Leopard_Neutral.PS_Cla_Leopard_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.534722,
+            "G": 0.307286,
+            "B": 0.068785,
+            "A": 1.0,
+            "Hex": "C1974A"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.73791,
+            "B": 0.564712,
+            "A": 1.0,
+            "Hex": "E7DFC6"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.05448,
+            "G": 0.045186,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "423C37"
+          }
+        },
+        {
+          "Key": "PatternInner",
+          "Value": {
+            "R": 0.434154,
+            "G": 0.107023,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "B05C23"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.217,
+            "G": 0.09114,
+            "B": 0.09114,
+            "A": 1.0,
+            "Hex": "805555"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.162029,
+            "G": 0.152926,
+            "B": 0.090842,
+            "A": 1.0,
+            "Hex": "706D55"
+          }
+        },
+        {
+          "Key": "Belts",
+          "Value": {
+            "R": 0.054762,
+            "G": 0.059027,
+            "B": 0.048714,
+            "A": 1.0,
+            "Hex": "42443E"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Value": {
+            "R": 0.03434,
+            "G": 0.076185,
+            "B": 0.012983,
+            "A": 1.0,
+            "Hex": "344E1E"
+          }
+        },
+        {
+          "Key": "Gloves/Boots",
+          "Value": {
+            "R": 0.039931,
+            "G": 0.029896,
+            "B": 0.02306,
+            "A": 1.0,
+            "Hex": "38302A"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.074214,
+            "G": 0.099899,
+            "B": 0.025187,
+            "A": 1.0,
+            "Hex": "4D592C"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.016807,
+            "G": 0.708376,
+            "B": 0.191202,
+            "A": 1.0,
+            "Hex": "23DB79"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Value": {
+            "R": 0.162029,
+            "G": 0.141263,
+            "B": 0.109462,
+            "A": 1.0,
+            "Hex": "70695D"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Value": {
+            "R": 0.23074,
+            "G": 0.238398,
+            "B": 0.23074,
+            "A": 1.0,
+            "Hex": "848684"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.534722,
+            "G": 0.307286,
+            "B": 0.068785,
+            "A": 1.0,
+            "Hex": "C1974A"
+          }
+        }
+      ]
+    }
+  }
+]

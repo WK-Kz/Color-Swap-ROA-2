@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Abyss_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Abyss_Neutral_C'Default__PS_Orc_Abyss_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Abyss/Data/Palettes/Neutral/PS_Orc_Abyss_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Abyss_Neutral_C",
+    "Name": "Default__PS_Orc_Abyss_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Abyss/Data/Palettes/Neutral/PS_Orc_Abyss_Neutral.PS_Orc_Abyss_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.059317,
+            "G": 0.0375,
+            "B": 0.25,
+            "A": 1.0,
+            "Hex": "453689"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.6,
+            "G": 0.692258,
+            "B": 0.8,
+            "A": 1.0,
+            "Hex": "CCD9E8"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Value": {
+            "R": 0.52,
+            "G": 0.026,
+            "B": 0.356823,
+            "A": 1.0,
+            "Hex": "BF2CA1"
+          }
+        },
+        {
+          "Key": "AbyssEyesSclera",
+          "Value": {
+            "R": 0.95,
+            "G": 0.666894,
+            "B": 0.0475,
+            "A": 1.0,
+            "Hex": "FAD63D"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Value": {
+            "R": 0.523,
+            "G": 0.249279,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "C08900"
+          }
+        }
+      ]
+    }
+  }
+]
