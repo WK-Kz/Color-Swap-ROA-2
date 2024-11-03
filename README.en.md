@@ -3,7 +3,8 @@
 
 [Français](README.fr.md)
 
-![Capture d’écran 2024-11-02 221137](https://github.com/user-attachments/assets/5d510d3f-24a0-422a-b81b-681aa90bb0b2)
+![Capture d’écran 2024-11-02 221137](https://github.com/user-attachments/assets/436107a4-ab03-41ee-92b4-2d57e7d664ab)
+
 
 
 This program allows you to change character colors in **Rivals of Aether 2**. Two versions of the program are available:
