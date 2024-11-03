@@ -209,17 +209,8 @@ def save_preset():
                     if key in color_entries:
                         user_hex = color_entries[key].get().lstrip('#')
                         if user_hex:
-                            # Utiliser le code hex saisi par l'utilisateur
-                            if len(user_hex) == 8:
-                                a = int(user_hex[:2], 16) / 255.0
-                                r = int(user_hex[2:4], 16) / 255.0
-                                g = int(user_hex[4:6], 16) / 255.0
-                                b = int(user_hex[6:8], 16) / 255.0
-                                new_color = {
-                                    "Key": key,
-                                    "Value": {"R": r, "G": g, "B": b, "A": a}
-                                }
-                            elif len(user_hex) == 6:
+                            # Utiliser uniquement RGB, ignorer alpha
+                            if len(user_hex) >= 6:
                                 r = int(user_hex[0:2], 16) / 255.0
                                 g = int(user_hex[2:4], 16) / 255.0
                                 b = int(user_hex[4:6], 16) / 255.0
@@ -227,29 +218,11 @@ def save_preset():
                                     "Key": key,
                                     "Value": {"R": r, "G": g, "B": b}
                                 }
+                                preset_data["Colors"].append(new_color)
                             else:
                                 messagebox.showerror(
                                     translations[current_language]['error_title'], f"Code hex invalide pour la couleur {key}.")
                                 return
-                        else:
-                            # Utiliser les valeurs RGBA existantes du JSON
-                            original_color = next(
-                                (c for c in entry["Properties"]["CustomColorSlotDefinitions"] if c["Key"] == key), None)
-                            if original_color and "Value" in original_color:
-                                value = original_color["Value"]
-                                if "A" in value:
-                                    new_color = {
-                                        "Key": key,
-                                        "Value": {"R": value["R"], "G": value["G"], "B": value["B"], "A": value["A"]}
-                                    }
-                                else:
-                                    new_color = {
-                                        "Key": key,
-                                        "Value": {"R": value["R"], "G": value["G"], "B": value["B"]}
-                                    }
-                            else:
-                                continue  # Passer si la couleur originale n'est pas trouvée
-                        preset_data["Colors"].append(new_color)
         # Sauvegarder les données du preset
         with open(preset_file, 'w', encoding='utf-8') as f:
             json.dump(preset_data, f, indent=4)
@@ -286,14 +259,12 @@ def load_preset():
                                 continue  # Ignorer "Element0"
                             if key in preset_colors:
                                 value = preset_colors[key]
-                                if "A" in value:
-                                    hex_color = f"#{int(value['A'] * 255):02X}{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
-                                else:
-                                    hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
+                                # Construire le code hex RGB
+                                hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
                                 if key in color_entries:
                                     # Ne pas insérer le code hex dans l'entrée
                                     color_entries[key].delete(0, tk.END)
-                                    # Mettre à jour uniquement le carré de couleur
+                                    color_entries[key].insert(0, hex_color)
                                     update_color_display(key)
                 messagebox.showinfo(translations[current_language]['success_title'],
                                     translations[current_language]['preset_loaded'])
@@ -396,17 +367,14 @@ def set_initial_colors(data):
                     # Vérifier si le code hexadécimal inclut un canal alpha
                     if len(hex_value) == 8:
                         # Format RGBA
-                        a = hex_value[:2]
                         r = hex_value[2:4]
                         g = hex_value[4:6]
                         b = hex_value[6:8]
                         # Ignorer alpha pour l'affichage Tkinter
                         hex_color = f'#{r}{g}{b}'
-                        alpha = int(a, 16) / 255.0
                     elif len(hex_value) == 6:
                         # Format RGB
                         hex_color = f'#{hex_value}'
-                        alpha = 1.0  # Alpha par défaut
                     else:
                         messagebox.showerror(
                             translations[current_language]['error_title'], f"Code hex invalide pour la couleur {key}.")
@@ -419,6 +387,41 @@ def set_initial_colors(data):
                     if key in color_entries:
                         # Ne pas insérer le code hex dans l'entrée
                         color_entries[key].delete(0, tk.END)
+
+
+def load_json():
+    # Charger le fichier JSON associé au fichier UEXP et mettre à jour l'interface
+    global json_data
+    json_file_path = uexp_file_path.replace(".uexp", ".json")
+
+    # Vérifier si le fichier JSON existe
+    if not os.path.exists(json_file_path):
+        messagebox.showerror(
+            translations[current_language]['error_title'], translations[current_language]['json_not_found'].format(json_file_path))
+        return False
+
+    # Charger le fichier JSON
+    with open(json_file_path, 'r', encoding='utf-8') as f:
+        try:
+            data = json.load(f)
+            # Vérifier que le JSON est une liste avec au moins deux éléments
+            if isinstance(data, list) and len(data) > 1:
+                json_data = filter_colors_in_uexp(
+                    data)  # Appliquer le filtrage
+                # Afficher les couleurs filtrées
+                populate_color_selectors(json_data)
+                # Définir les couleurs de base à partir du JSON
+                set_initial_colors(json_data)
+                print(f"Fichier JSON chargé et filtré : {json_file_path}")
+                return True
+            else:
+                messagebox.showerror(
+                    translations[current_language]['error_title'], translations[current_language]['unexpected_json_format'])
+                return False
+        except json.JSONDecodeError:
+            messagebox.showerror(
+                translations[current_language]['error_title'], translations[current_language]['json_decode_error'])
+            return False
 
 
 def load_files():
@@ -527,8 +530,8 @@ def populate_color_selectors(data):
                     continue  # Passe à la couleur suivante
 
                 # Afficher les informations de la couleur qui va être ajoutée
-                # print(
-                #    f"Affichage de la couleur '{key}' avec correspondance trouvée")
+                print(
+                    f"Affichage de la couleur '{key}' avec correspondance trouvée")
 
                 # Créer les champs pour chaque clé filtrée
                 label = tk.Label(color_frame, text=key,
@@ -560,9 +563,8 @@ def populate_color_selectors(data):
 
 def choose_color(key):
     # Ouvre un sélecteur de couleurs pour choisir une couleur
-    current_color = color_entries[key].get()
-    if not current_color:
-        current_color = color_displays[key].cget("bg")
+    current_color = color_displays[key].cget(
+        "bg")  # Obtenir la couleur actuelle
     if not current_color or current_color == 'SystemButtonFace':
         current_color = "#FFFFFF"
     color_code = colorchooser.askcolor(
@@ -660,19 +662,12 @@ def replace_colors_in_uexp():
         for key, entry in color_entries.items():
             user_hex = entry.get().lstrip('#')
             if user_hex:
-                # Conversion de la couleur hex en valeurs linéaires RGBA pour remplacement
-                if len(user_hex) == 8:
-                    a = int(user_hex[:2], 16) / 255.0
-                    r = int(user_hex[2:4], 16) / 255.0
-                    g = int(user_hex[4:6], 16) / 255.0
-                    b = int(user_hex[6:8], 16) / 255.0
-                    new_hex = invert_hex(precise_float_to_hex(a)) + invert_hex(precise_float_to_hex(
-                        r)) + invert_hex(precise_float_to_hex(g)) + invert_hex(precise_float_to_hex(b))
-                elif len(user_hex) == 6:
+                # Conversion de la couleur hex en valeurs linéaires RGB pour remplacement
+                if len(user_hex) >= 6:
                     r = int(user_hex[0:2], 16) / 255.0
                     g = int(user_hex[2:4], 16) / 255.0
                     b = int(user_hex[4:6], 16) / 255.0
-                    a = 1.0  # Alpha par défaut
+                    # Construire le nouveau hex RGB
                     new_hex = invert_hex(precise_float_to_hex(
                         r)) + invert_hex(precise_float_to_hex(g)) + invert_hex(precise_float_to_hex(b))
                 else:
@@ -696,16 +691,21 @@ def replace_colors_in_uexp():
                     position = modified_data.find(
                         original_hex, current_position)
                     if position != -1:
-                        # Remplacer cette occurrence uniquement et afficher les informations de modification
+                        # Remplacer uniquement les composantes RGB, laisser alpha inchangé
+                        # Assumant que original_hex est de 8 caractères (RGBA)
+                        # Nous remplaçons les positions 2 à 8 par le nouveau RGB
+                        # Exemple: Original: AARRGGBB, New RGB: RRGGBB
+                        # Remplacement: AARRGGBB -> AARRGGBB
+                        # Donc, position reste le même, on remplace de position+2 à position+8
                         modified_data = (
-                            modified_data[:position] + new_hex +
-                            modified_data[position + len(original_hex):]
+                            modified_data[:position+2] + new_hex +
+                            modified_data[position+8:]
                         )
                         # Afficher les détails de la modification
-                        # print(f"Modification pour la clé '{key}':")
-                        # print(f"  Couleur d'origine : {original_hex}")
-                        # print(f"  Nouvelle couleur  : {new_hex}")
-                        # print(f"  Position de remplacement : {position}")
+                        print(f"Modification pour la clé '{key}':")
+                        print(f"  Couleur d'origine : {original_hex}")
+                        print(f"  Nouvelle couleur  : {new_hex}")
+                        print(f"  Position de remplacement : {position}")
 
                         # Mettre à jour la position courante pour continuer après cet emplacement
                         current_position = position + len(new_hex)
@@ -713,9 +713,8 @@ def replace_colors_in_uexp():
                         print(
                             f"Couleur '{key}' non trouvée dans le fichier UEXP.")
                 else:
-                    1
-                    # print(
-                    #    f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
+                    print(
+                        f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
 
         # Convertir les données modifiées en bytes et les écrire dans le fichier UEXP modifié
         uexp_bytes = bytes.fromhex(modified_data)
