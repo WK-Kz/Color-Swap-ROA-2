@@ -162,11 +162,18 @@ def get_output_and_unrealpak_dirs():
     unrealpak_folder_path = os.path.join(
         os.path.dirname(unrealpak_script_path), f"{character}_P")
 
-    # Dossier de sortie pour copier le fichier UEXP avec toute la hiérarchie
-    output_folder_path = os.path.join(
-        unrealpak_folder_path,
-        "Rivals2", "Content", "Characters", character, "Skins", skin, "Data", "Palettes", color
-    )
+    if character == 'Ranno' and skin == 'DartFrog':
+        # Chemin de sortie pour DartFrog
+        output_folder_path = os.path.join(
+            unrealpak_folder_path,
+            "Rivals2", "Content", "Characters", character, "Skins", skin, "Data"
+        )
+    else:
+        # Chemin de sortie général
+        output_folder_path = os.path.join(
+            unrealpak_folder_path,
+            "Rivals2", "Content", "Characters", character, "Skins", skin, "Data", "Palettes", color
+        )
 
     # Création du dossier de sortie si nécessaire
     os.makedirs(output_folder_path, exist_ok=True)
@@ -500,14 +507,26 @@ def load_uexp():
     color = selected_color.get()
     file_type_code = file_type_codes.get(selected_file_type.get())
 
-    # Construction du nom de fichier selon le format
-    # Prend les 3 premières lettres avec la 1ère en majuscule
-    character_prefix = character[:3].capitalize()
-    uexp_filename = f"{file_type_code}_{character_prefix}_{skin}_{color}.uexp"
+    # Cas particulier pour Ranno - DartFrog
+    if character == 'Ranno' and skin == 'DartFrog':
+        # Les fichiers sont dans Data, pas dans Data/Palettes/Color
+        uexp_directory = os.path.join(
+            BASE_DIR, character, "Skins", skin, "Data")
+
+        # Le nom du fichier est au format : PS_Ran_Dart_Color.uexp
+        character_prefix = character[:3].capitalize()
+        uexp_filename = f"{file_type_code}_{character_prefix}_Dart_{color}.uexp"
+    else:
+        # Cas général
+        # Construction du nom de fichier selon le format
+        character_prefix = character[:3].capitalize()
+        uexp_filename = f"{file_type_code}_{character_prefix}_{skin}_{color}.uexp"
+        # Chemin du dossier UEXP
+        uexp_directory = os.path.join(
+            BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
 
     # Construction du chemin complet du fichier UEXP
-    uexp_file_path = os.path.join(
-        BASE_DIR, character, "Skins", skin, "Data", "Palettes", color, uexp_filename)
+    uexp_file_path = os.path.join(uexp_directory, uexp_filename)
 
     # Vérification de l'existence du fichier
     if not os.path.exists(uexp_file_path):
@@ -726,25 +745,45 @@ def update_color_menu(*args):
     # Met à jour le menu des couleurs en fonction du skin sélectionné
     character_name = selected_character.get()
     skin_name = selected_skin.get()
-    palettes_path = os.path.join(
-        BASE_DIR, character_name, 'Skins', skin_name, 'Data', 'Palettes')
-    if os.path.exists(palettes_path):
-        colors = [name for name in os.listdir(palettes_path) if os.path.isdir(
-            os.path.join(palettes_path, name))]
-        colors.sort()
-        # Effacer les anciennes options du menu
-        color_menu['menu'].delete(0, 'end')
-        for color in colors:
-            color_menu['menu'].add_command(
-                label=color, command=tk._setit(selected_color, color))
-        if colors:
-            # Sélectionner la première couleur par défaut
-            selected_color.set(colors[0])
+
+    if character_name == 'Ranno' and skin_name == 'DartFrog':
+        # Les couleurs sont déterminées par les fichiers dans le dossier Data
+        data_path = os.path.join(
+            BASE_DIR, character_name, 'Skins', skin_name, 'Data')
+        if os.path.exists(data_path):
+            colors = []
+            for file in os.listdir(data_path):
+                if file.endswith('.uexp'):
+                    # Extraire la couleur du nom du fichier
+                    # Format attendu : PS_Ran_Dart_Color.uexp
+                    parts = file.replace('.uexp', '').split('_')
+                    if len(parts) >= 4:
+                        color = parts[3]
+                        colors.append(color)
+            # Supprimer les doublons et trier
+            colors = sorted(set(colors))
         else:
-            selected_color.set('')
+            colors = []
+    else:
+        # Cas général
+        palettes_path = os.path.join(
+            BASE_DIR, character_name, 'Skins', skin_name, 'Data', 'Palettes')
+        if os.path.exists(palettes_path):
+            colors = [name for name in os.listdir(palettes_path) if os.path.isdir(
+                os.path.join(palettes_path, name))]
+            colors.sort()
+        else:
+            colors = []
+
+    # Mettre à jour le menu des couleurs
+    color_menu['menu'].delete(0, 'end')
+    for color in colors:
+        color_menu['menu'].add_command(
+            label=color, command=tk._setit(selected_color, color))
+    if colors:
+        selected_color.set(colors[0])
     else:
         selected_color.set('')
-        color_menu['menu'].delete(0, 'end')
     # Mettre à jour le menu des types de fichiers
     update_file_type_menu()
 
@@ -754,29 +793,46 @@ def update_file_type_menu(*args):
     character_name = selected_character.get()
     skin_name = selected_skin.get()
     color_name = selected_color.get()
-    data_path = os.path.join(BASE_DIR, character_name,
-                             'Skins', skin_name, 'Data', 'Palettes', color_name)
-    file_types_found = []
 
-    if os.path.exists(data_path):
-        files = os.listdir(data_path)
-        for file in files:
-            if file.startswith('PE_'):
-                file_types_found.append('Element/Energy')
-            elif file.startswith('PS_'):
-                file_types_found.append('Skin')
-
-        # Supprimer les doublons
-        file_types_found = list(set(file_types_found))
-        file_types_found.sort()
+    if character_name == 'Ranno' and skin_name == 'DartFrog':
+        # Les fichiers sont dans Data
+        data_path = os.path.join(
+            BASE_DIR, character_name, 'Skins', skin_name, 'Data')
+        file_types_found = []
+        if os.path.exists(data_path):
+            files = os.listdir(data_path)
+            for file in files:
+                if file.endswith('.uexp') and color_name in file:
+                    if file.startswith('PE_'):
+                        file_types_found.append('Element/Energy')
+                    elif file.startswith('PS_'):
+                        file_types_found.append('Skin')
+            file_types_found = list(set(file_types_found))
+            file_types_found.sort()
+        else:
+            file_types_found = []
     else:
-        print(f"Chemin non trouvé : {data_path}")
+        # Cas général
+        data_path = os.path.join(BASE_DIR, character_name,
+                                 'Skins', skin_name, 'Data', 'Palettes', color_name)
+        file_types_found = []
+        if os.path.exists(data_path):
+            files = os.listdir(data_path)
+            for file in files:
+                if file.startswith('PE_'):
+                    file_types_found.append('Element/Energy')
+                elif file.startswith('PS_'):
+                    file_types_found.append('Skin')
+            file_types_found = list(set(file_types_found))
+            file_types_found.sort()
+        else:
+            print(f"Chemin non trouvé : {data_path}")
 
     # Mettre à jour le dictionnaire des codes de type de fichier
     global file_type_codes
     file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 
-    # Effacer les anciennes options du menu
+    # Mettre à jour le menu des types de fichiers
     file_type_menu['menu'].delete(0, 'end')
     for file_type in file_types_found:
         file_type_menu['menu'].add_command(
