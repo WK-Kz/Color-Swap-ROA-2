@@ -7,8 +7,9 @@ import shutil
 import subprocess
 import time
 import pickle
-import threading  # Importer threading pour le debounce
-from PIL import Image, ImageTk  # Importer Pillow pour gérer les PNG
+import threading
+from PIL import Image, ImageTk
+import sys
 
 CONFIG_FILE = 'config.pkl'
 
@@ -87,7 +88,7 @@ translations = {
 }
 
 # Langue actuelle
-current_language = 'fr'
+current_language = 'fr'  # Valeur par défaut, sera chargée depuis la config
 
 
 def update_texts():
@@ -125,7 +126,8 @@ def save_config():
     # Sauvegarde de la configuration dans un fichier pickle
     config = {
         'unrealpak_script_path': unrealpak_script_path,
-        'mods_folder_path': mods_folder_path
+        'mods_folder_path': mods_folder_path,
+        'selected_language': current_language
     }
     with open(CONFIG_FILE, 'wb') as f:
         pickle.dump(config, f)
@@ -133,7 +135,7 @@ def save_config():
 
 def load_config():
     # Chargement de la configuration depuis le fichier pickle
-    global unrealpak_script_path, mods_folder_path, preset_dir
+    global unrealpak_script_path, mods_folder_path, preset_dir, current_language
     project_root = os.path.dirname(
         os.path.abspath(__file__))  # Chemin du projet racine
 
@@ -144,11 +146,15 @@ def load_config():
     # Chemin du dossier Preset à la racine du projet
     preset_dir = os.path.join(project_root, "Preset")
 
-    # Charger le dossier mods depuis le fichier de configuration si disponible
+    # Valeur par défaut de la langue
+    current_language = 'fr'
+
+    # Charger le dossier mods et la langue depuis le fichier de configuration si disponible
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, 'rb') as f:
             config = pickle.load(f)
             mods_folder_path = config.get('mods_folder_path')
+            current_language = config.get('selected_language', 'fr')
 
 
 def get_output_and_unrealpak_dirs():
@@ -904,11 +910,27 @@ def delayed_load():
             root.after(0, load_files)
 
 
+def on_closing():
+    # Fonction appelée lors de la fermeture de l'application
+    save_config()
+    root.destroy()
+
+
 # Créer la fenêtre Tkinter
 root = tk.Tk()
 root.title(translations[current_language]['title'])
 root.geometry("900x600")
 root.configure(bg="#f2f2f2")
+
+# Définir l'icône de la fenêtre
+# Chemin vers votre icône .png
+icon_path = os.path.join("icons", "app_icon.png")
+
+if os.path.exists(icon_path):
+    icon_image = tk.PhotoImage(file=icon_path)
+    root.iconphoto(False, icon_image)
+else:
+    print("Icône de l'application non trouvée.")
 
 # Variables pour les menus déroulants (après création de root)
 selected_character = tk.StringVar()
@@ -919,19 +941,21 @@ selected_file_type = tk.StringVar()
 # Variable pour stocker le moment du dernier changement
 last_change_time = 0
 
-# Charger les icônes et les personnages
-characters = load_character_icons()
-
 # Charger la configuration au démarrage
 load_config()
+
+# Charger les icônes et les personnages
+characters = load_character_icons()
 
 # Frame d'en-tête pour les menus et la configuration
 header_frame = tk.Frame(root, bg="#f2f2f2")
 header_frame.pack(pady=10)
 
 # Sélecteur de langue
-selected_language = tk.StringVar(value='Français')
+selected_language = tk.StringVar()
 language_options = {'Français': 'fr', 'English': 'en'}
+selected_language.set(next(
+    key for key, value in language_options.items() if value == current_language))
 language_menu = tk.OptionMenu(
     header_frame, selected_language, *language_options.keys())
 language_menu.grid(row=0, column=0, padx=5, pady=5, sticky="w")
@@ -1012,5 +1036,8 @@ replace_button.grid(row=0, column=0, padx=5, pady=2)
 
 # Mise à jour initiale des textes
 update_texts()
+
+# Gérer la fermeture de l'application
+root.protocol("WM_DELETE_WINDOW", on_closing)
 
 root.mainloop()
