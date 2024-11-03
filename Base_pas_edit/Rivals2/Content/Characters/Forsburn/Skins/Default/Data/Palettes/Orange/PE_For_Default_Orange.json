@@ -1,7 +1,7 @@
 [
   {
     "Type": "BlueprintGeneratedClass",
-    "Name": "PE_For_Default_Purple_C",
+    "Name": "PE_For_Default_Orange_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
@@ -15,77 +15,77 @@
     "ClassConfigName": "Engine",
     "bCooked": true,
     "ClassDefaultObject": {
-      "ObjectName": "PE_For_Default_Purple_C'Default__PE_For_Default_Purple_C'",
-      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Purple/PE_For_Default_Purple.1"
+      "ObjectName": "PE_For_Default_Orange_C'Default__PE_For_Default_Orange_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Orange/PE_For_Default_Orange.1"
     },
     "EditorTags": {
       "BlueprintType": "BPTYPE_Normal"
     }
   },
   {
-    "Type": "PE_For_Default_Purple_C",
-    "Name": "Default__PE_For_Default_Purple_C",
-    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Purple/PE_For_Default_Purple.PE_For_Default_Purple_C'",
+    "Type": "PE_For_Default_Orange_C",
+    "Name": "Default__PE_For_Default_Orange_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Orange/PE_For_Default_Orange.PE_For_Default_Orange_C'",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
           "Value": {
-            "R": 0.39044,
-            "G": 0.620965,
-            "B": 0.649,
+            "R": 0.672443,
+            "G": 0.530174,
+            "B": 0.524179,
             "A": 1.0,
-            "Hex": "A8CFD3"
+            "Hex": "D6C1C0"
           }
         },
         {
           "Key": "Element1",
           "Value": {
-            "R": 0.043099,
-            "G": 0.007998,
-            "B": 0.086,
+            "R": 0.091382,
+            "G": 0.00696,
+            "B": 0.29,
             "A": 1.0,
-            "Hex": "3A1653"
+            "Hex": "551493"
           }
         },
         {
           "Key": "Element2",
           "Value": {
-            "R": 0.014533,
-            "G": 0.002697,
-            "B": 0.029,
+            "R": 0.019782,
+            "G": 0.005238,
+            "B": 0.054,
             "A": 1.0,
-            "Hex": "20082F"
+            "Hex": "261041"
           }
         },
         {
           "Key": "Element3",
           "Value": {
-            "R": 0.328901,
-            "G": 0.0,
-            "B": 0.858,
+            "R": 0.672443,
+            "G": 0.121207,
+            "B": 0.01096,
             "A": 1.0,
-            "Hex": "9B00EF"
+            "Hex": "D6621B"
           }
         },
         {
           "Key": "Element4",
           "Value": {
-            "R": 0.527,
-            "G": 0.054,
-            "B": 1.0,
+            "R": 0.921582,
+            "G": 0.184545,
+            "B": 0.05448,
             "A": 1.0,
-            "Hex": "C041FF"
+            "Hex": "F67742"
           }
         },
         {
           "Key": "Element5",
           "Value": {
-            "R": 0.652542,
-            "G": 0.461658,
-            "B": 0.982251,
+            "R": 0.973445,
+            "G": 0.510619,
+            "B": 0.296138,
             "A": 1.0,
-            "Hex": "D3B5FD"
+            "Hex": "FCBE94"
           }
         },
         {

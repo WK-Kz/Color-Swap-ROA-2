@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Dart_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Dart_Red_C'Default__PS_Ran_Dart_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/DartFrog/Data/PS_Ran_Dart_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Dart_Red_C",
+    "Name": "Default__PS_Ran_Dart_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/DartFrog/Data/PS_Ran_Dart_Red.PS_Ran_Dart_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.300544,
+            "G": 0.005605,
+            "B": 0.023153,
+            "A": 1.0,
+            "Hex": "95112A"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.630757,
+            "G": 0.165132,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "D07187"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.003677,
+            "G": 0.003677,
+            "B": 0.003677,
+            "A": 1.0,
+            "Hex": "0C0C0C"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.0,
+            "G": 0.101126,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "0059FF"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Value": {
+            "R": 0.008023,
+            "G": 0.006512,
+            "B": 0.006512,
+            "A": 1.0,
+            "Hex": "161313"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Value": {
+            "R": 0.130136,
+            "G": 0.048172,
+            "B": 0.184475,
+            "A": 1.0,
+            "Hex": "653E77"
+          }
+        },
+        {
+          "Key": "Pants2",
+          "Value": {
+            "R": 0.346704,
+            "G": 0.006512,
+            "B": 0.095307,
+            "A": 1.0,
+            "Hex": "9F1357"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.023153,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "3C2A25"
+          }
+        }
+      ]
+    }
+  }
+]
