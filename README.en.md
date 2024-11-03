@@ -44,7 +44,6 @@ In this case, you need to install the PIL (Python Imaging Library) dependency wi
 
 ### Customization
 - Now you can select the character/skin/color to modify.
-- Click on "Load Colors."
 - Choose your preferred color for the selected part by clicking on the colors or entering the HEX color code directly (e.g., #FFFFFF).
 - After making changes, you can save the preset to reuse these colors later.
 - Finally, click on "Replace Colors" to apply the modification in the game.
