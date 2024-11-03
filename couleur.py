@@ -23,7 +23,7 @@ uexp_file_path = None
 color_entries = {}
 color_displays = {}
 character_icons = {}
-file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
+file_type_codes = {'Effects/Energy': 'PE', 'Skin': 'PS'}
 
 # Dictionnaire des traductions
 translations = {
@@ -207,16 +207,49 @@ def save_preset():
                     if key == "Element0":
                         continue  # Ignorer "Element0"
                     if key in color_entries:
-                        hex_color = color_entries[key].get().lstrip('#')
-                        if len(hex_color) == 6:
-                            r = int(hex_color[0:2], 16) / 255.0
-                            g = int(hex_color[2:4], 16) / 255.0
-                            b = int(hex_color[4:6], 16) / 255.0
-                            new_color = {
-                                "Key": key,
-                                "Value": {"R": r, "G": g, "B": b}
-                            }
-                            preset_data["Colors"].append(new_color)
+                        user_hex = color_entries[key].get().lstrip('#')
+                        if user_hex:
+                            # Utiliser le code hex saisi par l'utilisateur
+                            if len(user_hex) == 8:
+                                a = int(user_hex[:2], 16) / 255.0
+                                r = int(user_hex[2:4], 16) / 255.0
+                                g = int(user_hex[4:6], 16) / 255.0
+                                b = int(user_hex[6:8], 16) / 255.0
+                                new_color = {
+                                    "Key": key,
+                                    "Value": {"R": r, "G": g, "B": b, "A": a}
+                                }
+                            elif len(user_hex) == 6:
+                                r = int(user_hex[0:2], 16) / 255.0
+                                g = int(user_hex[2:4], 16) / 255.0
+                                b = int(user_hex[4:6], 16) / 255.0
+                                new_color = {
+                                    "Key": key,
+                                    "Value": {"R": r, "G": g, "B": b}
+                                }
+                            else:
+                                messagebox.showerror(
+                                    translations[current_language]['error_title'], f"Code hex invalide pour la couleur {key}.")
+                                return
+                        else:
+                            # Utiliser les valeurs RGBA existantes du JSON
+                            original_color = next(
+                                (c for c in entry["Properties"]["CustomColorSlotDefinitions"] if c["Key"] == key), None)
+                            if original_color and "Value" in original_color:
+                                value = original_color["Value"]
+                                if "A" in value:
+                                    new_color = {
+                                        "Key": key,
+                                        "Value": {"R": value["R"], "G": value["G"], "B": value["B"], "A": value["A"]}
+                                    }
+                                else:
+                                    new_color = {
+                                        "Key": key,
+                                        "Value": {"R": value["R"], "G": value["G"], "B": value["B"]}
+                                    }
+                            else:
+                                continue  # Passer si la couleur originale n'est pas trouvée
+                        preset_data["Colors"].append(new_color)
         # Sauvegarder les données du preset
         with open(preset_file, 'w', encoding='utf-8') as f:
             json.dump(preset_data, f, indent=4)
@@ -253,10 +286,14 @@ def load_preset():
                                 continue  # Ignorer "Element0"
                             if key in preset_colors:
                                 value = preset_colors[key]
-                                hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
+                                if "A" in value:
+                                    hex_color = f"#{int(value['A'] * 255):02X}{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
+                                else:
+                                    hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
                                 if key in color_entries:
+                                    # Ne pas insérer le code hex dans l'entrée
                                     color_entries[key].delete(0, tk.END)
-                                    color_entries[key].insert(0, hex_color)
+                                    # Mettre à jour uniquement le carré de couleur
                                     update_color_display(key)
                 messagebox.showinfo(translations[current_language]['success_title'],
                                     translations[current_language]['preset_loaded'])
@@ -280,29 +317,41 @@ def invert_hex(hex_value):
     return ''.join([hex_value[i:i+2] for i in range(0, len(hex_value), 2)][::-1])
 
 
-def hex_to_linear_rgb(color_hex):
-    # Convertit une couleur hexadécimale en valeurs RGB linéaires
-    color_hex = color_hex.lstrip('#')
-    r = int(color_hex[0:2], 16) / 255.0
-    g = int(color_hex[2:4], 16) / 255.0
-    b = int(color_hex[4:6], 16) / 255.0
+def hex_to_linear_rgba(hex_color):
+    # Supprimer le caractère '#' si présent
+    hex_color = hex_color.lstrip('#')
 
-    def linearize(value):
-        # Applique la correction gamma pour obtenir une valeur linéaire
-        if value <= 0.04045:
-            return value / 12.92
+    # Vérifier la longueur pour savoir si un alpha est inclus
+    if len(hex_color) == 8:  # Format RGBA
+        a = int(hex_color[:2], 16) / 255.0
+        r = int(hex_color[2:4], 16) / 255.0
+        g = int(hex_color[4:6], 16) / 255.0
+        b = int(hex_color[6:8], 16) / 255.0
+    elif len(hex_color) == 6:  # Format RGB sans alpha
+        a = 1.0  # Alpha par défaut à 1.0
+        r = int(hex_color[0:2], 16) / 255.0
+        g = int(hex_color[2:4], 16) / 255.0
+        b = int(hex_color[4:6], 16) / 255.0
+    else:
+        raise ValueError("Format de couleur hexadécimal invalide")
+
+    # Fonction de correction gamma pour linéariser chaque composante RGB
+    def srgb_to_linear(c):
+        if c <= 0.04045:
+            return c / 12.92
         else:
-            return ((value + 0.055) / 1.055) ** 2.4
+            return ((c + 0.055) / 1.055) ** 2.4
 
-    r_lin = linearize(r)
-    g_lin = linearize(g)
-    b_lin = linearize(b)
+    # Linéariser les composantes RGB
+    r_linear = srgb_to_linear(r)
+    g_linear = srgb_to_linear(g)
+    b_linear = srgb_to_linear(b)
 
-    return r_lin, g_lin, b_lin
+    return {"R": r_linear, "G": g_linear, "B": b_linear, "A": a}
 
 
 def load_json():
-    # Charge le fichier JSON associé au fichier UEXP et met à jour l'interface
+    # Charger le fichier JSON associé au fichier UEXP et mettre à jour l'interface
     global json_data
     json_file_path = uexp_file_path.replace(".uexp", ".json")
 
@@ -343,14 +392,32 @@ def set_initial_colors(data):
             for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                 key = color["Key"]
                 if "Hex" in color["Value"]:
-                    # Ajouter le '#' pour Tkinter
-                    hex_color = f'#{color["Value"]["Hex"]}'
+                    hex_value = color["Value"]["Hex"]
+                    # Vérifier si le code hexadécimal inclut un canal alpha
+                    if len(hex_value) == 8:
+                        # Format RGBA
+                        a = hex_value[:2]
+                        r = hex_value[2:4]
+                        g = hex_value[4:6]
+                        b = hex_value[6:8]
+                        # Ignorer alpha pour l'affichage Tkinter
+                        hex_color = f'#{r}{g}{b}'
+                        alpha = int(a, 16) / 255.0
+                    elif len(hex_value) == 6:
+                        # Format RGB
+                        hex_color = f'#{hex_value}'
+                        alpha = 1.0  # Alpha par défaut
+                    else:
+                        messagebox.showerror(
+                            translations[current_language]['error_title'], f"Code hex invalide pour la couleur {key}.")
+                        continue  # Passer à la couleur suivante
+
                     if key in color_displays:
-                        # Mettre à jour le fond avec la couleur initiale
+                        # Mettre à jour le fond avec la couleur initiale (sans alpha)
                         color_displays[key].config(bg=hex_color)
-                    # Laisser l'entrée vide (ne rien insérer dans color_entries)
+
                     if key in color_entries:
-                        # S'assurer que le champ est vide
+                        # Ne pas insérer le code hex dans l'entrée
                         color_entries[key].delete(0, tk.END)
 
 
@@ -424,9 +491,9 @@ def filter_colors_in_uexp(data):
                     current_position = position + len(color_hex)
 
                     # Afficher les détails de la correspondance
-                    print(f"Correspondance trouvée pour '{key}':")
-                    print(f"  Valeur dans UEXP : {color_hex}")
-                    print(f"  Position dans UEXP : {position}")
+                    # print(f"Correspondance trouvée pour '{key}':")
+                    # print(f"  Valeur dans UEXP : {color_hex}")
+                    # print(f"  Position dans UEXP : {position}")
                 else:
                     print(
                         f"Valeur {color_hex} non trouvée pour la couleur {key}, passage à la suivante.")
@@ -460,8 +527,8 @@ def populate_color_selectors(data):
                     continue  # Passe à la couleur suivante
 
                 # Afficher les informations de la couleur qui va être ajoutée
-                print(
-                    f"Affichage de la couleur '{key}' avec correspondance trouvée")
+                # print(
+                #    f"Affichage de la couleur '{key}' avec correspondance trouvée")
 
                 # Créer les champs pour chaque clé filtrée
                 label = tk.Label(color_frame, text=key,
@@ -506,11 +573,25 @@ def choose_color(key):
         update_color_display(key)
 
 
+def validate_hex_color(hex_color):
+    if not hex_color.startswith('#'):
+        return False
+    hex_length = len(hex_color) - 1
+    return hex_length == 6 or hex_length == 8
+
+
 def update_color_display(key):
     # Met à jour le carré de couleur en fonction de l'entrée utilisateur
     hex_color = color_entries[key].get()
-    if hex_color.startswith('#') and len(hex_color) == 7:
-        color_displays[key].config(bg=hex_color)
+    if validate_hex_color(hex_color):
+        if len(hex_color) == 9:  # Inclut alpha
+            hex_color_display = hex_color[:7]  # Ignorer alpha pour l'affichage
+        else:
+            hex_color_display = hex_color
+        color_displays[key].config(bg=hex_color_display)
+    else:
+        # Optionnel : définir une couleur par défaut ou afficher une erreur
+        color_displays[key].config(bg="#FFFFFF")
 
 
 def load_uexp():
@@ -547,7 +628,7 @@ def load_uexp():
         messagebox.showerror(
             translations[current_language]['error_title'], translations[current_language]['uexp_not_found'].format(uexp_file_path))
         return False
-    print(f"Fichier UEXP chargé : {uexp_file_path}")
+    # print(f"Fichier UEXP chargé : {uexp_file_path}")
     return True
 
 
@@ -577,52 +658,64 @@ def replace_colors_in_uexp():
         current_position = 0  # Position de départ pour les remplacements séquentiels
 
         for key, entry in color_entries.items():
-            hex_color_input = entry.get()
-            if not hex_color_input:
-                continue  # Ignorer les champs vides
-
-            # Conversion de la couleur hex en valeurs linéaires RGB pour remplacement
-            r, g, b = hex_to_linear_rgb(hex_color_input)
-            hex_r = invert_hex(precise_float_to_hex(r))
-            hex_g = invert_hex(precise_float_to_hex(g))
-            hex_b = invert_hex(precise_float_to_hex(b))
-            new_hex = hex_r + hex_g + hex_b
-
-            # Rechercher la couleur d'origine à partir du JSON filtré
-            selected_color_entry = None
-            for item in json_data:
-                if "Properties" in item and "CustomColorSlotDefinitions" in item["Properties"]:
-                    for color in item["Properties"]["CustomColorSlotDefinitions"]:
-                        if color["Key"] == key and "UEXP_Hex" in color:
-                            selected_color_entry = color
-                            break
-
-            # Si la couleur d'origine existe, procéder au remplacement séquentiel
-            if selected_color_entry:
-                original_hex = selected_color_entry["UEXP_Hex"]
-                # Rechercher la première occurrence après la position courante
-                position = modified_data.find(
-                    original_hex, current_position)
-                if position != -1:
-                    # Remplacer cette occurrence uniquement et afficher les informations de modification
-                    modified_data = (
-                        modified_data[:position] + new_hex +
-                        modified_data[position + len(original_hex):]
-                    )
-                    # Afficher les détails de la modification
-                    print(f"Modification pour la clé '{key}':")
-                    print(f"  Couleur d'origine : {original_hex}")
-                    print(f"  Nouvelle couleur  : {new_hex}")
-                    print(f"  Position de remplacement : {position}")
-
-                    # Mettre à jour la position courante pour continuer après cet emplacement
-                    current_position = position + len(new_hex)
+            user_hex = entry.get().lstrip('#')
+            if user_hex:
+                # Conversion de la couleur hex en valeurs linéaires RGBA pour remplacement
+                if len(user_hex) == 8:
+                    a = int(user_hex[:2], 16) / 255.0
+                    r = int(user_hex[2:4], 16) / 255.0
+                    g = int(user_hex[4:6], 16) / 255.0
+                    b = int(user_hex[6:8], 16) / 255.0
+                    new_hex = invert_hex(precise_float_to_hex(a)) + invert_hex(precise_float_to_hex(
+                        r)) + invert_hex(precise_float_to_hex(g)) + invert_hex(precise_float_to_hex(b))
+                elif len(user_hex) == 6:
+                    r = int(user_hex[0:2], 16) / 255.0
+                    g = int(user_hex[2:4], 16) / 255.0
+                    b = int(user_hex[4:6], 16) / 255.0
+                    a = 1.0  # Alpha par défaut
+                    new_hex = invert_hex(precise_float_to_hex(
+                        r)) + invert_hex(precise_float_to_hex(g)) + invert_hex(precise_float_to_hex(b))
                 else:
-                    print(
-                        f"Couleur '{key}' non trouvée dans le fichier UEXP.")
-            else:
-                print(
-                    f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
+                    messagebox.showerror(
+                        translations[current_language]['error_title'], f"Code hex invalide pour la couleur {key}.")
+                    return
+
+                # Rechercher la couleur d'origine à partir du JSON filtré
+                selected_color_entry = None
+                for item in json_data:
+                    if "Properties" in item and "CustomColorSlotDefinitions" in item["Properties"]:
+                        for color in item["Properties"]["CustomColorSlotDefinitions"]:
+                            if color["Key"] == key and "UEXP_Hex" in color:
+                                selected_color_entry = color
+                                break
+
+                # Si la couleur d'origine existe, procéder au remplacement séquentiel
+                if selected_color_entry:
+                    original_hex = selected_color_entry["UEXP_Hex"]
+                    # Rechercher la première occurrence après la position courante
+                    position = modified_data.find(
+                        original_hex, current_position)
+                    if position != -1:
+                        # Remplacer cette occurrence uniquement et afficher les informations de modification
+                        modified_data = (
+                            modified_data[:position] + new_hex +
+                            modified_data[position + len(original_hex):]
+                        )
+                        # Afficher les détails de la modification
+                        # print(f"Modification pour la clé '{key}':")
+                        # print(f"  Couleur d'origine : {original_hex}")
+                        # print(f"  Nouvelle couleur  : {new_hex}")
+                        # print(f"  Position de remplacement : {position}")
+
+                        # Mettre à jour la position courante pour continuer après cet emplacement
+                        current_position = position + len(new_hex)
+                    else:
+                        print(
+                            f"Couleur '{key}' non trouvée dans le fichier UEXP.")
+                else:
+                    1
+                    # print(
+                    #    f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
 
         # Convertir les données modifiées en bytes et les écrire dans le fichier UEXP modifié
         uexp_bytes = bytes.fromhex(modified_data)
@@ -818,7 +911,7 @@ def update_file_type_menu(*args):
             for file in files:
                 if file.endswith('.uexp') and color_name in file:
                     if file.startswith('PE_'):
-                        file_types_found.append('Element/Energy')
+                        file_types_found.append('Effects/Energy')
                     elif file.startswith('PS_'):
                         file_types_found.append('Skin')
             file_types_found = list(set(file_types_found))
@@ -834,7 +927,7 @@ def update_file_type_menu(*args):
             files = os.listdir(data_path)
             for file in files:
                 if file.startswith('PE_'):
-                    file_types_found.append('Element/Energy')
+                    file_types_found.append('Effects/Energy')
                 elif file.startswith('PS_'):
                     file_types_found.append('Skin')
             file_types_found = list(set(file_types_found))
@@ -844,7 +937,7 @@ def update_file_type_menu(*args):
 
     # Mettre à jour le dictionnaire des codes de type de fichier
     global file_type_codes
-    file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
+    file_type_codes = {'Effects/Energy': 'PE', 'Skin': 'PS'}
 
     # Mettre à jour le menu des types de fichiers
     file_type_menu['menu'].delete(0, 'end')
