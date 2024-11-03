@@ -204,6 +204,8 @@ def save_preset():
             if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
                 for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                     key = color["Key"]
+                    if key == "Element0":
+                        continue  # Ignorer "Element0"
                     if key in color_entries:
                         hex_color = color_entries[key].get().lstrip('#')
                         if len(hex_color) == 6:
@@ -242,11 +244,13 @@ def load_preset():
                     return
                 # Appliquer les données du preset à json_data
                 preset_colors = {color["Key"]: color["Value"]
-                                 for color in preset_data.get("Colors", [])}
+                                 for color in preset_data.get("Colors", []) if color["Key"] != "Element0"}
                 for entry in json_data:
                     if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
                         for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                             key = color["Key"]
+                            if key == "Element0":
+                                continue  # Ignorer "Element0"
                             if key in preset_colors:
                                 value = preset_colors[key]
                                 hex_color = f"#{int(value['R'] * 255):02X}{int(value['G'] * 255):02X}{int(value['B'] * 255):02X}"
@@ -450,6 +454,10 @@ def populate_color_selectors(data):
         if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
             for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                 key = color["Key"]
+
+                # Ignorer "Element0"
+                if key == "Element0":
+                    continue  # Passe à la couleur suivante
 
                 # Afficher les informations de la couleur qui va être ajoutée
                 print(
