@@ -38,7 +38,7 @@ In this case, you need to install the PIL (Python Imaging Library) dependency wi
 - Make sure to close the game before using the program.
 
 ### Launching the Program
-- Open the application with Start.bat .
+- Open the application with Start.vbs .
 
 ### Selecting the Mods Folder
 - Click on the yellow button and select the location of the `Mods` folder you created.
