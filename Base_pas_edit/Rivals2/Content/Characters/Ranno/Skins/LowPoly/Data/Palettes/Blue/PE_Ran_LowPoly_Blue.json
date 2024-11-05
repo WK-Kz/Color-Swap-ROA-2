@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Ran_LowPoly_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Ran_LowPoly_Blue_C'Default__PE_Ran_LowPoly_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/LowPoly/Data/Palettes/Blue/PE_Ran_LowPoly_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Ran_LowPoly_Blue_C",
+    "Name": "Default__PE_Ran_LowPoly_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/LowPoly/Data/Palettes/Blue/PE_Ran_LowPoly_Blue.PE_Ran_LowPoly_Blue_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.020302,
+            "G": 0.0,
+            "B": 0.489583,
+            "A": 1.0,
+            "Hex": "2700BA"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.482808,
+            "B": 0.564712,
+            "A": 1.0,
+            "Hex": "00B9C6"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.246201,
+            "G": 0.208637,
+            "B": 0.597202,
+            "A": 1.0,
+            "Hex": "887ECB"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

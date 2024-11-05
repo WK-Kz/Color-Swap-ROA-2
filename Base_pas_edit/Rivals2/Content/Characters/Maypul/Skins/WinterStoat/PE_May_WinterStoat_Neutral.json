@@ -1,0 +1,104 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_May_WinterStoat_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_May_WinterStoat_Neutral_C'Default__PE_May_WinterStoat_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/WinterStoat/PE_May_WinterStoat_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_May_WinterStoat_Neutral_C",
+    "Name": "Default__PE_May_WinterStoat_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/WinterStoat/PE_May_WinterStoat_Neutral.PE_May_WinterStoat_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.03434,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "3C342E"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.084376,
+            "G": 0.048172,
+            "B": 0.040915,
+            "A": 1.0,
+            "Hex": "523E39"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.028611,
+            "G": 0.123325,
+            "B": 0.171875,
+            "A": 1.0,
+            "Hex": "2F6273"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.544397,
+            "G": 0.919972,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "C3F6FF"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.769888,
+            "G": 0.980078,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "E4FDFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

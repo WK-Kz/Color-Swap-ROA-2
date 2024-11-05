@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_LowPoly_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_LowPoly_Neutral_C'Default__PS_Cla_LowPoly_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/LowPoly/Data/Palettes/Neutral/PS_Cla_LowPoly_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_LowPoly_Neutral_C",
+    "Name": "Default__PS_Cla_LowPoly_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/LowPoly/Data/Palettes/Neutral/PS_Cla_LowPoly_Neutral.PS_Cla_LowPoly_Neutral_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.08022,
+            "G": 0.059511,
+            "B": 0.327778,
+            "A": 1.0,
+            "Hex": "50459B"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Value": {
+            "R": 0.597202,
+            "G": 0.208637,
+            "B": 0.177888,
+            "A": 1.0,
+            "Hex": "CB7E75"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Value": {
+            "R": 0.064803,
+            "G": 0.064803,
+            "B": 0.064803,
+            "A": 1.0,
+            "Hex": "484848"
+          }
+        },
+        {
+          "Key": "Boot",
+          "Value": {
+            "R": 0.078187,
+            "G": 0.076185,
+            "B": 0.090842,
+            "A": 1.0,
+            "Hex": "4F4E55"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.250158,
+            "B": 0.250158,
+            "A": 1.0,
+            "Hex": "898989"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Value": {
+            "R": 0.584078,
+            "G": 0.658375,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "C9D487"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Value": {
+            "R": 0.346704,
+            "G": 0.076185,
+            "B": 0.057805,
+            "A": 1.0,
+            "Hex": "9F4E44"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.462077,
+            "G": 0.004025,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "B50D0D"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.417885,
+            "B": 0.417885,
+            "A": 1.0,
+            "Hex": "ADADAD"
+          }
+        },
+        {
+          "Key": "Glow",
+          "Value": {
+            "R": 0.0,
+            "G": 0.682662,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00D8FF"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Value": {
+            "R": 0.23074,
+            "G": 0.238398,
+            "B": 0.23074,
+            "A": 1.0,
+            "Hex": "848684"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Value": {
+            "R": 0.08022,
+            "G": 0.059511,
+            "B": 0.327778,
+            "A": 1.0,
+            "Hex": "50459B"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.921582,
+            "B": 0.361307,
+            "A": 1.0,
+            "Hex": "F7F6A2"
+          }
+        }
+      ]
+    }
+  }
+]

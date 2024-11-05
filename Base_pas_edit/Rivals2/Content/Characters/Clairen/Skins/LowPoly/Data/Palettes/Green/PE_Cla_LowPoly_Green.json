@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cla_LowPoly_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cla_LowPoly_Green_C'Default__PE_Cla_LowPoly_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/LowPoly/Data/Palettes/Green/PE_Cla_LowPoly_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cla_LowPoly_Green_C",
+    "Name": "Default__PE_Cla_LowPoly_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/LowPoly/Data/Palettes/Green/PE_Cla_LowPoly_Green.PE_Cla_LowPoly_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.617207,
+            "B": 0.258183,
+            "A": 1.0,
+            "Hex": "00CE8B"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.066636,
+            "G": 0.512941,
+            "B": 0.564712,
+            "A": 1.0,
+            "Hex": "49BEC6"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.597202,
+            "G": 0.120164,
+            "B": 0.082414,
+            "A": 1.0,
+            "Hex": "CB6151"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.107023,
+            "G": 0.40724,
+            "B": 0.111932,
+            "A": 1.0,
+            "Hex": "5CAB5E"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

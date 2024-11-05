@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Basketball_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Basketball_Green_C'Default__PS_Ran_Basketball_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Green/PS_Ran_Basketball_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Basketball_Green_C",
+    "Name": "Default__PS_Ran_Basketball_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Green/PS_Ran_Basketball_Green.PS_Ran_Basketball_Green_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jersey",
+          "Value": {
+            "R": 0.066284,
+            "G": 0.013184,
+            "B": 0.140625,
+            "A": 1.0,
+            "Hex": "491E69"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Value": {
+            "R": 0.272461,
+            "G": 0.645833,
+            "B": 0.023546,
+            "A": 1.0,
+            "Hex": "8FD32A"
+          }
+        },
+        {
+          "Key": "JerseyTrim",
+          "Value": {
+            "R": 0.462077,
+            "G": 0.467784,
+            "B": 0.462077,
+            "A": 1.0,
+            "Hex": "B5B6B5"
+          }
+        },
+        {
+          "Key": "Armband",
+          "Value": {
+            "R": 0.617321,
+            "G": 0.548394,
+            "B": 0.791667,
+            "A": 1.0,
+            "Hex": "CEC4E6"
+          }
+        },
+        {
+          "Key": "Basketball",
+          "Value": {
+            "R": 0.548698,
+            "G": 0.875,
+            "B": 0.059245,
+            "A": 1.0,
+            "Hex": "C4F145"
+          }
+        },
+        {
+          "Key": "BasketballLines",
+          "Value": {
+            "R": 0.004687,
+            "G": 0.09375,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "0E5600"
+          }
+        },
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.225049,
+            "G": 0.345,
+            "B": 0.032085,
+            "A": 1.0,
+            "Hex": "829F32"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.658375,
+            "G": 0.658375,
+            "B": 0.658375,
+            "A": 1.0,
+            "Hex": "D4D4D4"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Value": {
+            "R": 0.007935,
+            "G": 0.069,
+            "B": 0.064929,
+            "A": 1.0,
+            "Hex": "154A48"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Value": {
+            "R": 0.39469,
+            "G": 0.630208,
+            "B": 0.043041,
+            "A": 1.0,
+            "Hex": "A9D03A"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.223228,
+            "G": 0.346704,
+            "B": 0.031896,
+            "A": 1.0,
+            "Hex": "829F32"
+          }
+        }
+      ]
+    }
+  }
+]

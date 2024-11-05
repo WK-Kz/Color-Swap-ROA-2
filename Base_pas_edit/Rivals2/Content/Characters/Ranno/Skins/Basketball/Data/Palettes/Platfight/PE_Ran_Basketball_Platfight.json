@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Ran_Basketball_Platfight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Ran_Basketball_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Neutral/PE_Ran_Basketball_Neutral.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Ran_Basketball_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Neutral/PE_Ran_Basketball_Neutral.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Ran_Basketball_Platfight_C'Default__PE_Ran_Basketball_Platfight_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Platfight/PE_Ran_Basketball_Platfight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Ran_Basketball_Platfight_C",
+    "Name": "Default__PE_Ran_Basketball_Platfight_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Platfight/PE_Ran_Basketball_Platfight.PE_Ran_Basketball_Platfight_C'",
+    "Template": {
+      "ObjectName": "PE_Ran_Basketball_Neutral_C'Default__PE_Ran_Basketball_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Neutral/PE_Ran_Basketball_Neutral.1"
+    },
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.069792,
+            "G": 0.0,
+            "B": 0.348958,
+            "A": 1.0,
+            "Hex": "4A00A0"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.165642,
+            "G": 0.084376,
+            "B": 0.693872,
+            "A": 1.0,
+            "Hex": "7152D9"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.44172,
+            "G": 0.415564,
+            "B": 0.938686,
+            "A": 1.0,
+            "Hex": "B2ADF8"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.702952,
+            "G": 0.692708,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "DBD9FF"
+          }
+        }
+      ]
+    }
+  }
+]

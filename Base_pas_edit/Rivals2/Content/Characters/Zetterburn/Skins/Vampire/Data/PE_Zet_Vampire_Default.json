@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Zet_Vampire_Default_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Zet_Vampire_Default_C'Default__PE_Zet_Vampire_Default_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Vampire/Data/PE_Zet_Vampire_Default.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Zet_Vampire_Default_C",
+    "Name": "Default__PE_Zet_Vampire_Default_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Vampire/Data/PE_Zet_Vampire_Default.PE_Zet_Vampire_Default_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Value": {
+            "R": 0.026068,
+            "G": 0.014646,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "2D2031"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "AD0000"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Value": {
+            "R": 0.42869,
+            "G": 0.021219,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "AF2828"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Value": {
+            "R": 0.46875,
+            "G": 0.290543,
+            "B": 0.053148,
+            "A": 1.0,
+            "Hex": "B69341"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Value": {
+            "R": 0.711998,
+            "G": 0.744792,
+            "B": 0.256022,
+            "A": 1.0,
+            "Hex": "DCE08B"
+          }
+        }
+      ]
+    }
+  }
+]

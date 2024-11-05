@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_LowPoly_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_LowPoly_Red_C'Default__PS_Kra_LowPoly_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/LowPoly/Data/Palettes/Red/PS_Kra_LowPoly_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_LowPoly_Red_C",
+    "Name": "Default__PS_Kra_LowPoly_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/LowPoly/Data/Palettes/Red/PS_Kra_LowPoly_Red.PS_Kra_LowPoly_Red_C'",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Value": {
+            "R": 0.3564,
+            "G": 0.138432,
+            "B": 0.045186,
+            "A": 1.0,
+            "Hex": "A1683C"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Value": {
+            "R": 0.584078,
+            "G": 0.658375,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "C9D487"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Value": {
+            "R": 0.346704,
+            "G": 0.076185,
+            "B": 0.057805,
+            "A": 1.0,
+            "Hex": "9F4E44"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Value": {
+            "R": 0.584078,
+            "G": 0.658375,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "C9D487"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Value": {
+            "R": 0.323143,
+            "G": 0.760525,
+            "B": 0.327778,
+            "A": 1.0,
+            "Hex": "9AE29B"
+          }
+        }
+      ]
+    }
+  }
+]
