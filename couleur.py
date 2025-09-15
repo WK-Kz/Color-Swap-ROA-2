@@ -1165,11 +1165,6 @@ file_type_label = tk.Label(header_frame, font=("Arial", 10))
 file_type_label.grid(row=0, column=8, padx=2, pady=5, sticky="e")
 file_type_label.config(text=translations[current_language]['file_type'])
 
-# Menu déroulant pour le personnage avec icônes
-character_menu = create_character_menu(characters)
-selected_character.trace("w", update_selected_character_icon)
-if characters:
-    selected_character.set(characters[0])
 
 # Menu pour le skin
 skin_menu = tk.OptionMenu(header_frame, selected_skin, '')
@@ -1183,6 +1178,12 @@ selected_color.trace('w', update_file_type_menu)
 
 file_type_menu = tk.OptionMenu(header_frame, selected_file_type, '')
 file_type_menu.grid(row=0, column=9, padx=2, pady=5, sticky="w")
+
+# Menu déroulant pour le personnage avec icônes
+character_menu = create_character_menu(characters)
+selected_character.trace("w", update_selected_character_icon)
+if characters:
+    selected_character.set(characters[0])
 
 # Lier les variables de sélection à la fonction de changement
 selected_character.trace('w', on_selection_change)
