@@ -1,0 +1,1 @@
+/home/wk/Documents/0_Dev/Color-Swap-ROA-2/Upack_Linux/Clairen_P/*.* ../../../*.*
