@@ -138,7 +138,7 @@ def load_config():
 
     # Chemin de UnrealPak-With-Compression.bat dans Upack
     unrealpak_script_path = os.path.join(
-        project_root, "Upack", "UnrealPak-With-Compression.bat")
+        project_root, "Upack_Linux", "UnrealPak-With-Compression.sh")
 
     # Chemin du dossier Preset à la racine du projet
     preset_dir = os.path.join(project_root, "Preset")
