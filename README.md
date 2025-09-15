@@ -1,52 +1,47 @@
+# Color Swap Guide for Rivals of Aether 2
+#### Credit to both [Keryan666](https://gamebanana.com/tools/18380) for the original tool and [Pixel956](https://gamebanana.com/tools/18562) for providing an updated version of the tool
 
-# Guide d'utilisation Color Swap Rivals of Aether 2
+This program allows you to change character colors in **Rivals of Aether 2** on **Linux**. 
 
-[English](README.en.md)
+## Requirements to Run:
+python > 3.12 
+Pillow
 
-![Capture d’écran 2024-11-02 194847](https://github.com/user-attachments/assets/4c6ce86a-e942-49cc-be10-22f568cc8e7a)
+#### Fedora:
+`sudo dnf install python3-pillow-tk`
 
-
-
-
-Ce programme vous permet de changer les couleurs des personnages dans **Rivals of Aether 2**. Deux versions du programme sont disponibles :
-
-## Versions du programme
-
-1. **Version avec Python embarqué** : Cette version inclut tout ce dont vous avez besoin pour exécuter le programme sans installation supplémentaire. [Télécharger](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.5/Color_Swap_ROA_2_python.zip)
-
-   
-2. **Version sans Python** : Pour les utilisateurs ayant déjà Python installé sur leur système. [Télécharger](https://github.com/Keryan-666/Color-Swap-ROA-2/releases/download/v1.0.5/Color_Swap_ROA_2.zip) <br>
-   Dans ce cas, vous devez installer la bibliothèque PIL (Python Imaging Library) avec la commande suivante :
-
-   ```bash
-   pip install Pillow
-   ```
+#### Arch/Steam Deck:
+`sudo pacman -S python-pillow`
+* I am not in possession of a steam deck / arch distro, so this can be subject to change.
 
 ## Installation
 
-### Téléchargement
-- Téléchargez et décompressez le fichier ZIP du programme.
+### Download
+- Download and extract the ZIP file of the program.
 
-### Création du dossier Mods
-- Créez un dossier nommé `Mods` à l'emplacement suivant dans votre répertoire de jeu :
+### Creating the Mods Folder
+- Create a folder named `Mods` in the following location within your game directory:
 
    ```css
-   SteamLibrary\steamapps\common\Rivals 2\Rivals2\Content\Paks\Mods
+   ~/.steam/steam/steamapps/common/Rivals 2/Rivals2/Content/Paks/Mods
    ```
 
-## Utilisation
+## Usage
 
-### Attention
-- Bien fermer le jeu avant utilisation.
+### Warning
+- Make sure to close the game before using the program.
 
-### Lancement du programme
-- Ouvrez l'application avec Start.vbs .
+### Launching the Program
+- Open the application with Start.vbs .
 
-### Sélection du dossier Mods
-- Cliquez sur le bouton jaune et indiquez l'emplacement du dossier `Mods` que vous avez créé.
+### Selecting the Mods Folder
+- Click on the yellow button and select the location of the `Mods` folder you created.
 
-### Personnalisation
-- Vous pouvez maintenant choisir le personnage/skin/couleur à modifier.
-- Choisissez la couleur de votre choix pour la partie sélectionnée en cliquant sur les couleurs ou en entrant directement le code HEX de la couleur (par exemple, #FFFFFF).
-- Après modification, vous pouvez sauvegarder le preset pour réutiliser ces couleurs plus tard.
-- Enfin, cliquez sur "Remplacer les couleurs" pour appliquer la modification dans le jeu.
+### Customization
+- Now you can select the character/skin/color to modify.
+- Choose your preferred color for the selected part by clicking on the colors or entering the HEX color code directly (e.g., #FFFFFF).
+- After making changes, you can save the preset to reuse these colors later.
+- Finally, click on "Replace Colors" to apply the modification in the game.
+
+## Terms of Use:
+This repository is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
