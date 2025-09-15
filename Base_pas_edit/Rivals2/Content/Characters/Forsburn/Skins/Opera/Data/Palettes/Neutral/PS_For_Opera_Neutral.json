@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Opera_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Opera_Neutral_C'Default__PS_For_Opera_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Opera/Data/Palettes/Neutral/PS_For_Opera_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Opera_Neutral_C",
+    "Name": "Default__PS_For_Opera_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Opera/Data/Palettes/Neutral/PS_For_Opera_Neutral.PS_For_Opera_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Mask",
+          "Name": "Mask",
+          "Value": {
+            "R": 0.508881,
+            "G": 0.508881,
+            "B": 0.508881,
+            "A": 1.0,
+            "Hex": "BDBDBD"
+          }
+        },
+        {
+          "Key": "Vest",
+          "Name": "Vest",
+          "Value": {
+            "R": 0.03125,
+            "G": 0.03125,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "313131"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.610496,
+            "G": 0.590619,
+            "B": 0.610496,
+            "A": 1.0,
+            "Hex": "CDCACD"
+          }
+        },
+        {
+          "Key": "Bowtie",
+          "Name": "Bowtie",
+          "Value": {
+            "R": 0.445201,
+            "G": 0.445201,
+            "B": 0.445201,
+            "A": 1.0,
+            "Hex": "B2B2B2"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.010417,
+            "G": 0.010417,
+            "B": 0.010417,
+            "A": 1.0,
+            "Hex": "1A1A1A"
+          }
+        },
+        {
+          "Key": "Chain",
+          "Name": "Chain",
+          "Value": {
+            "R": 0.351533,
+            "G": 0.162029,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "A0702E"
+          }
+        },
+        {
+          "Key": "WeaponBlade",
+          "Name": "WeaponBlade",
+          "Value": {
+            "R": 0.341914,
+            "G": 0.346704,
+            "B": 0.341914,
+            "A": 1.0,
+            "Hex": "9E9F9E"
+          }
+        },
+        {
+          "Key": "WeaponHilt",
+          "Name": "WeaponHilt",
+          "Value": {
+            "R": 0.514918,
+            "G": 0.309469,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "BE9737"
+          }
+        },
+        {
+          "Key": "WeaponRose",
+          "Name": "WeaponRose",
+          "Value": {
+            "R": 0.423268,
+            "G": 0.012286,
+            "B": 0.012286,
+            "A": 1.0,
+            "Hex": "AE1D1D"
+          }
+        },
+        {
+          "Key": "WeaponGrip",
+          "Name": "WeaponGrip",
+          "Value": {
+            "R": 0.045,
+            "G": 0.040801,
+            "B": 0.040801,
+            "A": 1.0,
+            "Hex": "3C3939"
+          }
+        },
+        {
+          "Key": "WeaponThorns",
+          "Name": "WeaponThorns",
+          "Value": {
+            "R": 0.028426,
+            "G": 0.152926,
+            "B": 0.025187,
+            "A": 1.0,
+            "Hex": "2F6D2C"
+          }
+        }
+      ]
+    }
+  }
+]

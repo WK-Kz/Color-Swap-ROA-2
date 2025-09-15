@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Ran_Basketball_Frosty_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Ran_Basketball_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Neutral/PE_Ran_Basketball_Neutral.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Ran_Basketball_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Neutral/PE_Ran_Basketball_Neutral.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Ran_Basketball_Frosty_C'Default__PE_Ran_Basketball_Frosty_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Frosty/PE_Ran_Basketball_Frosty.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Ran_Basketball_Frosty_C",
+    "Name": "Default__PE_Ran_Basketball_Frosty_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Frosty/PE_Ran_Basketball_Frosty.PE_Ran_Basketball_Frosty_C'",
+    "Template": {
+      "ObjectName": "PE_Ran_Basketball_Neutral_C'Default__PE_Ran_Basketball_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Neutral/PE_Ran_Basketball_Neutral.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.180176,
+            "G": 0.489843,
+            "B": 0.84375,
+            "A": 1.0,
+            "Hex": "76BAED"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.28635,
+            "G": 0.716368,
+            "B": 0.947917,
+            "A": 1.0,
+            "Hex": "92DCFA"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.734375,
+            "G": 0.880469,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "DFF2FF"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.786458,
+            "G": 0.900347,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "E6F4FF"
+          }
+        }
+      ]
+    }
+  }
+]

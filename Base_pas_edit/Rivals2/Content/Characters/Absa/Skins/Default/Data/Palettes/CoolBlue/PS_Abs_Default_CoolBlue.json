@@ -1,0 +1,234 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Abs_Default_CoolBlue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Abs_Default_CoolBlue_C'Default__PS_Abs_Default_CoolBlue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Absa/Skins/Default/Data/Palettes/CoolBlue/PS_Abs_Default_CoolBlue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Abs_Default_CoolBlue_C",
+    "Name": "Default__PS_Abs_Default_CoolBlue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Absa/Skins/Default/Data/Palettes/CoolBlue/PS_Abs_Default_CoolBlue.PS_Abs_Default_CoolBlue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.021219,
+            "G": 0.029557,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "283038"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.045844,
+            "G": 0.086152,
+            "B": 0.135417,
+            "A": 1.0,
+            "Hex": "3C5367"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.561686,
+            "G": 0.820109,
+            "B": 0.90625,
+            "A": 1.0,
+            "Hex": "C6EAF5"
+          }
+        },
+        {
+          "Key": "Hooves",
+          "Name": "Hooves",
+          "Value": {
+            "R": 0.010037,
+            "G": 0.016439,
+            "B": 0.026042,
+            "A": 1.0,
+            "Hex": "19222C"
+          }
+        },
+        {
+          "Key": "Horns",
+          "Name": "Horns",
+          "Value": {
+            "R": 0.0,
+            "G": 0.211459,
+            "B": 0.21875,
+            "A": 1.0,
+            "Hex": "007F81"
+          }
+        },
+        {
+          "Key": "Horn2",
+          "Name": "Horn2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.8125,
+            "B": 0.9375,
+            "A": 1.0,
+            "Hex": "00E9F8"
+          }
+        },
+        {
+          "Key": "InnerEar",
+          "Name": "InnerEar",
+          "Value": {
+            "R": 0.53125,
+            "G": 0.677344,
+            "B": 0.796875,
+            "A": 1.0,
+            "Hex": "C1D7E7"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.0,
+            "G": 0.323351,
+            "B": 0.776042,
+            "A": 1.0,
+            "Hex": "009AE4"
+          }
+        },
+        {
+          "Key": "IrisRight",
+          "Name": "IrisRight",
+          "Value": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 0.95,
+            "A": 1.0,
+            "Hex": "00FFFA"
+          }
+        },
+        {
+          "Key": "IrisLeft",
+          "Name": "IrisLeft",
+          "Value": {
+            "R": 0.0,
+            "G": 0.566667,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00C7FF"
+          }
+        },
+        {
+          "Key": "Eyebrows",
+          "Name": "Eyebrows",
+          "Value": {
+            "R": 0.004232,
+            "G": 0.008928,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "0D1721"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.947917,
+            "G": 0.898546,
+            "B": 0.898546,
+            "A": 1.0,
+            "Hex": "FAF4F4"
+          }
+        },
+        {
+          "Key": "Shorts",
+          "Name": "Shorts",
+          "Value": {
+            "R": 0.011936,
+            "G": 0.01594,
+            "B": 0.020833,
+            "A": 1.0,
+            "Hex": "1C2227"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.011612,
+            "G": 0.015996,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "1C2228"
+          }
+        },
+        {
+          "Key": "ClothAccent",
+          "Name": "ClothAccent",
+          "Value": {
+            "R": 0.027321,
+            "G": 0.274677,
+            "B": 0.630757,
+            "A": 1.0,
+            "Hex": "2E8FD0"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.0,
+            "G": 0.515625,
+            "B": 0.498439,
+            "A": 1.0,
+            "Hex": "00BEBB"
+          }
+        },
+        {
+          "Key": "Cloud",
+          "Name": "Cloud",
+          "Value": {
+            "R": 0.0,
+            "G": 0.8125,
+            "B": 0.9375,
+            "A": 1.0,
+            "Hex": "00E9F8"
+          }
+        },
+        {
+          "Key": "CloudDark",
+          "Name": "CloudDark",
+          "Value": {
+            "R": 0.027321,
+            "G": 0.274677,
+            "B": 0.630757,
+            "A": 1.0,
+            "Hex": "2E8FD0"
+          }
+        }
+      ]
+    }
+  }
+]

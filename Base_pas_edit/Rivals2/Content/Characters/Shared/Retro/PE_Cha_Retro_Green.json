@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cha_Retro_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cha_Retro_Green_C'Default__PE_Cha_Retro_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Shared/Retro/PE_Cha_Retro_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cha_Retro_Green_C",
+    "Name": "Default__PE_Cha_Retro_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Shared/Retro/PE_Cha_Retro_Green.PE_Cha_Retro_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        
+      ]
+    }
+  }
+]

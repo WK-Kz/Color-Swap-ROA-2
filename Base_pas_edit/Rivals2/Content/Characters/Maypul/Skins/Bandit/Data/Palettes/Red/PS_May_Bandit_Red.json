@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_May_Bandit_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_May_Bandit_Red_C",
     "Name": "Default__PS_May_Bandit_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Bandit/Data/Palettes/Red/PS_May_Bandit_Red.PS_May_Bandit_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.376,
             "G": 0.045872,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.603,
             "G": 0.258687,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Hat and Gloves",
+          "Name": "Hat and Gloves",
           "Value": {
             "R": 0.418,
             "G": 0.036366,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Bling",
+          "Name": "Bling",
           "Value": {
             "R": 0.456411,
             "G": 0.258183,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Weapon Blade",
+          "Name": "Weapon Blade",
           "Value": {
             "R": 0.376262,
             "G": 0.045186,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Weapon Trim",
+          "Name": "Weapon Trim",
           "Value": {
             "R": 0.458,
             "G": 0.257396,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Weapon Wood",
+          "Name": "Weapon Wood",
           "Value": {
             "R": 0.132,
             "G": 0.067708,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.077,
             "G": 0.044532,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.474,
             "G": 0.370028,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.020289,
             "G": 0.008887,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "TerryBandit",
+          "Name": "TerryBandit",
           "Value": {
             "R": 0.171,
             "G": 0.007182,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "LilyBandit",
+          "Name": "LilyBandit",
           "Value": {
             "R": 0.07036,
             "G": 0.033562,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Chain",
+          "Name": "Chain",
           "Value": {
             "R": 0.2,
             "G": 0.164627,

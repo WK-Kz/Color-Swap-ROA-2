@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_May_Champion_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_May_Champion_Red_C'Default__PE_May_Champion_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Champion/Data/Palettes/Red/PE_May_Champion_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_May_Champion_Red_C",
+    "Name": "Default__PE_May_Champion_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Champion/Data/Palettes/Red/PE_May_Champion_Red.PE_May_Champion_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.817708,
+            "G": 0.402605,
+            "B": 0.085178,
+            "A": 1.0,
+            "Hex": "EAAA52"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.484375,
+            "G": 0.244204,
+            "B": 0.060547,
+            "A": 1.0,
+            "Hex": "B98845"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.260417,
+            "G": 0.0,
+            "B": 0.039062,
+            "A": 1.0,
+            "Hex": "8C0037"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.791667,
+            "G": 0.086589,
+            "B": 0.19235,
+            "A": 1.0,
+            "Hex": "E65379"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.958333,
+            "G": 0.354384,
+            "B": 0.424845,
+            "A": 1.0,
+            "Hex": "FBA1AE"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

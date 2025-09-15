@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Mecha_Black_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Mecha_Black_C'Default__PS_Wra_Mecha_Black_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Black/PS_Wra_Mecha_Black.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Mecha_Black_C",
+    "Name": "Default__PS_Wra_Mecha_Black_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Black/PS_Wra_Mecha_Black.PS_Wra_Mecha_Black_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Wing",
+          "Name": "Wing",
+          "Value": {
+            "R": 0.018821,
+            "G": 0.01558,
+            "B": 0.02,
+            "A": 1.0,
+            "Hex": "252126"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.065848,
+            "G": 0.051688,
+            "B": 0.071,
+            "A": 1.0,
+            "Hex": "48404B"
+          }
+        },
+        {
+          "Key": "Beak",
+          "Name": "Beak",
+          "Value": {
+            "R": 0.325908,
+            "G": 0.360955,
+            "B": 0.396,
+            "A": 1.0,
+            "Hex": "9BA2A9"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.065848,
+            "G": 0.051688,
+            "B": 0.071,
+            "A": 1.0,
+            "Hex": "48404B"
+          }
+        },
+        {
+          "Key": "Joints",
+          "Name": "Joints",
+          "Value": {
+            "R": 0.172,
+            "G": 0.004988,
+            "B": 0.004988,
+            "A": 1.0,
+            "Hex": "730F0F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.325908,
+            "G": 0.360955,
+            "B": 0.396,
+            "A": 1.0,
+            "Hex": "9BA2A9"
+          }
+        },
+        {
+          "Key": "Warheads",
+          "Name": "Warheads",
+          "Value": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF0000"
+          }
+        },
+        {
+          "Key": "Lights",
+          "Name": "Lights",
+          "Value": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF0000"
+          }
+        },
+        {
+          "Key": "Emissive",
+          "Name": "Emissive",
+          "Value": {
+            "R": 0.043,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "3A0000"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.325908,
+            "G": 0.360955,
+            "B": 0.396,
+            "A": 1.0,
+            "Hex": "9BA2A9"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 0.605728,
+            "G": 0.670866,
+            "B": 0.736,
+            "A": 1.0,
+            "Hex": "CDD6DF"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.018821,
+            "G": 0.01558,
+            "B": 0.02,
+            "A": 1.0,
+            "Hex": "252126"
+          }
+        }
+      ]
+    }
+  }
+]

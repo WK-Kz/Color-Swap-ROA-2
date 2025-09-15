@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Prehistoric_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Prehistoric_Blue_C'Default__PS_Kra_Prehistoric_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Prehistoric/Data/Palettes/Blue/PS_Kra_Prehistoric_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Prehistoric_Blue_C",
+    "Name": "Default__PS_Kra_Prehistoric_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Prehistoric/Data/Palettes/Blue/PS_Kra_Prehistoric_Blue.PS_Kra_Prehistoric_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.0636,
+            "G": 0.270828,
+            "B": 0.795,
+            "A": 1.0,
+            "Hex": "478EE7"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.042311,
+            "G": 0.068478,
+            "B": 0.23074,
+            "A": 1.0,
+            "Hex": "3A4A84"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 0.017554,
+            "G": 0.03308,
+            "B": 0.134,
+            "A": 1.0,
+            "Hex": "243366"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.28365,
+            "G": 0.41664,
+            "B": 0.465,
+            "A": 1.0,
+            "Hex": "91ADB6"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.060778,
+            "G": 0.03565,
+            "B": 0.115,
+            "A": 1.0,
+            "Hex": "46355F"
+          }
+        },
+        {
+          "Key": "Feather",
+          "Name": "Feather",
+          "Value": {
+            "R": 0.0,
+            "G": 0.2697,
+            "B": 0.558,
+            "A": 1.0,
+            "Hex": "008EC5"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.0636,
+            "G": 0.270828,
+            "B": 0.795,
+            "A": 1.0,
+            "Hex": "478EE7"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.316667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF9900"
+          }
+        }
+      ]
+    }
+  }
+]

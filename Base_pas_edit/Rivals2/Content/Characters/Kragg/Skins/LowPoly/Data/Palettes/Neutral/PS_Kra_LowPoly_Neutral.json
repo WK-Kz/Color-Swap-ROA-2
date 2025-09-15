@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Kra_LowPoly_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Kra_LowPoly_Neutral_C",
     "Name": "Default__PS_Kra_LowPoly_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/LowPoly/Data/Palettes/Neutral/PS_Kra_LowPoly_Neutral.PS_Kra_LowPoly_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.107023,
             "G": 0.40724,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 1.0,
             "G": 1.0,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Shell",
+          "Name": "Shell",
           "Value": {
             "R": 0.3564,
             "G": 0.138432,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Spikes",
+          "Name": "Spikes",
           "Value": {
             "R": 0.417885,
             "G": 0.417885,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.584078,
             "G": 0.658375,

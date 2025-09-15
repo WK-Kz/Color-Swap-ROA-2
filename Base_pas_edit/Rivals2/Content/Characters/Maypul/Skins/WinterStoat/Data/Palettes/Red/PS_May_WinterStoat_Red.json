@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_May_WinterStoat_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_May_WinterStoat_Red_C",
     "Name": "Default__PS_May_WinterStoat_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/WinterStoat/Data/Palettes/Red/PS_May_WinterStoat_Red.PS_May_WinterStoat_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.723055,
             "G": 0.665387,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.15625,
             "G": 0.032552,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Ear",
+          "Name": "Ear",
           "Value": {
             "R": 0.57758,
             "G": 0.318547,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Nose",
+          "Name": "Nose",
           "Value": {
             "R": 0.198069,
             "G": 0.059511,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Tail",
+          "Name": "Tail",
           "Value": {
             "R": 0.155926,
             "G": 0.031896,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.126465,
             "G": 0.328125,
@@ -89,7 +97,19 @@
           }
         },
         {
+          "Key": "Leaf",
+          "Name": "Leaf",
+          "Value": {
+            "R": 0.9375,
+            "G": 0.283203,
+            "B": 0.294108,
+            "A": 1.0,
+            "Hex": "F89194"
+          }
+        },
+        {
           "Key": "Vine",
+          "Name": "Vine",
           "Value": {
             "R": 0.109375,
             "G": 0.018908,
@@ -99,13 +119,47 @@
           }
         },
         {
-          "Key": "Leaf",
+          "Key": "PVine",
+          "Name": "PVine",
+          "Value": {
+            "R": 0.109375,
+            "G": 0.018908,
+            "B": 0.027627,
+            "A": 1.0,
+            "Hex": "5D252E"
+          }
+        },
+        {
+          "Key": "Pal",
+          "Name": "Pal",
           "Value": {
             "R": 0.9375,
             "G": 0.283203,
             "B": 0.294108,
             "A": 1.0,
             "Hex": "F89194"
+          }
+        },
+        {
+          "Key": "Vine2",
+          "Name": "Vine2",
+          "Value": {
+            "R": 0.181,
+            "G": 0.03129,
+            "B": 0.045719,
+            "A": 1.0,
+            "Hex": "76313C"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Name": "Poppy",
+          "Value": {
+            "R": 0.9375,
+            "G": 0.4275,
+            "B": 0.436,
+            "A": 1.0,
+            "Hex": "F8AFB1"
           }
         }
       ]

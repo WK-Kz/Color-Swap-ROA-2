@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Puffin_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Puffin_Neutral_C'Default__PS_Wra_Puffin_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Puffin/Data/Palettes/Neutral/PS_Wra_Puffin_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Puffin_Neutral_C",
+    "Name": "Default__PS_Wra_Puffin_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Puffin/Data/Palettes/Neutral/PS_Wra_Puffin_Neutral.PS_Wra_Puffin_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.026241,
+            "G": 0.024158,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "2D2B29"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.564712,
+            "G": 0.708376,
+            "B": 0.723055,
+            "A": 1.0,
+            "Hex": "C6DBDD"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.127438,
+            "G": 0.01033,
+            "B": 0.01033,
+            "A": 1.0,
+            "Hex": "641A1A"
+          }
+        },
+        {
+          "Key": "Markings",
+          "Name": "Markings",
+          "Value": {
+            "R": 0.066626,
+            "G": 0.061246,
+            "B": 0.056128,
+            "A": 1.0,
+            "Hex": "494643"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.603827,
+            "G": 0.072272,
+            "B": 0.005605,
+            "A": 1.0,
+            "Hex": "CC4C11"
+          }
+        },
+        {
+          "Key": "Beak",
+          "Name": "Beak",
+          "Value": {
+            "R": 0.730461,
+            "G": 0.234551,
+            "B": 0.028426,
+            "A": 1.0,
+            "Hex": "DE852F"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.000304,
+            "G": 0.171441,
+            "B": 0.520996,
+            "A": 1.0,
+            "Hex": "0173BF"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.076185,
+            "G": 0.028398,
+            "B": 0.020951,
+            "A": 1.0,
+            "Hex": "4E2F27"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.003035,
+            "G": 0.238398,
+            "B": 0.590619,
+            "A": 1.0,
+            "Hex": "0A86CA"
+          }
+        },
+        {
+          "Key": "LensGradient",
+          "Name": "LensGradient",
+          "Value": {
+            "R": 0.012983,
+            "G": 0.412543,
+            "B": 0.502886,
+            "A": 1.0,
+            "Hex": "1EACBC"
+          }
+        }
+      ]
+    }
+  }
+]

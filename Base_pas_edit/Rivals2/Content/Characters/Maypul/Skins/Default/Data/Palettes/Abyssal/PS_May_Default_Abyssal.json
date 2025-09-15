@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Default_Abyssal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Default_Abyssal_C'Default__PS_May_Default_Abyssal_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Abyssal/PS_May_Default_Abyssal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Default_Abyssal_C",
+    "Name": "Default__PS_May_Default_Abyssal_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Abyssal/PS_May_Default_Abyssal.PS_May_Default_Abyssal_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pal",
+          "Name": "Pal",
+          "Value": {
+            "R": 0.514,
+            "G": 0.01285,
+            "B": 0.429859,
+            "A": 1.0,
+            "Hex": "BE1DAF"
+          }
+        },
+        {
+          "Key": "PVine",
+          "Name": "PVine",
+          "Value": {
+            "R": 0.062526,
+            "G": 0.00897,
+            "B": 0.13,
+            "A": 1.0,
+            "Hex": "471765"
+          }
+        },
+        {
+          "Key": "Vine2",
+          "Name": "Vine2",
+          "Value": {
+            "R": 0.278894,
+            "G": 0.120482,
+            "B": 0.120482,
+            "A": 1.0,
+            "Hex": "906161"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Name": "Leaf",
+          "Value": {
+            "R": 0.514,
+            "G": 0.01285,
+            "B": 0.429859,
+            "A": 1.0,
+            "Hex": "BE1DAF"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Name": "Vine",
+          "Value": {
+            "R": 0.062526,
+            "G": 0.00897,
+            "B": 0.13,
+            "A": 1.0,
+            "Hex": "471765"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.074214,
+            "G": 0.068478,
+            "B": 0.191202,
+            "A": 1.0,
+            "Hex": "4D4A79"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.34858,
+            "G": 0.367865,
+            "B": 0.58,
+            "A": 1.0,
+            "Hex": "A0A3C9"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.016449,
+            "G": 0.007295,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "22142E"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.166667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF7100"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 1.0,
+            "G": 0.633333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFD100"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Name": "Poppy",
+          "Value": {
+            "R": 0.514,
+            "G": 0.01285,
+            "B": 0.429859,
+            "A": 1.0,
+            "Hex": "BE1DAF"
+          }
+        }
+      ]
+    }
+  }
+]

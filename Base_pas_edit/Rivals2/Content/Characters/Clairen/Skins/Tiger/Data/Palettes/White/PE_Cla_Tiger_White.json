@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cla_Tiger_White_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cla_Tiger_White_C'Default__PE_Cla_Tiger_White_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Tiger/Data/Palettes/White/PE_Cla_Tiger_White.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cla_Tiger_White_C",
+    "Name": "Default__PE_Cla_Tiger_White_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Tiger/Data/Palettes/White/PE_Cla_Tiger_White.PE_Cla_Tiger_White_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.062751,
+            "G": 0.769477,
+            "B": 0.848,
+            "A": 1.0,
+            "Hex": "47E4EE"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.016356,
+            "G": 0.314836,
+            "B": 0.348,
+            "A": 1.0,
+            "Hex": "22989F"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.536838,
+            "G": 0.679542,
+            "B": 0.634352,
+            "A": 1.0,
+            "Hex": "C2D7D1"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.945098,
+            "G": 0.935726,
+            "B": 0.832631,
+            "A": 1.0,
+            "Hex": "F9F8EC"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

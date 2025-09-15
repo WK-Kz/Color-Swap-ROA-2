@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_Abyss_Blue_C",
     "Name": "Default__PS_Ran_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Blue/PS_Ran_Abyss_Blue.PS_Ran_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.876667,
             "G": 0.03994,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Wraps",
+          "Name": "Wraps",
           "Value": {
             "R": 0.223382,
             "G": 0.194618,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.028838,
             "G": 0.363093,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.417885,
             "G": 0.473668,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.0,
             "G": 0.034343,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Spikes",
+          "Name": "Spikes",
           "Value": {
             "R": 0.132868,
             "G": 1.0,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Sclera",
+          "Name": "Sclera",
           "Value": {
             "R": 0.146586,
             "G": 0.33654,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.0,
             "G": 0.210176,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Tongue",
+          "Name": "Tongue",
           "Value": {
             "R": 0.001466,
             "G": 0.051289,

@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_Genesis_White_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_Genesis_White_C'Default__PE_Orc_Genesis_White_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Genesis/Data/Palettes/White/PE_Orc_Genesis_White.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_Genesis_White_C",
+    "Name": "Default__PE_Orc_Genesis_White_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Genesis/Data/Palettes/White/PE_Orc_Genesis_White.PE_Orc_Genesis_White_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.25,
+            "G": 0.0,
+            "B": 0.016298,
+            "A": 1.0,
+            "Hex": "890022"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 1.2,
+            "G": 1.2,
+            "B": 1.2,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 1.2,
+            "G": 1.2,
+            "B": 1.2,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.418,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "AD0000"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.25,
+            "G": 0.0,
+            "B": 0.016298,
+            "A": 1.0,
+            "Hex": "890022"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_Kra_Default_Orange_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_Kra_Default_Orange_C",
     "Name": "Default__PE_Kra_Default_Orange_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Default/Data/Palettes/Orange/PE_Kra_Default_Orange.PE_Kra_Default_Orange_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -40,36 +43,40 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
-            "R": 0.327,
-            "G": 0.048418,
-            "B": 0.005559,
+            "R": 0.238,
+            "G": 0.031551,
+            "B": 0.004284,
             "A": 1.0,
-            "Hex": "9B3E10"
+            "Hex": "86310D"
           }
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
-            "R": 0.465,
-            "G": 0.094643,
-            "B": 0.037665,
+            "R": 0.565,
+            "G": 0.0749,
+            "B": 0.01017,
             "A": 1.0,
-            "Hex": "B65736"
+            "Hex": "C64D19"
           }
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
-            "R": 0.616,
-            "G": 0.197982,
-            "B": 0.133672,
+            "R": 0.624,
+            "G": 0.20436,
+            "B": 0.120432,
             "A": 1.0,
-            "Hex": "CE7B66"
+            "Hex": "CF7D61"
           }
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
             "R": 0.982251,
             "G": 0.700877,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
             "R": 1.0,
             "G": 1.0,

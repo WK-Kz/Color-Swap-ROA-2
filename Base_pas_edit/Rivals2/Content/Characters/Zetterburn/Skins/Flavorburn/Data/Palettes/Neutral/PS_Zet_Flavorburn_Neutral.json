@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Flavorburn_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Flavorburn_Neutral_C'Default__PS_Zet_Flavorburn_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Flavorburn/Data/Palettes/Neutral/PS_Zet_Flavorburn_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Flavorburn_Neutral_C",
+    "Name": "Default__PS_Zet_Flavorburn_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Flavorburn/Data/Palettes/Neutral/PS_Zet_Flavorburn_Neutral.PS_Zet_Flavorburn_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.665387,
+            "G": 0.141263,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "D5692D"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.672443,
+            "B": 0.491021,
+            "A": 1.0,
+            "Hex": "E9D6BA"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.03434,
+            "G": 0.011612,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "341C0D"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.029557,
+            "G": 0.017642,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "302431"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 1.0,
+            "G": 0.745404,
+            "B": 0.250158,
+            "A": 1.0,
+            "Hex": "FFE089"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.009134,
+            "G": 0.007499,
+            "B": 0.005182,
+            "A": 1.0,
+            "Hex": "181510"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.01096,
+            "G": 0.008023,
+            "B": 0.008023,
+            "A": 1.0,
+            "Hex": "1B1616"
+          }
+        },
+        {
+          "Key": "Glasses",
+          "Name": "Glasses",
+          "Value": {
+            "R": 0.375,
+            "G": 0.002916,
+            "B": 0.002916,
+            "A": 1.0,
+            "Hex": "A50909"
+          }
+        },
+        {
+          "Key": "Flame",
+          "Name": "Flame",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.296138,
+            "B": 0.002428,
+            "A": 1.0,
+            "Hex": "FC9408"
+          }
+        },
+        {
+          "Key": "Goatee",
+          "Name": "Goatee",
+          "Value": {
+            "R": 1.0,
+            "G": 0.745404,
+            "B": 0.250158,
+            "A": 1.0,
+            "Hex": "FFE089"
+          }
+        },
+        {
+          "Key": "Shoes",
+          "Name": "Shoes",
+          "Value": {
+            "R": 0.501961,
+            "G": 0.501961,
+            "B": 0.501961,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          }
+        }
+      ]
+    }
+  }
+]

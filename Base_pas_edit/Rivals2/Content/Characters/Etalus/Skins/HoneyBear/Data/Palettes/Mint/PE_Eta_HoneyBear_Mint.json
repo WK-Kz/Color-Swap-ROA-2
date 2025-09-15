@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Eta_HoneyBear_Mint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Eta_HoneyBear_Mint_C'Default__PE_Eta_HoneyBear_Mint_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/HoneyBear/Data/Palettes/Mint/PE_Eta_HoneyBear_Mint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Eta_HoneyBear_Mint_C",
+    "Name": "Default__PE_Eta_HoneyBear_Mint_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/HoneyBear/Data/Palettes/Mint/PE_Eta_HoneyBear_Mint.PE_Eta_HoneyBear_Mint_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.021635,
+            "G": 0.439,
+            "B": 0.265098,
+            "A": 1.0,
+            "Hex": "28B18D"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.021635,
+            "G": 0.439,
+            "B": 0.265098,
+            "A": 1.0,
+            "Hex": "28B18D"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.17108,
+            "G": 0.611,
+            "B": 0.398372,
+            "A": 1.0,
+            "Hex": "73CDA9"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.2908,
+            "G": 0.727,
+            "B": 0.51617,
+            "A": 1.0,
+            "Hex": "93DEBE"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

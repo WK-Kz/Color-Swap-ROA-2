@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Eta_HoneyBear_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Eta_HoneyBear_Neutral_C'Default__PE_Eta_HoneyBear_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/HoneyBear/Data/Palettes/Neutral/PE_Eta_HoneyBear_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Eta_HoneyBear_Neutral_C",
+    "Name": "Default__PE_Eta_HoneyBear_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/HoneyBear/Data/Palettes/Neutral/PE_Eta_HoneyBear_Neutral.PE_Eta_HoneyBear_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.666667,
+            "G": 0.242361,
+            "B": 0.013889,
+            "A": 1.0,
+            "Hex": "D6871F"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.666667,
+            "G": 0.306597,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "D69631"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.56,
+            "G": 0.451528,
+            "B": 0.05936,
+            "A": 1.0,
+            "Hex": "C6B345"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.723055,
+            "G": 0.649815,
+            "B": 0.157626,
+            "A": 1.0,
+            "Hex": "DDD36E"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

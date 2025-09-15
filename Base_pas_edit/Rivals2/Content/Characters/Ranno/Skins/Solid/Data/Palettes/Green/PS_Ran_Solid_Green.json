@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_Solid_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_Solid_Green_C",
     "Name": "Default__PS_Ran_Solid_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Green/PS_Ran_Solid_Green.PS_Ran_Solid_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.388889,
             "G": 0.32755,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.896269,
             "G": 0.863157,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Mouth",
+          "Name": "Mouth",
           "Value": {
             "R": 0.161108,
             "G": 0.46875,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Wraps",
+          "Name": "Wraps",
           "Value": {
             "R": 0.064,
             "G": 0.040693,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.038231,
             "G": 0.127438,

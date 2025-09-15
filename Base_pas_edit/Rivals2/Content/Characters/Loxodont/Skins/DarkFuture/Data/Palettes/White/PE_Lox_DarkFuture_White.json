@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Lox_DarkFuture_White_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Lox_DarkFuture_White_C'Default__PE_Lox_DarkFuture_White_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/DarkFuture/Data/Palettes/White/PE_Lox_DarkFuture_White.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Lox_DarkFuture_White_C",
+    "Name": "Default__PE_Lox_DarkFuture_White_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/DarkFuture/Data/Palettes/White/PE_Lox_DarkFuture_White.PE_Lox_DarkFuture_White_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.010417,
+            "G": 0.010417,
+            "B": 0.010417,
+            "A": 1.0,
+            "Hex": "1A1A1A"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.101042,
+            "G": 0.101042,
+            "B": 0.101042,
+            "A": 1.0,
+            "Hex": "595959"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.067708,
+            "G": 0.000437,
+            "B": 0.000146,
+            "A": 1.0,
+            "Hex": "490100"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.78125,
+            "G": 0.052897,
+            "B": 0.526326,
+            "A": 1.0,
+            "Hex": "E541C0"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 0.354167,
+            "B": 0.666319,
+            "A": 1.0,
+            "Hex": "FFA1D5"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 0.90625,
+            "B": 0.95,
+            "A": 1.0,
+            "Hex": "FFF5FA"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

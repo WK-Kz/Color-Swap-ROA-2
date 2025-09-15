@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Default_Summer_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Default_Summer_C'Default__PS_Lox_Default_Summer_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Summer/PS_Lox_Default_Summer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Default_Summer_C",
+    "Name": "Default__PS_Lox_Default_Summer_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Summer/PS_Lox_Default_Summer.PS_Lox_Default_Summer_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.725,
+            "G": 0.52635,
+            "B": 0.12905,
+            "A": 1.0,
+            "Hex": "DEC064"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.552,
+            "G": 0.451536,
+            "B": 0.250608,
+            "A": 1.0,
+            "Hex": "C4B389"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.164,
+            "G": 0.130688,
+            "B": 0.064063,
+            "A": 1.0,
+            "Hex": "716547"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.552,
+            "G": 0.420514,
+            "B": 0.332856,
+            "A": 1.0,
+            "Hex": "C4AE9C"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.0081,
+            "G": 0.675,
+            "B": 0.36378,
+            "A": 1.0,
+            "Hex": "16D7A3"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.007612,
+            "G": 0.011,
+            "B": 0.0092,
+            "A": 1.0,
+            "Hex": "151B18"
+          }
+        },
+        {
+          "Key": "Axe Blade",
+          "Name": "Axe Blade",
+          "Value": {
+            "R": 0.449064,
+            "G": 0.603028,
+            "B": 0.729,
+            "A": 1.0,
+            "Hex": "B3CCDE"
+          }
+        },
+        {
+          "Key": "Axe Head",
+          "Name": "Axe Head",
+          "Value": {
+            "R": 0.000548,
+            "G": 0.301646,
+            "B": 0.548,
+            "A": 1.0,
+            "Hex": "0195C4"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.839,
+            "G": 0.238094,
+            "B": 0.103197,
+            "A": 1.0,
+            "Hex": "EC865A"
+          }
+        },
+        {
+          "Key": "Axe Wraps",
+          "Name": "Axe Wraps",
+          "Value": {
+            "R": 0.002316,
+            "G": 0.167575,
+            "B": 0.193,
+            "A": 1.0,
+            "Hex": "07727A"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Name": "Tusks",
+          "Value": {
+            "R": 0.839,
+            "G": 0.555208,
+            "B": 0.460611,
+            "A": 1.0,
+            "Hex": "ECC5B5"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.000548,
+            "G": 0.301646,
+            "B": 0.548,
+            "A": 1.0,
+            "Hex": "0195C4"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.002316,
+            "G": 0.167575,
+            "B": 0.193,
+            "A": 1.0,
+            "Hex": "07727A"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.102706,
+            "G": 0.577,
+            "B": 0.54538,
+            "A": 1.0,
+            "Hex": "5AC8C3"
+          }
+        },
+        {
+          "Key": "ThroneStone",
+          "Name": "ThroneStone",
+          "Value": {
+            "R": 0.147027,
+            "G": 0.116971,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "6B6060"
+          }
+        },
+        {
+          "Key": "ThroneMetal",
+          "Name": "ThroneMetal",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.39171,
+            "B": 0.369249,
+            "A": 1.0,
+            "Hex": "AFA8A4"
+          }
+        },
+        {
+          "Key": "ThroneCloth",
+          "Name": "ThroneCloth",
+          "Value": {
+            "R": 0.012408,
+            "G": 0.259534,
+            "B": 0.282,
+            "A": 1.0,
+            "Hex": "1D8B91"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Cla_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Cla_Abyss_Blue_C",
     "Name": "Default__PS_Cla_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Blue/PS_Cla_Abyss_Blue.PS_Cla_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.185905,
             "G": 0.323143,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Nose",
+          "Name": "Nose",
           "Value": {
             "R": 0.036132,
             "G": 0.025765,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Corruption",
+          "Name": "Corruption",
           "Value": {
             "R": 0.127438,
             "G": 0.05448,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Corruption2",
+          "Name": "Corruption2",
           "Value": {
             "R": 0.06301,
             "G": 0.964687,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Bone",
+          "Name": "Bone",
           "Value": {
             "R": 0.602164,
             "G": 0.584108,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Clothing",
+          "Name": "Clothing",
           "Value": {
             "R": 0.056121,
             "G": 0.038092,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "ClothingAccent",
+          "Name": "ClothingAccent",
           "Value": {
             "R": 0.157913,
             "G": 0.091136,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.184475,
             "G": 0.323143,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Sclera",
+          "Name": "Sclera",
           "Value": {
             "R": 0.099899,
             "G": 0.672443,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.053837,
             "G": 0.215784,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.0,
             "G": 0.0,

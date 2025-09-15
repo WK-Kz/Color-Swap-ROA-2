@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_HoneyBear_Mint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_HoneyBear_Mint_C'Default__PS_Eta_HoneyBear_Mint_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/HoneyBear/Data/Palettes/Mint/PS_Eta_HoneyBear_Mint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_HoneyBear_Mint_C",
+    "Name": "Default__PS_Eta_HoneyBear_Mint_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/HoneyBear/Data/Palettes/Mint/PS_Eta_HoneyBear_Mint.PS_Eta_HoneyBear_Mint_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Honey",
+          "Name": "Honey",
+          "Value": {
+            "R": 0.021635,
+            "G": 0.439,
+            "B": 0.265098,
+            "A": 1.0,
+            "Hex": "28B18D"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.219526,
+            "G": 0.048172,
+            "B": 0.097587,
+            "A": 1.0,
+            "Hex": "813E58"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.955973,
+            "G": 0.127438,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "FA6487"
+          }
+        },
+        {
+          "Key": "Hive",
+          "Name": "Hive",
+          "Value": {
+            "R": 0.955973,
+            "G": 0.127438,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "FA6487"
+          }
+        },
+        {
+          "Key": "AntenaTip",
+          "Name": "AntenaTip",
+          "Value": {
+            "R": 0.082818,
+            "G": 0.642,
+            "B": 0.409008,
+            "A": 1.0,
+            "Hex": "51D2AC"
+          }
+        },
+        {
+          "Key": "AntenaStem",
+          "Name": "AntenaStem",
+          "Value": {
+            "R": 0.036458,
+            "G": 0.023089,
+            "B": 0.020508,
+            "A": 1.0,
+            "Hex": "352A27"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.546604,
+            "G": 0.620542,
+            "B": 0.677083,
+            "A": 1.0,
+            "Hex": "C3CFD7"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.267591,
+            "G": 0.573,
+            "B": 0.476287,
+            "A": 1.0,
+            "Hex": "8DC8B8"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.015625,
+            "G": 0.00816,
+            "B": 0.005208,
+            "A": 1.0,
+            "Hex": "211610"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.00651,
+            "G": 0.052083,
+            "B": 0.030816,
+            "A": 1.0,
+            "Hex": "134031"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.215287,
+            "G": 0.461,
+            "B": 0.383191,
+            "A": 1.0,
+            "Hex": "80B5A7"
+          }
+        },
+        {
+          "Key": "PawPads",
+          "Name": "PawPads",
+          "Value": {
+            "R": 0.032227,
+            "G": 0.140625,
+            "B": 0.104492,
+            "A": 1.0,
+            "Hex": "32695B"
+          }
+        },
+        {
+          "Key": "InnerEars",
+          "Name": "InnerEars",
+          "Value": {
+            "R": 0.067708,
+            "G": 0.01728,
+            "B": 0.05258,
+            "A": 1.0,
+            "Hex": "492341"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.955973,
+            "G": 0.127438,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "FA6487"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.955973,
+            "G": 0.127438,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "FA6487"
+          }
+        }
+      ]
+    }
+  }
+]

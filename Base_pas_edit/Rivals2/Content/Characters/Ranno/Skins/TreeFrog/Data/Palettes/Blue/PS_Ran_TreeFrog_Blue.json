@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_TreeFrog_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_TreeFrog_Blue_C'Default__PS_Ran_TreeFrog_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/TreeFrog/Data/Palettes/Blue/PS_Ran_TreeFrog_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_TreeFrog_Blue_C",
+    "Name": "Default__PS_Ran_TreeFrog_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/TreeFrog/Data/Palettes/Blue/PS_Ran_TreeFrog_Blue.PS_Ran_TreeFrog_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.029297,
+            "G": 0.375,
+            "B": 0.248242,
+            "A": 1.0,
+            "Hex": "2FA589"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.838542,
+            "G": 0.559028,
+            "B": 0.642882,
+            "A": 1.0,
+            "Hex": "ECC5D2"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.032302,
+            "G": 0.014106,
+            "B": 0.135417,
+            "A": 1.0,
+            "Hex": "321F67"
+          }
+        },
+        {
+          "Key": "Hands",
+          "Name": "Hands",
+          "Value": {
+            "R": 0.583333,
+            "G": 0.03342,
+            "B": 0.03342,
+            "A": 1.0,
+            "Hex": "C93333"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.0,
+            "G": 0.533333,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00C1FF"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.838542,
+            "G": 0.559028,
+            "B": 0.642882,
+            "A": 1.0,
+            "Hex": "ECC5D2"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.84375,
+            "G": 0.035156,
+            "B": 0.035156,
+            "A": 1.0,
+            "Hex": "ED3434"
+          }
+        }
+      ]
+    }
+  }
+]

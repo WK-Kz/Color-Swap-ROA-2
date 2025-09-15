@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Kra_Goliath_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Kra_Goliath_Purple_C'Default__PE_Kra_Goliath_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Purple/PE_Kra_Goliath_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Kra_Goliath_Purple_C",
+    "Name": "Default__PE_Kra_Goliath_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Purple/PE_Kra_Goliath_Purple.PE_Kra_Goliath_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.043956,
+            "G": 0.016434,
+            "B": 0.099,
+            "A": 1.0,
+            "Hex": "3B2258"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.091146,
+            "G": 0.028125,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "552E7C"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.171304,
+            "G": 0.095956,
+            "B": 0.322,
+            "A": 1.0,
+            "Hex": "73579A"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.522131,
+            "G": 0.394865,
+            "B": 0.982251,
+            "A": 1.0,
+            "Hex": "BFA9FD"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

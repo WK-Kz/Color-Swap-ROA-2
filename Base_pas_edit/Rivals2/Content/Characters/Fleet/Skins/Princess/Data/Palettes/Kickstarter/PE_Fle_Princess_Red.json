@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Princess_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Princess_Red_C'Default__PE_Fle_Princess_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Princess/Data/Palettes/Kickstarter/PE_Fle_Princess_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Princess_Red_C",
+    "Name": "Default__PE_Fle_Princess_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Princess/Data/Palettes/Kickstarter/PE_Fle_Princess_Red.PE_Fle_Princess_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.544,
+            "G": 0.216338,
+            "B": 0.012656,
+            "A": 1.0,
+            "Hex": "C3801D"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.67,
+            "G": 0.347395,
+            "B": 0.02479,
+            "A": 1.0,
+            "Hex": "D69F2B"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.817708,
+            "G": 0.53106,
+            "B": 0.180713,
+            "A": 1.0,
+            "Hex": "EAC176"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.8,
+            "G": 0.62288,
+            "B": 0.4064,
+            "A": 1.0,
+            "Hex": "E8CFAB"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.405983,
+            "G": 0.137432,
+            "B": 0.838,
+            "A": 1.0,
+            "Hex": "AB68EC"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 0.216873,
+            "G": 0.029064,
+            "B": 0.519,
+            "A": 1.0,
+            "Hex": "802FBF"
+          }
+        }
+      ]
+    }
+  }
+]

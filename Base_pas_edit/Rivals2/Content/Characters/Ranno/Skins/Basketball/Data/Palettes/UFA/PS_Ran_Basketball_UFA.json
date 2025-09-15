@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Basketball_UFA_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Basketball_UFA_C'Default__PS_Ran_Basketball_UFA_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/UFA/PS_Ran_Basketball_UFA.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Basketball_UFA_C",
+    "Name": "Default__PS_Ran_Basketball_UFA_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/UFA/PS_Ran_Basketball_UFA.PS_Ran_Basketball_UFA_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.015625,
+            "G": 0.015625,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "212121"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.806952,
+            "G": 1.0,
+            "B": 0.000304,
+            "A": 1.0,
+            "Hex": "E8FF01"
+          }
+        },
+        {
+          "Key": "JerseyTrim",
+          "Name": "JerseyTrim",
+          "Value": {
+            "R": 0.004391,
+            "G": 0.947307,
+            "B": 0.822786,
+            "A": 1.0,
+            "Hex": "0EF9EA"
+          }
+        },
+        {
+          "Key": "Armband",
+          "Name": "Armband",
+          "Value": {
+            "R": 0.004391,
+            "G": 0.947307,
+            "B": 0.822786,
+            "A": 1.0,
+            "Hex": "0EF9EA"
+          }
+        },
+        {
+          "Key": "Basketball",
+          "Name": "Basketball",
+          "Value": {
+            "R": 0.806952,
+            "G": 1.0,
+            "B": 0.000304,
+            "A": 1.0,
+            "Hex": "E8FF01"
+          }
+        },
+        {
+          "Key": "BasketballLines",
+          "Name": "BasketballLines",
+          "Value": {
+            "R": 0.009332,
+            "G": 0.041667,
+            "B": 0.037397,
+            "A": 1.0,
+            "Hex": "183936"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.192708,
+            "G": 0.192708,
+            "B": 0.192708,
+            "A": 1.0,
+            "Hex": "797979"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.711372,
+            "G": 0.776042,
+            "B": 0.533529,
+            "A": 1.0,
+            "Hex": "DCE4C1"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.025472,
+            "G": 0.026042,
+            "B": 0.023193,
+            "A": 1.0,
+            "Hex": "2C2C2A"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.806952,
+            "G": 1.0,
+            "B": 0.000304,
+            "A": 1.0,
+            "Hex": "E8FF01"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.806952,
+            "G": 1.0,
+            "B": 0.000304,
+            "A": 1.0,
+            "Hex": "E8FF01"
+          }
+        }
+      ]
+    }
+  }
+]

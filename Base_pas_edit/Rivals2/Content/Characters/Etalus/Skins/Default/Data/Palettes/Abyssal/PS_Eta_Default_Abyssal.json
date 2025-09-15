@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Default_Abyssal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Default_Abyssal_C'Default__PS_Eta_Default_Abyssal_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Default/Data/Palettes/Abyssal/PS_Eta_Default_Abyssal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Default_Abyssal_C",
+    "Name": "Default__PS_Eta_Default_Abyssal_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Default/Data/Palettes/Abyssal/PS_Eta_Default_Abyssal.PS_Eta_Default_Abyssal_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.085314,
+            "G": 0.089899,
+            "B": 0.177,
+            "A": 1.0,
+            "Hex": "525475"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.364,
+            "G": 0.0,
+            "B": 0.2971,
+            "A": 1.0,
+            "Hex": "A30094"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.039546,
+            "G": 0.023153,
+            "B": 0.049707,
+            "A": 1.0,
+            "Hex": "382A3F"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.174647,
+            "G": 0.043296,
+            "B": 0.110783,
+            "A": 1.0,
+            "Hex": "743A5D"
+          }
+        },
+        {
+          "Key": "PawPads",
+          "Name": "PawPads",
+          "Value": {
+            "R": 0.03125,
+            "G": 0.02325,
+            "B": 0.02325,
+            "A": 1.0,
+            "Hex": "312A2A"
+          }
+        },
+        {
+          "Key": "InnerEars",
+          "Name": "InnerEars",
+          "Value": {
+            "R": 0.174647,
+            "G": 0.043296,
+            "B": 0.110783,
+            "A": 1.0,
+            "Hex": "743A5D"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 1.0,
+            "G": 0.680496,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFD700"
+          }
+        },
+        {
+          "Key": "ScleraShading",
+          "Name": "ScleraShading",
+          "Value": {
+            "R": 0.574653,
+            "G": 0.238272,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "C88600"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.723055,
+            "G": 0.139188,
+            "B": 0.022415,
+            "A": 1.0,
+            "Hex": "DD6829"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.723055,
+            "G": 0.139188,
+            "B": 0.022415,
+            "A": 1.0,
+            "Hex": "DD6829"
+          }
+        },
+        {
+          "Key": "LeftPupil",
+          "Name": "LeftPupil",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "RightPupil",
+          "Name": "RightPupil",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Eyeliner",
+          "Name": "Eyeliner",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.039546,
+            "G": 0.023153,
+            "B": 0.049707,
+            "A": 1.0,
+            "Hex": "382A3F"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Marten_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Marten_Red_C'Default__PS_May_Marten_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Marten/Data/Palettes/Red/PS_May_Marten_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Marten_Red_C",
+    "Name": "Default__PS_May_Marten_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Marten/Data/Palettes/Red/PS_May_Marten_Red.PS_May_Marten_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pal",
+          "Name": "Pal",
+          "Value": {
+            "R": 0.432292,
+            "G": 0.027018,
+            "B": 0.027018,
+            "A": 1.0,
+            "Hex": "B02D2D"
+          }
+        },
+        {
+          "Key": "PVine",
+          "Name": "PVine",
+          "Value": {
+            "R": 0.055,
+            "G": 0.03647,
+            "B": 0.02959,
+            "A": 1.0,
+            "Hex": "423530"
+          }
+        },
+        {
+          "Key": "Vine2",
+          "Name": "Vine2",
+          "Value": {
+            "R": 0.128,
+            "G": 0.079182,
+            "B": 0.061056,
+            "A": 1.0,
+            "Hex": "644F46"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Name": "Leaf",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.427778,
+            "B": 0.406924,
+            "A": 1.0,
+            "Hex": "F7AFAB"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Name": "Vine",
+          "Value": {
+            "R": 0.140625,
+            "G": 0.060876,
+            "B": 0.038818,
+            "A": 1.0,
+            "Hex": "694637"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.432292,
+            "G": 0.027018,
+            "B": 0.027018,
+            "A": 1.0,
+            "Hex": "B02D2D"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.932,
+            "G": 0.611949,
+            "B": 0.485417,
+            "A": 1.0,
+            "Hex": "F8CEB9"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.145833,
+            "G": 0.015191,
+            "B": 0.028255,
+            "A": 1.0,
+            "Hex": "6B212F"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.03125,
+            "G": 0.01123,
+            "B": 0.018571,
+            "A": 1.0,
+            "Hex": "311B25"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.010205,
+            "G": 0.006836,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "191321"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.364583,
+            "G": 0.216471,
+            "B": 0.216471,
+            "A": 1.0,
+            "Hex": "A38080"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.65625,
+            "G": 0.307617,
+            "B": 0.041016,
+            "A": 1.0,
+            "Hex": "D49739"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.5,
+            "G": 0.436478,
+            "B": 0.374028,
+            "A": 1.0,
+            "Hex": "BCB1A5"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Name": "Poppy",
+          "Value": {
+            "R": 0.789931,
+            "G": 0.74139,
+            "B": 0.647701,
+            "A": 1.0,
+            "Hex": "E6E0D3"
+          }
+        }
+      ]
+    }
+  }
+]

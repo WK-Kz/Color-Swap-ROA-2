@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_Orc_Default_Black_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_Orc_Default_Black_C",
     "Name": "Default__PE_Orc_Default_Black_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Black/PE_Orc_Default_Black.PE_Orc_Default_Black_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
             "R": 0.073,
             "G": 0.073,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
             "R": 0.159,
             "G": 0.159,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
             "R": 1.2,
             "G": 1.2,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
             "R": 0.7,
             "G": 0.7,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
             "R": 0.4,
             "G": 0.4,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Element6",
+          "Name": "Element6",
           "Value": {
             "R": 0.0,
             "G": 0.0,

@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Default_Summer_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Default_Summer_C'Default__PS_May_Default_Summer_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Summer/PS_May_Default_Summer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Default_Summer_C",
+    "Name": "Default__PS_May_Default_Summer_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Summer/PS_May_Default_Summer.PS_May_Default_Summer_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pal",
+          "Name": "Pal",
+          "Value": {
+            "R": 0.771,
+            "G": 0.229502,
+            "B": 0.01542,
+            "A": 1.0,
+            "Hex": "E48421"
+          }
+        },
+        {
+          "Key": "PVine",
+          "Name": "PVine",
+          "Value": {
+            "R": 0.01316,
+            "G": 0.257763,
+            "B": 0.28,
+            "A": 1.0,
+            "Hex": "1E8B90"
+          }
+        },
+        {
+          "Key": "Vine2",
+          "Name": "Vine2",
+          "Value": {
+            "R": 0.64448,
+            "G": 0.51428,
+            "B": 0.127607,
+            "A": 1.0,
+            "Hex": "D2BE64"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Name": "Leaf",
+          "Value": {
+            "R": 0.771,
+            "G": 0.229502,
+            "B": 0.01542,
+            "A": 1.0,
+            "Hex": "E48421"
+          }
+        },
+        {
+          "Key": "Vine",
+          "Name": "Vine",
+          "Value": {
+            "R": 0.64448,
+            "G": 0.14692,
+            "B": 0.081204,
+            "A": 1.0,
+            "Hex": "D26B50"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.64448,
+            "G": 0.51428,
+            "B": 0.127607,
+            "A": 1.0,
+            "Hex": "D2BE64"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.751,
+            "G": 0.650358,
+            "B": 0.351468,
+            "A": 1.0,
+            "Hex": "E1D3A0"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.01316,
+            "G": 0.257763,
+            "B": 0.28,
+            "A": 1.0,
+            "Hex": "1E8B90"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.64448,
+            "G": 0.14692,
+            "B": 0.081204,
+            "A": 1.0,
+            "Hex": "D26B50"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.621,
+            "G": 0.621,
+            "B": 0.621,
+            "A": 1.0,
+            "Hex": "CFCFCF"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Name": "Poppy",
+          "Value": {
+            "R": 0.64448,
+            "G": 0.535385,
+            "B": 0.211389,
+            "A": 1.0,
+            "Hex": "D2C27F"
+          }
+        }
+      ]
+    }
+  }
+]

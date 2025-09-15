@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_May_Skunk_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_May_Skunk_Green_C",
     "Name": "Default__PS_May_Skunk_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Skunk/Data/Palettes/Green/PS_May_Skunk_Green.PS_May_Skunk_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.006764,
             "G": 0.019,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.315657,
             "G": 0.617,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Paws",
+          "Name": "Paws",
           "Value": {
             "R": 0.143,
             "G": 0.08675,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Leaf",
+          "Name": "Leaf",
           "Value": {
             "R": 0.0,
             "G": 0.385,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Vine",
+          "Name": "Vine",
           "Value": {
             "R": 0.467784,
             "G": 0.309469,

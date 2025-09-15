@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_LeopardShark_Pink_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_LeopardShark_Pink_C'Default__PE_Orc_LeopardShark_Pink_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Pink/PE_Orc_LeopardShark_Pink.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_LeopardShark_Pink_C",
+    "Name": "Default__PE_Orc_LeopardShark_Pink_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Pink/PE_Orc_LeopardShark_Pink.PE_Orc_LeopardShark_Pink_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.078125,
+            "G": 0.009359,
+            "B": 0.039157,
+            "A": 1.0,
+            "Hex": "4F1837"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.604167,
+            "G": 0.081814,
+            "B": 0.238521,
+            "A": 1.0,
+            "Hex": "CC5186"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.901042,
+            "G": 0.286268,
+            "B": 0.511685,
+            "A": 1.0,
+            "Hex": "F492BE"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 0.484375,
+            "B": 0.673437,
+            "A": 1.0,
+            "Hex": "FFB9D6"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.963542,
+            "G": 0.807267,
+            "B": 0.807267,
+            "A": 1.0,
+            "Hex": "FBE8E8"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

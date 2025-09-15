@@ -1,0 +1,234 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Summer_Pink_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Summer_Pink_C'Default__PS_Fle_Summer_Pink_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Summer/Data/Palettes/Pink/PS_Fle_Summer_Pink.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Summer_Pink_C",
+    "Name": "Default__PS_Fle_Summer_Pink_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Summer/Data/Palettes/Pink/PS_Fle_Summer_Pink.PS_Fle_Summer_Pink_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Skirt",
+          "Name": "Skirt",
+          "Value": {
+            "R": 0.315,
+            "G": 0.021105,
+            "B": 0.055393,
+            "A": 1.0,
+            "Hex": "982842"
+          }
+        },
+        {
+          "Key": "Towel",
+          "Name": "Towel",
+          "Value": {
+            "R": 0.732,
+            "G": 0.170556,
+            "B": 0.385776,
+            "A": 1.0,
+            "Hex": "DF73A7"
+          }
+        },
+        {
+          "Key": "Towel2",
+          "Name": "Towel2",
+          "Value": {
+            "R": 0.697,
+            "G": 0.68823,
+            "B": 0.697,
+            "A": 1.0,
+            "Hex": "DAD9DA"
+          }
+        },
+        {
+          "Key": "Sandals",
+          "Name": "Sandals",
+          "Value": {
+            "R": 0.000532,
+            "G": 0.021764,
+            "B": 0.038,
+            "A": 1.0,
+            "Hex": "012837"
+          }
+        },
+        {
+          "Key": "Suit1",
+          "Name": "Suit1",
+          "Value": {
+            "R": 0.001582,
+            "G": 0.064719,
+            "B": 0.113,
+            "A": 1.0,
+            "Hex": "05485E"
+          }
+        },
+        {
+          "Key": "Suit2",
+          "Name": "Suit2",
+          "Value": {
+            "R": 0.535,
+            "G": 0.528268,
+            "B": 0.535,
+            "A": 1.0,
+            "Hex": "C2C0C2"
+          }
+        },
+        {
+          "Key": "Wrist",
+          "Name": "Wrist",
+          "Value": {
+            "R": 0.315,
+            "G": 0.021105,
+            "B": 0.055393,
+            "A": 1.0,
+            "Hex": "982842"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.386429,
+            "G": 0.111932,
+            "B": 0.076185,
+            "A": 1.0,
+            "Hex": "A75E4E"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.095307,
+            "G": 0.051269,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "574037"
+          }
+        },
+        {
+          "Key": "HairTie",
+          "Name": "HairTie",
+          "Value": {
+            "R": 0.695,
+            "G": 0.064635,
+            "B": 0.306275,
+            "A": 1.0,
+            "Hex": "DA4896"
+          }
+        },
+        {
+          "Key": "Bow",
+          "Name": "Bow",
+          "Value": {
+            "R": 0.695,
+            "G": 0.064635,
+            "B": 0.306275,
+            "A": 1.0,
+            "Hex": "DA4896"
+          }
+        },
+        {
+          "Key": "Bow2",
+          "Name": "Bow2",
+          "Value": {
+            "R": 0.644,
+            "G": 0.261163,
+            "B": 0.023184,
+            "A": 1.0,
+            "Hex": "D28C2A"
+          }
+        },
+        {
+          "Key": "Bow3",
+          "Name": "Bow3",
+          "Value": {
+            "R": 0.849,
+            "G": 0.23772,
+            "B": 0.512795,
+            "A": 1.0,
+            "Hex": "EE86BE"
+          }
+        },
+        {
+          "Key": "Tank",
+          "Name": "Tank",
+          "Value": {
+            "R": 0.027321,
+            "G": 0.514918,
+            "B": 0.799103,
+            "A": 1.0,
+            "Hex": "2EBEE7"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.527115,
+            "G": 0.401275,
+            "B": 0.281479,
+            "A": 1.0,
+            "Hex": "C0AA91"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.462077,
+            "G": 0.194618,
+            "B": 0.184475,
+            "A": 1.0,
+            "Hex": "B57A77"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.432118,
+            "B": 0.682292,
+            "A": 1.0,
+            "Hex": "00B0D8"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.882,
+            "G": 0.882,
+            "B": 0.882,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cha_Champion_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cha_Champion_Blue_C'Default__PS_Cha_Champion_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Shared/Champion/PS_Cha_Champion_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cha_Champion_Blue_C",
+    "Name": "Default__PS_Cha_Champion_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Shared/Champion/PS_Cha_Champion_Blue.PS_Cha_Champion_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Dark",
+          "Name": "Dark",
+          "Value": {
+            "R": 0.013443,
+            "G": 0.017291,
+            "B": 0.042311,
+            "A": 1.0,
+            "Hex": "1E233A"
+          }
+        },
+        {
+          "Key": "Mid",
+          "Name": "Mid",
+          "Value": {
+            "R": 0.19665,
+            "G": 0.366908,
+            "B": 0.575,
+            "A": 1.0,
+            "Hex": "7BA3C8"
+          }
+        },
+        {
+          "Key": "Black",
+          "Name": "Black",
+          "Value": {
+            "R": 0.0091,
+            "G": 0.009,
+            "B": 0.015,
+            "A": 1.0,
+            "Hex": "181720"
+          }
+        },
+        {
+          "Key": "Bright",
+          "Name": "Bright",
+          "Value": {
+            "R": 0.521,
+            "G": 0.584867,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "BFC9FF"
+          }
+        },
+        {
+          "Key": "Crystal",
+          "Name": "Crystal",
+          "Value": {
+            "R": 0.028212,
+            "G": 0.113788,
+            "B": 0.541667,
+            "A": 1.0,
+            "Hex": "2E5FC3"
+          }
+        },
+        {
+          "Key": "CrystalAccent",
+          "Name": "CrystalAccent",
+          "Value": {
+            "R": 0.177056,
+            "G": 0.202405,
+            "B": 0.557292,
+            "A": 1.0,
+            "Hex": "757CC5"
+          }
+        },
+        {
+          "Key": "Color",
+          "Name": "Color",
+          "Value": {
+            "R": 0.484375,
+            "G": 0.244204,
+            "B": 0.060547,
+            "A": 1.0,
+            "Hex": "B98845"
+          }
+        },
+        {
+          "Key": "CrystalOutline",
+          "Name": "CrystalOutline",
+          "Value": {
+            "R": 0.695086,
+            "G": 0.689778,
+            "B": 0.848958,
+            "A": 1.0,
+            "Hex": "DAD9EE"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.181164,
+            "G": 0.665387,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "76D5FF"
+          }
+        },
+        {
+          "Key": "Glow",
+          "Name": "Glow",
+          "Value": {
+            "R": 0.181164,
+            "G": 0.665387,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "76D5FF"
+          }
+        },
+        {
+          "Key": "Accent",
+          "Name": "Accent",
+          "Value": {
+            "R": 0.817708,
+            "G": 0.402605,
+            "B": 0.085178,
+            "A": 1.0,
+            "Hex": "EAAA52"
+          }
+        }
+      ]
+    }
+  }
+]

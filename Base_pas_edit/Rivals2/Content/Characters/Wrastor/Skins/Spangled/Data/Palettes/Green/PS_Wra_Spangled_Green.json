@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Spangled_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Spangled_Green_C'Default__PS_Wra_Spangled_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Spangled/Data/Palettes/Green/PS_Wra_Spangled_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Spangled_Green_C",
+    "Name": "Default__PS_Wra_Spangled_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Spangled/Data/Palettes/Green/PS_Wra_Spangled_Green.PS_Wra_Spangled_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.008464,
+            "G": 0.270833,
+            "B": 0.200868,
+            "A": 1.0,
+            "Hex": "168E7C"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.561589,
+            "G": 0.921582,
+            "B": 0.747585,
+            "A": 1.0,
+            "Hex": "C6F6E1"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.001953,
+            "G": 0.088086,
+            "B": 0.125,
+            "A": 1.0,
+            "Hex": "065463"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.5625,
+            "G": 0.12793,
+            "B": 0.041016,
+            "A": 1.0,
+            "Hex": "C66439"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.649903,
+            "G": 0.739583,
+            "B": 0.622609,
+            "A": 1.0,
+            "Hex": "D3E0CF"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.42193,
+            "G": 0.526042,
+            "B": 0.430606,
+            "A": 1.0,
+            "Hex": "AEC0B0"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.000597,
+            "G": 0.086087,
+            "B": 0.114583,
+            "A": 1.0,
+            "Hex": "01535F"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.155979,
+            "G": 0.598958,
+            "B": 0.466064,
+            "A": 1.0,
+            "Hex": "6ECCB6"
+          }
+        },
+        {
+          "Key": "LensGradient",
+          "Name": "LensGradient",
+          "Value": {
+            "R": 0.547011,
+            "G": 0.963542,
+            "B": 0.789987,
+            "A": 1.0,
+            "Hex": "C3FBE6"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.486963,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "BA00FF"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Mammoth_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Mammoth_Purple_C'Default__PS_Lox_Mammoth_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Mammoth/Data/Palettes/Purple/PS_Lox_Mammoth_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Mammoth_Purple_C",
+    "Name": "Default__PS_Lox_Mammoth_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Mammoth/Data/Palettes/Purple/PS_Lox_Mammoth_Purple.PS_Lox_Mammoth_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.206959,
+            "G": 0.09074,
+            "B": 0.349,
+            "A": 1.0,
+            "Hex": "7E55A0"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Name": "Tusks",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.34977,
+            "B": 0.399721,
+            "A": 1.0,
+            "Hex": "ADA0AA"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.06,
+            "G": 0.03153,
+            "B": 0.0162,
+            "A": 1.0,
+            "Hex": "453122"
+          }
+        },
+        {
+          "Key": "Stone",
+          "Name": "Stone",
+          "Value": {
+            "R": 0.142,
+            "G": 0.092868,
+            "B": 0.09506,
+            "A": 1.0,
+            "Hex": "695657"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.26,
+            "G": 0.134533,
+            "B": 0.01716,
+            "A": 1.0,
+            "Hex": "8B6723"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.376262,
+            "G": 0.258247,
+            "B": 0.237421,
+            "A": 1.0,
+            "Hex": "A58B86"
+          }
+        }
+      ]
+    }
+  }
+]

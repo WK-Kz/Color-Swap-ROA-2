@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Fle_Aussie_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Fle_Aussie_Green_C",
     "Name": "Default__PS_Fle_Aussie_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Aussie/Data/Palettes/Green/PS_Fle_Aussie_Green.PS_Fle_Aussie_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.08112,
             "G": 0.16,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.620454,
             "G": 0.739,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.315496,
             "G": 0.383,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Spots",
+          "Name": "Spots",
           "Value": {
             "R": 0.012983,
             "G": 0.011612,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.618,
             "G": 0.2575,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.025187,
             "G": 0.104616,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "CapeTrim",
+          "Name": "CapeTrim",
           "Value": {
             "R": 0.042295,
             "G": 0.769,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.242942,
             "G": 0.469,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.022174,
             "G": 0.0185,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Shirt2",
+          "Name": "Shirt2",
           "Value": {
             "R": 0.042295,
             "G": 0.769,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Belts",
+          "Name": "Belts",
           "Value": {
             "R": 0.022174,
             "G": 0.0185,

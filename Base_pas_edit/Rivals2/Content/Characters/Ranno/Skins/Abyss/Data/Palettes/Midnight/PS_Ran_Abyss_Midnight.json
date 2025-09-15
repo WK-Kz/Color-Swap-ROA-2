@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Abyss_Midnight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Abyss_Midnight_C'Default__PS_Ran_Abyss_Midnight_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Midnight/PS_Ran_Abyss_Midnight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Abyss_Midnight_C",
+    "Name": "Default__PS_Ran_Abyss_Midnight_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Midnight/PS_Ran_Abyss_Midnight.PS_Ran_Abyss_Midnight_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.02052,
+            "G": 0.040232,
+            "B": 0.135,
+            "A": 1.0,
+            "Hex": "273867"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.192,
+            "G": 0.033216,
+            "B": 0.040862,
+            "A": 1.0,
+            "Hex": "793339"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.14315,
+            "G": 0.266872,
+            "B": 0.818,
+            "A": 1.0,
+            "Hex": "6A8DEA"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.45952,
+            "G": 0.517988,
+            "B": 0.64,
+            "A": 1.0,
+            "Hex": "B5BFD2"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.0228,
+            "G": 0.036781,
+            "B": 0.104,
+            "A": 1.0,
+            "Hex": "29365B"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Name": "Spikes",
+          "Value": {
+            "R": 0.890787,
+            "G": 0.226404,
+            "B": 0.993,
+            "A": 1.0,
+            "Hex": "F383FF"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.000282,
+            "G": 0.000554,
+            "B": 0.003,
+            "A": 1.0,
+            "Hex": "000109"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 0.547,
+            "G": 0.06017,
+            "B": 0.068284,
+            "A": 1.0,
+            "Hex": "C3454A"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.547,
+            "G": 0.06017,
+            "B": 0.068284,
+            "A": 1.0,
+            "Hex": "C3454A"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Primal_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Primal_Red_C'Default__PS_Eta_Primal_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Primal/Data/Palettes/Red/PS_Eta_Primal_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Primal_Red_C",
+    "Name": "Default__PS_Eta_Primal_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Primal/Data/Palettes/Red/PS_Eta_Primal_Red.PS_Eta_Primal_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.181164,
+            "G": 0.051088,
+            "B": 0.051088,
+            "A": 1.0,
+            "Hex": "764040"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.153597,
+            "B": 0.153597,
+            "A": 1.0,
+            "Hex": "896D6D"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.055,
+            "G": 0.018755,
+            "B": 0.018755,
+            "A": 1.0,
+            "Hex": "422525"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.006049,
+            "G": 0.006995,
+            "B": 0.007499,
+            "A": 1.0,
+            "Hex": "121415"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.40724,
+            "G": 0.271493,
+            "B": 0.244344,
+            "A": 1.0,
+            "Hex": "AB8E88"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.073,
+            "G": 0.035654,
+            "B": 0.008979,
+            "A": 1.0,
+            "Hex": "4C3517"
+          }
+        },
+        {
+          "Key": "Feather",
+          "Name": "Feather",
+          "Value": {
+            "R": 0.387,
+            "G": 0.167723,
+            "B": 0.011097,
+            "A": 1.0,
+            "Hex": "A7721B"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.122,
+            "G": 0.732,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "62DF00"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.122,
+            "G": 0.732,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "62DF00"
+          }
+        },
+        {
+          "Key": "Stone",
+          "Name": "Stone",
+          "Value": {
+            "R": 0.07,
+            "G": 0.04333,
+            "B": 0.068666,
+            "A": 1.0,
+            "Hex": "4B3A4A"
+          }
+        }
+      ]
+    }
+  }
+]

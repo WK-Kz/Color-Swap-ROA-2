@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Wra_Mecha_Midnight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Wra_Mecha_Midnight_C'Default__PE_Wra_Mecha_Midnight_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Midnight/PE_Wra_Mecha_Midnight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Wra_Mecha_Midnight_C",
+    "Name": "Default__PE_Wra_Mecha_Midnight_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Midnight/PE_Wra_Mecha_Midnight.PE_Wra_Mecha_Midnight_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.056702,
+            "G": 0.038059,
+            "B": 0.317708,
+            "A": 1.0,
+            "Hex": "433799"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.09809,
+            "G": 0.167337,
+            "B": 0.588542,
+            "A": 1.0,
+            "Hex": "5872CA"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.348958,
+            "G": 0.457465,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "A0B4FF"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.658613,
+            "G": 0.991102,
+            "B": 0.985187,
+            "A": 1.0,
+            "Hex": "D4FEFE"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_May_Default_Purple_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_May_Default_Purple_C",
     "Name": "Default__PS_May_Default_Purple_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Default/Data/Palettes/Purple/PS_May_Default_Purple.PS_May_Default_Purple_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Pal",
+          "Name": "Pal",
           "Value": {
             "R": 0.153285,
             "G": 0.106964,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "PVine",
+          "Name": "PVine",
           "Value": {
             "R": 0.278894,
             "G": 0.119538,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Vine2",
+          "Name": "Vine2",
           "Value": {
             "R": 0.278894,
             "G": 0.120482,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Leaf",
+          "Name": "Leaf",
           "Value": {
             "R": 0.153285,
             "G": 0.106964,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Vine",
+          "Name": "Vine",
           "Value": {
             "R": 0.278894,
             "G": 0.119538,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.080995,
             "G": 0.036838,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.34858,
             "G": 0.367865,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.029161,
             "G": 0.019412,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.146172,
             "G": 0.554766,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Poppy",
+          "Name": "Poppy",
           "Value": {
             "R": 0.789931,
             "G": 0.74139,

@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Demigod_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Demigod_Green_C'Default__PS_Orc_Demigod_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Demigod/Data/Palettes/Green/PS_Orc_Demigod_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Demigod_Green_C",
+    "Name": "Default__PS_Orc_Demigod_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Demigod/Data/Palettes/Green/PS_Orc_Demigod_Green.PS_Orc_Demigod_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.007595,
+            "G": 0.072917,
+            "B": 0.03699,
+            "A": 1.0,
+            "Hex": "154C36"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.439365,
+            "G": 0.578125,
+            "B": 0.340251,
+            "A": 1.0,
+            "Hex": "B1C89E"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 0.33578,
+            "G": 0.185655,
+            "B": 0.614583,
+            "A": 1.0,
+            "Hex": "9D77CE"
+          }
+        },
+        {
+          "Key": "Claws",
+          "Name": "Claws",
+          "Value": {
+            "R": 0.557292,
+            "G": 0.512606,
+            "B": 0.278646,
+            "A": 1.0,
+            "Hex": "C5BE90"
+          }
+        },
+        {
+          "Key": "Tattoos",
+          "Name": "Tattoos",
+          "Value": {
+            "R": 0.613136,
+            "G": 0.848958,
+            "B": 0.141493,
+            "A": 1.0,
+            "Hex": "CEEE69"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.9625,
+            "G": 1.0,
+            "B": 0.875,
+            "A": 1.0,
+            "Hex": "FBFFF1"
+          }
+        },
+        {
+          "Key": "Eyeliner",
+          "Name": "Eyeliner",
+          "Value": {
+            "R": 0.011458,
+            "G": 0.011458,
+            "B": 0.011458,
+            "A": 1.0,
+            "Hex": "1B1B1B"
+          }
+        }
+      ]
+    }
+  }
+]

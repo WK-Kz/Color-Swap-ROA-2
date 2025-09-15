@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Champion_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Champion_Blue_C'Default__PE_Fle_Champion_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Champion/Data/Palettes/Blue/PE_Fle_Champion_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Champion_Blue_C",
+    "Name": "Default__PE_Fle_Champion_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Champion/Data/Palettes/Blue/PE_Fle_Champion_Blue.PE_Fle_Champion_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.012398,
+            "G": 0.004476,
+            "B": 0.057292,
+            "A": 1.0,
+            "Hex": "1D0E43"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.03572,
+            "G": 0.012234,
+            "B": 0.213542,
+            "A": 1.0,
+            "Hex": "351D7F"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.11391,
+            "G": 0.088108,
+            "B": 0.604167,
+            "A": 1.0,
+            "Hex": "5F54CC"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.346875,
+            "G": 0.3125,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "9F98FF"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.817708,
+            "G": 0.402605,
+            "B": 0.085178,
+            "A": 1.0,
+            "Hex": "EAAA52"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 0.484375,
+            "G": 0.244204,
+            "B": 0.060547,
+            "A": 1.0,
+            "Hex": "B98845"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_Prehistoric_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_Prehistoric_Neutral_C'Default__PE_Orc_Prehistoric_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Prehistoric/Data/Palettes/Neutral/PE_Orc_Prehistoric_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_Prehistoric_Neutral_C",
+    "Name": "Default__PE_Orc_Prehistoric_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Prehistoric/Data/Palettes/Neutral/PE_Orc_Prehistoric_Neutral.PE_Orc_Prehistoric_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.008568,
+            "G": 0.043735,
+            "B": 0.045186,
+            "A": 1.0,
+            "Hex": "173B3C"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.01953,
+            "G": 0.099692,
+            "B": 0.103,
+            "A": 1.0,
+            "Hex": "26595A"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 1.2,
+            "G": 1.2,
+            "B": 1.2,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.723055,
+            "G": 0.584078,
+            "B": 0.291771,
+            "A": 1.0,
+            "Hex": "DDC993"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.991102,
+            "G": 0.871367,
+            "B": 0.630757,
+            "A": 1.0,
+            "Hex": "FEF0D0"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.609,
+            "G": 0.30788,
+            "B": 0.061509,
+            "A": 1.0,
+            "Hex": "CD9746"
+          }
+        },
+        {
+          "Key": "Plates",
+          "Name": "Plates",
+          "Value": {
+            "R": 0.269,
+            "G": 0.060092,
+            "B": 0.016828,
+            "A": 1.0,
+            "Hex": "8E4523"
+          }
+        }
+      ]
+    }
+  }
+]

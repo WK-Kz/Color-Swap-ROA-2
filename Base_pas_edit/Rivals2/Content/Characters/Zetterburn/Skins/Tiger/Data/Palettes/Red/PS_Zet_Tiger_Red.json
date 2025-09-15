@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Zet_Tiger_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Zet_Tiger_Red_C",
     "Name": "Default__PS_Zet_Tiger_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Tiger/Data/Palettes/Red/PS_Zet_Tiger_Red.PS_Zet_Tiger_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.473531,
             "G": 0.030713,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.596078,
             "G": 0.388235,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Stripes",
+          "Name": "Stripes",
           "Value": {
             "R": 0.048,
             "G": 0.004512,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Nose",
+          "Name": "Nose",
           "Value": {
             "R": 0.096,
             "G": 0.011135,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.197,
             "G": 0.025796,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.265625,
             "G": 0.265625,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Leather",
+          "Name": "Leather",
           "Value": {
             "R": 0.051,
             "G": 0.022444,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Sclera",
+          "Name": "Sclera",
           "Value": {
             "R": 1.0,
             "G": 1.0,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.0,
             "G": 0.351696,

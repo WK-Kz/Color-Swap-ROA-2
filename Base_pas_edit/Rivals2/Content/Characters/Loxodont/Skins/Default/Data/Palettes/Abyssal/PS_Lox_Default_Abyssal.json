@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Default_Abyssal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Default_Abyssal_C'Default__PS_Lox_Default_Abyssal_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Abyssal/PS_Lox_Default_Abyssal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Default_Abyssal_C",
+    "Name": "Default__PS_Lox_Default_Abyssal_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Abyssal/PS_Lox_Default_Abyssal.PS_Lox_Default_Abyssal_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.096831,
+            "G": 0.099567,
+            "B": 0.261,
+            "A": 1.0,
+            "Hex": "58598C"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.125027,
+            "G": 0.12856,
+            "B": 0.337,
+            "A": 1.0,
+            "Hex": "63649D"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.020762,
+            "G": 0.01152,
+            "B": 0.032,
+            "A": 1.0,
+            "Hex": "271B32"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.344696,
+            "G": 0.107961,
+            "B": 0.371,
+            "A": 1.0,
+            "Hex": "9F5CA4"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 1.0,
+            "G": 0.516667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFBF00"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.020762,
+            "G": 0.01152,
+            "B": 0.032,
+            "A": 1.0,
+            "Hex": "271B32"
+          }
+        },
+        {
+          "Key": "Axe Blade",
+          "Name": "Axe Blade",
+          "Value": {
+            "R": 0.635081,
+            "G": 0.027101,
+            "B": 0.661,
+            "A": 1.0,
+            "Hex": "D12DD5"
+          }
+        },
+        {
+          "Key": "Axe Head",
+          "Name": "Axe Head",
+          "Value": {
+            "R": 0.060593,
+            "G": 0.029007,
+            "B": 0.099,
+            "A": 1.0,
+            "Hex": "452F58"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.452,
+            "G": 0.239786,
+            "B": 0.027572,
+            "A": 1.0,
+            "Hex": "B3862E"
+          }
+        },
+        {
+          "Key": "Axe Wraps",
+          "Name": "Axe Wraps",
+          "Value": {
+            "R": 1.0,
+            "G": 0.516667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFBF00"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Name": "Tusks",
+          "Value": {
+            "R": 0.636135,
+            "G": 0.05288,
+            "B": 0.661,
+            "A": 1.0,
+            "Hex": "D141D5"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.060593,
+            "G": 0.029007,
+            "B": 0.099,
+            "A": 1.0,
+            "Hex": "452F58"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.053852,
+            "G": 0.02988,
+            "B": 0.083,
+            "A": 1.0,
+            "Hex": "413051"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.01821,
+            "G": 0.011804,
+            "B": 0.026,
+            "A": 1.0,
+            "Hex": "241C2C"
+          }
+        },
+        {
+          "Key": "ThroneStone",
+          "Name": "ThroneStone",
+          "Value": {
+            "R": 0.046066,
+            "G": 0.02556,
+            "B": 0.071,
+            "A": 1.0,
+            "Hex": "3C2C4B"
+          }
+        },
+        {
+          "Key": "ThroneMetal",
+          "Name": "ThroneMetal",
+          "Value": {
+            "R": 0.452,
+            "G": 0.239786,
+            "B": 0.027572,
+            "A": 1.0,
+            "Hex": "B3862E"
+          }
+        },
+        {
+          "Key": "ThroneCloth",
+          "Name": "ThroneCloth",
+          "Value": {
+            "R": 0.514985,
+            "G": 0.022036,
+            "B": 0.536,
+            "A": 1.0,
+            "Hex": "BE29C2"
+          }
+        }
+      ]
+    }
+  }
+]

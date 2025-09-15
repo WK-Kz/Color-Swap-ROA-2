@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_Wra_Default_Mint_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_Wra_Default_Mint_C",
     "Name": "Default__PE_Wra_Default_Mint_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Default/Data/Palettes/Mint/PE_Wra_Default_Mint.PE_Wra_Default_Mint_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
             "R": 0.0459,
             "G": 0.204,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
             "R": 0.212355,
             "G": 0.715,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
             "R": 0.659098,
             "G": 0.973446,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
             "R": 0.816627,
             "G": 0.991102,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
             "R": 1.0,
             "G": 1.0,

@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Pajama_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Fle_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Neutral/PE_Fle_Default_Neutral.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Fle_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Neutral/PE_Fle_Default_Neutral.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Pajama_Red_C'Default__PE_Fle_Pajama_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Red/PE_Fle_Pajama_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Pajama_Red_C",
+    "Name": "Default__PE_Fle_Pajama_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Red/PE_Fle_Pajama_Red.PE_Fle_Pajama_Red_C'",
+    "Template": {
+      "ObjectName": "PE_Fle_Default_Neutral_C'Default__PE_Fle_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Neutral/PE_Fle_Default_Neutral.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.34375,
+            "G": 0.034017,
+            "B": 0.039179,
+            "A": 1.0,
+            "Hex": "9F3337"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.817708,
+            "G": 0.196619,
+            "B": 0.072401,
+            "A": 1.0,
+            "Hex": "EA7B4C"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 1.0,
+            "G": 0.485417,
+            "B": 0.208333,
+            "A": 1.0,
+            "Hex": "FFB97E"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.954,
+            "G": 0.876019,
+            "B": 0.156891,
+            "A": 1.0,
+            "Hex": "FAF16E"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 1.0,
+            "G": 0.616157,
+            "B": 0.086891,
+            "A": 1.0,
+            "Hex": "FFCE53"
+          }
+        }
+      ]
+    }
+  }
+]

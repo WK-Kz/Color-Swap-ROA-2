@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Lox_Chef_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Lox_Chef_Blue_C",
     "Name": "Default__PS_Lox_Chef_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Chef/Data/Palettes/Blue/PS_Lox_Chef_Blue.PS_Lox_Chef_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.346027,
             "G": 0.365261,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.021794,
             "G": 0.021794,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Apron",
+          "Name": "Apron",
           "Value": {
             "R": 0.023222,
             "G": 0.0538,
@@ -60,16 +65,18 @@
         },
         {
           "Key": "Mustache",
+          "Name": "Mustache",
           "Value": {
-            "R": 0.076,
-            "G": 0.069958,
-            "B": 0.063916,
+            "R": 0.063,
+            "G": 0.057992,
+            "B": 0.052983,
             "A": 1.0,
-            "Hex": "4E4B47"
+            "Hex": "474441"
           }
         },
         {
           "Key": "ShirtM",
+          "Name": "ShirtM",
           "Value": {
             "R": 0.144128,
             "G": 0.190468,
@@ -79,17 +86,8 @@
           }
         },
         {
-          "Key": "Pasta",
-          "Value": {
-            "R": 0.366253,
-            "G": 0.181164,
-            "B": 0.0865,
-            "A": 1.0,
-            "Hex": "A37653"
-          }
-        },
-        {
           "Key": "Sauce",
+          "Name": "Sauce",
           "Value": {
             "R": 0.046834,
             "G": 0.024057,
@@ -99,7 +97,19 @@
           }
         },
         {
+          "Key": "Pasta",
+          "Name": "Pasta",
+          "Value": {
+            "R": 0.366253,
+            "G": 0.181164,
+            "B": 0.0865,
+            "A": 1.0,
+            "Hex": "A37653"
+          }
+        },
+        {
           "Key": "Wood",
+          "Name": "Wood",
           "Value": {
             "R": 0.289,
             "G": 0.150473,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Meatball",
+          "Name": "Meatball",
           "Value": {
             "R": 0.093059,
             "G": 0.03434,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Parsley",
+          "Name": "Parsley",
           "Value": {
             "R": 0.004391,
             "G": 0.093059,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Brick1",
+          "Name": "Brick1",
           "Value": {
             "R": 0.027321,
             "G": 0.050087,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Brick2",
+          "Name": "Brick2",
           "Value": {
             "R": 0.088371,
             "G": 0.040915,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Brick3",
+          "Name": "Brick3",
           "Value": {
             "R": 0.038204,
             "G": 0.065033,
@@ -160,6 +175,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.040915,
             "G": 0.048232,
@@ -170,12 +186,79 @@
         },
         {
           "Key": "Cement",
+          "Name": "Cement",
           "Value": {
             "R": 0.122139,
             "G": 0.164812,
             "B": 0.250158,
             "A": 1.0,
             "Hex": "627189"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.164434,
+            "G": 0.171126,
+            "B": 0.191202,
+            "A": 1.0,
+            "Hex": "717379"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.315,
+            "G": 0.315,
+            "B": 0.30943,
+            "A": 1.0,
+            "Hex": "989897"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.223,
+            "G": 0.223,
+            "B": 0.223,
+            "A": 1.0,
+            "Hex": "828282"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.65,
+            "G": 0.310733,
+            "B": 0.03315,
+            "A": 1.0,
+            "Hex": "D39733"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.012,
+            "G": 0.012,
+            "B": 0.012,
+            "A": 1.0,
+            "Hex": "1C1C1C"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Name": "Tusks",
+          "Value": {
+            "R": 0.558,
+            "G": 0.558,
+            "B": 0.558,
+            "A": 1.0,
+            "Hex": "C5C5C5"
           }
         }
       ]

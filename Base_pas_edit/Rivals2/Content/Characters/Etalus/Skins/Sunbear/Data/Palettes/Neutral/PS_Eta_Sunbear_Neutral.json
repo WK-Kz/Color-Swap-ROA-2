@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Sunbear_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Sunbear_Neutral_C'Default__PS_Eta_Sunbear_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Sunbear/Data/Palettes/Neutral/PS_Eta_Sunbear_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Sunbear_Neutral_C",
+    "Name": "Default__PS_Eta_Sunbear_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Sunbear/Data/Palettes/Neutral/PS_Eta_Sunbear_Neutral.PS_Eta_Sunbear_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.013702,
+            "B": 0.012983,
+            "A": 1.0,
+            "Hex": "291F1E"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.059511,
+            "B": 0.028426,
+            "A": 1.0,
+            "Hex": "56452F"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.042311,
+            "G": 0.022174,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "3A2929"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.693872,
+            "G": 0.332452,
+            "B": 0.104616,
+            "A": 1.0,
+            "Hex": "D99C5B"
+          }
+        },
+        {
+          "Key": "PawPads",
+          "Name": "PawPads",
+          "Value": {
+            "R": 0.19,
+            "G": 0.08474,
+            "B": 0.095528,
+            "A": 1.0,
+            "Hex": "795257"
+          }
+        },
+        {
+          "Key": "InnerEars",
+          "Name": "InnerEars",
+          "Value": {
+            "R": 0.337164,
+            "G": 0.165132,
+            "B": 0.068478,
+            "A": 1.0,
+            "Hex": "9D714A"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.122139,
+            "G": 0.043735,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "623B2E"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.720479,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00DDFF"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.720479,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00DDFF"
+          }
+        }
+      ]
+    }
+  }
+]

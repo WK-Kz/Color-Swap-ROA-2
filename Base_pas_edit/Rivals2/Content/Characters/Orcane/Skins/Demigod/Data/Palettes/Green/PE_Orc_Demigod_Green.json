@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Orc_Demigod_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Orc_Demigod_Green_C'Default__PE_Orc_Demigod_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Demigod/Data/Palettes/Green/PE_Orc_Demigod_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Orc_Demigod_Green_C",
+    "Name": "Default__PE_Orc_Demigod_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Demigod/Data/Palettes/Green/PE_Orc_Demigod_Green.PE_Orc_Demigod_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.007595,
+            "G": 0.072917,
+            "B": 0.03699,
+            "A": 1.0,
+            "Hex": "154C36"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.02604,
+            "G": 0.25,
+            "B": 0.126822,
+            "A": 1.0,
+            "Hex": "2C8964"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.754629,
+            "G": 0.848958,
+            "B": 0.565972,
+            "A": 1.0,
+            "Hex": "E2EEC6"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.613136,
+            "G": 0.848958,
+            "B": 0.141493,
+            "A": 1.0,
+            "Hex": "CEEE69"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.313342,
+            "G": 0.328125,
+            "B": 0.032471,
+            "A": 1.0,
+            "Hex": "989B32"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

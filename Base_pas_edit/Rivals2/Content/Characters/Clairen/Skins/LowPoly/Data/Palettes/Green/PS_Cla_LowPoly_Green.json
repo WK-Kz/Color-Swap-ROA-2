@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Cla_LowPoly_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Cla_LowPoly_Green_C",
     "Name": "Default__PS_Cla_LowPoly_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/LowPoly/Data/Palettes/Green/PS_Cla_LowPoly_Green.PS_Cla_LowPoly_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.351533,
             "G": 0.095307,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Nose",
+          "Name": "Nose",
           "Value": {
             "R": 0.144128,
             "G": 0.520996,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Clothing",
+          "Name": "Clothing",
           "Value": {
             "R": 0.064803,
             "G": 0.064803,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Boot",
+          "Name": "Boot",
           "Value": {
             "R": 0.107023,
             "G": 0.40724,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.250158,
             "G": 0.250158,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Belt",
+          "Name": "Belt",
           "Value": {
             "R": 0.597202,
             "G": 0.208637,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.107023,
             "G": 0.40724,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.144128,
             "G": 0.520996,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Visor",
+          "Name": "Visor",
           "Value": {
             "R": 0.417885,
             "G": 0.417885,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Glow",
+          "Name": "Glow",
           "Value": {
             "R": 0.0,
             "G": 0.615625,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Sword",
+          "Name": "Sword",
           "Value": {
             "R": 0.597202,
             "G": 0.208637,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.351533,
             "G": 0.095307,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Braid",
+          "Name": "Braid",
           "Value": {
             "R": 0.3564,
             "G": 0.138432,

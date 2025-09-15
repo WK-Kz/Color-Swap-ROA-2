@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Ranger_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Ranger_Neutral_C'Default__PE_Fle_Ranger_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Ranger/Data/Palettes/Neutral/PE_Fle_Ranger_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Ranger_Neutral_C",
+    "Name": "Default__PE_Fle_Ranger_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Ranger/Data/Palettes/Neutral/PE_Fle_Ranger_Neutral.PE_Fle_Ranger_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.913099,
+            "G": 0.14996,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "F56C00"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 1.0,
+            "G": 0.250158,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8900"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 1.0,
+            "G": 0.428506,
+            "B": 0.237847,
+            "A": 1.0,
+            "Hex": "FFAF86"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 0.62889,
+            "B": 0.401042,
+            "A": 1.0,
+            "Hex": "FFD0AA"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.954,
+            "G": 0.752903,
+            "B": 0.615979,
+            "A": 1.0,
+            "Hex": "FAE1CE"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 1.0,
+            "G": 0.173217,
+            "B": 0.123451,
+            "A": 1.0,
+            "Hex": "FF7462"
+          }
+        }
+      ]
+    }
+  }
+]

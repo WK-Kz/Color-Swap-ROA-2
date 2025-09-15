@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Lox_Default_Mint_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Lox_Default_Mint_C",
     "Name": "Default__PS_Lox_Default_Mint_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Default/Data/Palettes/Mint/PS_Lox_Default_Mint.PS_Lox_Default_Mint_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.160726,
             "G": 0.411458,
@@ -39,7 +42,41 @@
           }
         },
         {
-          "Key": "Eyes",
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.250608,
+            "G": 0.552,
+            "B": 0.421397,
+            "A": 1.0,
+            "Hex": "89C4AE"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.064063,
+            "G": 0.164,
+            "B": 0.120694,
+            "A": 1.0,
+            "Hex": "477161"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.332261,
+            "G": 0.382,
+            "B": 0.342209,
+            "A": 1.0,
+            "Hex": "9CA69E"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
           "Value": {
             "R": 0.513,
             "G": 0.0,
@@ -49,7 +86,19 @@
           }
         },
         {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.007612,
+            "G": 0.011,
+            "B": 0.0092,
+            "A": 1.0,
+            "Hex": "151B18"
+          }
+        },
+        {
           "Key": "Axe Blade",
+          "Name": "Axe Blade",
           "Value": {
             "R": 0.425,
             "G": 0.425,
@@ -60,6 +109,7 @@
         },
         {
           "Key": "Axe Head",
+          "Name": "Axe Head",
           "Value": {
             "R": 0.604167,
             "G": 0.166775,
@@ -70,6 +120,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.520833,
             "G": 0.499132,
@@ -80,6 +131,7 @@
         },
         {
           "Key": "Axe Wraps",
+          "Name": "Axe Wraps",
           "Value": {
             "R": 0.59139,
             "G": 0.880208,
@@ -90,6 +142,7 @@
         },
         {
           "Key": "Tusks",
+          "Name": "Tusks",
           "Value": {
             "R": 0.425836,
             "G": 0.489583,
@@ -100,6 +153,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.609375,
             "G": 0.234863,
@@ -110,6 +164,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.302083,
             "G": 0.070801,
@@ -120,6 +175,7 @@
         },
         {
           "Key": "ClothTrim",
+          "Name": "ClothTrim",
           "Value": {
             "R": 0.994792,
             "G": 0.378228,
@@ -130,6 +186,7 @@
         },
         {
           "Key": "ThroneStone",
+          "Name": "ThroneStone",
           "Value": {
             "R": 0.147027,
             "G": 0.116971,
@@ -140,6 +197,7 @@
         },
         {
           "Key": "ThroneMetal",
+          "Name": "ThroneMetal",
           "Value": {
             "R": 0.427083,
             "G": 0.39171,
@@ -150,22 +208,13 @@
         },
         {
           "Key": "ThroneCloth",
+          "Name": "ThroneCloth",
           "Value": {
             "R": 0.072272,
             "G": 0.327778,
             "B": 0.263902,
             "A": 1.0,
             "Hex": "4C9B8C"
-          }
-        },
-        {
-          "Key": "White",
-          "Value": {
-            "R": 1.0,
-            "G": 1.0,
-            "B": 1.0,
-            "A": 1.0,
-            "Hex": "FFFFFF"
           }
         }
       ]

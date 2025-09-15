@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Aardwolf_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Aardwolf_Green_C",
     "Name": "Default__PS_For_Aardwolf_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Aardwolf/Data/Palettes/Green/PS_For_Aardwolf_Green.PS_For_Aardwolf_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Node",
+          "Name": "Node",
           "Value": {
             "R": 0.006336,
             "G": 0.022,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.028142,
             "G": 0.258183,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.509651,
             "G": 0.635,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Back",
+          "Name": "Back",
           "Value": {
             "R": 0.004512,
             "G": 0.096,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Stripes",
+          "Name": "Stripes",
           "Value": {
             "R": 0.012477,
             "G": 0.025,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.07,
             "G": 0.054313,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "CStripes",
+          "Name": "CStripes",
           "Value": {
             "R": 0.017,
             "G": 0.01319,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Bone",
+          "Name": "Bone",
           "Value": {
             "R": 0.38,
             "G": 0.354091,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Clothing",
+          "Name": "Clothing",
           "Value": {
             "R": 0.07,
             "G": 0.054313,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.018919,
             "G": 0.012884,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Blade",
+          "Name": "Blade",
           "Value": {
             "R": 0.346704,
             "G": 0.307214,

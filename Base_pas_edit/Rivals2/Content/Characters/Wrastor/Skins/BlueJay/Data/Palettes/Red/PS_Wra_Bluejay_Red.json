@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Wra_Bluejay_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Wra_Bluejay_Red_C",
     "Name": "Default__PS_Wra_Bluejay_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/BlueJay/Data/Palettes/Red/PS_Wra_Bluejay_Red.PS_Wra_Bluejay_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.571,
             "G": 0.026266,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.603827,
             "G": 0.434152,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.019,
             "G": 0.006574,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Legs",
+          "Name": "Legs",
           "Value": {
             "R": 0.043,
             "G": 0.043,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Scarf",
+          "Name": "Scarf",
           "Value": {
             "R": 0.697,
             "G": 0.16887,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Goggles",
+          "Name": "Goggles",
           "Value": {
             "R": 0.052,
             "G": 0.052,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Lens",
+          "Name": "Lens",
           "Value": {
             "R": 0.913099,
             "G": 0.138432,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "LensGradient",
+          "Name": "LensGradient",
           "Value": {
             "R": 0.896269,
             "G": 0.597202,

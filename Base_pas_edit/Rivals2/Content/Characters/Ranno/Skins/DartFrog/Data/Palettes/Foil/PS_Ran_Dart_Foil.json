@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Dart_Foil_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Dart_Foil_C'Default__PS_Ran_Dart_Foil_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/DartFrog/Data/Palettes/Foil/PS_Ran_Dart_Foil.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Dart_Foil_C",
+    "Name": "Default__PS_Ran_Dart_Foil_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/DartFrog/Data/Palettes/Foil/PS_Ran_Dart_Foil.PS_Ran_Dart_Foil_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.24075,
+            "G": 0.244296,
+            "B": 0.25,
+            "A": 1.0,
+            "Hex": "878889"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.774252,
+            "G": 0.785655,
+            "B": 0.804,
+            "A": 1.0,
+            "Hex": "E4E6E8"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.004391,
+            "G": 0.004391,
+            "B": 0.003677,
+            "A": 1.0,
+            "Hex": "0E0E0C"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.045,
+            "G": 0.045,
+            "B": 0.037683,
+            "A": 1.0,
+            "Hex": "3C3C36"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.016,
+            "G": 0.016,
+            "B": 0.016,
+            "A": 1.0,
+            "Hex": "222222"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.05279,
+            "G": 0.055,
+            "B": 0.05279,
+            "A": 1.0,
+            "Hex": "414241"
+          }
+        },
+        {
+          "Key": "Pants2",
+          "Name": "Pants2",
+          "Value": {
+            "R": 0.038204,
+            "G": 0.038204,
+            "B": 0.036889,
+            "A": 1.0,
+            "Hex": "373736"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.049,
+            "G": 0.041405,
+            "B": 0.039886,
+            "A": 1.0,
+            "Hex": "3E3938"
+          }
+        }
+      ]
+    }
+  }
+]

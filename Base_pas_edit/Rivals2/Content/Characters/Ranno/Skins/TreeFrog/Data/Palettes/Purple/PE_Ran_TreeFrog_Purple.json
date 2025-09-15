@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Ran_TreeFrog_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Ran_TreeFrog_Purple_C'Default__PE_Ran_TreeFrog_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/TreeFrog/Data/Palettes/Purple/PE_Ran_TreeFrog_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Ran_TreeFrog_Purple_C",
+    "Name": "Default__PE_Ran_TreeFrog_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/TreeFrog/Data/Palettes/Purple/PE_Ran_TreeFrog_Purple.PE_Ran_TreeFrog_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.166667,
+            "G": 0.0,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "71007C"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.491,
+            "G": 0.014239,
+            "B": 0.427432,
+            "A": 1.0,
+            "Hex": "BA1FAF"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.781,
+            "G": 0.143704,
+            "B": 0.674784,
+            "A": 1.0,
+            "Hex": "E56AD7"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.949,
+            "G": 0.258128,
+            "B": 0.833854,
+            "A": 1.0,
+            "Hex": "FA8BEC"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.744096,
+            "G": 0.387495,
+            "B": 0.798958,
+            "A": 1.0,
+            "Hex": "E0A7E7"
+          }
+        }
+      ]
+    }
+  }
+]

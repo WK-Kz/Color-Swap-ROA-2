@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Leopard_Pink_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Leopard_Pink_C'Default__PS_Cla_Leopard_Pink_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Leopard/Data/Palettes/Pink/PS_Cla_Leopard_Pink.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Leopard_Pink_C",
+    "Name": "Default__PS_Cla_Leopard_Pink_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Leopard/Data/Palettes/Pink/PS_Cla_Leopard_Pink.PS_Cla_Leopard_Pink_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.757,
+            "G": 0.267221,
+            "B": 0.4205,
+            "A": 1.0,
+            "Hex": "E28DAE"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.765,
+            "G": 0.52938,
+            "B": 0.52938,
+            "A": 1.0,
+            "Hex": "E3C1C1"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.137,
+            "G": 0.022605,
+            "B": 0.043577,
+            "A": 1.0,
+            "Hex": "67293B"
+          }
+        },
+        {
+          "Key": "PatternInner",
+          "Name": "PatternInner",
+          "Value": {
+            "R": 0.247,
+            "G": 0.045201,
+            "B": 0.082197,
+            "A": 1.0,
+            "Hex": "883C51"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.011612,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "3C1C2D"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 1.0,
+            "G": 0.677,
+            "B": 0.778085,
+            "A": 1.0,
+            "Hex": "FFD7E5"
+          }
+        },
+        {
+          "Key": "Belts",
+          "Name": "Belts",
+          "Value": {
+            "R": 0.275,
+            "G": 0.044825,
+            "B": 0.044825,
+            "A": 1.0,
+            "Hex": "8F3B3B"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.183455,
+            "G": 0.054696,
+            "B": 0.258,
+            "A": 1.0,
+            "Hex": "77428B"
+          }
+        },
+        {
+          "Key": "Gloves/Boots",
+          "Name": "Gloves/Boots",
+          "Value": {
+            "R": 0.101,
+            "G": 0.016463,
+            "B": 0.016463,
+            "A": 1.0,
+            "Hex": "592222"
+          }
+        },
+        {
+          "Key": "BootToe",
+          "Name": "BootToe",
+          "Value": {
+            "R": 0.407,
+            "G": 0.275539,
+            "B": 0.316681,
+            "A": 1.0,
+            "Hex": "AB8F99"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.509,
+            "G": 0.037157,
+            "B": 0.100069,
+            "A": 1.0,
+            "Hex": "BD3659"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.480699,
+            "B": 0.627,
+            "A": 1.0,
+            "Hex": "00B8D0"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.480699,
+            "B": 0.627,
+            "A": 1.0,
+            "Hex": "00B8D0"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Name": "Sword",
+          "Value": {
+            "R": 0.410286,
+            "G": 0.122324,
+            "B": 0.577,
+            "A": 1.0,
+            "Hex": "AC62C8"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.757,
+            "G": 0.267221,
+            "B": 0.4205,
+            "A": 1.0,
+            "Hex": "E28DAE"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Name": "Braid",
+          "Value": {
+            "R": 0.197631,
+            "G": 0.0,
+            "B": 0.436,
+            "A": 1.0,
+            "Hex": "7B00B1"
+          }
+        },
+        {
+          "Key": "Capsule",
+          "Name": "Capsule",
+          "Value": {
+            "R": 0.258584,
+            "G": 0.174452,
+            "B": 0.307292,
+            "A": 1.0,
+            "Hex": "8B7497"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Mecha_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Mecha_Red_C'Default__PS_Eta_Mecha_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Mecha/Data/Palettes/Red/PS_Eta_Mecha_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Mecha_Red_C",
+    "Name": "Default__PS_Eta_Mecha_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Mecha/Data/Palettes/Red/PS_Eta_Mecha_Red.PS_Eta_Mecha_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.473958,
+            "G": 0.43693,
+            "B": 0.43693,
+            "A": 1.0,
+            "Hex": "B7B1B1"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.226966,
+            "G": 0.223228,
+            "B": 0.226966,
+            "A": 1.0,
+            "Hex": "838283"
+          }
+        },
+        {
+          "Key": "Core",
+          "Name": "Core",
+          "Value": {
+            "R": 0.022645,
+            "G": 0.023746,
+            "B": 0.026042,
+            "A": 1.0,
+            "Hex": "292A2C"
+          }
+        },
+        {
+          "Key": "Tracks",
+          "Name": "Tracks",
+          "Value": {
+            "R": 0.060764,
+            "G": 0.060764,
+            "B": 0.054617,
+            "A": 1.0,
+            "Hex": "454542"
+          }
+        },
+        {
+          "Key": "Armor",
+          "Name": "Armor",
+          "Value": {
+            "R": 0.520833,
+            "G": 0.013564,
+            "B": 0.022018,
+            "A": 1.0,
+            "Hex": "BF1E28"
+          }
+        },
+        {
+          "Key": "ArmorAccent",
+          "Name": "ArmorAccent",
+          "Value": {
+            "R": 0.640625,
+            "G": 0.358683,
+            "B": 0.076742,
+            "A": 1.0,
+            "Hex": "D2A24E"
+          }
+        },
+        {
+          "Key": "Rockets",
+          "Name": "Rockets",
+          "Value": {
+            "R": 0.114946,
+            "G": 0.04012,
+            "B": 0.265625,
+            "A": 1.0,
+            "Hex": "5F388D"
+          }
+        },
+        {
+          "Key": "GunBarrel",
+          "Name": "GunBarrel",
+          "Value": {
+            "R": 0.08022,
+            "G": 0.08022,
+            "B": 0.08022,
+            "A": 1.0,
+            "Hex": "505050"
+          }
+        },
+        {
+          "Key": "Icicle",
+          "Name": "Icicle",
+          "Value": {
+            "R": 0.939236,
+            "G": 0.939236,
+            "B": 0.939236,
+            "A": 1.0,
+            "Hex": "F9F9F9"
+          }
+        },
+        {
+          "Key": "Glow",
+          "Name": "Glow",
+          "Value": {
+            "R": 1.0,
+            "G": 0.433333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFB000"
+          }
+        }
+      ]
+    }
+  }
+]

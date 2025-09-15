@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Lox_Giraffe_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Lox_Giraffe_Red_C",
     "Name": "Default__PS_Lox_Giraffe_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Giraffe/Data/Palettes/Red/PS_Lox_Giraffe_Red.PS_Lox_Giraffe_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.452,
             "G": 0.165552,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.613,
             "G": 0.422357,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.13,
             "G": 0.01521,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Tusks",
+          "Name": "Tusks",
           "Value": {
             "R": 0.246201,
             "G": 0.208637,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.03676,
             "G": 0.351,

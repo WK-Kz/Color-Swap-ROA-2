@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Basketball_Supernova_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Basketball_Supernova_C'Default__PS_Ran_Basketball_Supernova_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Supernova/PS_Ran_Basketball_Supernova.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Basketball_Supernova_C",
+    "Name": "Default__PS_Ran_Basketball_Supernova_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Supernova/PS_Ran_Basketball_Supernova.PS_Ran_Basketball_Supernova_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.021776,
+            "G": 0.019124,
+            "B": 0.026042,
+            "A": 1.0,
+            "Hex": "28252C"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.002428,
+            "G": 0.258183,
+            "B": 0.991102,
+            "A": 1.0,
+            "Hex": "088BFE"
+          }
+        },
+        {
+          "Key": "JerseyTrim",
+          "Name": "JerseyTrim",
+          "Value": {
+            "R": 1.0,
+            "G": 0.456411,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "FFB40F"
+          }
+        },
+        {
+          "Key": "Armband",
+          "Name": "Armband",
+          "Value": {
+            "R": 0.064098,
+            "G": 0.557292,
+            "B": 0.037733,
+            "A": 1.0,
+            "Hex": "47C536"
+          }
+        },
+        {
+          "Key": "Basketball",
+          "Name": "Basketball",
+          "Value": {
+            "R": 0.026042,
+            "G": 0.026042,
+            "B": 0.026042,
+            "A": 1.0,
+            "Hex": "2C2C2C"
+          }
+        },
+        {
+          "Key": "BasketballLines",
+          "Name": "BasketballLines",
+          "Value": {
+            "R": 0.723958,
+            "G": 0.022435,
+            "B": 0.000222,
+            "A": 1.0,
+            "Hex": "DD2900"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.104167,
+            "G": 0.104167,
+            "B": 0.104167,
+            "A": 1.0,
+            "Hex": "5B5B5B"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.590619,
+            "G": 0.686685,
+            "B": 0.814847,
+            "A": 1.0,
+            "Hex": "CAD8E9"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.010417,
+            "G": 0.010417,
+            "B": 0.010417,
+            "A": 1.0,
+            "Hex": "1A1A1A"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 1.0,
+            "G": 0.03125,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "FF3131"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.064098,
+            "G": 0.557292,
+            "B": 0.037733,
+            "A": 1.0,
+            "Hex": "47C536"
+          }
+        }
+      ]
+    }
+  }
+]

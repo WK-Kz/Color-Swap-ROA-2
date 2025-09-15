@@ -1,0 +1,267 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Chef_Black_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Chef_Black_C'Default__PS_Lox_Chef_Black_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Chef/Data/Palettes/Black/PS_Lox_Chef_Black.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Chef_Black_C",
+    "Name": "Default__PS_Lox_Chef_Black_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Chef/Data/Palettes/Black/PS_Lox_Chef_Black.PS_Lox_Chef_Black_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.012407,
+            "G": 0.012376,
+            "B": 0.013,
+            "A": 1.0,
+            "Hex": "1D1D1E"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.037,
+            "G": 0.037,
+            "B": 0.037,
+            "A": 1.0,
+            "Hex": "363636"
+          }
+        },
+        {
+          "Key": "Apron",
+          "Name": "Apron",
+          "Value": {
+            "R": 0.03,
+            "G": 0.00642,
+            "B": 0.011922,
+            "A": 1.0,
+            "Hex": "30121C"
+          }
+        },
+        {
+          "Key": "Mustache",
+          "Name": "Mustache",
+          "Value": {
+            "R": 0.25752,
+            "G": 0.287516,
+            "B": 0.37,
+            "A": 1.0,
+            "Hex": "8B92A4"
+          }
+        },
+        {
+          "Key": "ShirtM",
+          "Name": "ShirtM",
+          "Value": {
+            "R": 0.012407,
+            "G": 0.012376,
+            "B": 0.013,
+            "A": 1.0,
+            "Hex": "1D1D1E"
+          }
+        },
+        {
+          "Key": "Sauce",
+          "Name": "Sauce",
+          "Value": {
+            "R": 0.081,
+            "G": 0.013851,
+            "B": 0.029518,
+            "A": 1.0,
+            "Hex": "501F30"
+          }
+        },
+        {
+          "Key": "Pasta",
+          "Name": "Pasta",
+          "Value": {
+            "R": 0.23,
+            "G": 0.113768,
+            "B": 0.05432,
+            "A": 1.0,
+            "Hex": "845F42"
+          }
+        },
+        {
+          "Key": "Wood",
+          "Name": "Wood",
+          "Value": {
+            "R": 0.123,
+            "G": 0.059638,
+            "B": 0.053874,
+            "A": 1.0,
+            "Hex": "624541"
+          }
+        },
+        {
+          "Key": "Meatball",
+          "Name": "Meatball",
+          "Value": {
+            "R": 0.07,
+            "G": 0.01841,
+            "B": 0.01841,
+            "A": 1.0,
+            "Hex": "4B2525"
+          }
+        },
+        {
+          "Key": "Parsley",
+          "Name": "Parsley",
+          "Value": {
+            "R": 0.004391,
+            "G": 0.093059,
+            "B": 0.007499,
+            "A": 1.0,
+            "Hex": "0E5615"
+          }
+        },
+        {
+          "Key": "Brick1",
+          "Name": "Brick1",
+          "Value": {
+            "R": 0.198069,
+            "G": 0.029557,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "7B302E"
+          }
+        },
+        {
+          "Key": "Brick2",
+          "Name": "Brick2",
+          "Value": {
+            "R": 0.23074,
+            "G": 0.056128,
+            "B": 0.040915,
+            "A": 1.0,
+            "Hex": "844339"
+          }
+        },
+        {
+          "Key": "Brick3",
+          "Name": "Brick3",
+          "Value": {
+            "R": 0.162029,
+            "G": 0.040915,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "703937"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.072272,
+            "G": 0.042311,
+            "B": 0.040915,
+            "A": 1.0,
+            "Hex": "4C3A39"
+          }
+        },
+        {
+          "Key": "Cement",
+          "Name": "Cement",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.141263,
+            "B": 0.122139,
+            "A": 1.0,
+            "Hex": "896962"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.07476,
+            "G": 0.0852,
+            "B": 0.105,
+            "A": 1.0,
+            "Hex": "4D525B"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.099833,
+            "G": 0.098298,
+            "B": 0.129,
+            "A": 1.0,
+            "Hex": "595864"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.104682,
+            "G": 0.118947,
+            "B": 0.146,
+            "A": 1.0,
+            "Hex": "5B616B"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.441,
+            "G": 0.16905,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "B17200"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.022,
+            "G": 0.008118,
+            "B": 0.011357,
+            "A": 1.0,
+            "Hex": "28161B"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Name": "Tusks",
+          "Value": {
+            "R": 0.102,
+            "G": 0.090882,
+            "B": 0.091067,
+            "A": 1.0,
+            "Hex": "5A5555"
+          }
+        }
+      ]
+    }
+  }
+]

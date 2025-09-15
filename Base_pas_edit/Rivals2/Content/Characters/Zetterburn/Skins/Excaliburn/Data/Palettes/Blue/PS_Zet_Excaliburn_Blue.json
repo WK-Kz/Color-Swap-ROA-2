@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Excaliburn_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Excaliburn_Blue_C'Default__PS_Zet_Excaliburn_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Excaliburn/Data/Palettes/Blue/PS_Zet_Excaliburn_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Excaliburn_Blue_C",
+    "Name": "Default__PS_Zet_Excaliburn_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Excaliburn/Data/Palettes/Blue/PS_Zet_Excaliburn_Blue.PS_Zet_Excaliburn_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Armor",
+          "Name": "Armor",
+          "Value": {
+            "R": 0.170605,
+            "G": 0.234453,
+            "B": 0.337164,
+            "A": 1.0,
+            "Hex": "73859D"
+          }
+        },
+        {
+          "Key": "Tape",
+          "Name": "Tape",
+          "Value": {
+            "R": 0.796447,
+            "G": 0.837,
+            "B": 0.708939,
+            "A": 1.0,
+            "Hex": "E7ECDB"
+          }
+        },
+        {
+          "Key": "Marker",
+          "Name": "Marker",
+          "Value": {
+            "R": 0.003276,
+            "G": 0.491728,
+            "B": 0.546,
+            "A": 1.0,
+            "Hex": "0ABAC3"
+          }
+        },
+        {
+          "Key": "Jeans",
+          "Name": "Jeans",
+          "Value": {
+            "R": 0.046812,
+            "G": 0.030713,
+            "B": 0.084376,
+            "A": 1.0,
+            "Hex": "3D3152"
+          }
+        },
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.0,
+            "G": 0.1225,
+            "B": 0.294,
+            "A": 1.0,
+            "Hex": "006294"
+          }
+        },
+        {
+          "Key": "Trim1",
+          "Name": "Trim1",
+          "Value": {
+            "R": 0.002825,
+            "G": 0.026696,
+            "B": 0.113,
+            "A": 1.0,
+            "Hex": "092D5E"
+          }
+        },
+        {
+          "Key": "Trim2",
+          "Name": "Trim2",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.035106,
+            "G": 0.039175,
+            "B": 0.07,
+            "A": 1.0,
+            "Hex": "34374B"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.023249,
+            "G": 0.155187,
+            "B": 0.551,
+            "A": 1.0,
+            "Hex": "2A6EC4"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.020289,
+            "G": 0.017642,
+            "B": 0.017642,
+            "A": 1.0,
+            "Hex": "272424"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.492,
+            "G": 0.492,
+            "B": 0.492,
+            "A": 1.0,
+            "Hex": "BABABA"
+          }
+        },
+        {
+          "Key": "Under",
+          "Name": "Under",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0595,
+            "B": 0.102,
+            "A": 1.0,
+            "Hex": "00455A"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.001086,
+            "G": 0.001003,
+            "B": 0.002,
+            "A": 1.0,
+            "Hex": "030306"
+          }
+        },
+        {
+          "Key": "Sheen",
+          "Name": "Sheen",
+          "Value": {
+            "R": 0.492,
+            "G": 0.492,
+            "B": 0.492,
+            "A": 1.0,
+            "Hex": "BABABA"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.00141,
+            "G": 0.003701,
+            "B": 0.01,
+            "A": 1.0,
+            "Hex": "040C19"
+          }
+        },
+        {
+          "Key": "Outline",
+          "Name": "Outline",
+          "Value": {
+            "R": 0.023249,
+            "G": 0.155187,
+            "B": 0.551,
+            "A": 1.0,
+            "Hex": "2A6EC4"
+          }
+        },
+        {
+          "Key": "Shoes",
+          "Name": "Shoes",
+          "Value": {
+            "R": 0.501961,
+            "G": 0.501961,
+            "B": 0.501961,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          }
+        }
+      ]
+    }
+  }
+]

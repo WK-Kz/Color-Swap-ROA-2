@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Cupid_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Cupid_Red_C'Default__PS_Fle_Cupid_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Cupid/Data/Palettes/Red/PS_Fle_Cupid_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Cupid_Red_C",
+    "Name": "Default__PS_Fle_Cupid_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Cupid/Data/Palettes/Red/PS_Fle_Cupid_Red.PS_Fle_Cupid_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.351533,
+            "G": 0.009134,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "A01826"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.038336,
+            "G": 0.019857,
+            "B": 0.0625,
+            "A": 1.0,
+            "Hex": "372646"
+          }
+        },
+        {
+          "Key": "ClothingAccent",
+          "Name": "ClothingAccent",
+          "Value": {
+            "R": 1.0,
+            "G": 0.162029,
+            "B": 0.346704,
+            "A": 1.0,
+            "Hex": "FF709F"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.208062,
+            "G": 0.21137,
+            "B": 0.307292,
+            "A": 1.0,
+            "Hex": "7E7F97"
+          }
+        },
+        {
+          "Key": "Rose",
+          "Name": "Rose",
+          "Value": {
+            "R": 0.094514,
+            "G": 0.017632,
+            "B": 0.260417,
+            "A": 1.0,
+            "Hex": "56248C"
+          }
+        },
+        {
+          "Key": "RoseStem",
+          "Name": "RoseStem",
+          "Value": {
+            "R": 0.029557,
+            "G": 0.212231,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "307F26"
+          }
+        },
+        {
+          "Key": "Strings",
+          "Name": "Strings",
+          "Value": {
+            "R": 0.854167,
+            "G": 0.811459,
+            "B": 0.711806,
+            "A": 1.0,
+            "Hex": "EEE9DC"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.619792,
+            "G": 0.187229,
+            "B": 0.194436,
+            "A": 1.0,
+            "Hex": "CF787A"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.598958,
+            "G": 0.421143,
+            "B": 0.421143,
+            "A": 1.0,
+            "Hex": "CCAEAE"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.078125,
+            "G": 0.021159,
+            "B": 0.029703,
+            "A": 1.0,
+            "Hex": "4F2830"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.562211,
+            "G": 0.208333,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "C67EFF"
+          }
+        }
+      ]
+    }
+  }
+]

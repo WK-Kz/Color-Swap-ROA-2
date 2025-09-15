@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Lox_Zebra_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Lox_Zebra_Blue_C",
     "Name": "Default__PS_Lox_Zebra_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Zebra/Data/Palettes/Blue/PS_Lox_Zebra_Blue.PS_Lox_Zebra_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.32213,
             "G": 0.405583,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Stripes",
+          "Name": "Stripes",
           "Value": {
             "R": 0.004777,
             "G": 0.021219,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Axe Blade",
+          "Name": "Axe Blade",
           "Value": {
             "R": 0.838799,
             "G": 0.854993,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Axe Head",
+          "Name": "Axe Head",
           "Value": {
             "R": 0.003347,
             "G": 0.048172,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.5625,
             "G": 0.320236,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Axe Wraps",
+          "Name": "Axe Wraps",
           "Value": {
             "R": 0.048172,
             "G": 0.074214,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.017642,
             "G": 0.028426,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.022174,
             "G": 0.035601,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "ClothTrim",
+          "Name": "ClothTrim",
           "Value": {
             "R": 0.016807,
             "G": 0.029557,

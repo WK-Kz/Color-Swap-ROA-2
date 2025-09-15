@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Rockstar_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Rockstar_Blue_C'Default__PS_Kra_Rockstar_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Rockstar/Data/Palettes/Blue/PS_Kra_Rockstar_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Rockstar_Blue_C",
+    "Name": "Default__PS_Kra_Rockstar_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Rockstar/Data/Palettes/Blue/PS_Kra_Rockstar_Blue.PS_Kra_Rockstar_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.020289,
+            "G": 0.013702,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "271F2D"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.439657,
+            "G": 0.617207,
+            "B": 0.947307,
+            "A": 1.0,
+            "Hex": "B1CEF9"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.017642,
+            "G": 0.051269,
+            "B": 0.341914,
+            "A": 1.0,
+            "Hex": "24409E"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.55834,
+            "G": 0.520996,
+            "B": 0.783538,
+            "A": 1.0,
+            "Hex": "C5BFE5"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.114435,
+            "G": 0.040915,
+            "B": 0.177888,
+            "A": 1.0,
+            "Hex": "5F3975"
+          }
+        },
+        {
+          "Key": "Logo",
+          "Name": "Logo",
+          "Value": {
+            "R": 0.745404,
+            "G": 0.745404,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "E0E0F2"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.084376,
+            "G": 0.456411,
+            "B": 0.300544,
+            "A": 1.0,
+            "Hex": "52B495"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.2,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "007CFF"
+          }
+        },
+        {
+          "Key": "SpeakerCab",
+          "Name": "SpeakerCab",
+          "Value": {
+            "R": 0.016113,
+            "G": 0.022678,
+            "B": 0.114583,
+            "A": 1.0,
+            "Hex": "22295F"
+          }
+        },
+        {
+          "Key": "Speaker",
+          "Name": "Speaker",
+          "Value": {
+            "R": 0.071036,
+            "G": 0.045898,
+            "B": 0.09375,
+            "A": 1.0,
+            "Hex": "4B3C56"
+          }
+        },
+        {
+          "Key": "MetalAccent",
+          "Name": "MetalAccent",
+          "Value": {
+            "R": 0.55834,
+            "G": 0.520996,
+            "B": 0.783538,
+            "A": 1.0,
+            "Hex": "C5BFE5"
+          }
+        }
+      ]
+    }
+  }
+]

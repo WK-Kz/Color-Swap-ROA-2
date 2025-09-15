@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_RainyDay_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_RainyDay_Neutral_C'Default__PS_Cla_RainyDay_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/RainyDay/Data/Palettes/Neutral/PS_Cla_RainyDay_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_RainyDay_Neutral_C",
+    "Name": "Default__PS_Cla_RainyDay_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/RainyDay/Data/Palettes/Neutral/PS_Cla_RainyDay_Neutral.PS_Cla_RainyDay_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.708333,
+            "G": 0.450087,
+            "B": 0.062717,
+            "A": 1.0,
+            "Hex": "DBB347"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.564712,
+            "G": 0.55834,
+            "B": 0.564712,
+            "A": 1.0,
+            "Hex": "C6C5C6"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.682292,
+            "G": 0.071072,
+            "B": 0.187044,
+            "A": 1.0,
+            "Hex": "D84B78"
+          }
+        },
+        {
+          "Key": "UmbrellaHandle",
+          "Name": "UmbrellaHandle",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.338683,
+            "B": 0.06301,
+            "A": 1.0,
+            "Hex": "E99D47"
+          }
+        },
+        {
+          "Key": "UmbrellaTipper",
+          "Name": "UmbrellaTipper",
+          "Value": {
+            "R": 0.029066,
+            "G": 0.631729,
+            "B": 0.930111,
+            "A": 1.0,
+            "Hex": "2FD0F7"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Orc_LeopardShark_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,23 @@
     "Type": "PS_Orc_LeopardShark_Blue_C",
     "Name": "Default__PS_Orc_LeopardShark_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/LeopardShark/Data/Palettes/Blue/PS_Orc_LeopardShark_Blue.PS_Orc_LeopardShark_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.019792,
+            "G": 0.019792,
+            "B": 0.019792,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        },
+        {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.361246,
             "G": 0.472933,
@@ -40,6 +54,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.005278,
             "G": 0.166357,
@@ -50,12 +65,68 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.008832,
             "G": 0.04061,
             "B": 0.128,
             "A": 1.0,
             "Hex": "173964"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.857,
+            "G": 0.643379,
+            "B": 0.051907,
+            "A": 1.0,
+            "Hex": "EFD240"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.188,
+            "G": 0.188,
+            "B": 0.188,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Name": "Teeth",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.42869,
+            "G": 0.090842,
+            "B": 0.090842,
+            "A": 1.0,
+            "Hex": "AF5555"
+          }
+        },
+        {
+          "Key": "Liner",
+          "Name": "Liner",
+          "Value": {
+            "R": 0.02257,
+            "G": 0.02257,
+            "B": 0.02257,
+            "A": 1.0,
+            "Hex": "292929"
           }
         }
       ]

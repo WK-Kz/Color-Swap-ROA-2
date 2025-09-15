@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Prehistoric_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Prehistoric_Red_C'Default__PE_For_Prehistoric_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Prehistoric/Data/Palettes/Red/PE_For_Prehistoric_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Prehistoric_Red_C",
+    "Name": "Default__PE_For_Prehistoric_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Prehistoric/Data/Palettes/Red/PE_For_Prehistoric_Red.PE_For_Prehistoric_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.8,
+            "G": 0.471037,
+            "B": 0.2016,
+            "A": 1.0,
+            "Hex": "E8B77C"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.2,
+            "G": 0.082353,
+            "B": 0.027451,
+            "A": 1.0,
+            "Hex": "7C512E"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.011765,
+            "G": 0.003922,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "1C0C00"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.672443,
+            "G": 0.01096,
+            "B": 0.191202,
+            "A": 1.0,
+            "Hex": "D61B79"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.921582,
+            "G": 0.381326,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "F6A642"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.814847,
+            "B": 0.296138,
+            "A": 1.0,
+            "Hex": "FCE994"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

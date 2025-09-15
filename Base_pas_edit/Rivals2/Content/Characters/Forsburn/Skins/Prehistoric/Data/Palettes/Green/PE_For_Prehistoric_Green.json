@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Prehistoric_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Prehistoric_Green_C'Default__PE_For_Prehistoric_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Prehistoric/Data/Palettes/Green/PE_For_Prehistoric_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Prehistoric_Green_C",
+    "Name": "Default__PE_For_Prehistoric_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Prehistoric/Data/Palettes/Green/PE_For_Prehistoric_Green.PE_For_Prehistoric_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.2976,
+            "G": 0.707379,
+            "B": 0.8,
+            "A": 1.0,
+            "Hex": "94DBE8"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.014051,
+            "G": 0.091529,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "1F557C"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.000703,
+            "G": 0.004576,
+            "B": 0.01,
+            "A": 1.0,
+            "Hex": "020E19"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.003347,
+            "G": 0.099899,
+            "B": 0.001214,
+            "A": 1.0,
+            "Hex": "0B5904"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.000607,
+            "G": 0.201556,
+            "B": 0.07036,
+            "A": 1.0,
+            "Hex": "027C4B"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.973445,
+            "B": 0.135633,
+            "A": 1.0,
+            "Hex": "F7FC67"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

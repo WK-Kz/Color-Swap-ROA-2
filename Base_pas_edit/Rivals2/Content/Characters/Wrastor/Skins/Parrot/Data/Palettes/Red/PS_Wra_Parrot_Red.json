@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Wra_Parrot_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Wra_Parrot_Red_C",
     "Name": "Default__PS_Wra_Parrot_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Parrot/Data/Palettes/Red/PS_Wra_Parrot_Red.PS_Wra_Parrot_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.648,
             "G": 0.069984,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.779514,
             "G": 0.605516,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Wings",
+          "Name": "Wings",
           "Value": {
             "R": 1.0,
             "G": 0.227633,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Wings2",
+          "Name": "Wings2",
           "Value": {
             "R": 0.203443,
             "G": 0.020736,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Wings3",
+          "Name": "Wings3",
           "Value": {
             "R": 0.8977,
             "G": 0.0955,
@@ -80,16 +87,18 @@
         },
         {
           "Key": "Legs",
+          "Name": "Legs",
           "Value": {
-            "R": 0.149305,
-            "G": 0.149305,
-            "B": 0.149305,
+            "R": 0.046665,
+            "G": 0.046665,
+            "B": 0.046665,
             "A": 1.0,
-            "Hex": "6C6C6C"
+            "Hex": "3D3D3D"
           }
         },
         {
           "Key": "Scarf",
+          "Name": "Scarf",
           "Value": {
             "R": 0.478,
             "G": 0.032504,
@@ -100,16 +109,18 @@
         },
         {
           "Key": "Goggles",
+          "Name": "Goggles",
           "Value": {
-            "R": 0.123264,
-            "G": 0.123264,
-            "B": 0.123264,
+            "R": 0.046665,
+            "G": 0.046665,
+            "B": 0.046665,
             "A": 1.0,
-            "Hex": "626262"
+            "Hex": "3D3D3D"
           }
         },
         {
           "Key": "Lens",
+          "Name": "Lens",
           "Value": {
             "R": 0.514,
             "G": 0.0,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "LensGradient",
+          "Name": "LensGradient",
           "Value": {
             "R": 0.913099,
             "G": 0.233358,
@@ -130,12 +142,24 @@
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,
             "B": 1.0,
             "A": 1.0,
             "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Brows",
+          "Name": "Brows",
+          "Value": {
+            "R": 0.289,
+            "G": 0.019363,
+            "B": 0.059808,
+            "A": 1.0,
+            "Hex": "922645"
           }
         }
       ]

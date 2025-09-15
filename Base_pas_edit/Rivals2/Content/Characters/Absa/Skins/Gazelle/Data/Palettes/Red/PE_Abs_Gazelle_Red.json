@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Abs_Gazelle_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Abs_Gazelle_Red_C'Default__PE_Abs_Gazelle_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Absa/Skins/Gazelle/Data/Palettes/Red/PE_Abs_Gazelle_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Abs_Gazelle_Red_C",
+    "Name": "Default__PE_Abs_Gazelle_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Absa/Skins/Gazelle/Data/Palettes/Red/PE_Abs_Gazelle_Red.PE_Abs_Gazelle_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.301,
+            "G": 0.012943,
+            "B": 0.012943,
+            "A": 1.0,
+            "Hex": "951E1E"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.03,
+            "G": 0.0081,
+            "B": 0.0081,
+            "A": 1.0,
+            "Hex": "301616"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.251,
+            "G": 0.010793,
+            "B": 0.010793,
+            "A": 1.0,
+            "Hex": "891A1A"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.829,
+            "G": 0.017409,
+            "B": 0.017409,
+            "A": 1.0,
+            "Hex": "EB2323"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 0.816667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFEA00"
+          }
+        }
+      ]
+    }
+  }
+]

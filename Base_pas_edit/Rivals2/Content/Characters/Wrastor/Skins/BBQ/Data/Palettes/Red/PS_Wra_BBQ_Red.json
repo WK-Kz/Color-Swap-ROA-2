@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_BBQ_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_BBQ_Red_C'Default__PS_Wra_BBQ_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/BBQ/Data/Palettes/Red/PS_Wra_BBQ_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_BBQ_Red_C",
+    "Name": "Default__PS_Wra_BBQ_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/BBQ/Data/Palettes/Red/PS_Wra_BBQ_Red.PS_Wra_BBQ_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.494792,
+            "G": 0.452356,
+            "B": 0.396864,
+            "A": 1.0,
+            "Hex": "BBB3A9"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.177083,
+            "G": 0.020168,
+            "B": 0.014757,
+            "A": 1.0,
+            "Hex": "752720"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.494792,
+            "G": 0.452356,
+            "B": 0.396864,
+            "A": 1.0,
+            "Hex": "BBB3A9"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.744792,
+            "G": 0.191758,
+            "B": 0.038791,
+            "A": 1.0,
+            "Hex": "E07937"
+          }
+        },
+        {
+          "Key": "ScarfPattern",
+          "Name": "ScarfPattern",
+          "Value": {
+            "R": 0.453125,
+            "G": 0.02124,
+            "B": 0.027489,
+            "A": 1.0,
+            "Hex": "B4282E"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.317708,
+            "G": 0.023386,
+            "B": 0.013238,
+            "A": 1.0,
+            "Hex": "992A1E"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.052262,
+            "G": 0.006348,
+            "B": 0.203125,
+            "A": 1.0,
+            "Hex": "40127C"
+          }
+        },
+        {
+          "Key": "LensGradient",
+          "Name": "LensGradient",
+          "Value": {
+            "R": 0.169827,
+            "G": 0.052572,
+            "B": 0.59375,
+            "A": 1.0,
+            "Hex": "7241CB"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.786458,
+            "G": 0.598036,
+            "B": 0.600763,
+            "A": 1.0,
+            "Hex": "E6CBCC"
+          }
+        },
+        {
+          "Key": "Comb",
+          "Name": "Comb",
+          "Value": {
+            "R": 0.317708,
+            "G": 0.023386,
+            "B": 0.013238,
+            "A": 1.0,
+            "Hex": "992A1E"
+          }
+        },
+        {
+          "Key": "Jorts",
+          "Name": "Jorts",
+          "Value": {
+            "R": 0.286458,
+            "G": 0.010444,
+            "B": 0.015044,
+            "A": 1.0,
+            "Hex": "921A20"
+          }
+        },
+        {
+          "Key": "Handles",
+          "Name": "Handles",
+          "Value": {
+            "R": 0.286458,
+            "G": 0.067934,
+            "B": 0.034315,
+            "A": 1.0,
+            "Hex": "924934"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.317708,
+            "G": 0.287923,
+            "B": 0.287923,
+            "A": 1.0,
+            "Hex": "999292"
+          }
+        },
+        {
+          "Key": "Apron",
+          "Name": "Apron",
+          "Value": {
+            "R": 0.776042,
+            "G": 0.145508,
+            "B": 0.156017,
+            "A": 1.0,
+            "Hex": "E46A6E"
+          }
+        }
+      ]
+    }
+  }
+]

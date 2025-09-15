@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Parrot_Yellow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Parrot_Yellow_C'Default__PS_Wra_Parrot_Yellow_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Parrot/Data/Palettes/Yellow/PS_Wra_Parrot_Yellow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Parrot_Yellow_C",
+    "Name": "Default__PS_Wra_Parrot_Yellow_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Parrot/Data/Palettes/Yellow/PS_Wra_Parrot_Yellow.PS_Wra_Parrot_Yellow_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.766,
+            "G": 0.44668,
+            "B": 0.029108,
+            "A": 1.0,
+            "Hex": "E3B22F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.779514,
+            "G": 0.605516,
+            "B": 0.502787,
+            "A": 1.0,
+            "Hex": "E5CDBC"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 1.0,
+            "G": 0.1619,
+            "B": 0.014,
+            "A": 1.0,
+            "Hex": "FF701F"
+          }
+        },
+        {
+          "Key": "Wings2",
+          "Name": "Wings2",
+          "Value": {
+            "R": 0.000738,
+            "G": 0.246,
+            "B": 0.019676,
+            "A": 1.0,
+            "Hex": "028826"
+          }
+        },
+        {
+          "Key": "Wings3",
+          "Name": "Wings3",
+          "Value": {
+            "R": 0.0,
+            "G": 0.110051,
+            "B": 0.231,
+            "A": 1.0,
+            "Hex": "005D84"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.046665,
+            "G": 0.046665,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "3D3D3D"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.606,
+            "G": 0.49086,
+            "B": 0.14544,
+            "A": 1.0,
+            "Hex": "CDBA6A"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.046665,
+            "G": 0.046665,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "3D3D3D"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.0,
+            "G": 0.514,
+            "B": 0.1542,
+            "A": 1.0,
+            "Hex": "00BE6D"
+          }
+        },
+        {
+          "Key": "LensGradient",
+          "Name": "LensGradient",
+          "Value": {
+            "R": 0.02648,
+            "G": 0.913099,
+            "B": 0.056034,
+            "A": 1.0,
+            "Hex": "2DF543"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Brows",
+          "Name": "Brows",
+          "Value": {
+            "R": 0.614,
+            "G": 0.260848,
+            "B": 0.008596,
+            "A": 1.0,
+            "Hex": "CE8C17"
+          }
+        }
+      ]
+    }
+  }
+]

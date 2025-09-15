@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Fle_Summer_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Fle_Summer_Neutral_C",
     "Name": "Default__PS_Fle_Summer_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Summer/Data/Palettes/Neutral/PS_Fle_Summer_Neutral.PS_Fle_Summer_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Skirt",
+          "Name": "Skirt",
           "Value": {
             "R": 0.774,
             "G": 0.067338,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Towel",
+          "Name": "Towel",
           "Value": {
             "R": 0.047644,
             "G": 0.554,
@@ -49,7 +53,30 @@
           }
         },
         {
+          "Key": "Towel2",
+          "Name": "Towel2",
+          "Value": {
+            "R": 0.697,
+            "G": 0.68823,
+            "B": 0.697,
+            "A": 1.0,
+            "Hex": "DAD9DA"
+          }
+        },
+        {
+          "Key": "Sandals",
+          "Name": "Sandals",
+          "Value": {
+            "R": 0.005182,
+            "G": 0.031896,
+            "B": 0.082283,
+            "A": 1.0,
+            "Hex": "103251"
+          }
+        },
+        {
           "Key": "Suit1",
+          "Name": "Suit1",
           "Value": {
             "R": 0.005182,
             "G": 0.031896,
@@ -60,16 +87,29 @@
         },
         {
           "Key": "Suit2",
+          "Name": "Suit2",
           "Value": {
-            "R": 0.535,
-            "G": 0.528268,
-            "B": 0.535,
+            "R": 0.589,
+            "G": 0.581589,
+            "B": 0.589,
             "A": 1.0,
-            "Hex": "C2C0C2"
+            "Hex": "CAC9CA"
+          }
+        },
+        {
+          "Key": "Wrist",
+          "Name": "Wrist",
+          "Value": {
+            "R": 0.774,
+            "G": 0.067338,
+            "B": 0.067338,
+            "A": 1.0,
+            "Hex": "E44949"
           }
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.386429,
             "G": 0.111932,
@@ -80,6 +120,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.095307,
             "G": 0.051269,
@@ -89,7 +130,19 @@
           }
         },
         {
+          "Key": "HairTie",
+          "Name": "HairTie",
+          "Value": {
+            "R": 0.047644,
+            "G": 0.554,
+            "B": 0.43585,
+            "A": 1.0,
+            "Hex": "3DC5B0"
+          }
+        },
+        {
           "Key": "Bow",
+          "Name": "Bow",
           "Value": {
             "R": 0.676,
             "G": 0.417197,
@@ -100,6 +153,7 @@
         },
         {
           "Key": "Bow2",
+          "Name": "Bow2",
           "Value": {
             "R": 0.913099,
             "G": 0.226966,
@@ -110,6 +164,7 @@
         },
         {
           "Key": "Bow3",
+          "Name": "Bow3",
           "Value": {
             "R": 0.005182,
             "G": 0.031896,
@@ -120,12 +175,57 @@
         },
         {
           "Key": "Tank",
+          "Name": "Tank",
           "Value": {
             "R": 0.027321,
             "G": 0.514918,
             "B": 0.799103,
             "A": 1.0,
             "Hex": "2EBEE7"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.527115,
+            "G": 0.401275,
+            "B": 0.281479,
+            "A": 1.0,
+            "Hex": "C0AA91"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.462077,
+            "G": 0.194618,
+            "B": 0.184475,
+            "A": 1.0,
+            "Hex": "B57A77"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.591142,
+            "G": 0.682292,
+            "B": 0.074626,
+            "A": 1.0,
+            "Hex": "CAD84D"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.882,
+            "G": 0.882,
+            "B": 0.882,
+            "A": 1.0,
+            "Hex": "F2F2F2"
           }
         }
       ]

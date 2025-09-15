@@ -1,0 +1,234 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Oly_BadgerCo_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Oly_BadgerCo_Neutral_C'Default__PS_Oly_BadgerCo_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Olympia/Skins/BadgerCo/Data/Palettes/Neutral/PS_Oly_BadgerCo_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Oly_BadgerCo_Neutral_C",
+    "Name": "Default__PS_Oly_BadgerCo_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Olympia/Skins/BadgerCo/Data/Palettes/Neutral/PS_Oly_BadgerCo_Neutral.PS_Oly_BadgerCo_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.019791,
+            "G": 0.019791,
+            "B": 0.019791,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.092,
+            "G": 0.085956,
+            "B": 0.078568,
+            "A": 1.0,
+            "Hex": "55534F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.485,
+            "G": 0.453136,
+            "B": 0.41419,
+            "A": 1.0,
+            "Hex": "B9B4AC"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.037,
+            "G": 0.034569,
+            "B": 0.031598,
+            "A": 1.0,
+            "Hex": "363431"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.552,
+            "G": 0.538087,
+            "B": 0.552,
+            "A": 1.0,
+            "Hex": "C4C2C4"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.053454,
+            "G": 0.077957,
+            "B": 0.302,
+            "A": 1.0,
+            "Hex": "414F95"
+          }
+        },
+        {
+          "Key": "Vest",
+          "Name": "Vest",
+          "Value": {
+            "R": 0.361307,
+            "G": 0.491021,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "A2BA18"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Name": "Stripes",
+          "Value": {
+            "R": 0.552,
+            "G": 0.538087,
+            "B": 0.552,
+            "A": 1.0,
+            "Hex": "C4C2C4"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.099899,
+            "G": 0.119538,
+            "B": 0.152926,
+            "A": 1.0,
+            "Hex": "59616D"
+          }
+        },
+        {
+          "Key": "Gloves",
+          "Name": "Gloves",
+          "Value": {
+            "R": 0.665387,
+            "G": 0.097587,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "D55818"
+          }
+        },
+        {
+          "Key": "Hat",
+          "Name": "Hat",
+          "Value": {
+            "R": 0.361307,
+            "G": 0.491021,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "A2BA18"
+          }
+        },
+        {
+          "Key": "Boots",
+          "Name": "Boots",
+          "Value": {
+            "R": 0.665387,
+            "G": 0.097587,
+            "B": 0.009134,
+            "A": 1.0,
+            "Hex": "D55818"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Name": "Straps",
+          "Value": {
+            "R": 0.05448,
+            "G": 0.052861,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "424142"
+          }
+        },
+        {
+          "Key": "Shades",
+          "Name": "Shades",
+          "Value": {
+            "R": 0.019595,
+            "G": 0.018994,
+            "B": 0.025,
+            "A": 1.0,
+            "Hex": "26252B"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.485,
+            "G": 0.453136,
+            "B": 0.41419,
+            "A": 1.0,
+            "Hex": "B9B4AC"
+          }
+        },
+        {
+          "Key": "Earhair",
+          "Name": "Earhair",
+          "Value": {
+            "R": 0.485,
+            "G": 0.453136,
+            "B": 0.41419,
+            "A": 1.0,
+            "Hex": "B9B4AC"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.108,
+            "G": 0.02646,
+            "B": 0.010152,
+            "A": 1.0,
+            "Hex": "5C2D19"
+          }
+        },
+        {
+          "Key": "Eyebrows",
+          "Name": "Eyebrows",
+          "Value": {
+            "R": 0.019791,
+            "G": 0.019791,
+            "B": 0.019791,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        }
+      ]
+    }
+  }
+]

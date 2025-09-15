@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Mecha_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Mecha_Blue_C'Default__PS_Cla_Mecha_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Mecha/Data/Palettes/Blue/PS_Cla_Mecha_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Mecha_Blue_C",
+    "Name": "Default__PS_Cla_Mecha_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Mecha/Data/Palettes/Blue/PS_Cla_Mecha_Blue.PS_Cla_Mecha_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shoulder",
+          "Name": "Shoulder",
+          "Value": {
+            "R": 0.00217,
+            "G": 0.016682,
+            "B": 0.104167,
+            "A": 1.0,
+            "Hex": "07225B"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.03304,
+            "G": 0.472349,
+            "B": 0.90625,
+            "A": 1.0,
+            "Hex": "33B7F5"
+          }
+        },
+        {
+          "Key": "EmissiveBase",
+          "Name": "EmissiveBase",
+          "Value": {
+            "R": 0.030713,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "310000"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.358317,
+            "G": 0.455277,
+            "B": 0.578125,
+            "A": 1.0,
+            "Hex": "A2B4C8"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.117278,
+            "B": 0.552083,
+            "A": 1.0,
+            "Hex": "0060C4"
+          }
+        },
+        {
+          "Key": "Rubber",
+          "Name": "Rubber",
+          "Value": {
+            "R": 0.011612,
+            "G": 0.011612,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "1C1C21"
+          }
+        },
+        {
+          "Key": "Emissive",
+          "Name": "Emissive",
+          "Value": {
+            "R": 1.0,
+            "G": 0.091667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF5500"
+          }
+        },
+        {
+          "Key": "SwordMetal",
+          "Name": "SwordMetal",
+          "Value": {
+            "R": 0.358317,
+            "G": 0.455277,
+            "B": 0.578125,
+            "A": 1.0,
+            "Hex": "A2B4C8"
+          }
+        },
+        {
+          "Key": "SwordTrim",
+          "Name": "SwordTrim",
+          "Value": {
+            "R": 0.03304,
+            "G": 0.472349,
+            "B": 0.90625,
+            "A": 1.0,
+            "Hex": "33B7F5"
+          }
+        }
+      ]
+    }
+  }
+]

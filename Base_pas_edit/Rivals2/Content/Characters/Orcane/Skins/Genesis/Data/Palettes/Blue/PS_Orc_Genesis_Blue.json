@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Genesis_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Genesis_Blue_C'Default__PS_Orc_Genesis_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Genesis/Data/Palettes/Blue/PS_Orc_Genesis_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Genesis_Blue_C",
+    "Name": "Default__PS_Orc_Genesis_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Genesis/Data/Palettes/Blue/PS_Orc_Genesis_Blue.PS_Orc_Genesis_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.160869,
+            "B": 0.61,
+            "A": 1.0,
+            "Hex": "0070CD"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.023153,
+            "G": 0.023153,
+            "B": 0.023153,
+            "A": 1.0,
+            "Hex": "2A2A2A"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 1.0,
+            "G": 0.923,
+            "B": 0.930537,
+            "A": 1.0,
+            "Hex": "FFF7F8"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Name": "Pads",
+          "Value": {
+            "R": 0.069,
+            "G": 0.069,
+            "B": 0.069,
+            "A": 1.0,
+            "Hex": "4A4A4A"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 1.0,
+            "G": 0.923,
+            "B": 0.930537,
+            "A": 1.0,
+            "Hex": "FFF7F8"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.09375,
+            "G": 0.085367,
+            "B": 0.071327,
+            "A": 1.0,
+            "Hex": "56524B"
+          }
+        },
+        {
+          "Key": "Shine",
+          "Name": "Shine",
+          "Value": {
+            "R": 1.0,
+            "G": 0.994956,
+            "B": 0.962906,
+            "A": 1.0,
+            "Hex": "FFFFFB"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Name": "Teeth",
+          "Value": {
+            "R": 1.0,
+            "G": 0.994956,
+            "B": 0.962906,
+            "A": 1.0,
+            "Hex": "FFFFFB"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.009639,
+            "G": 0.214005,
+            "B": 0.567,
+            "A": 1.0,
+            "Hex": "187FC7"
+          }
+        },
+        {
+          "Key": "Liner",
+          "Name": "Liner",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Glitch0",
+          "Name": "Glitch0",
+          "Value": {
+            "R": 0.663333,
+            "G": 0.803994,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "D5E8FF"
+          }
+        },
+        {
+          "Key": "Glitch1",
+          "Name": "Glitch1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.727327,
+            "B": 0.956667,
+            "A": 1.0,
+            "Hex": "00DEFB"
+          }
+        },
+        {
+          "Key": "Wireframe",
+          "Name": "Wireframe",
+          "Value": {
+            "R": 0.0,
+            "G": 0.160869,
+            "B": 0.61,
+            "A": 1.0,
+            "Hex": "0070CD"
+          }
+        },
+        {
+          "Key": "Number",
+          "Name": "Number",
+          "Value": {
+            "R": 0.0,
+            "G": 0.160869,
+            "B": 0.61,
+            "A": 1.0,
+            "Hex": "0070CD"
+          }
+        },
+        {
+          "Key": "NumberTrim",
+          "Name": "NumberTrim",
+          "Value": {
+            "R": 0.023153,
+            "G": 0.023153,
+            "B": 0.023153,
+            "A": 1.0,
+            "Hex": "2A2A2A"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Fle_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Fle_Abyss_Blue_C",
     "Name": "Default__PS_Fle_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Abyss/Data/Palettes/Blue/PS_Fle_Abyss_Blue.PS_Fle_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.291771,
             "G": 0.437924,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.548914,
             "G": 0.527115,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.147582,
             "G": 0.105882,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Paws",
+          "Name": "Paws",
           "Value": {
             "R": 0.423529,
             "G": 0.54902,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.052861,
             "G": 0.076435,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.201573,
             "G": 0.141263,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Buckle",
+          "Name": "Buckle",
           "Value": {
             "R": 0.412543,
             "G": 0.401978,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Tentacles",
+          "Name": "Tentacles",
           "Value": {
             "R": 0.10054,
             "G": 0.057805,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "TentacleSpines",
+          "Name": "TentacleSpines",
           "Value": {
             "R": 0.019382,
             "G": 0.313567,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Bone",
+          "Name": "Bone",
           "Value": {
             "R": 0.844225,
             "G": 0.776841,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "AbyssSclera",
+          "Name": "AbyssSclera",
           "Value": {
             "R": 0.06301,
             "G": 1.0,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "AbyssIris",
+          "Name": "AbyssIris",
           "Value": {
             "R": 0.047916,
             "G": 0.194834,

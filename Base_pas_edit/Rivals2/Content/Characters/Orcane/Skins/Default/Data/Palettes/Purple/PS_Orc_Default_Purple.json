@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Orc_Default_Purple_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Orc_Default_Purple_C",
     "Name": "Default__PS_Orc_Default_Purple_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Purple/PS_Orc_Default_Purple.PS_Orc_Default_Purple_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.105721,
             "G": 0.003535,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 1.0,
             "G": 0.659367,
@@ -49,17 +53,63 @@
           }
         },
         {
-          "Key": "Eyes",
+          "Key": "Nails",
+          "Name": "Nails",
           "Value": {
-            "R": 0.111013,
-            "G": 0.370886,
-            "B": 0.630757,
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
             "A": 1.0,
-            "Hex": "5DA4D0"
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Name": "Pads",
+          "Value": {
+            "R": 0.286674,
+            "G": 0.143787,
+            "B": 0.501,
+            "A": 1.0,
+            "Hex": "926ABC"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.188,
+            "G": 0.188,
+            "B": 0.188,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        {
+          "Key": "Shine",
+          "Name": "Shine",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "FCFCFC"
           }
         },
         {
           "Key": "Teeth",
+          "Name": "Teeth",
           "Value": {
             "R": 0.973445,
             "G": 0.973445,
@@ -70,6 +120,7 @@
         },
         {
           "Key": "Mouth",
+          "Name": "Mouth",
           "Value": {
             "R": 0.42869,
             "G": 0.090842,
@@ -80,6 +131,7 @@
         },
         {
           "Key": "Liner",
+          "Name": "Liner",
           "Value": {
             "R": 0.02257,
             "G": 0.02257,

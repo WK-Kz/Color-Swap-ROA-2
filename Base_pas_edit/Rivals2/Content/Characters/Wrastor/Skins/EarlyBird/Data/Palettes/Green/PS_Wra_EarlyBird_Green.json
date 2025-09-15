@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Wra_EarlyBird_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Wra_EarlyBird_Green_C",
     "Name": "Default__PS_Wra_EarlyBird_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/EarlyBird/Data/Palettes/Green/PS_Wra_EarlyBird_Green.PS_Wra_EarlyBird_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 1.0,
             "G": 0.2454,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Hearts",
+          "Name": "Hearts",
           "Value": {
             "R": 0.005096,
             "G": 0.392,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Slippers",
+          "Name": "Slippers",
           "Value": {
             "R": 0.283777,
             "G": 0.679542,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Worm",
+          "Name": "Worm",
           "Value": {
             "R": 1.0,
             "G": 0.247,
@@ -70,12 +76,24 @@
         },
         {
           "Key": "Logo",
+          "Name": "Logo",
           "Value": {
             "R": 0.876736,
             "G": 0.876736,
             "B": 0.876736,
             "A": 1.0,
             "Hex": "F1F1F1"
+          }
+        },
+        {
+          "Key": "Shorts",
+          "Name": "Shorts",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
           }
         }
       ]

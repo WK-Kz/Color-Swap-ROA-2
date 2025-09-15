@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Default_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Default_Red_C",
     "Name": "Default__PS_For_Default_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Red/PS_For_Default_Red.PS_For_Default_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.181,
             "G": 0.117251,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.520996,
             "G": 0.351533,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.088656,
             "G": 0.051269,
@@ -60,36 +65,40 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
-            "R": 0.6653873,
-            "G": 0.001517635,
-            "B": 0.0,
+            "R": 0.492,
+            "G": 0.015252,
+            "B": 0.01677,
             "A": 1.0,
-            "Hex": "D50500"
+            "Hex": "BA2123"
           }
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
-            "R": 0.52099556,
-            "G": 0.23839757,
-            "B": 0.0,
+            "R": 0.316666,
+            "G": 0.073889,
+            "B": 0.111502,
             "A": 1.0,
-            "Hex": "BF8600"
+            "Hex": "994D5E"
           }
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
-            "R": 0.0,
-            "G": 0.0051815165,
-            "B": 0.014443844,
+            "R": 0.075,
+            "G": 0.007078,
+            "B": 0.007509,
             "A": 1.0,
-            "Hex": "001020"
+            "Hex": "4D1415"
           }
         },
         {
           "Key": "Bone",
+          "Name": "Bone",
           "Value": {
             "R": 0.386429,
             "G": 0.341914,
@@ -100,56 +109,62 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
-            "R": 0.0,
-            "G": 0.0051815165,
-            "B": 0.014443844,
+            "R": 0.109462,
+            "G": 0.01033,
+            "B": 0.01096,
             "A": 1.0,
-            "Hex": "001020"
+            "Hex": "5D1A1B"
           }
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
-            "R": 0.9046612,
-            "G": 0.41788507,
-            "B": 0.0,
+            "R": 0.690972,
+            "G": 0.66554,
+            "B": 0.18234,
             "A": 1.0,
-            "Hex": "F4AD00"
+            "Hex": "D9D576"
           }
         },
         {
           "Key": "ClothTrim",
+          "Name": "ClothTrim",
           "Value": {
-            "R": 0.0,
-            "G": 0.0051815165,
-            "B": 0.014443844,
+            "R": 0.287,
+            "G": 0.071061,
+            "B": 0.059696,
             "A": 1.0,
-            "Hex": "001020"
+            "Hex": "924B45"
           }
         },
         {
           "Key": "Belt",
+          "Name": "Belt",
           "Value": {
-            "R": 0.0,
-            "G": 0.0051815165,
-            "B": 0.014443844,
+            "R": 0.018,
+            "G": 0.003942,
+            "B": 0.003942,
             "A": 1.0,
-            "Hex": "001020"
+            "Hex": "240C0C"
           }
         },
         {
           "Key": "Mask Eyes",
+          "Name": "Mask Eyes",
           "Value": {
             "R": 1.0,
-            "G": 0.015208514,
-            "B": 0.010960094,
+            "G": 0.265817,
+            "B": 0.101,
             "A": 1.0,
-            "Hex": "FF211B"
+            "Hex": "FF8D59"
           }
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,

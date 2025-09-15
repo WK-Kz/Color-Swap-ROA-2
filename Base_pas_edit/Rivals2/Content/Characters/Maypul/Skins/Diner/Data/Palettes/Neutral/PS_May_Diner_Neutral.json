@@ -1,0 +1,289 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Diner_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Diner_Neutral_C'Default__PS_May_Diner_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Diner/Data/Palettes/Neutral/PS_May_Diner_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Diner_Neutral_C",
+    "Name": "Default__PS_May_Diner_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Diner/Data/Palettes/Neutral/PS_May_Diner_Neutral.PS_May_Diner_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shirt Accent",
+          "Name": "Shirt Accent",
+          "Value": {
+            "R": 0.47932,
+            "G": 0.033105,
+            "B": 0.033105,
+            "A": 1.0,
+            "Hex": "B83333"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.005605,
+            "G": 0.116971,
+            "B": 0.396755,
+            "A": 1.0,
+            "Hex": "1160A9"
+          }
+        },
+        {
+          "Key": "Shirt Collar",
+          "Name": "Shirt Collar",
+          "Value": {
+            "R": 0.730461,
+            "G": 0.730461,
+            "B": 0.730461,
+            "A": 1.0,
+            "Hex": "DEDEDE"
+          }
+        },
+        {
+          "Key": "Buttons",
+          "Name": "Buttons",
+          "Value": {
+            "R": 0.47932,
+            "G": 0.033105,
+            "B": 0.033105,
+            "A": 1.0,
+            "Hex": "B83333"
+          }
+        },
+        {
+          "Key": "Apron",
+          "Name": "Apron",
+          "Value": {
+            "R": 0.47932,
+            "G": 0.033105,
+            "B": 0.033105,
+            "A": 1.0,
+            "Hex": "B83333"
+          }
+        },
+        {
+          "Key": "Notepad",
+          "Name": "Notepad",
+          "Value": {
+            "R": 0.730461,
+            "G": 0.730461,
+            "B": 0.730461,
+            "A": 1.0,
+            "Hex": "DEDEDE"
+          }
+        },
+        {
+          "Key": "Pencil",
+          "Name": "Pencil",
+          "Value": {
+            "R": 0.701102,
+            "G": 0.351533,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "DAA02E"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.015209,
+            "G": 0.030713,
+            "B": 0.051269,
+            "A": 1.0,
+            "Hex": "213140"
+          }
+        },
+        {
+          "Key": "Shoe",
+          "Name": "Shoe",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.814847,
+            "B": 0.814847,
+            "A": 1.0,
+            "Hex": "E9E9E9"
+          }
+        },
+        {
+          "Key": "Shoe Accent",
+          "Name": "Shoe Accent",
+          "Value": {
+            "R": 0.47932,
+            "G": 0.033105,
+            "B": 0.033105,
+            "A": 1.0,
+            "Hex": "B83333"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.111932,
+            "G": 0.064803,
+            "B": 0.049707,
+            "A": 1.0,
+            "Hex": "5E483F"
+          }
+        },
+        {
+          "Key": "Headband",
+          "Name": "Headband",
+          "Value": {
+            "R": 0.871367,
+            "G": 0.863157,
+            "B": 0.863157,
+            "A": 1.0,
+            "Hex": "F0EFEF"
+          }
+        },
+        {
+          "Key": "Bacon Grease",
+          "Name": "Bacon Grease",
+          "Value": {
+            "R": 0.822786,
+            "G": 0.187821,
+            "B": 0.242281,
+            "A": 1.0,
+            "Hex": "EA7887"
+          }
+        },
+        {
+          "Key": "Waffle",
+          "Name": "Waffle",
+          "Value": {
+            "R": 0.708376,
+            "G": 0.381326,
+            "B": 0.171441,
+            "A": 1.0,
+            "Hex": "DBA673"
+          }
+        },
+        {
+          "Key": "Syrup",
+          "Name": "Syrup",
+          "Value": {
+            "R": 0.287441,
+            "G": 0.038204,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "92370F"
+          }
+        },
+        {
+          "Key": "Butter",
+          "Name": "Butter",
+          "Value": {
+            "R": 0.921582,
+            "G": 0.630757,
+            "B": 0.165132,
+            "A": 1.0,
+            "Hex": "F6D071"
+          }
+        },
+        {
+          "Key": "Cutlery",
+          "Name": "Cutlery",
+          "Value": {
+            "R": 0.274677,
+            "G": 0.266356,
+            "B": 0.266356,
+            "A": 1.0,
+            "Hex": "8F8D8D"
+          }
+        },
+        {
+          "Key": "Bacon",
+          "Name": "Bacon",
+          "Value": {
+            "R": 0.3564,
+            "G": 0.049707,
+            "B": 0.049707,
+            "A": 1.0,
+            "Hex": "A13F3F"
+          }
+        },
+        {
+          "Key": "Wristbands",
+          "Name": "Wristbands",
+          "Value": {
+            "R": 0.822786,
+            "G": 0.822786,
+            "B": 0.822786,
+            "A": 1.0,
+            "Hex": "EAEAEA"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.693872,
+            "G": 0.23074,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "D98438"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.111932,
+            "G": 0.064803,
+            "B": 0.049707,
+            "A": 1.0,
+            "Hex": "5E483F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.822786,
+            "G": 0.381326,
+            "B": 0.132868,
+            "A": 1.0,
+            "Hex": "EAA666"
+          }
+        },
+        {
+          "Key": "Egg",
+          "Name": "Egg",
+          "Value": {
+            "R": 0.529514,
+            "G": 0.529514,
+            "B": 0.529514,
+            "A": 1.0,
+            "Hex": "C1C1C1"
+          }
+        }
+      ]
+    }
+  }
+]

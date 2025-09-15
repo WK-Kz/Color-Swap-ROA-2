@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Fle_Default_Black_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Fle_Default_Black_C",
     "Name": "Default__PS_Fle_Default_Black_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Black/PS_Fle_Default_Black.PS_Fle_Default_Black_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.513889,
             "G": 0.141197,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.527115,
             "G": 0.431475,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.095,
             "G": 0.051151,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Paws",
+          "Name": "Paws",
           "Value": {
             "R": 0.462077,
             "G": 0.194618,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.476,
             "G": 0.453343,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.043955,
             "G": 0.043155,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Shirt2",
+          "Name": "Shirt2",
           "Value": {
             "R": 0.55,
             "G": 0.55,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Belts",
+          "Name": "Belts",
           "Value": {
             "R": 0.043955,
             "G": 0.043155,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.043955,
             "G": 0.043155,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "CapeTrim",
+          "Name": "CapeTrim",
           "Value": {
             "R": 0.55,
             "G": 0.55,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "BowWraps",
+          "Name": "BowWraps",
           "Value": {
             "R": 0.476,
             "G": 0.451899,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "BowGem",
+          "Name": "BowGem",
           "Value": {
             "R": 0.618,
             "G": 0.224839,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Wood",
+          "Name": "Wood",
           "Value": {
             "R": 0.332452,
             "G": 0.102242,
@@ -160,6 +175,7 @@
         },
         {
           "Key": "Bow",
+          "Name": "Bow",
           "Value": {
             "R": 0.043955,
             "G": 0.043155,
@@ -170,6 +186,7 @@
         },
         {
           "Key": "BowMetal",
+          "Name": "BowMetal",
           "Value": {
             "R": 0.226,
             "G": 0.19123,
@@ -180,6 +197,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.591142,
             "G": 0.682292,
@@ -190,6 +208,7 @@
         },
         {
           "Key": "Apple",
+          "Name": "Apple",
           "Value": {
             "R": 0.904661,
             "G": 0.038204,
@@ -200,6 +219,7 @@
         },
         {
           "Key": "Meat",
+          "Name": "Meat",
           "Value": {
             "R": 0.445201,
             "G": 0.119538,
@@ -210,6 +230,7 @@
         },
         {
           "Key": "Peach",
+          "Name": "Peach",
           "Value": {
             "R": 0.930111,
             "G": 0.227765,

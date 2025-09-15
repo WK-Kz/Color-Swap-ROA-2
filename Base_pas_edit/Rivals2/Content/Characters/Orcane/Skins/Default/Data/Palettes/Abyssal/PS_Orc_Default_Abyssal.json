@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Default_Abyssal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Default_Abyssal_C'Default__PS_Orc_Default_Abyssal_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Abyssal/PS_Orc_Default_Abyssal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Default_Abyssal_C",
+    "Name": "Default__PS_Orc_Default_Abyssal_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Abyssal/PS_Orc_Default_Abyssal.PS_Orc_Default_Abyssal_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.341914,
+            "G": 0.401978,
+            "B": 0.617207,
+            "A": 1.0,
+            "Hex": "9EAACE"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.064803,
+            "G": 0.027321,
+            "B": 0.102242,
+            "A": 1.0,
+            "Hex": "482E5A"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.278894,
+            "G": 0.001518,
+            "B": 0.318547,
+            "A": 1.0,
+            "Hex": "900599"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Name": "Pads",
+          "Value": {
+            "R": 0.275924,
+            "G": 0.087648,
+            "B": 0.328,
+            "A": 1.0,
+            "Hex": "8F539B"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 1.0,
+            "G": 0.283149,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF9100"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.097,
+            "G": 0.011317,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "581B00"
+          }
+        },
+        {
+          "Key": "Shine",
+          "Name": "Shine",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Name": "Teeth",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.973445,
+            "B": 0.973445,
+            "A": 1.0,
+            "Hex": "FCFCFC"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.279346,
+            "G": 0.001448,
+            "B": 0.32,
+            "A": 1.0,
+            "Hex": "900499"
+          }
+        },
+        {
+          "Key": "Liner",
+          "Name": "Liner",
+          "Value": {
+            "R": 0.02257,
+            "G": 0.02257,
+            "B": 0.02257,
+            "A": 1.0,
+            "Hex": "292929"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Cow_Mint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Cow_Mint_C'Default__PS_Lox_Cow_Mint_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Cow/Data/Palettes/Mint/PS_Lox_Cow_Mint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Cow_Mint_C",
+    "Name": "Default__PS_Lox_Cow_Mint_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Cow/Data/Palettes/Mint/PS_Lox_Cow_Mint.PS_Lox_Cow_Mint_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.091715,
+            "G": 0.359375,
+            "B": 0.24339,
+            "A": 1.0,
+            "Hex": "55A287"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.091715,
+            "G": 0.359375,
+            "B": 0.24339,
+            "A": 1.0,
+            "Hex": "55A287"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.419949,
+            "G": 0.588542,
+            "B": 0.473336,
+            "A": 1.0,
+            "Hex": "AECAB7"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.419949,
+            "G": 0.588542,
+            "B": 0.473336,
+            "A": 1.0,
+            "Hex": "AECAB7"
+          }
+        },
+        {
+          "Key": "Axe Blade",
+          "Name": "Axe Blade",
+          "Value": {
+            "R": 0.425,
+            "G": 0.425,
+            "B": 0.425,
+            "A": 1.0,
+            "Hex": "AFAFAF"
+          }
+        },
+        {
+          "Key": "Axe Head",
+          "Name": "Axe Head",
+          "Value": {
+            "R": 0.604167,
+            "G": 0.166775,
+            "B": 0.239674,
+            "A": 1.0,
+            "Hex": "CC7186"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.520833,
+            "G": 0.499132,
+            "B": 0.455729,
+            "A": 1.0,
+            "Hex": "BFBCB4"
+          }
+        },
+        {
+          "Key": "Axe Wraps",
+          "Name": "Axe Wraps",
+          "Value": {
+            "R": 0.59139,
+            "G": 0.880208,
+            "B": 0.687663,
+            "A": 1.0,
+            "Hex": "CAF2D8"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.609375,
+            "G": 0.234863,
+            "B": 0.303524,
+            "A": 1.0,
+            "Hex": "CD8596"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.302083,
+            "G": 0.070801,
+            "B": 0.105493,
+            "A": 1.0,
+            "Hex": "954B5B"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.994792,
+            "G": 0.378228,
+            "B": 0.491264,
+            "A": 1.0,
+            "Hex": "FFA6BA"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.007612,
+            "G": 0.011,
+            "B": 0.0092,
+            "A": 1.0,
+            "Hex": "151B18"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 0.513,
+            "G": 0.0,
+            "B": 0.05985,
+            "A": 1.0,
+            "Hex": "BE0045"
+          }
+        },
+        {
+          "Key": "Tusks",
+          "Name": "Tusks",
+          "Value": {
+            "R": 0.425836,
+            "G": 0.489583,
+            "B": 0.438585,
+            "A": 1.0,
+            "Hex": "AFBAB1"
+          }
+        },
+        {
+          "Key": "ThroneStone",
+          "Name": "ThroneStone",
+          "Value": {
+            "R": 0.147027,
+            "G": 0.116971,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "6B6060"
+          }
+        },
+        {
+          "Key": "ThroneMetal",
+          "Name": "ThroneMetal",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.39171,
+            "B": 0.369249,
+            "A": 1.0,
+            "Hex": "AFA8A4"
+          }
+        },
+        {
+          "Key": "ThroneCloth",
+          "Name": "ThroneCloth",
+          "Value": {
+            "R": 0.072272,
+            "G": 0.327778,
+            "B": 0.263902,
+            "A": 1.0,
+            "Hex": "4C9B8C"
+          }
+        }
+      ]
+    }
+  }
+]

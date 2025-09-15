@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Solid_Black_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Solid_Black_C'Default__PS_Ran_Solid_Black_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Black/PS_Ran_Solid_Black.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Solid_Black_C",
+    "Name": "Default__PS_Ran_Solid_Black_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Solid/Data/Palettes/Black/PS_Ran_Solid_Black.PS_Ran_Solid_Black_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.00957,
+            "G": 0.014374,
+            "B": 0.022,
+            "A": 1.0,
+            "Hex": "182028"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.423,
+            "G": 0.065988,
+            "B": 0.065988,
+            "A": 1.0,
+            "Hex": "AE4848"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.215,
+            "G": 0.025782,
+            "B": 0.022575,
+            "A": 1.0,
+            "Hex": "802C29"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.172,
+            "G": 0.007396,
+            "B": 0.007396,
+            "A": 1.0,
+            "Hex": "731414"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.534896,
+            "G": 0.604804,
+            "B": 0.662,
+            "A": 1.0,
+            "Hex": "C2CCD5"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.944,
+            "G": 0.418665,
+            "B": 0.043424,
+            "A": 1.0,
+            "Hex": "F9AD3B"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_Basketball_DontPark_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_Basketball_DontPark_C",
     "Name": "Default__PS_Ran_Basketball_DontPark_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/DontPark/PS_Ran_Basketball_DontPark.PS_Ran_Basketball_DontPark_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Jersey",
+          "Name": "Jersey",
           "Value": {
             "R": 0.508881,
             "G": 0.617207,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
           "Value": {
             "R": 0.003035,
             "G": 0.052861,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "JerseyTrim",
+          "Name": "JerseyTrim",
           "Value": {
             "R": 0.584078,
             "G": 0.55834,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Armband",
+          "Name": "Armband",
           "Value": {
             "R": 0.47932,
             "G": 0.533276,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Basketball",
+          "Name": "Basketball",
           "Value": {
             "R": 0.708376,
             "G": 0.215861,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "BasketballLines",
+          "Name": "BasketballLines",
           "Value": {
             "R": 0.003035,
             "G": 0.052861,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.082283,
             "G": 0.155926,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.584078,
             "G": 0.651406,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.002125,
             "G": 0.036889,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Tongue",
+          "Name": "Tongue",
           "Value": {
             "R": 0.708376,
             "G": 0.215861,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.947917,
             "G": 0.304522,

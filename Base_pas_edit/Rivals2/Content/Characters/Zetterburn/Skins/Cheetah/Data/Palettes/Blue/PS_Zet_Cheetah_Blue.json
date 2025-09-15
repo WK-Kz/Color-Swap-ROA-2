@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Cheetah_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Cheetah_Blue_C'Default__PS_Zet_Cheetah_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Cheetah/Data/Palettes/Blue/PS_Zet_Cheetah_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Cheetah_Blue_C",
+    "Name": "Default__PS_Zet_Cheetah_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Cheetah/Data/Palettes/Blue/PS_Zet_Cheetah_Blue.PS_Zet_Cheetah_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 1.0,
+            "G": 0.991102,
+            "B": 0.246201,
+            "A": 1.0,
+            "Hex": "FFFE88"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.62396,
+            "G": 0.879622,
+            "B": 0.955973,
+            "A": 1.0,
+            "Hex": "CFF1FA"
+          }
+        },
+        {
+          "Key": "Spots",
+          "Name": "Spots",
+          "Value": {
+            "R": 0.0,
+            "G": 0.023153,
+            "B": 0.093059,
+            "A": 1.0,
+            "Hex": "002A56"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.017642,
+            "G": 0.015996,
+            "B": 0.088656,
+            "A": 1.0,
+            "Hex": "242254"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.027321,
+            "G": 0.187821,
+            "B": 0.879622,
+            "A": 1.0,
+            "Hex": "2E78F1"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.029785,
+            "G": 0.311751,
+            "B": 0.953125,
+            "A": 1.0,
+            "Hex": "3098FA"
+          }
+        },
+        {
+          "Key": "Tips",
+          "Name": "Tips",
+          "Value": {
+            "R": 0.00472,
+            "G": 0.004915,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "0E0F21"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.000895,
+            "G": 0.002774,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "020921"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.0,
+            "G": 0.047647,
+            "B": 0.234375,
+            "A": 1.0,
+            "Hex": "003D85"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.502886,
+            "G": 0.502886,
+            "B": 0.502886,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.005194,
+            "G": 0.011831,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "101C28"
+          }
+        }
+      ]
+    }
+  }
+]

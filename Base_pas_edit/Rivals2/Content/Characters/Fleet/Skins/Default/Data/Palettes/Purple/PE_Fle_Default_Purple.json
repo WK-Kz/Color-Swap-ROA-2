@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Default_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Default_Purple_C'Default__PE_Fle_Default_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Purple/PE_Fle_Default_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Default_Purple_C",
+    "Name": "Default__PE_Fle_Default_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Purple/PE_Fle_Default_Purple.PE_Fle_Default_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.149885,
+            "G": 0.021914,
+            "B": 0.296138,
+            "A": 1.0,
+            "Hex": "6C2894"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.302142,
+            "G": 0.099899,
+            "B": 0.533277,
+            "A": 1.0,
+            "Hex": "9559C1"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.6432,
+            "G": 0.331,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "D29CFF"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.863157,
+            "G": 0.637597,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "EFD1F2"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.954,
+            "G": 0.11925,
+            "B": 0.133162,
+            "A": 1.0,
+            "Hex": "FA6166"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 0.433,
+            "G": 0.108683,
+            "B": 0.114088,
+            "A": 1.0,
+            "Hex": "B05D5F"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_Tuxedo_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_Tuxedo_Green_C",
     "Name": "Default__PS_Ran_Tuxedo_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Tuxedo/Data/Palettes/Green/PS_Ran_Tuxedo_Green.PS_Ran_Tuxedo_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Shirt/Socks",
+          "Name": "Shirt/Socks",
           "Value": {
             "R": 0.415,
             "G": 0.415,
@@ -40,16 +43,18 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
-            "R": 0.061975,
-            "G": 0.102,
-            "B": 0.061975,
+            "R": 0.020051,
+            "G": 0.033,
+            "B": 0.020051,
             "A": 1.0,
-            "Hex": "465A46"
+            "Hex": "263326"
           }
         },
         {
           "Key": "Shoes",
+          "Name": "Shoes",
           "Value": {
             "R": 0.0,
             "G": 0.072,
@@ -59,17 +64,74 @@
           }
         },
         {
-          "Key": "Suit",
+          "Key": "Buttons",
+          "Name": "Buttons",
           "Value": {
-            "R": 0.046665,
-            "G": 0.078187,
-            "B": 0.046665,
+            "R": 0.164131,
+            "G": 0.275,
+            "B": 0.164131,
             "A": 1.0,
-            "Hex": "3D4F3D"
+            "Hex": "718F71"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.024304,
+            "G": 0.04,
+            "B": 0.024304,
+            "A": 1.0,
+            "Hex": "2B382B"
           }
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.060281,
+            "G": 0.101,
+            "B": 0.060281,
+            "A": 1.0,
+            "Hex": "455945"
+          }
+        },
+        {
+          "Key": "Bow",
+          "Name": "Bow",
+          "Value": {
+            "R": 0.0,
+            "G": 0.072,
+            "B": 0.0024,
+            "A": 1.0,
+            "Hex": "004C07"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.0,
+            "G": 0.067,
+            "B": 0.0469,
+            "A": 1.0,
+            "Hex": "00493D"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.072478,
+            "G": 0.334,
+            "B": 0.108949,
+            "A": 1.0,
+            "Hex": "4C9C5D"
+          }
+        },
+        {
+          "Key": "Suit",
+          "Name": "Suit",
           "Value": {
             "R": 0.046665,
             "G": 0.078187,
@@ -79,27 +141,8 @@
           }
         },
         {
-          "Key": "Pattern",
-          "Value": {
-            "R": 0.0,
-            "G": 0.094,
-            "B": 0.0658,
-            "A": 1.0,
-            "Hex": "005648"
-          }
-        },
-        {
-          "Key": "Body",
-          "Value": {
-            "R": 0.075775,
-            "G": 0.296,
-            "B": 0.106487,
-            "A": 1.0,
-            "Hex": "4E945C"
-          }
-        },
-        {
           "Key": "Rose",
+          "Name": "Rose",
           "Value": {
             "R": 0.346704,
             "G": 0.473531,
@@ -110,12 +153,35 @@
         },
         {
           "Key": "Tongue",
+          "Name": "Tongue",
           "Value": {
             "R": 0.020289,
             "G": 0.665387,
             "B": 0.068478,
             "A": 1.0,
             "Hex": "27D54A"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.42027,
+            "G": 0.445201,
+            "B": 0.382873,
+            "A": 1.0,
+            "Hex": "AEB2A6"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.2349,
+            "G": 0.522,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "85BF00"
           }
         }
       ]

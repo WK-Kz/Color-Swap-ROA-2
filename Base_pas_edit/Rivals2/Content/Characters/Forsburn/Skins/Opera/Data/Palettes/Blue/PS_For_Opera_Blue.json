@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Opera_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Opera_Blue_C'Default__PS_For_Opera_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Opera/Data/Palettes/Blue/PS_For_Opera_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Opera_Blue_C",
+    "Name": "Default__PS_For_Opera_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Opera/Data/Palettes/Blue/PS_For_Opera_Blue.PS_For_Opera_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Mask",
+          "Name": "Mask",
+          "Value": {
+            "R": 0.508881,
+            "G": 0.508881,
+            "B": 0.508881,
+            "A": 1.0,
+            "Hex": "BDBDBD"
+          }
+        },
+        {
+          "Key": "Vest",
+          "Name": "Vest",
+          "Value": {
+            "R": 0.048533,
+            "G": 0.02767,
+            "B": 0.265625,
+            "A": 1.0,
+            "Hex": "3E2E8D"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.574408,
+            "G": 0.576992,
+            "B": 0.59375,
+            "A": 1.0,
+            "Hex": "C8C8CB"
+          }
+        },
+        {
+          "Key": "Bowtie",
+          "Name": "Bowtie",
+          "Value": {
+            "R": 0.445201,
+            "G": 0.445201,
+            "B": 0.445201,
+            "A": 1.0,
+            "Hex": "B2B2B2"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.012739,
+            "G": 0.008355,
+            "B": 0.057292,
+            "A": 1.0,
+            "Hex": "1D1643"
+          }
+        },
+        {
+          "Key": "Chain",
+          "Name": "Chain",
+          "Value": {
+            "R": 0.447917,
+            "G": 0.187696,
+            "B": 0.099318,
+            "A": 1.0,
+            "Hex": "B37859"
+          }
+        },
+        {
+          "Key": "WeaponBlade",
+          "Name": "WeaponBlade",
+          "Value": {
+            "R": 0.341914,
+            "G": 0.346704,
+            "B": 0.341914,
+            "A": 1.0,
+            "Hex": "9E9F9E"
+          }
+        },
+        {
+          "Key": "WeaponHilt",
+          "Name": "WeaponHilt",
+          "Value": {
+            "R": 0.333333,
+            "G": 0.139323,
+            "B": 0.074653,
+            "A": 1.0,
+            "Hex": "9C684D"
+          }
+        },
+        {
+          "Key": "WeaponRose",
+          "Name": "WeaponRose",
+          "Value": {
+            "R": 0.034505,
+            "G": 0.362305,
+            "B": 0.552083,
+            "A": 1.0,
+            "Hex": "34A2C4"
+          }
+        },
+        {
+          "Key": "WeaponGrip",
+          "Name": "WeaponGrip",
+          "Value": {
+            "R": 0.045,
+            "G": 0.040801,
+            "B": 0.040801,
+            "A": 1.0,
+            "Hex": "3C3939"
+          }
+        },
+        {
+          "Key": "WeaponThorns",
+          "Name": "WeaponThorns",
+          "Value": {
+            "R": 0.017361,
+            "G": 0.104167,
+            "B": 0.027488,
+            "A": 1.0,
+            "Hex": "235B2E"
+          }
+        }
+      ]
+    }
+  }
+]

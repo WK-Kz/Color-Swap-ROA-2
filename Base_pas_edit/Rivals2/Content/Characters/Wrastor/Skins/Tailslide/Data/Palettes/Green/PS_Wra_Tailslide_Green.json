@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Tailslide_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Tailslide_Green_C'Default__PS_Wra_Tailslide_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Tailslide/Data/Palettes/Green/PS_Wra_Tailslide_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Tailslide_Green_C",
+    "Name": "Default__PS_Wra_Tailslide_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Tailslide/Data/Palettes/Green/PS_Wra_Tailslide_Green.PS_Wra_Tailslide_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.133233,
+            "G": 0.244792,
+            "B": 0.085422,
+            "A": 1.0,
+            "Hex": "668852"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.671875,
+            "G": 0.525603,
+            "B": 0.405924,
+            "A": 1.0,
+            "Hex": "D6C0AB"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 1.0,
+            "G": 0.634028,
+            "B": 0.291667,
+            "A": 1.0,
+            "Hex": "FFD193"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.661458,
+            "G": 0.127469,
+            "B": 0.020671,
+            "A": 1.0,
+            "Hex": "D56427"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.671875,
+            "G": 0.525603,
+            "B": 0.405924,
+            "A": 1.0,
+            "Hex": "D6C0AB"
+          }
+        },
+        {
+          "Key": "Hat",
+          "Name": "Hat",
+          "Value": {
+            "R": 0.036458,
+            "G": 0.031825,
+            "B": 0.024875,
+            "A": 1.0,
+            "Hex": "35322B"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.135417,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "670000"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.326221,
+            "G": 0.53125,
+            "B": 0.058105,
+            "A": 1.0,
+            "Hex": "9BC144"
+          }
+        }
+      ]
+    }
+  }
+]

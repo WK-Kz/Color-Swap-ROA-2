@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_Tuxedo_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_Tuxedo_Blue_C",
     "Name": "Default__PS_Ran_Tuxedo_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Tuxedo/Data/Palettes/Blue/PS_Ran_Tuxedo_Blue.PS_Ran_Tuxedo_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Shirt/Socks",
+          "Name": "Shirt/Socks",
           "Value": {
             "R": 0.415,
             "G": 0.415,
@@ -40,36 +43,51 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
-            "R": 0.048344,
-            "G": 0.063042,
-            "B": 0.088542,
+            "R": 0.026625,
+            "G": 0.034826,
+            "B": 0.049,
             "A": 1.0,
-            "Hex": "3E4754"
+            "Hex": "2D343E"
           }
         },
         {
           "Key": "Shoes",
+          "Name": "Shoes",
           "Value": {
             "R": 0.0,
-            "G": 0.039583,
-            "B": 0.125,
+            "G": 0.039,
+            "B": 0.13,
             "A": 1.0,
-            "Hex": "003863"
+            "Hex": "003765"
           }
         },
         {
-          "Key": "Suit",
+          "Key": "Buttons",
+          "Name": "Buttons",
           "Value": {
-            "R": 0.048172,
-            "G": 0.06301,
-            "B": 0.088656,
+            "R": 0.14996,
+            "G": 0.14996,
+            "B": 0.14996,
             "A": 1.0,
-            "Hex": "3E4754"
+            "Hex": "6C6C6C"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.026768,
+            "G": 0.037482,
+            "B": 0.056,
+            "A": 1.0,
+            "Hex": "2D3643"
           }
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.06623,
             "G": 0.107562,
@@ -79,17 +97,30 @@
           }
         },
         {
-          "Key": "Pattern",
+          "Key": "Bow",
+          "Name": "Bow",
           "Value": {
-            "R": 0.047433,
-            "G": 0.051492,
-            "B": 0.291,
+            "R": 0.0,
+            "G": 0.056,
+            "B": 0.21,
             "A": 1.0,
-            "Hex": "3D4093"
+            "Hex": "00437E"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.033252,
+            "G": 0.036097,
+            "B": 0.204,
+            "A": 1.0,
+            "Hex": "33357D"
           }
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.018576,
             "G": 0.466028,
@@ -99,7 +130,19 @@
           }
         },
         {
+          "Key": "Suit",
+          "Name": "Suit",
+          "Value": {
+            "R": 0.048172,
+            "G": 0.06301,
+            "B": 0.088656,
+            "A": 1.0,
+            "Hex": "3E4754"
+          }
+        },
+        {
           "Key": "Rose",
+          "Name": "Rose",
           "Value": {
             "R": 0.008568,
             "G": 0.109462,
@@ -110,12 +153,35 @@
         },
         {
           "Key": "Tongue",
+          "Name": "Tongue",
           "Value": {
             "R": 0.223228,
             "G": 0.082283,
             "B": 0.366253,
             "A": 1.0,
             "Hex": "8251A3"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.816,
+            "G": 0.556512,
+            "B": 0.816,
+            "A": 1.0,
+            "Hex": "EAC5EA"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.433333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFB000"
           }
         }
       ]

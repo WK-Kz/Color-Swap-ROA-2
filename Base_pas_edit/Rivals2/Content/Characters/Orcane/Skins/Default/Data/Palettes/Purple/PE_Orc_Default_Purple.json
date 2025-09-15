@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_Orc_Default_Purple_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_Orc_Default_Purple_C",
     "Name": "Default__PE_Orc_Default_Purple_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Default/Data/Palettes/Purple/PE_Orc_Default_Purple.PE_Orc_Default_Purple_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
             "R": 0.032509,
             "G": 0.002849,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
             "R": 0.105721,
             "G": 0.003535,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
             "R": 0.991102,
             "G": 0.991102,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
             "R": 0.815815,
             "G": 0.730461,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
             "R": 0.574654,
             "G": 0.445201,
@@ -90,11 +98,12 @@
         },
         {
           "Key": "Element6",
+          "Name": "Element6",
           "Value": {
             "R": 1.0,
             "G": 1.0,
             "B": 1.0,
-            "A": 0.0,
+            "A": 1.0,
             "Hex": "FFFFFF"
           }
         }

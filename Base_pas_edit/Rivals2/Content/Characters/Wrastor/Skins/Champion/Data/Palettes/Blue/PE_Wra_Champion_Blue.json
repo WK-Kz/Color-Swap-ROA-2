@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Wra_Champion_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Wra_Champion_Blue_C'Default__PE_Wra_Champion_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Champion/Data/Palettes/Blue/PE_Wra_Champion_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Wra_Champion_Blue_C",
+    "Name": "Default__PE_Wra_Champion_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Champion/Data/Palettes/Blue/PE_Wra_Champion_Blue.PE_Wra_Champion_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.013368,
+            "G": 0.0,
+            "B": 0.072917,
+            "A": 1.0,
+            "Hex": "1E004C"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.023958,
+            "G": 0.0,
+            "B": 0.239583,
+            "A": 1.0,
+            "Hex": "2A0086"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.116375,
+            "G": 0.08138,
+            "B": 0.78125,
+            "A": 1.0,
+            "Hex": "6050E5"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.372396,
+            "G": 0.444965,
+            "B": 0.916667,
+            "A": 1.0,
+            "Hex": "A4B2F6"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.786458,
+            "G": 0.412751,
+            "B": 0.12698,
+            "A": 1.0,
+            "Hex": "E6AC64"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Baseball_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Baseball_Green_C'Default__PS_Cla_Baseball_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Baseball/Data/Palettes/Green/PS_Cla_Baseball_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Baseball_Green_C",
+    "Name": "Default__PS_Cla_Baseball_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Baseball/Data/Palettes/Green/PS_Cla_Baseball_Green.PS_Cla_Baseball_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.093059,
+            "B": 0.093059,
+            "A": 1.0,
+            "Hex": "565656"
+          }
+        },
+        {
+          "Key": "Under",
+          "Name": "Under",
+          "Value": {
+            "R": 0.0185,
+            "G": 0.016807,
+            "B": 0.015996,
+            "A": 1.0,
+            "Hex": "252322"
+          }
+        },
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.0,
+            "G": 0.136,
+            "B": 0.0204,
+            "A": 1.0,
+            "Hex": "006727"
+          }
+        },
+        {
+          "Key": "JStripes",
+          "Name": "JStripes",
+          "Value": {
+            "R": 0.666,
+            "G": 0.666,
+            "B": 0.666,
+            "A": 1.0,
+            "Hex": "D5D5D5"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.376262,
+            "G": 0.371238,
+            "B": 0.376262,
+            "A": 1.0,
+            "Hex": "A5A4A5"
+          }
+        },
+        {
+          "Key": "PStripes",
+          "Name": "PStripes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.136,
+            "B": 0.0204,
+            "A": 1.0,
+            "Hex": "006727"
+          }
+        },
+        {
+          "Key": "Gloves",
+          "Name": "Gloves",
+          "Value": {
+            "R": 0.376262,
+            "G": 0.371238,
+            "B": 0.376262,
+            "A": 1.0,
+            "Hex": "A5A4A5"
+          }
+        },
+        {
+          "Key": "Shoe",
+          "Name": "Shoe",
+          "Value": {
+            "R": 0.0,
+            "G": 0.136,
+            "B": 0.0204,
+            "A": 1.0,
+            "Hex": "006727"
+          }
+        },
+        {
+          "Key": "ShStripes",
+          "Name": "ShStripes",
+          "Value": {
+            "R": 0.376262,
+            "G": 0.371238,
+            "B": 0.376262,
+            "A": 1.0,
+            "Hex": "A5A4A5"
+          }
+        },
+        {
+          "Key": "SStripes",
+          "Name": "SStripes",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.806177,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "F7E802"
+          }
+        },
+        {
+          "Key": "BatTrim",
+          "Name": "BatTrim",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "BatHandle",
+          "Name": "BatHandle",
+          "Value": {
+            "R": 0.039,
+            "G": 0.039,
+            "B": 0.039,
+            "A": 1.0,
+            "Hex": "373737"
+          }
+        },
+        {
+          "Key": "BatMain",
+          "Name": "BatMain",
+          "Value": {
+            "R": 0.197556,
+            "G": 0.768151,
+            "B": 0.067597,
+            "A": 1.0,
+            "Hex": "7BE349"
+          }
+        },
+        {
+          "Key": "BatAccent",
+          "Name": "BatAccent",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.806177,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "F7E802"
+          }
+        },
+        {
+          "Key": "BatGrip",
+          "Name": "BatGrip",
+          "Value": {
+            "R": 0.135633,
+            "G": 0.332452,
+            "B": 0.168436,
+            "A": 1.0,
+            "Hex": "679C72"
+          }
+        },
+        {
+          "Key": "NumberBorder",
+          "Name": "NumberBorder",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "NumberFill",
+          "Name": "NumberFill",
+          "Value": {
+            "R": 0.666,
+            "G": 0.666,
+            "B": 0.666,
+            "A": 1.0,
+            "Hex": "D5D5D5"
+          }
+        },
+        {
+          "Key": "Logo1",
+          "Name": "Logo1",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.806177,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "F7E802"
+          }
+        },
+        {
+          "Key": "Logo2",
+          "Name": "Logo2",
+          "Value": {
+            "R": 0.191539,
+            "G": 0.696,
+            "B": 0.065424,
+            "A": 1.0,
+            "Hex": "79DA48"
+          }
+        },
+        {
+          "Key": "Fill",
+          "Name": "Fill",
+          "Value": {
+            "R": 0.0,
+            "G": 0.136,
+            "B": 0.0204,
+            "A": 1.0,
+            "Hex": "006727"
+          }
+        },
+        {
+          "Key": "Border",
+          "Name": "Border",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "BLogo1",
+          "Name": "BLogo1",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "BLogo2",
+          "Name": "BLogo2",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "BFill",
+          "Name": "BFill",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.806177,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "F7E802"
+          }
+        },
+        {
+          "Key": "BBorder",
+          "Name": "BBorder",
+          "Value": {
+            "R": 0.191539,
+            "G": 0.696,
+            "B": 0.065424,
+            "A": 1.0,
+            "Hex": "79DA48"
+          }
+        },
+        {
+          "Key": "HTrim",
+          "Name": "HTrim",
+          "Value": {
+            "R": 0.666,
+            "G": 0.666,
+            "B": 0.666,
+            "A": 1.0,
+            "Hex": "D5D5D5"
+          }
+        },
+        {
+          "Key": "Rim",
+          "Name": "Rim",
+          "Value": {
+            "R": 0.039931,
+            "G": 0.038211,
+            "B": 0.034904,
+            "A": 1.0,
+            "Hex": "383734"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.806177,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "F7E802"
+          }
+        },
+        {
+          "Key": "Helmet",
+          "Name": "Helmet",
+          "Value": {
+            "R": 0.143104,
+            "G": 0.52,
+            "B": 0.04888,
+            "A": 1.0,
+            "Hex": "6ABF3E"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.039423,
+            "G": 0.039423,
+            "B": 0.076389,
+            "A": 1.0,
+            "Hex": "38384E"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.097587,
+            "B": 0.168269,
+            "A": 1.0,
+            "Hex": "565872"
+          }
+        },
+        {
+          "Key": "Muzzle",
+          "Name": "Muzzle",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.097587,
+            "B": 0.168269,
+            "A": 1.0,
+            "Hex": "565872"
+          }
+        },
+        {
+          "Key": "InnerEar",
+          "Name": "InnerEar",
+          "Value": {
+            "R": 0.162029,
+            "G": 0.093059,
+            "B": 0.191202,
+            "A": 1.0,
+            "Hex": "705679"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.191202,
+            "G": 0.117102,
+            "B": 0.181577,
+            "A": 1.0,
+            "Hex": "796076"
+          }
+        },
+        {
+          "Key": "Brows",
+          "Name": "Brows",
+          "Value": {
+            "R": 0.039423,
+            "G": 0.039423,
+            "B": 0.076389,
+            "A": 1.0,
+            "Hex": "38384E"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.022192,
+            "G": 0.022192,
+            "B": 0.043,
+            "A": 1.0,
+            "Hex": "29293A"
+          }
+        },
+        {
+          "Key": "HLogo1",
+          "Name": "HLogo1",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "HLogo2",
+          "Name": "HLogo2",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "HFill",
+          "Name": "HFill",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "HBorder",
+          "Name": "HBorder",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Stitches",
+          "Name": "Stitches",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.806177,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "F7E802"
+          }
+        },
+        {
+          "Key": "Ball",
+          "Name": "Ball",
+          "Value": {
+            "R": 0.0,
+            "G": 0.136,
+            "B": 0.0204,
+            "A": 1.0,
+            "Hex": "006727"
+          }
+        }
+      ]
+    }
+  }
+]

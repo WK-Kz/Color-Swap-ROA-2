@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Oly_Abyss_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Oly_Abyss_Green_C'Default__PS_Oly_Abyss_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Olympia/Skins/Abyss/Data/Palettes/Green/PS_Oly_Abyss_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Oly_Abyss_Green_C",
+    "Name": "Default__PS_Oly_Abyss_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Olympia/Skins/Abyss/Data/Palettes/Green/PS_Oly_Abyss_Green.PS_Oly_Abyss_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.062704,
+            "G": 0.046785,
+            "B": 0.08022,
+            "A": 1.0,
+            "Hex": "473D50"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 1.0,
+            "G": 0.220159,
+            "B": 0.164456,
+            "A": 1.0,
+            "Hex": "FF8171"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.328125,
+            "G": 0.312158,
+            "B": 0.171569,
+            "A": 1.0,
+            "Hex": "9B9873"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.192708,
+            "G": 0.105989,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "795B00"
+          }
+        },
+        {
+          "Key": "Bandage",
+          "Name": "Bandage",
+          "Value": {
+            "R": 0.041667,
+            "G": 0.026036,
+            "B": 0.02645,
+            "A": 1.0,
+            "Hex": "392C2D"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.119499,
+            "G": 0.194618,
+            "B": 0.190744,
+            "A": 1.0,
+            "Hex": "617A79"
+          }
+        },
+        {
+          "Key": "Top",
+          "Name": "Top",
+          "Value": {
+            "R": 0.057805,
+            "G": 0.034252,
+            "B": 0.035979,
+            "A": 1.0,
+            "Hex": "443435"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.026042,
+            "G": 0.016151,
+            "B": 0.016151,
+            "A": 1.0,
+            "Hex": "2C2222"
+          }
+        },
+        {
+          "Key": "GloveLeft",
+          "Name": "GloveLeft",
+          "Value": {
+            "R": 0.081661,
+            "G": 0.322917,
+            "B": 0.016505,
+            "A": 1.0,
+            "Hex": "519A22"
+          }
+        },
+        {
+          "Key": "GloveLeftAccent",
+          "Name": "GloveLeftAccent",
+          "Value": {
+            "R": 0.004777,
+            "G": 0.982251,
+            "B": 0.215861,
+            "A": 1.0,
+            "Hex": "0FFD80"
+          }
+        },
+        {
+          "Key": "GloveRight",
+          "Name": "GloveRight",
+          "Value": {
+            "R": 0.082283,
+            "G": 0.323143,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "519A23"
+          }
+        },
+        {
+          "Key": "GloveRightAccent",
+          "Name": "GloveRightAccent",
+          "Value": {
+            "R": 0.004777,
+            "G": 0.982251,
+            "B": 0.215861,
+            "A": 1.0,
+            "Hex": "0FFD80"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.299036,
+            "B": 0.01108,
+            "A": 1.0,
+            "Hex": "AF951B"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 0.026457,
+            "G": 0.463542,
+            "B": 0.14225,
+            "A": 1.0,
+            "Hex": "2DB569"
+          }
+        }
+      ]
+    }
+  }
+]

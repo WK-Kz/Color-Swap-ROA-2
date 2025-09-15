@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Default_Summer_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Default_Summer_C'Default__PS_For_Default_Summer_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Summer/PS_For_Default_Summer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Default_Summer_C",
+    "Name": "Default__PS_For_Default_Summer_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Summer/PS_For_Default_Summer.PS_For_Default_Summer_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.024158,
+            "G": 0.460407,
+            "B": 0.55834,
+            "A": 1.0,
+            "Hex": "2BB5C5"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.307824,
+            "G": 0.691152,
+            "B": 0.726,
+            "A": 1.0,
+            "Hex": "97D9DE"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.010817,
+            "G": 0.182344,
+            "B": 0.25,
+            "A": 1.0,
+            "Hex": "1A7689"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.766,
+            "G": 0.555695,
+            "B": 0.023746,
+            "A": 1.0,
+            "Hex": "E3C52A"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 1.0,
+            "G": 0.815267,
+            "B": 0.348,
+            "A": 1.0,
+            "Hex": "FFE99F"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.334,
+            "G": 0.105767,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "9C5B00"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.656,
+            "G": 0.580432,
+            "B": 0.43829,
+            "A": 1.0,
+            "Hex": "D4C9B1"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.365,
+            "G": 0.108651,
+            "B": 0.007122,
+            "A": 1.0,
+            "Hex": "A35D14"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.690972,
+            "G": 0.66554,
+            "B": 0.18234,
+            "A": 1.0,
+            "Hex": "D9D576"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.72,
+            "G": 0.335259,
+            "B": 0.18288,
+            "A": 1.0,
+            "Hex": "DD9D76"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.066,
+            "G": 0.030732,
+            "B": 0.016764,
+            "A": 1.0,
+            "Hex": "483123"
+          }
+        },
+        {
+          "Key": "Mask Eyes",
+          "Name": "Mask Eyes",
+          "Value": {
+            "R": 0.490567,
+            "G": 1.0,
+            "B": 0.101,
+            "A": 1.0,
+            "Hex": "BAFF59"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

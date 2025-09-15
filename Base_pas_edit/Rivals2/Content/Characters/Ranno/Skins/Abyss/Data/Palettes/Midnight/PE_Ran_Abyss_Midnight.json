@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Ran_Abyss_Midnight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Ran_Abyss_Midnight_C'Default__PE_Ran_Abyss_Midnight_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Midnight/PE_Ran_Abyss_Midnight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Ran_Abyss_Midnight_C",
+    "Name": "Default__PE_Ran_Abyss_Midnight_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Abyss/Data/Palettes/Midnight/PE_Ran_Abyss_Midnight.PE_Ran_Abyss_Midnight_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.006371,
+            "B": 0.037,
+            "A": 1.0,
+            "Hex": "001236"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.375,
+            "G": 0.03825,
+            "B": 0.043863,
+            "A": 1.0,
+            "Hex": "A5373B"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.547,
+            "G": 0.06017,
+            "B": 0.068284,
+            "A": 1.0,
+            "Hex": "C3454A"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.890787,
+            "G": 0.226404,
+            "B": 0.993,
+            "A": 1.0,
+            "Hex": "F383FF"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.754115,
+            "G": 0.449361,
+            "B": 0.801,
+            "A": 1.0,
+            "Hex": "E2B3E8"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Default_Abyssal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Default_Abyssal_C'Default__PS_Zet_Default_Abyssal_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Default/Data/Palettes/Abyssal/PS_Zet_Default_Abyssal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Default_Abyssal_C",
+    "Name": "Default__PS_Zet_Default_Abyssal_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Default/Data/Palettes/Abyssal/PS_Zet_Default_Abyssal.PS_Zet_Default_Abyssal_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.048481,
+            "G": 0.025025,
+            "B": 0.077,
+            "A": 1.0,
+            "Hex": "3E2C4E"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.105602,
+            "G": 0.137352,
+            "B": 0.266,
+            "A": 1.0,
+            "Hex": "5B688D"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.380442,
+            "G": 0.382136,
+            "B": 0.389,
+            "A": 1.0,
+            "Hex": "A6A6A8"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.048481,
+            "G": 0.025025,
+            "B": 0.077,
+            "A": 1.0,
+            "Hex": "3E2C4E"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 0.618,
+            "G": 0.1854,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "CE7700"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.45,
+            "G": 0.0207,
+            "B": 0.286306,
+            "A": 1.0,
+            "Hex": "B32792"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.875,
+            "G": 0.083125,
+            "B": 0.573054,
+            "A": 1.0,
+            "Hex": "F151C8"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.163,
+            "G": 0.0,
+            "B": 0.100847,
+            "A": 1.0,
+            "Hex": "700059"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.391,
+            "G": 0.338541,
+            "B": 0.25415,
+            "A": 1.0,
+            "Hex": "A89D8A"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.014645,
+            "G": 0.004636,
+            "B": 0.038,
+            "A": 1.0,
+            "Hex": "200E37"
+          }
+        },
+        {
+          "Key": "Gums",
+          "Name": "Gums",
+          "Value": {
+            "R": 0.23074,
+            "G": 0.057805,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "844442"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Name": "Teeth",
+          "Value": {
+            "R": 0.730461,
+            "G": 0.679542,
+            "B": 0.672443,
+            "A": 1.0,
+            "Hex": "DED7D6"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 1.0,
+            "G": 0.633333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFD100"
+          }
+        }
+      ]
+    }
+  }
+]

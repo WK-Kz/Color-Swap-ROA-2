@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Cupid_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Cupid_Neutral_C'Default__PS_Fle_Cupid_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Cupid/Data/Palettes/Neutral/PS_Fle_Cupid_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Cupid_Neutral_C",
+    "Name": "Default__PS_Fle_Cupid_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Cupid/Data/Palettes/Neutral/PS_Fle_Cupid_Neutral.PS_Fle_Cupid_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.609375,
+            "G": 0.034912,
+            "B": 0.101932,
+            "A": 1.0,
+            "Hex": "CD345A"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.713542,
+            "G": 0.681361,
+            "B": 0.589967,
+            "A": 1.0,
+            "Hex": "DCD8CA"
+          }
+        },
+        {
+          "Key": "ClothingAccent",
+          "Name": "ClothingAccent",
+          "Value": {
+            "R": 1.0,
+            "G": 0.140625,
+            "B": 0.24288,
+            "A": 1.0,
+            "Hex": "FF6987"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.453125,
+            "G": 0.233714,
+            "B": 0.03776,
+            "A": 1.0,
+            "Hex": "B48536"
+          }
+        },
+        {
+          "Key": "Rose",
+          "Name": "Rose",
+          "Value": {
+            "R": 0.34375,
+            "G": 0.005371,
+            "B": 0.01862,
+            "A": 1.0,
+            "Hex": "9F1025"
+          }
+        },
+        {
+          "Key": "RoseStem",
+          "Name": "RoseStem",
+          "Value": {
+            "R": 0.029557,
+            "G": 0.212231,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "307F26"
+          }
+        },
+        {
+          "Key": "Strings",
+          "Name": "Strings",
+          "Value": {
+            "R": 0.854167,
+            "G": 0.811459,
+            "B": 0.711806,
+            "A": 1.0,
+            "Hex": "EEE9DC"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.513889,
+            "G": 0.141197,
+            "B": 0.061122,
+            "A": 1.0,
+            "Hex": "BE6946"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.527115,
+            "G": 0.431475,
+            "B": 0.340429,
+            "A": 1.0,
+            "Hex": "C0B09E"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.095,
+            "G": 0.051151,
+            "B": 0.038,
+            "A": 1.0,
+            "Hex": "574037"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.592157,
+            "G": 0.682353,
+            "B": 0.07451,
+            "A": 1.0,
+            "Hex": "CBD84D"
+          }
+        }
+      ]
+    }
+  }
+]

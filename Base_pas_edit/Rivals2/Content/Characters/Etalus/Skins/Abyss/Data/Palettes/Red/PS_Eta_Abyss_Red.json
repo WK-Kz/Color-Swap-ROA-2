@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Abyss_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Abyss_Red_C'Default__PS_Eta_Abyss_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Abyss/Data/Palettes/Red/PS_Eta_Abyss_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Abyss_Red_C",
+    "Name": "Default__PS_Eta_Abyss_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Abyss/Data/Palettes/Red/PS_Eta_Abyss_Red.PS_Eta_Abyss_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.052083,
+            "G": 0.028206,
+            "B": 0.028724,
+            "A": 1.0,
+            "Hex": "402E2F"
+          }
+        },
+        {
+          "Key": "Body_Plating",
+          "Name": "Body_Plating",
+          "Value": {
+            "R": 0.557292,
+            "G": 0.380781,
+            "B": 0.358557,
+            "A": 1.0,
+            "Hex": "C5A6A2"
+          }
+        },
+        {
+          "Key": "Body_2",
+          "Name": "Body_2",
+          "Value": {
+            "R": 0.276,
+            "G": 0.199779,
+            "B": 0.128476,
+            "A": 1.0,
+            "Hex": "8F7B64"
+          }
+        },
+        {
+          "Key": "Body_Scars",
+          "Name": "Body_Scars",
+          "Value": {
+            "R": 0.174647,
+            "G": 0.016196,
+            "B": 0.049471,
+            "A": 1.0,
+            "Hex": "74223F"
+          }
+        },
+        {
+          "Key": "Body_Nails",
+          "Name": "Body_Nails",
+          "Value": {
+            "R": 0.364,
+            "G": 0.0,
+            "B": 0.030333,
+            "A": 1.0,
+            "Hex": "A30030"
+          }
+        },
+        {
+          "Key": "Body_Nose",
+          "Name": "Body_Nose",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.011623,
+            "B": 0.016084,
+            "A": 1.0,
+            "Hex": "3F1C22"
+          }
+        },
+        {
+          "Key": "AbyssSclera",
+          "Name": "AbyssSclera",
+          "Value": {
+            "R": 1.0,
+            "G": 0.255103,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8A00"
+          }
+        },
+        {
+          "Key": "AbyssIris",
+          "Name": "AbyssIris",
+          "Value": {
+            "R": 0.726,
+            "G": 0.058955,
+            "B": 0.058955,
+            "A": 1.0,
+            "Hex": "DE4444"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

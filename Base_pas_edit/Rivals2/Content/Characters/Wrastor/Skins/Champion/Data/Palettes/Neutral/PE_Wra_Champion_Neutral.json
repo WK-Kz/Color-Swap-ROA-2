@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Wra_Champion_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Wra_Champion_Neutral_C'Default__PE_Wra_Champion_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Champion/Data/Palettes/Neutral/PE_Wra_Champion_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Wra_Champion_Neutral_C",
+    "Name": "Default__PE_Wra_Champion_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Champion/Data/Palettes/Neutral/PE_Wra_Champion_Neutral.PE_Wra_Champion_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.055903,
+            "B": 0.072917,
+            "A": 1.0,
+            "Hex": "00434C"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.0,
+            "G": 0.239583,
+            "B": 0.207639,
+            "A": 1.0,
+            "Hex": "00867E"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.093994,
+            "G": 0.859375,
+            "B": 0.553223,
+            "A": 1.0,
+            "Hex": "56EFC4"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.372396,
+            "G": 0.916667,
+            "B": 0.698959,
+            "A": 1.0,
+            "Hex": "A4F6DA"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.786458,
+            "G": 0.412751,
+            "B": 0.12698,
+            "A": 1.0,
+            "Hex": "E6AC64"
+          }
+        }
+      ]
+    }
+  }
+]

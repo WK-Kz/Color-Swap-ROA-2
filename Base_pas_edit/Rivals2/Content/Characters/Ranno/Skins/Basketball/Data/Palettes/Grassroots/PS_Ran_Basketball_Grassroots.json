@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Basketball_Grassroots_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Basketball_Grassroots_C'Default__PS_Ran_Basketball_Grassroots_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Grassroots/PS_Ran_Basketball_Grassroots.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Basketball_Grassroots_C",
+    "Name": "Default__PS_Ran_Basketball_Grassroots_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Grassroots/PS_Ran_Basketball_Grassroots.PS_Ran_Basketball_Grassroots_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.00312,
+            "G": 0.119792,
+            "B": 0.026454,
+            "A": 1.0,
+            "Hex": "0A612D"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.431996,
+            "G": 0.463542,
+            "B": 0.345242,
+            "A": 1.0,
+            "Hex": "B0B59F"
+          }
+        },
+        {
+          "Key": "JerseyTrim",
+          "Name": "JerseyTrim",
+          "Value": {
+            "R": 0.084093,
+            "G": 0.01492,
+            "B": 0.130208,
+            "A": 1.0,
+            "Hex": "522065"
+          }
+        },
+        {
+          "Key": "Armband",
+          "Name": "Armband",
+          "Value": {
+            "R": 0.481384,
+            "G": 0.469971,
+            "B": 0.515625,
+            "A": 1.0,
+            "Hex": "B9B7BE"
+          }
+        },
+        {
+          "Key": "Basketball",
+          "Name": "Basketball",
+          "Value": {
+            "R": 0.108869,
+            "G": 0.037326,
+            "B": 0.223958,
+            "A": 1.0,
+            "Hex": "5D3682"
+          }
+        },
+        {
+          "Key": "BasketballLines",
+          "Name": "BasketballLines",
+          "Value": {
+            "R": 0.23042,
+            "G": 0.515625,
+            "B": 0.040283,
+            "A": 1.0,
+            "Hex": "84BE38"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.15625,
+            "G": 0.080635,
+            "B": 0.048014,
+            "A": 1.0,
+            "Hex": "6E503E"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.5625,
+            "G": 0.45,
+            "B": 0.28125,
+            "A": 1.0,
+            "Hex": "C6B391"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.036458,
+            "G": 0.022255,
+            "B": 0.011393,
+            "A": 1.0,
+            "Hex": "35291B"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.109462,
+            "G": 0.036889,
+            "B": 0.223228,
+            "A": 1.0,
+            "Hex": "5D3682"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.277593,
+            "G": 0.604167,
+            "B": 0.012587,
+            "A": 1.0,
+            "Hex": "90CC1D"
+          }
+        }
+      ]
+    }
+  }
+]

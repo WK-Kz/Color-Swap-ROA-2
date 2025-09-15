@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Kra_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Kra_Abyss_Blue_C",
     "Name": "Default__PS_Kra_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Abyss/Data/Palettes/Blue/PS_Kra_Abyss_Blue.PS_Kra_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.174647,
             "G": 0.246795,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Chest",
+          "Name": "Chest",
           "Value": {
             "R": 0.070519,
             "G": 0.234638,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Shell",
+          "Name": "Shell",
           "Value": {
             "R": 0.061246,
             "G": 0.061246,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Spikes",
+          "Name": "Spikes",
           "Value": {
             "R": 0.063,
             "G": 0.2504,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Sclera",
+          "Name": "Sclera",
           "Value": {
             "R": 0.0,
             "G": 0.708376,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.0,
             "G": 0.252833,

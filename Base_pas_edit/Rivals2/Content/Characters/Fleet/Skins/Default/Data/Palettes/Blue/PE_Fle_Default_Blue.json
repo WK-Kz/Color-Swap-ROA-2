@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_Fle_Default_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_Fle_Default_Blue_C",
     "Name": "Default__PE_Fle_Default_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Blue/PE_Fle_Default_Blue.PE_Fle_Default_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -40,72 +43,79 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
-            "R": 0.0,
-            "G": 1.0,
-            "B": 0.0,
+            "R": 0.083702,
+            "G": 0.074409,
+            "B": 0.387153,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "514DA7"
           }
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
-            "R": 0.0,
-            "G": 1.0,
-            "B": 0.0,
+            "R": 0.0972,
+            "G": 0.268735,
+            "B": 0.4,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "588EAA"
           }
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
-            "R": 0.0,
-            "G": 1.0,
-            "B": 0.0,
+            "R": 0.3,
+            "G": 0.6,
+            "B": 0.467175,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "95CCB6"
           }
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
-            "R": 0.0,
-            "G": 1.0,
-            "B": 0.0,
+            "R": 0.636961,
+            "G": 0.679596,
+            "B": 0.8,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "D1D7E8"
           }
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
-            "R": 0.0,
+            "R": 1.0,
             "G": 1.0,
-            "B": 0.0,
+            "B": 1.0,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "FFFFFF"
           }
         },
         {
           "Key": "Element6",
+          "Name": "Element6",
           "Value": {
-            "R": 0.0,
-            "G": 1.0,
-            "B": 0.0,
+            "R": 0.3,
+            "G": 0.6,
+            "B": 0.467175,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "95CCB6"
           }
         },
         {
           "Key": "Element7",
+          "Name": "Element7",
           "Value": {
-            "R": 0.0,
-            "G": 1.0,
-            "B": 0.0,
+            "R": 0.0972,
+            "G": 0.268735,
+            "B": 0.4,
             "A": 1.0,
-            "Hex": "00FF00"
+            "Hex": "588EAA"
           }
         }
       ]

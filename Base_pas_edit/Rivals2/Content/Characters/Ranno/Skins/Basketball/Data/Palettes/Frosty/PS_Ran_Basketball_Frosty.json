@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Basketball_Frosty_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Basketball_Frosty_C'Default__PS_Ran_Basketball_Frosty_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Frosty/PS_Ran_Basketball_Frosty.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Basketball_Frosty_C",
+    "Name": "Default__PS_Ran_Basketball_Frosty_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/Frosty/PS_Ran_Basketball_Frosty.PS_Ran_Basketball_Frosty_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.106228,
+            "G": 0.562078,
+            "B": 0.927083,
+            "A": 1.0,
+            "Hex": "5CC6F7"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.010579,
+            "G": 0.052298,
+            "B": 0.203125,
+            "A": 1.0,
+            "Hex": "1A407C"
+          }
+        },
+        {
+          "Key": "JerseyTrim",
+          "Name": "JerseyTrim",
+          "Value": {
+            "R": 0.514918,
+            "G": 0.54604,
+            "B": 0.584078,
+            "A": 1.0,
+            "Hex": "BEC3C9"
+          }
+        },
+        {
+          "Key": "Armband",
+          "Name": "Armband",
+          "Value": {
+            "R": 0.380941,
+            "G": 0.549906,
+            "B": 0.786458,
+            "A": 1.0,
+            "Hex": "A6C4E6"
+          }
+        },
+        {
+          "Key": "Basketball",
+          "Name": "Basketball",
+          "Value": {
+            "R": 0.597202,
+            "G": 0.641672,
+            "B": 0.708376,
+            "A": 1.0,
+            "Hex": "CBD2DB"
+          }
+        },
+        {
+          "Key": "BasketballLines",
+          "Name": "BasketballLines",
+          "Value": {
+            "R": 0.080566,
+            "G": 0.306777,
+            "B": 0.703125,
+            "A": 1.0,
+            "Hex": "5096DB"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.201416,
+            "G": 0.311788,
+            "B": 0.390625,
+            "A": 1.0,
+            "Hex": "7C98A8"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.6958,
+            "G": 0.741373,
+            "B": 0.78125,
+            "A": 1.0,
+            "Hex": "DAE0E5"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.020833,
+            "G": 0.026215,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "272D31"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.405599,
+            "G": 0.611427,
+            "B": 0.875,
+            "A": 1.0,
+            "Hex": "ABCDF1"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.118544,
+            "G": 0.488611,
+            "B": 0.989583,
+            "A": 1.0,
+            "Hex": "60BAFE"
+          }
+        }
+      ]
+    }
+  }
+]

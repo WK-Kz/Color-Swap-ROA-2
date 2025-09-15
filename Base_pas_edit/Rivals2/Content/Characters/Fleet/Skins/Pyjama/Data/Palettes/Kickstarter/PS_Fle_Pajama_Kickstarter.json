@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Pajama_Kickstarter_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Pajama_Kickstarter_C'Default__PS_Fle_Pajama_Kickstarter_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Kickstarter/PS_Fle_Pajama_Kickstarter.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Pajama_Kickstarter_C",
+    "Name": "Default__PS_Fle_Pajama_Kickstarter_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Kickstarter/PS_Fle_Pajama_Kickstarter.PS_Fle_Pajama_Kickstarter_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.004025,
+            "G": 0.168269,
+            "B": 0.337164,
+            "A": 1.0,
+            "Hex": "0D729D"
+          }
+        },
+        {
+          "Key": "CapeTrim",
+          "Name": "CapeTrim",
+          "Value": {
+            "R": 0.822786,
+            "G": 0.822786,
+            "B": 0.822786,
+            "A": 1.0,
+            "Hex": "EAEAEA"
+          }
+        },
+        {
+          "Key": "Accent",
+          "Name": "Accent",
+          "Value": {
+            "R": 1.0,
+            "G": 0.745404,
+            "B": 0.165132,
+            "A": 1.0,
+            "Hex": "FFE071"
+          }
+        },
+        {
+          "Key": "ClothingTrim",
+          "Name": "ClothingTrim",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.423268,
+            "B": 0.991102,
+            "A": 1.0,
+            "Hex": "E7AEFE"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.212231,
+            "G": 0.097587,
+            "B": 0.545724,
+            "A": 1.0,
+            "Hex": "7F58C3"
+          }
+        }
+      ]
+    }
+  }
+]

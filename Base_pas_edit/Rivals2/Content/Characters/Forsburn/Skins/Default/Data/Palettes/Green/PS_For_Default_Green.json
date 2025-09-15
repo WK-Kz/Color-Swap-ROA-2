@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Default_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Default_Green_C",
     "Name": "Default__PS_For_Default_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Green/PS_For_Default_Green.PS_For_Default_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.191,
             "G": 0.124977,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.52,
             "G": 0.352537,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.09,
             "G": 0.051283,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.010488,
             "G": 0.485,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.21573,
             "G": 0.485,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.0056,
             "G": 0.056,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Bone",
+          "Name": "Bone",
           "Value": {
             "R": 0.386429,
             "G": 0.341914,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.012983,
             "G": 0.07036,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.510005,
             "G": 0.690972,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "ClothTrim",
+          "Name": "ClothTrim",
           "Value": {
             "R": 0.191439,
             "G": 0.417885,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Belt",
+          "Name": "Belt",
           "Value": {
             "R": 0.00986,
             "G": 0.034,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Mask Eyes",
+          "Name": "Mask Eyes",
           "Value": {
             "R": 0.0,
             "G": 1.0,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,

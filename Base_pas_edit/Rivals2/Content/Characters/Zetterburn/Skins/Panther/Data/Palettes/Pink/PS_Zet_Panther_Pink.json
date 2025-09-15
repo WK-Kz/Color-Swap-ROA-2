@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Panther_Pink_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Panther_Pink_C'Default__PS_Zet_Panther_Pink_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Panther/Data/Palettes/Pink/PS_Zet_Panther_Pink.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Panther_Pink_C",
+    "Name": "Default__PS_Zet_Panther_Pink_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Panther/Data/Palettes/Pink/PS_Zet_Panther_Pink.PS_Zet_Panther_Pink_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.01096,
+            "G": 0.006995,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "1B140F"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 1.0,
+            "G": 0.617,
+            "B": 0.891483,
+            "A": 1.0,
+            "Hex": "FFCEF3"
+          }
+        },
+        {
+          "Key": "Spots",
+          "Name": "Spots",
+          "Value": {
+            "R": 0.739,
+            "G": 0.118979,
+            "B": 0.366987,
+            "A": 1.0,
+            "Hex": "E061A3"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Name": "Pads",
+          "Value": {
+            "R": 0.258,
+            "G": 0.044634,
+            "B": 0.12998,
+            "A": 1.0,
+            "Hex": "8B3B65"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.171,
+            "G": 0.018126,
+            "B": 0.079275,
+            "A": 1.0,
+            "Hex": "73244F"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.516782,
+            "G": 0.024806,
+            "B": 0.176236,
+            "A": 1.0,
+            "Hex": "BF2B74"
+          }
+        },
+        {
+          "Key": "Tips",
+          "Name": "Tips",
+          "Value": {
+            "R": 0.739,
+            "G": 0.118979,
+            "B": 0.366987,
+            "A": 1.0,
+            "Hex": "E061A3"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.7,
+            "G": 0.7,
+            "B": 0.7,
+            "A": 1.0,
+            "Hex": "DADADA"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 1.0,
+            "G": 0.511467,
+            "B": 0.084,
+            "A": 1.0,
+            "Hex": "FFBE52"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.056915,
+            "G": 0.016768,
+            "B": 0.064,
+            "A": 1.0,
+            "Hex": "432347"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.18088,
+            "G": 0.05984,
+            "B": 0.544,
+            "A": 1.0,
+            "Hex": "7645C3"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.348907,
+            "G": 0.231984,
+            "B": 0.537,
+            "A": 1.0,
+            "Hex": "A084C2"
+          }
+        }
+      ]
+    }
+  }
+]

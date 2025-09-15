@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Default_Abyssal_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Default_Abyssal_C'Default__PS_For_Default_Abyssal_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Abyssal/PS_For_Default_Abyssal.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Default_Abyssal_C",
+    "Name": "Default__PS_For_Default_Abyssal_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Default/Data/Palettes/Abyssal/PS_For_Default_Abyssal.PS_For_Default_Abyssal_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.170507,
+            "G": 0.115022,
+            "B": 0.398,
+            "A": 1.0,
+            "Hex": "735FA9"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.320744,
+            "G": 0.260926,
+            "B": 0.566,
+            "A": 1.0,
+            "Hex": "9A8CC6"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.077542,
+            "G": 0.052309,
+            "B": 0.181,
+            "A": 1.0,
+            "Hex": "4E4076"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.564,
+            "G": 0.006204,
+            "B": 0.415254,
+            "A": 1.0,
+            "Hex": "C612AD"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.97,
+            "G": 0.21825,
+            "B": 0.769532,
+            "A": 1.0,
+            "Hex": "FC81E4"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.219,
+            "G": 0.002409,
+            "B": 0.161242,
+            "A": 1.0,
+            "Hex": "810770"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.855,
+            "G": 0.690099,
+            "B": 0.40527,
+            "A": 1.0,
+            "Hex": "EED9AB"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.633333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFD100"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.183321,
+            "G": 0.00095,
+            "B": 0.21,
+            "A": 1.0,
+            "Hex": "77037E"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.024555,
+            "G": 0.012675,
+            "B": 0.039,
+            "A": 1.0,
+            "Hex": "2B1D37"
+          }
+        },
+        {
+          "Key": "Mask Eyes",
+          "Name": "Mask Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.433333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFB000"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Smokey",
+          "Name": "Smokey",
+          "Value": {
+            "R": 0.111833,
+            "G": 0.014994,
+            "B": 0.126,
+            "A": 1.0,
+            "Hex": "5E2063"
+          }
+        },
+        {
+          "Key": "SmokeyDark",
+          "Name": "SmokeyDark",
+          "Value": {
+            "R": 0.04248,
+            "G": 0.004752,
+            "B": 0.048,
+            "A": 1.0,
+            "Hex": "3A0E3E"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.023295,
+            "G": 0.012025,
+            "B": 0.037,
+            "A": 1.0,
+            "Hex": "2A1C36"
+          }
+        }
+      ]
+    }
+  }
+]

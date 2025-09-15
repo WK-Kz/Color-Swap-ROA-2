@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Flavorburn_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Flavorburn_Blue_C'Default__PS_Zet_Flavorburn_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Flavorburn/Data/Palettes/Blue/PS_Zet_Flavorburn_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Flavorburn_Blue_C",
+    "Name": "Default__PS_Zet_Flavorburn_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Flavorburn/Data/Palettes/Blue/PS_Zet_Flavorburn_Blue.PS_Zet_Flavorburn_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.449762,
+            "B": 0.619792,
+            "A": 1.0,
+            "Hex": "00B3CF"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.45421,
+            "G": 0.666823,
+            "B": 0.958333,
+            "A": 1.0,
+            "Hex": "B4D6FB"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.001953,
+            "G": 0.01433,
+            "B": 0.041667,
+            "A": 1.0,
+            "Hex": "061F39"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.019965,
+            "G": 0.023402,
+            "B": 0.083333,
+            "A": 1.0,
+            "Hex": "262A51"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.307292,
+            "G": 0.792187,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "97E7FF"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.002213,
+            "G": 0.004221,
+            "B": 0.020833,
+            "A": 1.0,
+            "Hex": "070D27"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.006094,
+            "G": 0.009682,
+            "B": 0.026,
+            "A": 1.0,
+            "Hex": "12192C"
+          }
+        },
+        {
+          "Key": "Glasses",
+          "Name": "Glasses",
+          "Value": {
+            "R": 0.916667,
+            "G": 0.06684,
+            "B": 0.257737,
+            "A": 1.0,
+            "Hex": "F6498B"
+          }
+        },
+        {
+          "Key": "Flame",
+          "Name": "Flame",
+          "Value": {
+            "R": 0.224644,
+            "G": 0.0,
+            "B": 0.817708,
+            "A": 1.0,
+            "Hex": "8200EA"
+          }
+        },
+        {
+          "Key": "Goatee",
+          "Name": "Goatee",
+          "Value": {
+            "R": 0.309469,
+            "G": 0.791298,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "97E6FF"
+          }
+        },
+        {
+          "Key": "Shoes",
+          "Name": "Shoes",
+          "Value": {
+            "R": 0.501961,
+            "G": 0.501961,
+            "B": 0.501961,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Lox_Summer_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Lox_Summer_Neutral_C'Default__PE_Lox_Summer_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Summer/Data/Palettes/Neutral/PE_Lox_Summer_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Lox_Summer_Neutral_C",
+    "Name": "Default__PE_Lox_Summer_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Summer/Data/Palettes/Neutral/PE_Lox_Summer_Neutral.PE_Lox_Summer_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.41,
+            "G": 0.336531,
+            "B": 0.134489,
+            "A": 1.0,
+            "Hex": "AC9D66"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.262,
+            "G": 0.174126,
+            "B": 0.059212,
+            "A": 1.0,
+            "Hex": "8C7445"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.545,
+            "G": 0.477146,
+            "B": 0.318825,
+            "A": 1.0,
+            "Hex": "C3B899"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.03852,
+            "G": 0.541419,
+            "B": 0.642,
+            "A": 1.0,
+            "Hex": "37C3D2"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.049088,
+            "G": 0.384308,
+            "B": 0.672443,
+            "A": 1.0,
+            "Hex": "3EA7D6"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.15385,
+            "G": 0.675962,
+            "B": 0.85,
+            "A": 1.0,
+            "Hex": "6DD7EE"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Lovers_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Lovers_Green_C'Default__PS_Cla_Lovers_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Lovers/Data/Palettes/Green/PS_Cla_Lovers_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Lovers_Green_C",
+    "Name": "Default__PS_Cla_Lovers_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Lovers/Data/Palettes/Green/PS_Cla_Lovers_Green.PS_Cla_Lovers_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.183024,
+            "G": 0.102539,
+            "B": 0.3125,
+            "A": 1.0,
+            "Hex": "775A98"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Name": "Braid",
+          "Value": {
+            "R": 0.484375,
+            "G": 0.365299,
+            "B": 0.037842,
+            "A": 1.0,
+            "Hex": "B9A336"
+          }
+        },
+        {
+          "Key": "Fur",
+          "Name": "Fur",
+          "Value": {
+            "R": 0.031481,
+            "G": 0.031481,
+            "B": 0.061,
+            "A": 1.0,
+            "Hex": "313146"
+          }
+        },
+        {
+          "Key": "Hoodie",
+          "Name": "Hoodie",
+          "Value": {
+            "R": 0.116464,
+            "G": 0.291667,
+            "B": 0.028863,
+            "A": 1.0,
+            "Hex": "60932F"
+          }
+        },
+        {
+          "Key": "HoodieTrim",
+          "Name": "HoodieTrim",
+          "Value": {
+            "R": 0.412543,
+            "G": 0.412543,
+            "B": 0.40724,
+            "A": 1.0,
+            "Hex": "ACACAB"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.588542,
+            "G": 0.259684,
+            "B": 0.107286,
+            "A": 1.0,
+            "Hex": "CA8B5C"
+          }
+        },
+        {
+          "Key": "Wristband",
+          "Name": "Wristband",
+          "Value": {
+            "R": 0.796875,
+            "G": 0.205058,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E77D00"
+          }
+        },
+        {
+          "Key": "Shoe",
+          "Name": "Shoe",
+          "Value": {
+            "R": 0.116464,
+            "G": 0.291667,
+            "B": 0.028863,
+            "A": 1.0,
+            "Hex": "60932F"
+          }
+        },
+        {
+          "Key": "ShoeTrim",
+          "Name": "ShoeTrim",
+          "Value": {
+            "R": 0.412543,
+            "G": 0.412543,
+            "B": 0.40724,
+            "A": 1.0,
+            "Hex": "ACACAB"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.052861,
+            "G": 0.051269,
+            "B": 0.043735,
+            "A": 1.0,
+            "Hex": "41403B"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 1.0,
+            "G": 0.257328,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8B00"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 1.0,
+            "G": 0.257328,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8B00"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Name": "Sword",
+          "Value": {
+            "R": 0.3125,
+            "G": 0.3125,
+            "B": 0.3125,
+            "A": 1.0,
+            "Hex": "989898"
+          }
+        },
+        {
+          "Key": "Grip",
+          "Name": "Grip",
+          "Value": {
+            "R": 0.054308,
+            "G": 0.054649,
+            "B": 0.057292,
+            "A": 1.0,
+            "Hex": "424243"
+          }
+        },
+        {
+          "Key": "Laser",
+          "Name": "Laser",
+          "Value": {
+            "R": 0.483333,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "B9FF00"
+          }
+        }
+      ]
+    }
+  }
+]

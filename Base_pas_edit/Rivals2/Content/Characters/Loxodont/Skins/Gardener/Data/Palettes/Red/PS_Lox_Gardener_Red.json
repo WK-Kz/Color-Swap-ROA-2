@@ -1,0 +1,289 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Gardener_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Gardener_Red_C'Default__PS_Lox_Gardener_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Gardener/Data/Palettes/Red/PS_Lox_Gardener_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Gardener_Red_C",
+    "Name": "Default__PS_Lox_Gardener_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Gardener/Data/Palettes/Red/PS_Lox_Gardener_Red.PS_Lox_Gardener_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.279,
+            "G": 0.018972,
+            "B": 0.023305,
+            "A": 1.0,
+            "Hex": "90252A"
+          }
+        },
+        {
+          "Key": "ShirtPattern",
+          "Name": "ShirtPattern",
+          "Value": {
+            "R": 0.005885,
+            "G": 0.000705,
+            "B": 0.010417,
+            "A": 1.0,
+            "Hex": "11021A"
+          }
+        },
+        {
+          "Key": "Coveralls",
+          "Name": "Coveralls",
+          "Value": {
+            "R": 0.034749,
+            "G": 0.022027,
+            "B": 0.072917,
+            "A": 1.0,
+            "Hex": "34294C"
+          }
+        },
+        {
+          "Key": "Gloves",
+          "Name": "Gloves",
+          "Value": {
+            "R": 0.354167,
+            "G": 0.209364,
+            "B": 0.064562,
+            "A": 1.0,
+            "Hex": "A17E48"
+          }
+        },
+        {
+          "Key": "Hat",
+          "Name": "Hat",
+          "Value": {
+            "R": 0.341914,
+            "G": 0.274677,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "9E8F60"
+          }
+        },
+        {
+          "Key": "GloveAccent",
+          "Name": "GloveAccent",
+          "Value": {
+            "R": 0.453125,
+            "G": 0.0236,
+            "B": 0.030759,
+            "A": 1.0,
+            "Hex": "B42A31"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.078125,
+            "G": 0.029948,
+            "B": 0.017904,
+            "A": 1.0,
+            "Hex": "4F3024"
+          }
+        },
+        {
+          "Key": "Tools",
+          "Name": "Tools",
+          "Value": {
+            "R": 0.181164,
+            "G": 0.181164,
+            "B": 0.181164,
+            "A": 1.0,
+            "Hex": "767676"
+          }
+        },
+        {
+          "Key": "ToolsHandle",
+          "Name": "ToolsHandle",
+          "Value": {
+            "R": 0.366253,
+            "G": 0.174647,
+            "B": 0.066626,
+            "A": 1.0,
+            "Hex": "A37449"
+          }
+        },
+        {
+          "Key": "HatAccent",
+          "Name": "HatAccent",
+          "Value": {
+            "R": 0.453125,
+            "G": 0.0236,
+            "B": 0.030759,
+            "A": 1.0,
+            "Hex": "B42A31"
+          }
+        },
+        {
+          "Key": "ShovelHandle",
+          "Name": "ShovelHandle",
+          "Value": {
+            "R": 0.0625,
+            "G": 0.036111,
+            "B": 0.020833,
+            "A": 1.0,
+            "Hex": "463527"
+          }
+        },
+        {
+          "Key": "ShovelHead",
+          "Name": "ShovelHead",
+          "Value": {
+            "R": 0.197917,
+            "G": 0.197917,
+            "B": 0.197917,
+            "A": 1.0,
+            "Hex": "7B7B7B"
+          }
+        },
+        {
+          "Key": "ShirtMolten",
+          "Name": "ShirtMolten",
+          "Value": {
+            "R": 0.078125,
+            "G": 0.006104,
+            "B": 0.007304,
+            "A": 1.0,
+            "Hex": "4F1214"
+          }
+        },
+        {
+          "Key": "ShirtPatternMolten",
+          "Name": "ShirtPatternMolten",
+          "Value": {
+            "R": 0.002942,
+            "G": 0.000352,
+            "B": 0.005208,
+            "A": 1.0,
+            "Hex": "090110"
+          }
+        },
+        {
+          "Key": "CoverallsMolten",
+          "Name": "CoverallsMolten",
+          "Value": {
+            "R": 0.03951,
+            "G": 0.018717,
+            "B": 0.078125,
+            "A": 1.0,
+            "Hex": "38254F"
+          }
+        },
+        {
+          "Key": "GlovesMolten",
+          "Name": "GlovesMolten",
+          "Value": {
+            "R": 0.098958,
+            "G": 0.05855,
+            "B": 0.01237,
+            "A": 1.0,
+            "Hex": "58441D"
+          }
+        },
+        {
+          "Key": "AccentMolten",
+          "Name": "AccentMolten",
+          "Value": {
+            "R": 0.036458,
+            "G": 0.011393,
+            "B": 0.011811,
+            "A": 1.0,
+            "Hex": "351B1C"
+          }
+        },
+        {
+          "Key": "Root",
+          "Name": "Root",
+          "Value": {
+            "R": 0.06301,
+            "G": 0.027321,
+            "B": 0.01033,
+            "A": 1.0,
+            "Hex": "472E1A"
+          }
+        },
+        {
+          "Key": "Grass",
+          "Name": "Grass",
+          "Value": {
+            "R": 0.14996,
+            "G": 0.026241,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "6C2D0F"
+          }
+        },
+        {
+          "Key": "Leaves",
+          "Name": "Leaves",
+          "Value": {
+            "R": 0.318,
+            "G": 0.0689,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "994A00"
+          }
+        },
+        {
+          "Key": "DaisyPetals",
+          "Name": "DaisyPetals",
+          "Value": {
+            "R": 0.617207,
+            "G": 0.376262,
+            "B": 0.376262,
+            "A": 1.0,
+            "Hex": "CEA5A5"
+          }
+        },
+        {
+          "Key": "DaisyCenter",
+          "Name": "DaisyCenter",
+          "Value": {
+            "R": 0.502886,
+            "G": 0.262251,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "BC8C00"
+          }
+        },
+        {
+          "Key": "Tulip",
+          "Name": "Tulip",
+          "Value": {
+            "R": 0.257,
+            "G": 0.012593,
+            "B": 0.012593,
+            "A": 1.0,
+            "Hex": "8B1D1D"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Fle_Fan_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,20 +27,23 @@
     "Type": "PS_Fle_Fan_Green_C",
     "Name": "Default__PS_Fle_Fan_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Fan/Data/Palettes/Green/PS_Fle_Fan_Green.PS_Fle_Fan_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
-          "Key": "Skirt",
+          "Key": "Glasses",
+          "Name": "Glasses",
           "Value": {
-            "R": 0.016,
-            "G": 0.013679,
-            "B": 0.012336,
+            "R": 0.026,
+            "G": 0.022228,
+            "B": 0.020046,
             "A": 1.0,
-            "Hex": "221F1D"
+            "Hex": "2C2926"
           }
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.149968,
             "G": 0.679,
@@ -49,17 +53,19 @@
           }
         },
         {
-          "Key": "Stripes",
+          "Key": "Skirt",
+          "Name": "Skirt",
           "Value": {
-            "R": 0.508974,
-            "G": 0.478368,
-            "B": 0.528,
+            "R": 0.016,
+            "G": 0.013679,
+            "B": 0.012336,
             "A": 1.0,
-            "Hex": "BDB8C0"
+            "Hex": "221F1D"
           }
         },
         {
           "Key": "Bow",
+          "Name": "Bow",
           "Value": {
             "R": 0.009478,
             "G": 0.098481,
@@ -69,7 +75,52 @@
           }
         },
         {
-          "Key": "Dye",
+          "Key": "Sock1",
+          "Name": "Sock1",
+          "Value": {
+            "R": 0.617207,
+            "G": 0.597202,
+            "B": 0.533276,
+            "A": 1.0,
+            "Hex": "CECBC1"
+          }
+        },
+        {
+          "Key": "Glove1",
+          "Name": "Glove1",
+          "Value": {
+            "R": 0.016,
+            "G": 0.013679,
+            "B": 0.012336,
+            "A": 1.0,
+            "Hex": "221F1D"
+          }
+        },
+        {
+          "Key": "Glove2",
+          "Name": "Glove2",
+          "Value": {
+            "R": 0.149968,
+            "G": 0.679,
+            "B": 0.131726,
+            "A": 1.0,
+            "Hex": "6CD765"
+          }
+        },
+        {
+          "Key": "Sock2",
+          "Name": "Sock2",
+          "Value": {
+            "R": 0.149968,
+            "G": 0.679,
+            "B": 0.131726,
+            "A": 1.0,
+            "Hex": "6CD765"
+          }
+        },
+        {
+          "Key": "Bangle",
+          "Name": "Bangle",
           "Value": {
             "R": 0.0,
             "G": 0.579,
@@ -79,7 +130,19 @@
           }
         },
         {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 0.617207,
+            "G": 0.597202,
+            "B": 0.533276,
+            "A": 1.0,
+            "Hex": "CECBC1"
+          }
+        },
+        {
           "Key": "Fur",
+          "Name": "Fur",
           "Value": {
             "R": 0.815,
             "G": 0.598862,
@@ -90,6 +153,7 @@
         },
         {
           "Key": "Muzzle",
+          "Name": "Muzzle",
           "Value": {
             "R": 0.841,
             "G": 0.513194,
@@ -99,7 +163,30 @@
           }
         },
         {
-          "Key": "Straps",
+          "Key": "Suit",
+          "Name": "Suit",
+          "Value": {
+            "R": 0.028655,
+            "G": 0.298948,
+            "B": 0.520996,
+            "A": 1.0,
+            "Hex": "2F95BF"
+          }
+        },
+        {
+          "Key": "Collar",
+          "Name": "Collar",
+          "Value": {
+            "R": 0.248207,
+            "G": 0.481179,
+            "B": 0.658375,
+            "A": 1.0,
+            "Hex": "89B9D4"
+          }
+        },
+        {
+          "Key": "Goggle",
+          "Name": "Goggle",
           "Value": {
             "R": 0.00655,
             "G": 0.201085,
@@ -109,37 +196,19 @@
           }
         },
         {
-          "Key": "Hair",
+          "Key": "Straps",
+          "Name": "Straps",
           "Value": {
-            "R": 0.0,
-            "G": 0.579,
-            "B": 0.3667,
+            "R": 0.00655,
+            "G": 0.201085,
+            "B": 0.655,
             "A": 1.0,
-            "Hex": "00C9A3"
-          }
-        },
-        {
-          "Key": "Tooth",
-          "Value": {
-            "R": 0.803125,
-            "G": 0.803125,
-            "B": 0.803125,
-            "A": 1.0,
-            "Hex": "E8E8E8"
-          }
-        },
-        {
-          "Key": "Line",
-          "Value": {
-            "R": 0.012,
-            "G": 0.012,
-            "B": 0.012,
-            "A": 1.0,
-            "Hex": "1C1C1C"
+            "Hex": "137CD4"
           }
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.513889,
             "G": 0.141197,
@@ -149,7 +218,19 @@
           }
         },
         {
+          "Key": "Dye",
+          "Name": "Dye",
+          "Value": {
+            "R": 0.0,
+            "G": 0.579,
+            "B": 0.3667,
+            "A": 1.0,
+            "Hex": "00C9A3"
+          }
+        },
+        {
           "Key": "Bow1",
+          "Name": "Bow1",
           "Value": {
             "R": 0.656,
             "G": 0.179722,
@@ -160,6 +241,7 @@
         },
         {
           "Key": "Bow2",
+          "Name": "Bow2",
           "Value": {
             "R": 0.285136,
             "G": 0.57,
@@ -170,6 +252,7 @@
         },
         {
           "Key": "Bow3",
+          "Name": "Bow3",
           "Value": {
             "R": 0.0,
             "G": 0.482,
@@ -180,6 +263,7 @@
         },
         {
           "Key": "Bow4",
+          "Name": "Bow4",
           "Value": {
             "R": 0.018781,
             "G": 0.574,
@@ -190,6 +274,7 @@
         },
         {
           "Key": "Cloud",
+          "Name": "Cloud",
           "Value": {
             "R": 0.617207,
             "G": 0.597202,
@@ -200,6 +285,7 @@
         },
         {
           "Key": "Heart",
+          "Name": "Heart",
           "Value": {
             "R": 0.0,
             "G": 0.333,
@@ -210,6 +296,7 @@
         },
         {
           "Key": "Star",
+          "Name": "Star",
           "Value": {
             "R": 0.287166,
             "G": 0.687,
@@ -219,13 +306,58 @@
           }
         },
         {
-          "Key": "Tongue",
+          "Key": "Fur2",
+          "Name": "Fur2",
           "Value": {
             "R": 1.0,
-            "G": 0.132,
-            "B": 0.594933,
+            "G": 0.798854,
+            "B": 0.604,
             "A": 1.0,
-            "Hex": "FF66CB"
+            "Hex": "FFE7CC"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 1.0,
+            "G": 0.168491,
+            "B": 0.188387,
+            "A": 1.0,
+            "Hex": "FF7278"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.00655,
+            "G": 0.201085,
+            "B": 0.655,
+            "A": 1.0,
+            "Hex": "137CD4"
+          }
+        },
+        {
+          "Key": "Glass",
+          "Name": "Glass",
+          "Value": {
+            "R": 0.177888,
+            "G": 0.366253,
+            "B": 0.520996,
+            "A": 1.0,
+            "Hex": "75A3BF"
+          }
+        },
+        {
+          "Key": "Shape",
+          "Name": "Shape",
+          "Value": {
+            "R": 1.0,
+            "G": 0.55,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFC400"
           }
         }
       ]

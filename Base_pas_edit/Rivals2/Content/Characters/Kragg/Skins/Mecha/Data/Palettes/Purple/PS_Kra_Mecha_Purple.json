@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Mecha_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Mecha_Purple_C'Default__PS_Kra_Mecha_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Mecha/Data/Palettes/Purple/PS_Kra_Mecha_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Mecha_Purple_C",
+    "Name": "Default__PS_Kra_Mecha_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Mecha/Data/Palettes/Purple/PS_Kra_Mecha_Purple.PS_Kra_Mecha_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Rubber",
+          "Name": "Rubber",
+          "Value": {
+            "R": 0.036458,
+            "G": 0.028217,
+            "B": 0.018799,
+            "A": 1.0,
+            "Hex": "352E25"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.371238,
+            "G": 0.445201,
+            "B": 0.715693,
+            "A": 1.0,
+            "Hex": "A4B2DC"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 0.163146,
+            "G": 0.087891,
+            "B": 0.234375,
+            "A": 1.0,
+            "Hex": "705385"
+          }
+        },
+        {
+          "Key": "Inner Metal",
+          "Name": "Inner Metal",
+          "Value": {
+            "R": 1.0,
+            "G": 0.533007,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFC100"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.055659,
+            "B": 0.109375,
+            "A": 1.0,
+            "Hex": "00425D"
+          }
+        },
+        {
+          "Key": "Shell Accent",
+          "Name": "Shell Accent",
+          "Value": {
+            "R": 0.323243,
+            "G": 0.604167,
+            "B": 0.091091,
+            "A": 1.0,
+            "Hex": "9ACC55"
+          }
+        },
+        {
+          "Key": "Eye Glow",
+          "Name": "Eye Glow",
+          "Value": {
+            "R": 0.958333,
+            "G": 0.958333,
+            "B": 0.958333,
+            "A": 1.0,
+            "Hex": "FBFBFB"
+          }
+        }
+      ]
+    }
+  }
+]

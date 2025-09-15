@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Rockstar_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Rockstar_Green_C'Default__PS_Kra_Rockstar_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Rockstar/Data/Palettes/Green/PS_Kra_Rockstar_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Rockstar_Green_C",
+    "Name": "Default__PS_Kra_Rockstar_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Rockstar/Data/Palettes/Green/PS_Kra_Rockstar_Green.PS_Kra_Rockstar_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.030713,
+            "G": 0.015996,
+            "B": 0.011612,
+            "A": 1.0,
+            "Hex": "31221C"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.016222,
+            "G": 0.067708,
+            "B": 0.023736,
+            "A": 1.0,
+            "Hex": "22492A"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.651406,
+            "B": 0.637597,
+            "A": 1.0,
+            "Hex": "E9D3D1"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.697917,
+            "G": 0.5793,
+            "B": 0.435494,
+            "A": 1.0,
+            "Hex": "DAC9B0"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.930111,
+            "G": 0.111932,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "F75E26"
+          }
+        },
+        {
+          "Key": "Logo",
+          "Name": "Logo",
+          "Value": {
+            "R": 0.015996,
+            "G": 0.007499,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "22150F"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.23074,
+            "G": 0.361307,
+            "B": 0.111932,
+            "A": 1.0,
+            "Hex": "84A25E"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.55,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFC400"
+          }
+        },
+        {
+          "Key": "SpeakerCab",
+          "Name": "SpeakerCab",
+          "Value": {
+            "R": 0.020182,
+            "G": 0.0625,
+            "B": 0.026358,
+            "A": 1.0,
+            "Hex": "27462D"
+          }
+        },
+        {
+          "Key": "Speaker",
+          "Name": "Speaker",
+          "Value": {
+            "R": 0.046875,
+            "G": 0.028253,
+            "B": 0.022705,
+            "A": 1.0,
+            "Hex": "3D2F29"
+          }
+        },
+        {
+          "Key": "MetalAccent",
+          "Name": "MetalAccent",
+          "Value": {
+            "R": 0.768151,
+            "G": 0.637597,
+            "B": 0.47932,
+            "A": 1.0,
+            "Hex": "E3D1B8"
+          }
+        }
+      ]
+    }
+  }
+]

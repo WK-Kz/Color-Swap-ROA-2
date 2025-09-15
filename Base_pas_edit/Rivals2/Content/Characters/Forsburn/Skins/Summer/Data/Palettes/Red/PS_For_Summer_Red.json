@@ -1,0 +1,344 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Summer_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Summer_Red_C'Default__PS_For_Summer_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Summer/Data/Palettes/Red/PS_For_Summer_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Summer_Red_C",
+    "Name": "Default__PS_For_Summer_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Summer/Data/Palettes/Red/PS_For_Summer_Red.PS_For_Summer_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.258183,
+            "G": 0.132486,
+            "B": 0.064803,
+            "A": 1.0,
+            "Hex": "8B6648"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.346704,
+            "G": 0.19526,
+            "B": 0.119538,
+            "A": 1.0,
+            "Hex": "9F7A61"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.119538,
+            "G": 0.052099,
+            "B": 0.038611,
+            "A": 1.0,
+            "Hex": "614037"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.723,
+            "G": 0.23965,
+            "B": 0.092544,
+            "A": 1.0,
+            "Hex": "DD8656"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.793,
+            "G": 0.378102,
+            "B": 0.101504,
+            "A": 1.0,
+            "Hex": "E7A65A"
+          }
+        },
+        {
+          "Key": "Sandals",
+          "Name": "Sandals",
+          "Value": {
+            "R": 0.062,
+            "G": 0.00434,
+            "B": 0.005301,
+            "A": 1.0,
+            "Hex": "460D10"
+          }
+        },
+        {
+          "Key": "Shorts",
+          "Name": "Shorts",
+          "Value": {
+            "R": 0.343,
+            "G": 0.011319,
+            "B": 0.083183,
+            "A": 1.0,
+            "Hex": "9E1B51"
+          }
+        },
+        {
+          "Key": "ShTrims",
+          "Name": "ShTrims",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Leggings",
+          "Name": "Leggings",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Wrist",
+          "Name": "Wrist",
+          "Value": {
+            "R": 0.343,
+            "G": 0.011319,
+            "B": 0.083183,
+            "A": 1.0,
+            "Hex": "9E1B51"
+          }
+        },
+        {
+          "Key": "WrTrims",
+          "Name": "WrTrims",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Name": "Rope",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Fanny",
+          "Name": "Fanny",
+          "Value": {
+            "R": 0.455,
+            "G": 0.042649,
+            "B": 0.013195,
+            "A": 1.0,
+            "Hex": "B43A1E"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.203125,
+            "G": 0.203125,
+            "B": 0.203125,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        {
+          "Key": "Strap",
+          "Name": "Strap",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Towel",
+          "Name": "Towel",
+          "Value": {
+            "R": 0.345,
+            "G": 0.01173,
+            "B": 0.01173,
+            "A": 1.0,
+            "Hex": "9F1C1C"
+          }
+        },
+        {
+          "Key": "TowelStripe",
+          "Name": "TowelStripe",
+          "Value": {
+            "R": 0.418,
+            "G": 0.045945,
+            "B": 0.012122,
+            "A": 1.0,
+            "Hex": "AD3C1C"
+          }
+        },
+        {
+          "Key": "Tube",
+          "Name": "Tube",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "TubeStripe",
+          "Name": "TubeStripe",
+          "Value": {
+            "R": 0.343,
+            "G": 0.011319,
+            "B": 0.083183,
+            "A": 1.0,
+            "Hex": "9E1B51"
+          }
+        },
+        {
+          "Key": "Popsicle",
+          "Name": "Popsicle",
+          "Value": {
+            "R": 0.283149,
+            "G": 0.165132,
+            "B": 0.111932,
+            "A": 1.0,
+            "Hex": "91715E"
+          }
+        },
+        {
+          "Key": "Ice1",
+          "Name": "Ice1",
+          "Value": {
+            "R": 0.55834,
+            "G": 0.298732,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "C59528"
+          }
+        },
+        {
+          "Key": "Ice2",
+          "Name": "Ice2",
+          "Value": {
+            "R": 0.705,
+            "G": 0.099064,
+            "B": 0.019035,
+            "A": 1.0,
+            "Hex": "DB5825"
+          }
+        },
+        {
+          "Key": "Ice3",
+          "Name": "Ice3",
+          "Value": {
+            "R": 0.55834,
+            "G": 0.021219,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "C52829"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Name": "Visor",
+          "Value": {
+            "R": 0.343,
+            "G": 0.011319,
+            "B": 0.083183,
+            "A": 1.0,
+            "Hex": "9E1B51"
+          }
+        },
+        {
+          "Key": "Glasses",
+          "Name": "Glasses",
+          "Value": {
+            "R": 0.22,
+            "G": 0.0154,
+            "B": 0.01881,
+            "A": 1.0,
+            "Hex": "812125"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Sunscreen",
+          "Name": "Sunscreen",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.5,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFBC00"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Krampus_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Krampus_Neutral_C'Default__PE_For_Krampus_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Krampus/Data/Palettes/Blue/PE_For_Krampus_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Krampus_Neutral_C",
+    "Name": "Default__PE_For_Krampus_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Krampus/Data/Palettes/Blue/PE_For_Krampus_Neutral.PE_For_Krampus_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.884,
+            "G": 1.0,
+            "B": 0.909133,
+            "A": 1.0,
+            "Hex": "F2FFF5"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.593175,
+            "G": 0.854167,
+            "B": 0.741071,
+            "A": 1.0,
+            "Hex": "CBEEE0"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.345145,
+            "G": 0.5,
+            "B": 0.440639,
+            "A": 1.0,
+            "Hex": "9FBCB1"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.345593,
+            "G": 0.892782,
+            "B": 0.921582,
+            "A": 1.0,
+            "Hex": "9FF3F6"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.165875,
+            "G": 0.896392,
+            "B": 0.921582,
+            "A": 1.0,
+            "Hex": "71F3F6"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.211051,
+            "G": 0.973445,
+            "B": 0.630368,
+            "A": 1.0,
+            "Hex": "7FFCD0"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Sunbear_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Sunbear_Purple_C'Default__PS_Eta_Sunbear_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Sunbear/Data/Palettes/Purple/PS_Eta_Sunbear_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Sunbear_Purple_C",
+    "Name": "Default__PS_Eta_Sunbear_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Sunbear/Data/Palettes/Purple/PS_Eta_Sunbear_Purple.PS_Eta_Sunbear_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.024565,
+            "G": 0.006185,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "2B1231"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.121664,
+            "G": 0.073698,
+            "B": 0.140625,
+            "A": 1.0,
+            "Hex": "624D69"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.036606,
+            "G": 0.022174,
+            "B": 0.042311,
+            "A": 1.0,
+            "Hex": "35293A"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.729167,
+            "G": 0.288882,
+            "B": 0.167101,
+            "A": 1.0,
+            "Hex": "DE9272"
+          }
+        },
+        {
+          "Key": "PawPads",
+          "Name": "PawPads",
+          "Value": {
+            "R": 0.181228,
+            "G": 0.08474,
+            "B": 0.19,
+            "A": 1.0,
+            "Hex": "765279"
+          }
+        },
+        {
+          "Key": "InnerEars",
+          "Name": "InnerEars",
+          "Value": {
+            "R": 0.693872,
+            "G": 0.328686,
+            "B": 0.227677,
+            "A": 1.0,
+            "Hex": "D99B83"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.942708,
+            "G": 0.776179,
+            "B": 0.672662,
+            "A": 1.0,
+            "Hex": "F9E4D6"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.508148,
+            "G": 0.048028,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "BD3EFF"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.508148,
+            "G": 0.048028,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "BD3EFF"
+          }
+        }
+      ]
+    }
+  }
+]

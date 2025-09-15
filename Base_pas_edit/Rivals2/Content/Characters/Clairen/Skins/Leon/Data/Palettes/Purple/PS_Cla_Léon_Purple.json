@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_L\u00e9on_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_L\u00e9on_Purple_C'Default__PS_Cla_L\u00e9on_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Leon/Data/Palettes/Purple/PS_Cla_L\u00e9on_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_L\u00e9on_Purple_C",
+    "Name": "Default__PS_Cla_L\u00e9on_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Leon/Data/Palettes/Purple/PS_Cla_L\u00e9on_Purple.PS_Cla_L\u00e9on_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.530595,
+            "G": 0.41328,
+            "B": 0.656,
+            "A": 1.0,
+            "Hex": "C1ACD4"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.088823,
+            "G": 0.067275,
+            "B": 0.117,
+            "A": 1.0,
+            "Hex": "544960"
+          }
+        },
+        {
+          "Key": "Ears",
+          "Name": "Ears",
+          "Value": {
+            "R": 0.189793,
+            "G": 0.14375,
+            "B": 0.25,
+            "A": 1.0,
+            "Hex": "796A89"
+          }
+        },
+        {
+          "Key": "Claws",
+          "Name": "Claws",
+          "Value": {
+            "R": 0.020833,
+            "G": 0.017021,
+            "B": 0.017021,
+            "A": 1.0,
+            "Hex": "272323"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.52808,
+            "G": 0.6027,
+            "B": 0.656,
+            "A": 1.0,
+            "Hex": "C0CCD4"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.251797,
+            "G": 0.058696,
+            "B": 0.638,
+            "A": 1.0,
+            "Hex": "8944D1"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Name": "Straps",
+          "Value": {
+            "R": 0.023086,
+            "G": 0.009129,
+            "B": 0.051,
+            "A": 1.0,
+            "Hex": "2A1840"
+          }
+        },
+        {
+          "Key": "Gloves/Boots",
+          "Name": "Gloves/Boots",
+          "Value": {
+            "R": 0.008258,
+            "G": 0.003983,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "160C23"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.194117,
+            "G": 0.0,
+            "B": 0.613,
+            "A": 1.0,
+            "Hex": "7A00CE"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.023028,
+            "G": 0.404,
+            "B": 0.219864,
+            "A": 1.0,
+            "Hex": "2AAB81"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.530595,
+            "G": 0.41328,
+            "B": 0.656,
+            "A": 1.0,
+            "Hex": "C1ACD4"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Name": "Braid",
+          "Value": {
+            "R": 1.0,
+            "G": 0.183333,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF7700"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.023028,
+            "G": 0.404,
+            "B": 0.219864,
+            "A": 1.0,
+            "Hex": "2AAB81"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Kra_Goliath_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Kra_Goliath_Red_C",
     "Name": "Default__PS_Kra_Goliath_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Red/PS_Kra_Goliath_Red.PS_Kra_Goliath_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Head",
+          "Name": "Head",
           "Value": {
             "R": 0.2,
             "G": 0.017862,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Back",
+          "Name": "Back",
           "Value": {
             "R": 0.270833,
             "G": 0.02398,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.958333,
             "G": 0.296567,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.871367,
             "G": 0.791298,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.0625,
             "G": 0.016602,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Chest",
+          "Name": "Chest",
           "Value": {
             "R": 0.526042,
             "G": 0.156169,
@@ -90,12 +98,24 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.911458,
             "G": 1.0,
             "B": 0.114583,
             "A": 1.0,
             "Hex": "F5FF5F"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
           }
         }
       ]

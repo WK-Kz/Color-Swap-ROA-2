@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Orc_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Orc_Abyss_Blue_C",
     "Name": "Default__PS_Orc_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Abyss/Data/Palettes/Blue/PS_Orc_Abyss_Blue.PS_Orc_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.0375,
             "G": 0.129583,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.6,
             "G": 0.692258,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Nails",
+          "Name": "Nails",
           "Value": {
             "R": 0.026,
             "G": 0.042467,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "AbyssEyesSclera",
+          "Name": "AbyssEyesSclera",
           "Value": {
             "R": 0.95,
             "G": 0.468667,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.0,
             "G": 0.113317,

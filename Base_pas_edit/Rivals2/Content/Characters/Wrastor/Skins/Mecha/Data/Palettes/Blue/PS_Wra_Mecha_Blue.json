@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Wra_Mecha_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Wra_Mecha_Blue_C",
     "Name": "Default__PS_Wra_Mecha_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Mecha/Data/Palettes/Blue/PS_Wra_Mecha_Blue.PS_Wra_Mecha_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Wing",
+          "Name": "Wing",
           "Value": {
             "R": 0.0,
             "G": 0.035585,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.0,
             "G": 0.233333,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Beak",
+          "Name": "Beak",
           "Value": {
             "R": 1.0,
             "G": 0.2392,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Scarf",
+          "Name": "Scarf",
           "Value": {
             "R": 0.0,
             "G": 0.054133,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Joints",
+          "Name": "Joints",
           "Value": {
             "R": 0.028805,
             "G": 0.035072,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.089,
             "G": 0.711516,
@@ -89,13 +97,69 @@
           }
         },
         {
-          "Key": "Emissive",
+          "Key": "Warheads",
+          "Name": "Warheads",
           "Value": {
-            "R": 0.440913,
-            "G": 0.264536,
-            "B": 1.0,
+            "R": 0.905,
+            "G": 0.541854,
+            "B": 0.06697,
             "A": 1.0,
-            "Hex": "B18DFF"
+            "Hex": "F4C349"
+          }
+        },
+        {
+          "Key": "Lights",
+          "Name": "Lights",
+          "Value": {
+            "R": 0.0,
+            "G": 0.650943,
+            "B": 0.785416,
+            "A": 1.0,
+            "Hex": "00D3E6"
+          }
+        },
+        {
+          "Key": "Emissive",
+          "Name": "Emissive",
+          "Value": {
+            "R": 0.0,
+            "G": 0.650943,
+            "B": 0.785416,
+            "A": 1.0,
+            "Hex": "00D3E6"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 1.0,
+            "G": 0.2392,
+            "B": 0.049,
+            "A": 1.0,
+            "Hex": "FF863E"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 0.869792,
+            "G": 0.869792,
+            "B": 0.869792,
+            "A": 1.0,
+            "Hex": "F0F0F0"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.0,
+            "G": 0.035585,
+            "B": 0.266,
+            "A": 1.0,
+            "Hex": "00358D"
           }
         }
       ]

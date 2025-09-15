@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_For_Doberman_Yellow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_For_Doberman_Yellow_C'Default__PE_For_Doberman_Yellow_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Yellow/PE_For_Doberman_Yellow.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_For_Doberman_Yellow_C",
+    "Name": "Default__PE_For_Doberman_Yellow_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Yellow/PE_For_Doberman_Yellow.PE_For_Doberman_Yellow_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.73664,
+            "G": 0.8,
+            "B": 0.4544,
+            "A": 1.0,
+            "Hex": "DFE8B4"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.599,
+            "G": 0.327273,
+            "B": 0.073078,
+            "A": 1.0,
+            "Hex": "CC9B4C"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.054,
+            "G": 0.033382,
+            "B": 0.014094,
+            "A": 1.0,
+            "Hex": "41331F"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.265,
+            "G": 0.235939,
+            "B": 0.14045,
+            "A": 1.0,
+            "Hex": "8D8569"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.201556,
+            "G": 0.141271,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "7C6902"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.973445,
+            "G": 0.722101,
+            "B": 0.135633,
+            "A": 1.0,
+            "Hex": "FCDD67"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "CapeFX",
+          "Name": "CapeFX",
+          "Value": {
+            "R": 0.265,
+            "G": 0.235939,
+            "B": 0.14045,
+            "A": 1.0,
+            "Hex": "8D8569"
+          }
+        }
+      ]
+    }
+  }
+]

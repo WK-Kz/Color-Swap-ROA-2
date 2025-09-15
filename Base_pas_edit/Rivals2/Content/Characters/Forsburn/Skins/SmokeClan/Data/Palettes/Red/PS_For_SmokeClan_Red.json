@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_SmokeClan_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_SmokeClan_Red_C'Default__PS_For_SmokeClan_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/SmokeClan/Data/Palettes/Red/PS_For_SmokeClan_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_SmokeClan_Red_C",
+    "Name": "Default__PS_For_SmokeClan_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/SmokeClan/Data/Palettes/Red/PS_For_SmokeClan_Red.PS_For_SmokeClan_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.124,
+            "G": 0.081096,
+            "B": 0.081096,
+            "A": 1.0,
+            "Hex": "635050"
+          }
+        },
+        {
+          "Key": "Mask",
+          "Name": "Mask",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.011797,
+            "B": 0.011797,
+            "A": 1.0,
+            "Hex": "291C1C"
+          }
+        },
+        {
+          "Key": "Robe",
+          "Name": "Robe",
+          "Value": {
+            "R": 0.043,
+            "G": 0.007396,
+            "B": 0.007396,
+            "A": 1.0,
+            "Hex": "3A1414"
+          }
+        },
+        {
+          "Key": "RobeAccent",
+          "Name": "RobeAccent",
+          "Value": {
+            "R": 0.124772,
+            "G": 0.008568,
+            "B": 0.01096,
+            "A": 1.0,
+            "Hex": "63171B"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.401,
+            "G": 0.108892,
+            "B": 0.057343,
+            "A": 1.0,
+            "Hex": "AA5D43"
+          }
+        },
+        {
+          "Key": "ShirtAccent",
+          "Name": "ShirtAccent",
+          "Value": {
+            "R": 0.656,
+            "G": 0.314202,
+            "B": 0.237472,
+            "A": 1.0,
+            "Hex": "D49886"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Name": "Rope",
+          "Value": {
+            "R": 0.283,
+            "G": 0.109238,
+            "B": 0.022357,
+            "A": 1.0,
+            "Hex": "915D29"
+          }
+        },
+        {
+          "Key": "Fur",
+          "Name": "Fur",
+          "Value": {
+            "R": 0.462077,
+            "G": 0.391572,
+            "B": 0.337164,
+            "A": 1.0,
+            "Hex": "B5A89D"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.463,
+            "G": 0.350692,
+            "B": 0.285671,
+            "A": 1.0,
+            "Hex": "B5A092"
+          }
+        }
+      ]
+    }
+  }
+]

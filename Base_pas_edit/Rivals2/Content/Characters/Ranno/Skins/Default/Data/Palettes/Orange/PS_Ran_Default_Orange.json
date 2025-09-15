@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_Default_Orange_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_Default_Orange_C",
     "Name": "Default__PS_Ran_Default_Orange_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Default/Data/Palettes/Orange/PS_Ran_Default_Orange.PS_Ran_Default_Orange_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.082748,
             "G": 0.151,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.278384,
             "G": 0.508,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.00822,
             "G": 0.015,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Tongue",
+          "Name": "Tongue",
           "Value": {
             "R": 0.305,
             "G": 0.066185,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.062927,
             "G": 0.008064,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Wraps",
+          "Name": "Wraps",
           "Value": {
             "R": 0.248,
             "G": 0.041747,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Eyes_Iris",
+          "Name": "Eyes_Iris",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.971,
             "G": 0.110384,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Eyes_Shine",
+          "Name": "Eyes_Shine",
           "Value": {
             "R": 1.0,
             "G": 1.0,

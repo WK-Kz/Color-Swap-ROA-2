@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Prehistoric_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Prehistoric_Green_C'Default__PS_For_Prehistoric_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Prehistoric/Data/Palettes/Green/PS_For_Prehistoric_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Prehistoric_Green_C",
+    "Name": "Default__PS_For_Prehistoric_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Prehistoric/Data/Palettes/Green/PS_For_Prehistoric_Green.PS_For_Prehistoric_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.157689,
+            "G": 0.531,
+            "B": 0.044073,
+            "A": 1.0,
+            "Hex": "6FC13B"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.680904,
+            "G": 0.756,
+            "B": 0.19278,
+            "A": 1.0,
+            "Hex": "D8E279"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 0.013709,
+            "G": 0.035,
+            "B": 0.004585,
+            "A": 1.0,
+            "Hex": "1F340E"
+          }
+        },
+        {
+          "Key": "Shorts",
+          "Name": "Shorts",
+          "Value": {
+            "R": 0.038,
+            "G": 0.038,
+            "B": 0.021448,
+            "A": 1.0,
+            "Hex": "373728"
+          }
+        },
+        {
+          "Key": "Feather",
+          "Name": "Feather",
+          "Value": {
+            "R": 0.368,
+            "G": 0.077722,
+            "B": 0.005152,
+            "A": 1.0,
+            "Hex": "A34F0F"
+          }
+        },
+        {
+          "Key": "FeatherMid",
+          "Name": "FeatherMid",
+          "Value": {
+            "R": 0.155926,
+            "G": 0.032152,
+            "B": 0.004366,
+            "A": 1.0,
+            "Hex": "6E320D"
+          }
+        },
+        {
+          "Key": "FeatherTip",
+          "Name": "FeatherTip",
+          "Value": {
+            "R": 0.034,
+            "G": 0.017701,
+            "B": 0.006834,
+            "A": 1.0,
+            "Hex": "332413"
+          }
+        },
+        {
+          "Key": "Leaf",
+          "Name": "Leaf",
+          "Value": {
+            "R": 0.010586,
+            "G": 0.122013,
+            "B": 0.147027,
+            "A": 1.0,
+            "Hex": "1A626B"
+          }
+        },
+        {
+          "Key": "Leaf2",
+          "Name": "Leaf2",
+          "Value": {
+            "R": 0.007377,
+            "G": 0.048053,
+            "B": 0.105,
+            "A": 1.0,
+            "Hex": "143E5B"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Name": "Rope",
+          "Value": {
+            "R": 0.084,
+            "G": 0.062555,
+            "B": 0.028056,
+            "A": 1.0,
+            "Hex": "52472E"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.428947,
+            "G": 0.445201,
+            "B": 0.250158,
+            "A": 1.0,
+            "Hex": "AFB289"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.238844,
+            "G": 0.012286,
+            "B": 0.450786,
+            "A": 1.0,
+            "Hex": "861DB3"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.086875,
+            "G": 0.178,
+            "B": 0.069118,
+            "A": 1.0,
+            "Hex": "53754A"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.022368,
+            "G": 0.046,
+            "B": 0.017708,
+            "A": 1.0,
+            "Hex": "293C24"
+          }
+        },
+        {
+          "Key": "Mask Eyes",
+          "Name": "Mask Eyes",
+          "Value": {
+            "R": 0.450786,
+            "G": 0.025187,
+            "B": 0.012286,
+            "A": 1.0,
+            "Hex": "B32C1D"
+          }
+        }
+      ]
+    }
+  }
+]

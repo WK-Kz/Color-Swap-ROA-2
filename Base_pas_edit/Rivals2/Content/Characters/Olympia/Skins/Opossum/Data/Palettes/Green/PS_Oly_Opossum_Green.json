@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Oly_Opossum_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Oly_Opossum_Green_C'Default__PS_Oly_Opossum_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Olympia/Skins/Opossum/Data/Palettes/Green/PS_Oly_Opossum_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Oly_Opossum_Green_C",
+    "Name": "Default__PS_Oly_Opossum_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Olympia/Skins/Opossum/Data/Palettes/Green/PS_Oly_Opossum_Green.PS_Oly_Opossum_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.614583,
+            "G": 0.573504,
+            "B": 0.36811,
+            "A": 1.0,
+            "Hex": "CEC8A4"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.630208,
+            "G": 0.390379,
+            "B": 0.180528,
+            "A": 1.0,
+            "Hex": "D0A876"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.021432,
+            "G": 0.030713,
+            "B": 0.021275,
+            "A": 1.0,
+            "Hex": "283128"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.101729,
+            "G": 0.145833,
+            "B": 0.094944,
+            "A": 1.0,
+            "Hex": "5A6B57"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.546796,
+            "G": 0.5625,
+            "B": 0.374062,
+            "A": 1.0,
+            "Hex": "C3C6A5"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.671,
+            "G": 0.199734,
+            "B": 0.01342,
+            "A": 1.0,
+            "Hex": "D67B1E"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.447591,
+            "G": 0.520833,
+            "B": 0.461018,
+            "A": 1.0,
+            "Hex": "B3BFB5"
+          }
+        },
+        {
+          "Key": "Bandage",
+          "Name": "Bandage",
+          "Value": {
+            "R": 0.364583,
+            "G": 1.0,
+            "B": 0.449305,
+            "A": 1.0,
+            "Hex": "A3FFB3"
+          }
+        },
+        {
+          "Key": "Top",
+          "Name": "Top",
+          "Value": {
+            "R": 0.859375,
+            "G": 0.843933,
+            "B": 0.756429,
+            "A": 1.0,
+            "Hex": "EFEDE2"
+          }
+        },
+        {
+          "Key": "GloveLeft",
+          "Name": "GloveLeft",
+          "Value": {
+            "R": 0.05013,
+            "G": 0.6875,
+            "B": 0.177604,
+            "A": 1.0,
+            "Hex": "3FD875"
+          }
+        },
+        {
+          "Key": "GloveLeftAccent",
+          "Name": "GloveLeftAccent",
+          "Value": {
+            "R": 0.514918,
+            "G": 0.75297,
+            "B": 0.854993,
+            "A": 1.0,
+            "Hex": "BEE1EE"
+          }
+        },
+        {
+          "Key": "GloveRight",
+          "Name": "GloveRight",
+          "Value": {
+            "R": 0.05013,
+            "G": 0.6875,
+            "B": 0.177604,
+            "A": 1.0,
+            "Hex": "3FD875"
+          }
+        },
+        {
+          "Key": "GloveRightAccent",
+          "Name": "GloveRightAccent",
+          "Value": {
+            "R": 0.514918,
+            "G": 0.75297,
+            "B": 0.854993,
+            "A": 1.0,
+            "Hex": "BEE1EE"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.115,
+            "G": 0.046669,
+            "B": 0.004193,
+            "A": 1.0,
+            "Hex": "5F3D0D"
+          }
+        },
+        {
+          "Key": "Eyebrows",
+          "Name": "Eyebrows",
+          "Value": {
+            "R": 0.026042,
+            "G": 0.021701,
+            "B": 0.021701,
+            "A": 1.0,
+            "Hex": "2C2828"
+          }
+        }
+      ]
+    }
+  }
+]

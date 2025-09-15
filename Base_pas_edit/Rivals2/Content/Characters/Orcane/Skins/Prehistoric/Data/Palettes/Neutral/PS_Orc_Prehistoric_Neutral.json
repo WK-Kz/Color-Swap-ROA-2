@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Prehistoric_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Prehistoric_Neutral_C'Default__PS_Orc_Prehistoric_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Prehistoric/Data/Palettes/Neutral/PS_Orc_Prehistoric_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Prehistoric_Neutral_C",
+    "Name": "Default__PS_Orc_Prehistoric_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Prehistoric/Data/Palettes/Neutral/PS_Orc_Prehistoric_Neutral.PS_Orc_Prehistoric_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.630757,
+            "G": 0.40724,
+            "B": 0.246201,
+            "A": 1.0,
+            "Hex": "D0AB88"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.032,
+            "G": 0.0183,
+            "B": 0.014275,
+            "A": 1.0,
+            "Hex": "32241F"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.545724,
+            "G": 0.099899,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "C35960"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Name": "Teeth",
+          "Value": {
+            "R": 0.562,
+            "G": 0.515036,
+            "B": 0.43555,
+            "A": 1.0,
+            "Hex": "C6BEB0"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.061307,
+            "G": 0.406036,
+            "B": 0.607,
+            "A": 1.0,
+            "Hex": "46ABCD"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Name": "Spikes",
+          "Value": {
+            "R": 0.552011,
+            "G": 0.491021,
+            "B": 0.371238,
+            "A": 1.0,
+            "Hex": "C4BAA4"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.005182,
+            "G": 0.124772,
+            "B": 0.109462,
+            "A": 1.0,
+            "Hex": "10635D"
+          }
+        },
+        {
+          "Key": "Leaves",
+          "Name": "Leaves",
+          "Value": {
+            "R": 0.007752,
+            "G": 0.213,
+            "B": 0.189224,
+            "A": 1.0,
+            "Hex": "157F78"
+          }
+        },
+        {
+          "Key": "Rock",
+          "Name": "Rock",
+          "Value": {
+            "R": 0.132761,
+            "G": 0.121476,
+            "B": 0.191,
+            "A": 1.0,
+            "Hex": "666279"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.609,
+            "G": 0.30788,
+            "B": 0.061509,
+            "A": 1.0,
+            "Hex": "CD9746"
+          }
+        },
+        {
+          "Key": "Plates",
+          "Name": "Plates",
+          "Value": {
+            "R": 0.269,
+            "G": 0.060092,
+            "B": 0.016828,
+            "A": 1.0,
+            "Hex": "8E4523"
+          }
+        },
+        {
+          "Key": "Feathers",
+          "Name": "Feathers",
+          "Value": {
+            "R": 0.434154,
+            "G": 0.029557,
+            "B": 0.01096,
+            "A": 1.0,
+            "Hex": "B0301B"
+          }
+        }
+      ]
+    }
+  }
+]

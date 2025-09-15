@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Cheetah_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Cheetah_Neutral_C'Default__PS_Zet_Cheetah_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Cheetah/Data/Palettes/Neutral/PS_Zet_Cheetah_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Cheetah_Neutral_C",
+    "Name": "Default__PS_Zet_Cheetah_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Cheetah/Data/Palettes/Neutral/PS_Zet_Cheetah_Neutral.PS_Zet_Cheetah_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.871367,
+            "G": 0.47932,
+            "B": 0.099899,
+            "A": 1.0,
+            "Hex": "F0B859"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.672443,
+            "B": 0.491021,
+            "A": 1.0,
+            "Hex": "E9D6BA"
+          }
+        },
+        {
+          "Key": "Spots",
+          "Name": "Spots",
+          "Value": {
+            "R": 0.03434,
+            "G": 0.011612,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "341C0D"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.029557,
+            "G": 0.017642,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "302431"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.539479,
+            "G": 0.084376,
+            "B": 0.015996,
+            "A": 1.0,
+            "Hex": "C25222"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.127438,
+            "G": 0.022174,
+            "B": 0.004777,
+            "A": 1.0,
+            "Hex": "64290F"
+          }
+        },
+        {
+          "Key": "Tips",
+          "Name": "Tips",
+          "Value": {
+            "R": 0.006512,
+            "G": 0.006512,
+            "B": 0.006512,
+            "A": 1.0,
+            "Hex": "131313"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.009134,
+            "G": 0.007499,
+            "B": 0.005182,
+            "A": 1.0,
+            "Hex": "181510"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.052861,
+            "G": 0.019382,
+            "B": 0.124772,
+            "A": 1.0,
+            "Hex": "412663"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.502886,
+            "G": 0.502886,
+            "B": 0.502886,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          }
+        },
+        {
+          "Key": "Leather",
+          "Name": "Leather",
+          "Value": {
+            "R": 0.162029,
+            "G": 0.066626,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "704937"
+          }
+        }
+      ]
+    }
+  }
+]

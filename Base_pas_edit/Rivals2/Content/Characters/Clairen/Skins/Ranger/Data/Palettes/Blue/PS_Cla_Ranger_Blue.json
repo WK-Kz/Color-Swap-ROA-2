@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Cla_Ranger_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Cla_Ranger_Blue_C",
     "Name": "Default__PS_Cla_Ranger_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Ranger/Data/Palettes/Blue/PS_Cla_Ranger_Blue.PS_Cla_Ranger_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Armor",
+          "Name": "Armor",
           "Value": {
             "R": 0.5,
             "G": 0.475,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.014092,
             "G": 0.015099,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Padding",
+          "Name": "Padding",
           "Value": {
             "R": 0.056017,
             "G": 0.104737,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.0,
             "G": 0.03613,

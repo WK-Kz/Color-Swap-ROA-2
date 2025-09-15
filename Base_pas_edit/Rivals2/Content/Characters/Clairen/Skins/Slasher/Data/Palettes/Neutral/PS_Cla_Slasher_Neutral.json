@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Cla_Slasher_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Cla_Slasher_Neutral_C",
     "Name": "Default__PS_Cla_Slasher_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Slasher/Data/Palettes/Neutral/PS_Cla_Slasher_Neutral.PS_Cla_Slasher_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.07036,
             "G": 0.141263,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "InnerEar",
+          "Name": "InnerEar",
           "Value": {
             "R": 0.274677,
             "G": 0.396755,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Socket",
+          "Name": "Socket",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -59,7 +64,8 @@
           }
         },
         {
-          "Key": "Eyes",
+          "Key": "LeftIris",
+          "Name": "LeftIris",
           "Value": {
             "R": 0.759,
             "G": 0.0,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.056487,
             "G": 0.054194,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.361307,
             "G": 0.059511,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Stripes",
+          "Name": "Stripes",
           "Value": {
             "R": 0.130136,
             "G": 0.014444,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Mask",
+          "Name": "Mask",
           "Value": {
             "R": 0.696,
             "G": 0.696,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Rope",
+          "Name": "Rope",
           "Value": {
             "R": 0.12,
             "G": 0.061284,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Grip",
+          "Name": "Grip",
           "Value": {
             "R": 0.019382,
             "G": 0.016807,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.109462,
             "G": 0.107023,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Weapon",
+          "Name": "Weapon",
           "Value": {
             "R": 0.445201,
             "G": 0.064803,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.079,
             "G": 0.036847,
@@ -160,6 +175,7 @@
         },
         {
           "Key": "Pumpkin_Face",
+          "Name": "Pumpkin_Face",
           "Value": {
             "R": 0.973445,
             "G": 0.491021,
@@ -170,6 +186,7 @@
         },
         {
           "Key": "Pumpkin_Shell",
+          "Name": "Pumpkin_Shell",
           "Value": {
             "R": 0.502886,
             "G": 0.104616,
@@ -180,12 +197,24 @@
         },
         {
           "Key": "Pumpkin_Vines",
+          "Name": "Pumpkin_Vines",
           "Value": {
             "R": 0.049707,
             "G": 0.102242,
             "B": 0.039546,
             "A": 1.0,
             "Hex": "3F5A38"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.759,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E20000"
           }
         }
       ]

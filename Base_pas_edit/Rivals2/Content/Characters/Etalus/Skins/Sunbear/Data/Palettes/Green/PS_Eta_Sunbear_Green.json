@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Sunbear_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Sunbear_Green_C'Default__PS_Eta_Sunbear_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Sunbear/Data/Palettes/Green/PS_Eta_Sunbear_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Sunbear_Green_C",
+    "Name": "Default__PS_Eta_Sunbear_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Sunbear/Data/Palettes/Green/PS_Eta_Sunbear_Green.PS_Eta_Sunbear_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.015202,
+            "G": 0.03125,
+            "B": 0.01237,
+            "A": 1.0,
+            "Hex": "21311D"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.093059,
+            "G": 0.059511,
+            "B": 0.028426,
+            "A": 1.0,
+            "Hex": "56452F"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.042311,
+            "G": 0.026537,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "3A2D29"
+          }
+        },
+        {
+          "Key": "Scars",
+          "Name": "Scars",
+          "Value": {
+            "R": 0.817708,
+            "G": 0.349868,
+            "B": 0.097955,
+            "A": 1.0,
+            "Hex": "EAA058"
+          }
+        },
+        {
+          "Key": "PawPads",
+          "Name": "PawPads",
+          "Value": {
+            "R": 0.19,
+            "G": 0.08474,
+            "B": 0.095528,
+            "A": 1.0,
+            "Hex": "795257"
+          }
+        },
+        {
+          "Key": "InnerEars",
+          "Name": "InnerEars",
+          "Value": {
+            "R": 0.337164,
+            "G": 0.165132,
+            "B": 0.068478,
+            "A": 1.0,
+            "Hex": "9D714A"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.122139,
+            "G": 0.041731,
+            "B": 0.021629,
+            "A": 1.0,
+            "Hex": "623928"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.812,
+            "G": 0.392466,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E9A800"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.812,
+            "G": 0.392466,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E9A800"
+          }
+        }
+      ]
+    }
+  }
+]

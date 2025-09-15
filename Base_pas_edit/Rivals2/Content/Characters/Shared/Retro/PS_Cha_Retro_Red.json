@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cha_Retro_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cha_Retro_Red_C'Default__PS_Cha_Retro_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Shared/Retro/PS_Cha_Retro_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cha_Retro_Red_C",
+    "Name": "Default__PS_Cha_Retro_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Shared/Retro/PS_Cha_Retro_Red.PS_Cha_Retro_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Dark",
+          "Name": "Dark",
+          "Value": {
+            "R": 0.018,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "240000"
+          }
+        },
+        {
+          "Key": "Mid",
+          "Name": "Mid",
+          "Value": {
+            "R": 0.52,
+            "G": 0.0078,
+            "B": 0.014154,
+            "A": 1.0,
+            "Hex": "BF151F"
+          }
+        },
+        {
+          "Key": "Bright",
+          "Name": "Bright",
+          "Value": {
+            "R": 0.791,
+            "G": 0.362436,
+            "B": 0.076727,
+            "A": 1.0,
+            "Hex": "E6A24E"
+          }
+        },
+        {
+          "Key": "Highlight",
+          "Name": "Highlight",
+          "Value": {
+            "R": 0.619608,
+            "G": 0.933333,
+            "B": 0.933333,
+            "A": 1.0,
+            "Hex": "CFF8F8"
+          }
+        }
+      ]
+    }
+  }
+]

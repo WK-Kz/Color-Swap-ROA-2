@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Cha_Retro_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Cha_Retro_Blue_C'Default__PE_Cha_Retro_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Shared/Retro/PE_Cha_Retro_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Cha_Retro_Blue_C",
+    "Name": "Default__PE_Cha_Retro_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Shared/Retro/PE_Cha_Retro_Blue.PE_Cha_Retro_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.023806,
+            "B": 0.071,
+            "A": 1.0,
+            "Hex": "002A4B"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.015421,
+            "G": 0.159566,
+            "B": 0.533,
+            "A": 1.0,
+            "Hex": "216FC1"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.180217,
+            "G": 0.473814,
+            "B": 0.83,
+            "A": 1.0,
+            "Hex": "76B7EB"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.630757,
+            "G": 0.701102,
+            "B": 0.760525,
+            "A": 1.0,
+            "Hex": "D0DAE2"
+          }
+        }
+      ]
+    }
+  }
+]

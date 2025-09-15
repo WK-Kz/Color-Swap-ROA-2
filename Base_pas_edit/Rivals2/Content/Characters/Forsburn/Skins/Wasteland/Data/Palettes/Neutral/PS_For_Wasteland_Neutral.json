@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Wasteland_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Wasteland_Neutral_C",
     "Name": "Default__PS_For_Wasteland_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Neutral/PS_For_Wasteland_Neutral.PS_For_Wasteland_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.052861,
             "G": 0.031896,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.181164,
             "G": 0.177888,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "PaddingTrim",
+          "Name": "PaddingTrim",
           "Value": {
             "R": 0.029557,
             "G": 0.042311,
@@ -59,7 +64,41 @@
           }
         },
         {
+          "Key": "Padding",
+          "Name": "Padding",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.06301,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "3C472E"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.610496,
+            "G": 0.07036,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "CD4B25"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Name": "Straps",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.036889,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "3F3638"
+          }
+        },
+        {
           "Key": "Belt",
+          "Name": "Belt",
           "Value": {
             "R": 0.590619,
             "G": 0.366253,
@@ -70,6 +109,7 @@
         },
         {
           "Key": "MaskEyes",
+          "Name": "MaskEyes",
           "Value": {
             "R": 0.814847,
             "G": 0.0,
@@ -79,37 +119,8 @@
           }
         },
         {
-          "Key": "Pants",
-          "Value": {
-            "R": 0.610496,
-            "G": 0.07036,
-            "B": 0.0185,
-            "A": 1.0,
-            "Hex": "CD4B25"
-          }
-        },
-        {
-          "Key": "Padding",
-          "Value": {
-            "R": 0.045186,
-            "G": 0.06301,
-            "B": 0.027321,
-            "A": 1.0,
-            "Hex": "3C472E"
-          }
-        },
-        {
-          "Key": "Straps",
-          "Value": {
-            "R": 0.049707,
-            "G": 0.036889,
-            "B": 0.039546,
-            "A": 1.0,
-            "Hex": "3F3638"
-          }
-        },
-        {
           "Key": "Mask",
+          "Name": "Mask",
           "Value": {
             "R": 0.401978,
             "G": 0.391572,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "MetalTrim",
+          "Name": "MetalTrim",
           "Value": {
             "R": 0.102242,
             "G": 0.078187,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Pipe",
+          "Name": "Pipe",
           "Value": {
             "R": 0.242281,
             "G": 0.099899,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.963542,
             "G": 0.781454,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.822917,
             "G": 0.757927,
@@ -160,6 +175,7 @@
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,

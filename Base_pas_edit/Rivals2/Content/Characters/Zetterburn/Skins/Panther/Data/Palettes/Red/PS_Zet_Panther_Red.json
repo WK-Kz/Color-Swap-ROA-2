@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Zet_Panther_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Zet_Panther_Red_C",
     "Name": "Default__PS_Zet_Panther_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Panther/Data/Palettes/Red/PS_Zet_Panther_Red.PS_Zet_Panther_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Nails",
+          "Name": "Nails",
           "Value": {
             "R": 0.01096,
             "G": 0.006995,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.174,
             "G": 0.072245,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Spots",
+          "Name": "Spots",
           "Value": {
             "R": 0.059,
             "G": 0.012803,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Pads",
+          "Name": "Pads",
           "Value": {
             "R": 0.274,
             "G": 0.046032,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Nose",
+          "Name": "Nose",
           "Value": {
             "R": 0.022,
             "G": 0.018346,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.026,
             "G": 0.005746,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Tips",
+          "Name": "Tips",
           "Value": {
             "R": 0.005,
             "G": 0.001944,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Sclera",
+          "Name": "Sclera",
           "Value": {
             "R": 0.7,
             "G": 0.7,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.084,
             "G": 0.435133,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.085,
             "G": 0.003825,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.5,
             "G": 0.15925,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Leather",
+          "Name": "Leather",
           "Value": {
             "R": 0.297,
             "G": 0.207009,

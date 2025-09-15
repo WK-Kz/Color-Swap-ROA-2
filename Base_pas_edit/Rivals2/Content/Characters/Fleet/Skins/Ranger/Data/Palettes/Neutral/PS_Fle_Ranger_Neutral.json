@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Ranger_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Ranger_Neutral_C'Default__PS_Fle_Ranger_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Ranger/Data/Palettes/Neutral/PS_Fle_Ranger_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Ranger_Neutral_C",
+    "Name": "Default__PS_Fle_Ranger_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Ranger/Data/Palettes/Neutral/PS_Fle_Ranger_Neutral.PS_Fle_Ranger_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Armor",
+          "Name": "Armor",
+          "Value": {
+            "R": 0.52,
+            "G": 0.513775,
+            "B": 0.511875,
+            "A": 1.0,
+            "Hex": "BFBEBE"
+          }
+        },
+        {
+          "Key": "Cloth2",
+          "Name": "Cloth2",
+          "Value": {
+            "R": 0.026042,
+            "G": 0.026042,
+            "B": 0.026042,
+            "A": 1.0,
+            "Hex": "2C2C2C"
+          }
+        },
+        {
+          "Key": "Cloth1",
+          "Name": "Cloth1",
+          "Value": {
+            "R": 0.052083,
+            "G": 0.052083,
+            "B": 0.052083,
+            "A": 1.0,
+            "Hex": "404040"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 1.0,
+            "G": 0.205079,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "FF7D37"
+          }
+        },
+        {
+          "Key": "BowOff",
+          "Name": "BowOff",
+          "Value": {
+            "R": 0.072917,
+            "G": 0.02323,
+            "B": 0.013292,
+            "A": 1.0,
+            "Hex": "4C2A1E"
+          }
+        }
+      ]
+    }
+  }
+]

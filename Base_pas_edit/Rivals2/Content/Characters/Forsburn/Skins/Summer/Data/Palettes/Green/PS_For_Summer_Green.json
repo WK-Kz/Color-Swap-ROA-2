@@ -1,0 +1,344 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Summer_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Summer_Green_C'Default__PS_For_Summer_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Summer/Data/Palettes/Green/PS_For_Summer_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Summer_Green_C",
+    "Name": "Default__PS_For_Summer_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Summer/Data/Palettes/Green/PS_For_Summer_Green.PS_For_Summer_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.258183,
+            "G": 0.165132,
+            "B": 0.064803,
+            "A": 1.0,
+            "Hex": "8B7148"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.346704,
+            "G": 0.250158,
+            "B": 0.119538,
+            "A": 1.0,
+            "Hex": "9F8961"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.119538,
+            "G": 0.070595,
+            "B": 0.038611,
+            "A": 1.0,
+            "Hex": "614B37"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.683886,
+            "G": 0.798,
+            "B": 0.17556,
+            "A": 1.0,
+            "Hex": "D8E774"
+          }
+        },
+        {
+          "Key": "Hair2",
+          "Name": "Hair2",
+          "Value": {
+            "R": 0.683886,
+            "G": 0.798,
+            "B": 0.17556,
+            "A": 1.0,
+            "Hex": "D8E774"
+          }
+        },
+        {
+          "Key": "Sandals",
+          "Name": "Sandals",
+          "Value": {
+            "R": 0.015,
+            "G": 0.008858,
+            "B": 0.004845,
+            "A": 1.0,
+            "Hex": "20170F"
+          }
+        },
+        {
+          "Key": "Shorts",
+          "Name": "Shorts",
+          "Value": {
+            "R": 0.0,
+            "G": 0.171,
+            "B": 0.011401,
+            "A": 1.0,
+            "Hex": "00731B"
+          }
+        },
+        {
+          "Key": "ShTrims",
+          "Name": "ShTrims",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Leggings",
+          "Name": "Leggings",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Wrist",
+          "Name": "Wrist",
+          "Value": {
+            "R": 0.0,
+            "G": 0.339,
+            "B": 0.1243,
+            "A": 1.0,
+            "Hex": "009E63"
+          }
+        },
+        {
+          "Key": "WrTrims",
+          "Name": "WrTrims",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Name": "Rope",
+          "Value": {
+            "R": 0.015,
+            "G": 0.008858,
+            "B": 0.004845,
+            "A": 1.0,
+            "Hex": "20170F"
+          }
+        },
+        {
+          "Key": "Fanny",
+          "Name": "Fanny",
+          "Value": {
+            "R": 0.0,
+            "G": 0.339,
+            "B": 0.1243,
+            "A": 1.0,
+            "Hex": "009E63"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.203125,
+            "G": 0.203125,
+            "B": 0.203125,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        {
+          "Key": "Strap",
+          "Name": "Strap",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Towel",
+          "Name": "Towel",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "TowelStripe",
+          "Name": "TowelStripe",
+          "Value": {
+            "R": 0.0,
+            "G": 0.339,
+            "B": 0.1243,
+            "A": 1.0,
+            "Hex": "009E63"
+          }
+        },
+        {
+          "Key": "Tube",
+          "Name": "Tube",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "TubeStripe",
+          "Name": "TubeStripe",
+          "Value": {
+            "R": 0.384,
+            "G": 0.241931,
+            "B": 0.013385,
+            "A": 1.0,
+            "Hex": "A7871E"
+          }
+        },
+        {
+          "Key": "Popsicle",
+          "Name": "Popsicle",
+          "Value": {
+            "R": 0.283149,
+            "G": 0.165132,
+            "B": 0.111932,
+            "A": 1.0,
+            "Hex": "91715E"
+          }
+        },
+        {
+          "Key": "Ice1",
+          "Name": "Ice1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.529,
+            "B": 0.035267,
+            "A": 1.0,
+            "Hex": "00C134"
+          }
+        },
+        {
+          "Key": "Ice2",
+          "Name": "Ice2",
+          "Value": {
+            "R": 0.3255,
+            "G": 0.651,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "9BD300"
+          }
+        },
+        {
+          "Key": "Ice3",
+          "Name": "Ice3",
+          "Value": {
+            "R": 0.708,
+            "G": 0.6372,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "DBD100"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Name": "Visor",
+          "Value": {
+            "R": 0.0,
+            "G": 0.182,
+            "B": 0.012134,
+            "A": 1.0,
+            "Hex": "00761C"
+          }
+        },
+        {
+          "Key": "Glasses",
+          "Name": "Glasses",
+          "Value": {
+            "R": 0.12,
+            "G": 0.070864,
+            "B": 0.03876,
+            "A": 1.0,
+            "Hex": "614B37"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.020518,
+            "G": 0.019339,
+            "B": 0.024305,
+            "A": 1.0,
+            "Hex": "27262B"
+          }
+        },
+        {
+          "Key": "Sunscreen",
+          "Name": "Sunscreen",
+          "Value": {
+            "R": 0.6,
+            "G": 0.6,
+            "B": 0.6,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.5,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFBC00"
+          }
+        }
+      ]
+    }
+  }
+]

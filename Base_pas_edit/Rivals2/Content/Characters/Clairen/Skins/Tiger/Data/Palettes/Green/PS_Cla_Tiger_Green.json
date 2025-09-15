@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Tiger_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Tiger_Green_C'Default__PS_Cla_Tiger_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Tiger/Data/Palettes/Green/PS_Cla_Tiger_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Tiger_Green_C",
+    "Name": "Default__PS_Cla_Tiger_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Tiger/Data/Palettes/Green/PS_Cla_Tiger_Green.PS_Cla_Tiger_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.246201,
+            "B": 0.06301,
+            "A": 1.0,
+            "Hex": "008847"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.381326,
+            "G": 0.552011,
+            "B": 0.258183,
+            "A": 1.0,
+            "Hex": "A6C48B"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.0,
+            "G": 0.023153,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "002A0D"
+          }
+        },
+        {
+          "Key": "InnerEar",
+          "Name": "InnerEar",
+          "Value": {
+            "R": 0.219,
+            "G": 0.175072,
+            "B": 0.128115,
+            "A": 1.0,
+            "Hex": "817464"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.219,
+            "G": 0.149351,
+            "B": 0.074898,
+            "A": 1.0,
+            "Hex": "816C4D"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.012,
+            "G": 0.012,
+            "B": 0.012,
+            "A": 1.0,
+            "Hex": "1C1C1C"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.010974,
+            "G": 0.093,
+            "B": 0.031967,
+            "A": 1.0,
+            "Hex": "1B5632"
+          }
+        },
+        {
+          "Key": "Boots",
+          "Name": "Boots",
+          "Value": {
+            "R": 0.095307,
+            "G": 0.051269,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "574029"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.029557,
+            "G": 0.029557,
+            "B": 0.029557,
+            "A": 1.0,
+            "Hex": "303030"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.187821,
+            "G": 0.187821,
+            "B": 0.187821,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        {
+          "Key": "Accessories",
+          "Name": "Accessories",
+          "Value": {
+            "R": 0.09,
+            "G": 0.09,
+            "B": 0.09,
+            "A": 1.0,
+            "Hex": "545454"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.087261,
+            "G": 0.205079,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "537D00"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.0,
+            "G": 0.023153,
+            "B": 0.004025,
+            "A": 1.0,
+            "Hex": "002A0D"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Name": "Braid",
+          "Value": {
+            "R": 0.103557,
+            "G": 0.0,
+            "B": 0.375,
+            "A": 1.0,
+            "Hex": "5A00A5"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.673,
+            "G": 0.076901,
+            "B": 0.034323,
+            "A": 1.0,
+            "Hex": "D64E34"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.673,
+            "G": 0.076901,
+            "B": 0.034323,
+            "A": 1.0,
+            "Hex": "D64E34"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Name": "Sword",
+          "Value": {
+            "R": 0.047221,
+            "G": 0.156,
+            "B": 0.023336,
+            "A": 1.0,
+            "Hex": "3D6E2A"
+          }
+        },
+        {
+          "Key": "Grip",
+          "Name": "Grip",
+          "Value": {
+            "R": 0.301,
+            "G": 0.183651,
+            "B": 0.093912,
+            "A": 1.0,
+            "Hex": "957756"
+          }
+        },
+        {
+          "Key": "Laser",
+          "Name": "Laser",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        }
+      ]
+    }
+  }
+]

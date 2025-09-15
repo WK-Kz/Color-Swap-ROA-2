@@ -1,0 +1,190 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Husky_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Husky_Purple_C'Default__PS_Fle_Husky_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Husky/Data/Palettes/Purple/PS_Fle_Husky_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Husky_Purple_C",
+    "Name": "Default__PS_Fle_Husky_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Husky/Data/Palettes/Purple/PS_Fle_Husky_Purple.PS_Fle_Husky_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.821,
+            "G": 0.4926,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "EABA00"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.029,
+            "G": 0.013833,
+            "B": 0.029,
+            "A": 1.0,
+            "Hex": "2F1F2F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.714698,
+            "G": 0.64448,
+            "B": 0.730461,
+            "A": 1.0,
+            "Hex": "DCD2DE"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.202,
+            "G": 0.11546,
+            "B": 0.10403,
+            "A": 1.0,
+            "Hex": "7C5F5B"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.083833,
+            "G": 0.03,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "52307C"
+          }
+        },
+        {
+          "Key": "Shirt2",
+          "Name": "Shirt2",
+          "Value": {
+            "R": 0.2574,
+            "G": 0.132,
+            "B": 0.55,
+            "A": 1.0,
+            "Hex": "8B66C4"
+          }
+        },
+        {
+          "Key": "Belts",
+          "Name": "Belts",
+          "Value": {
+            "R": 0.020828,
+            "G": 0.027965,
+            "B": 0.082,
+            "A": 1.0,
+            "Hex": "272E51"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.083833,
+            "G": 0.03,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "52307C"
+          }
+        },
+        {
+          "Key": "CapeTrim",
+          "Name": "CapeTrim",
+          "Value": {
+            "R": 0.2574,
+            "G": 0.132,
+            "B": 0.55,
+            "A": 1.0,
+            "Hex": "8B66C4"
+          }
+        },
+        {
+          "Key": "BowWraps",
+          "Name": "BowWraps",
+          "Value": {
+            "R": 0.35,
+            "G": 0.3825,
+            "B": 0.5,
+            "A": 1.0,
+            "Hex": "A0A6BC"
+          }
+        },
+        {
+          "Key": "BowGem",
+          "Name": "BowGem",
+          "Value": {
+            "R": 0.269484,
+            "G": 0.0,
+            "B": 0.851,
+            "A": 1.0,
+            "Hex": "8E00EE"
+          }
+        },
+        {
+          "Key": "Wood",
+          "Name": "Wood",
+          "Value": {
+            "R": 0.332452,
+            "G": 0.102242,
+            "B": 0.057805,
+            "A": 1.0,
+            "Hex": "9C5A44"
+          }
+        },
+        {
+          "Key": "Bow",
+          "Name": "Bow",
+          "Value": {
+            "R": 0.047336,
+            "G": 0.020828,
+            "B": 0.082,
+            "A": 1.0,
+            "Hex": "3D2751"
+          }
+        },
+        {
+          "Key": "BowMetal",
+          "Name": "BowMetal",
+          "Value": {
+            "R": 0.33,
+            "G": 0.275,
+            "B": 0.55,
+            "A": 1.0,
+            "Hex": "9C8FC4"
+          }
+        }
+      ]
+    }
+  }
+]

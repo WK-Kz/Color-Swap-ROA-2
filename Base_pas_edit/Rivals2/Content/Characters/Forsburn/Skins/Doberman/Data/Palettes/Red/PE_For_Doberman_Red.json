@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_For_Doberman_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_For_Doberman_Red_C",
     "Name": "Default__PE_For_Doberman_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Doberman/Data/Palettes/Red/PE_For_Doberman_Red.PE_For_Doberman_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.8,
             "G": 0.2696,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
             "R": 0.2,
             "G": 0.0306,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
             "R": 0.01,
             "G": 0.001053,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
             "R": 0.672443,
             "G": 0.01096,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
             "R": 0.921582,
             "G": 0.381326,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
             "R": 0.973445,
             "G": 0.814847,
@@ -90,12 +98,24 @@
         },
         {
           "Key": "Element6",
+          "Name": "Element6",
           "Value": {
             "R": 1.0,
             "G": 1.0,
             "B": 1.0,
             "A": 1.0,
             "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "CapeFX",
+          "Name": "CapeFX",
+          "Value": {
+            "R": 0.103,
+            "G": 0.011206,
+            "B": 0.013578,
+            "A": 1.0,
+            "Hex": "5A1B1E"
           }
         }
       ]

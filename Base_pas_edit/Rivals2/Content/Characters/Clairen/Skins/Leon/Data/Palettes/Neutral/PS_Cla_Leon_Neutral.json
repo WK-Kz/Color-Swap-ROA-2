@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Cla_Leon_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Cla_Leon_Neutral_C",
     "Name": "Default__PS_Cla_Leon_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Leon/Data/Palettes/Neutral/PS_Cla_Leon_Neutral.PS_Cla_Leon_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.672443,
             "G": 0.539479,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.084,
             "G": 0.05424,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Ears",
+          "Name": "Ears",
           "Value": {
             "R": 0.191202,
             "G": 0.14321,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Claws",
+          "Name": "Claws",
           "Value": {
             "R": 0.020833,
             "G": 0.017021,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.341914,
             "G": 0.341914,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.191202,
             "G": 0.084376,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Straps",
+          "Name": "Straps",
           "Value": {
             "R": 0.042311,
             "G": 0.027321,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Gloves/Boots",
+          "Name": "Gloves/Boots",
           "Value": {
             "R": 0.016807,
             "G": 0.013702,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 1.0,
             "G": 0.166667,
@@ -119,7 +130,8 @@
           }
         },
         {
-          "Key": "Eyes",
+          "Key": "LeftIris",
+          "Name": "LeftIris",
           "Value": {
             "R": 0.023028,
             "G": 0.162718,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.672443,
             "G": 0.539479,
@@ -140,12 +153,24 @@
         },
         {
           "Key": "Braid",
+          "Name": "Braid",
           "Value": {
             "R": 0.0,
             "G": 0.183333,
             "B": 1.0,
             "A": 1.0,
             "Hex": "0077FF"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.023028,
+            "G": 0.162718,
+            "B": 0.404,
+            "A": 1.0,
+            "Hex": "2A70AB"
           }
         }
       ]

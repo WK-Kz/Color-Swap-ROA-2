@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_RainyDay_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_RainyDay_Green_C'Default__PS_Cla_RainyDay_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/RainyDay/Data/Palettes/Green/PS_Cla_RainyDay_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_RainyDay_Green_C",
+    "Name": "Default__PS_Cla_RainyDay_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/RainyDay/Data/Palettes/Green/PS_Cla_RainyDay_Green.PS_Cla_RainyDay_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.661458,
+            "G": 0.651869,
+            "B": 0.086127,
+            "A": 1.0,
+            "Hex": "D5D353"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.477995,
+            "G": 0.47376,
+            "B": 0.479167,
+            "A": 1.0,
+            "Hex": "B8B7B8"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.257507,
+            "G": 0.703125,
+            "B": 0.157471,
+            "A": 1.0,
+            "Hex": "8BDB6E"
+          }
+        },
+        {
+          "Key": "UmbrellaHandle",
+          "Name": "UmbrellaHandle",
+          "Value": {
+            "R": 0.814847,
+            "G": 0.338683,
+            "B": 0.06301,
+            "A": 1.0,
+            "Hex": "E99D47"
+          }
+        },
+        {
+          "Key": "UmbrellaTipper",
+          "Name": "UmbrellaTipper",
+          "Value": {
+            "R": 0.822917,
+            "G": 0.803671,
+            "B": 0.06429,
+            "A": 1.0,
+            "Hex": "EAE847"
+          }
+        }
+      ]
+    }
+  }
+]

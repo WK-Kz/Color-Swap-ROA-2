@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Zet_Default_Purple_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Zet_Default_Purple_C",
     "Name": "Default__PS_Zet_Default_Purple_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Default/Data/Palettes/Purple/PS_Zet_Default_Purple.PS_Zet_Default_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.402532,
             "G": 0.372734,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.392,
             "G": 0.304146,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.629,
             "G": 0.511911,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Paws",
+          "Name": "Paws",
           "Value": {
             "R": 0.010069,
             "G": 0.003035,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.471,
             "G": 0.11775,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.166933,
             "G": 0.04941,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.33466,
             "G": 0.16068,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.075,
             "G": 0.0039,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.177723,
             "G": 0.194602,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Leather",
+          "Name": "Leather",
           "Value": {
             "R": 0.017332,
             "G": 0.008474,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Gums",
+          "Name": "Gums",
           "Value": {
             "R": 0.23074,
             "G": 0.057805,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Teeth",
+          "Name": "Teeth",
           "Value": {
             "R": 0.730461,
             "G": 0.679542,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Sclera",
+          "Name": "Sclera",
           "Value": {
             "R": 0.752942,
             "G": 0.760525,

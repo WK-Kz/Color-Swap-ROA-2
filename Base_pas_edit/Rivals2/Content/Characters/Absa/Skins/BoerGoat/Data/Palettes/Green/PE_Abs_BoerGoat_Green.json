@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Abs_BoerGoat_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Abs_BoerGoat_Green_C'Default__PE_Abs_BoerGoat_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Absa/Skins/BoerGoat/Data/Palettes/Green/PE_Abs_BoerGoat_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Abs_BoerGoat_Green_C",
+    "Name": "Default__PE_Abs_BoerGoat_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Absa/Skins/BoerGoat/Data/Palettes/Green/PE_Abs_BoerGoat_Green.PE_Abs_BoerGoat_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.016222,
+            "G": 0.239583,
+            "B": 0.143474,
+            "A": 1.0,
+            "Hex": "22866A"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.020289,
+            "G": 0.144128,
+            "B": 0.090842,
+            "A": 1.0,
+            "Hex": "276A55"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.002089,
+            "G": 0.401042,
+            "B": 0.097836,
+            "A": 1.0,
+            "Hex": "06AA58"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.14917,
+            "G": 0.609375,
+            "B": 0.154629,
+            "A": 1.0,
+            "Hex": "6CCD6D"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.200185,
+            "G": 0.030713,
+            "B": 0.514918,
+            "A": 1.0,
+            "Hex": "7C31BE"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Lovers_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Lovers_Green_C'Default__PS_Fle_Lovers_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Lovers/Data/Palettes/Green/PS_Fle_Lovers_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Lovers_Green_C",
+    "Name": "Default__PS_Fle_Lovers_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Lovers/Data/Palettes/Green/PS_Fle_Lovers_Green.PS_Fle_Lovers_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Bow",
+          "Name": "Bow",
+          "Value": {
+            "R": 0.489,
+            "G": 0.481078,
+            "B": 0.013692,
+            "A": 1.0,
+            "Hex": "BAB91F"
+          }
+        },
+        {
+          "Key": "Accent",
+          "Name": "Accent",
+          "Value": {
+            "R": 0.047724,
+            "G": 0.246,
+            "B": 0.047724,
+            "A": 1.0,
+            "Hex": "3D883D"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.02603,
+            "G": 0.137,
+            "B": 0.048224,
+            "A": 1.0,
+            "Hex": "2C673E"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.13831,
+            "G": 0.3,
+            "B": 0.0447,
+            "A": 1.0,
+            "Hex": "68953B"
+          }
+        }
+      ]
+    }
+  }
+]

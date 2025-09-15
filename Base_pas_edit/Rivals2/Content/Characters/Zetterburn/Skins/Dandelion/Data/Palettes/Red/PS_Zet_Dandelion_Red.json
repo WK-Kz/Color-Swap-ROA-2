@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Zet_Dandelion_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Zet_Dandelion_Red_C'Default__PS_Zet_Dandelion_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Zetterburn/Skins/Dandelion/Data/Palettes/Red/PS_Zet_Dandelion_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Zet_Dandelion_Red_C",
+    "Name": "Default__PS_Zet_Dandelion_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Dandelion/Data/Palettes/Red/PS_Zet_Dandelion_Red.PS_Zet_Dandelion_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.022523,
+            "G": 0.205,
+            "B": 0.065101,
+            "A": 1.0,
+            "Hex": "297D48"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.083427,
+            "G": 0.341914,
+            "B": 0.225595,
+            "A": 1.0,
+            "Hex": "519E83"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.462077,
+            "G": 0.385972,
+            "B": 0.409355,
+            "A": 1.0,
+            "Hex": "B5A7AC"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.057292,
+            "G": 0.017352,
+            "B": 0.017352,
+            "A": 1.0,
+            "Hex": "432323"
+          }
+        },
+        {
+          "Key": "Wood",
+          "Name": "Wood",
+          "Value": {
+            "R": 0.125,
+            "G": 0.061638,
+            "B": 0.07163,
+            "A": 1.0,
+            "Hex": "63464B"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 1.0,
+            "G": 0.040594,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "FF3831"
+          }
+        },
+        {
+          "Key": "Fluff",
+          "Name": "Fluff",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.260924,
+            "B": 0.256766,
+            "A": 1.0,
+            "Hex": "AD8C8B"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 1.0,
+            "G": 0.157706,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF6F00"
+          }
+        },
+        {
+          "Key": "StemsDark",
+          "Name": "StemsDark",
+          "Value": {
+            "R": 0.057805,
+            "G": 0.017642,
+            "B": 0.017642,
+            "A": 1.0,
+            "Hex": "442424"
+          }
+        },
+        {
+          "Key": "Flowers",
+          "Name": "Flowers",
+          "Value": {
+            "R": 1.0,
+            "G": 0.040915,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "FF3931"
+          }
+        },
+        {
+          "Key": "PuffBalls",
+          "Name": "PuffBalls",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Stems",
+          "Name": "Stems",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.205079,
+            "B": 0.064803,
+            "A": 1.0,
+            "Hex": "297D48"
+          }
+        }
+      ]
+    }
+  }
+]

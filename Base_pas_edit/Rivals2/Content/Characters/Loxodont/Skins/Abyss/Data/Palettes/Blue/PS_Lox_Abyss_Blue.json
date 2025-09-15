@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Lox_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Lox_Abyss_Blue_C",
     "Name": "Default__PS_Lox_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Abyss/Data/Palettes/Blue/PS_Lox_Abyss_Blue.PS_Lox_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body_Main",
+          "Name": "Body_Main",
           "Value": {
             "R": 0.054238,
             "G": 0.062863,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Body_AbyssDark",
+          "Name": "Body_AbyssDark",
           "Value": {
             "R": 0.0,
             "G": 0.092026,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Body_AbyssBright",
+          "Name": "Body_AbyssBright",
           "Value": {
             "R": 0.0,
             "G": 0.564712,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Body_WingNails",
+          "Name": "Body_WingNails",
           "Value": {
             "R": 0.02773,
             "G": 0.014444,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "BodyMolten_Main",
+          "Name": "BodyMolten_Main",
           "Value": {
             "R": 0.05,
             "G": 0.045591,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Clothing_Bone",
+          "Name": "Clothing_Bone",
           "Value": {
             "R": 0.230499,
             "G": 0.189947,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Clothing_Cloth",
+          "Name": "Clothing_Cloth",
           "Value": {
             "R": 0.0,
             "G": 0.564712,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Tusks_AbyssDark",
+          "Name": "Tusks_AbyssDark",
           "Value": {
             "R": 0.03125,
             "G": 0.014332,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Tusks_AbyssBright",
+          "Name": "Tusks_AbyssBright",
           "Value": {
             "R": 0.0,
             "G": 0.517653,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Axe_AbyssDark",
+          "Name": "Axe_AbyssDark",
           "Value": {
             "R": 0.0,
             "G": 0.093059,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Axe_AbyssBright",
+          "Name": "Axe_AbyssBright",
           "Value": {
             "R": 0.0,
             "G": 0.564712,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Axe_Bone",
+          "Name": "Axe_Bone",
           "Value": {
             "R": 0.23074,
             "G": 0.191202,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "AbyssEye_Sclera",
+          "Name": "AbyssEye_Sclera",
           "Value": {
             "R": 0.183633,
             "G": 0.329737,
@@ -160,6 +175,7 @@
         },
         {
           "Key": "AbyssEye_Iris",
+          "Name": "AbyssEye_Iris",
           "Value": {
             "R": 0.0,
             "G": 0.545724,
@@ -170,6 +186,7 @@
         },
         {
           "Key": "Throne_AbyssSeal",
+          "Name": "Throne_AbyssSeal",
           "Value": {
             "R": 0.020289,
             "G": 0.048172,
@@ -180,6 +197,7 @@
         },
         {
           "Key": "Throne_Stone",
+          "Name": "Throne_Stone",
           "Value": {
             "R": 0.327778,
             "G": 0.144128,
@@ -190,6 +208,7 @@
         },
         {
           "Key": "Throne_AbyssBright",
+          "Name": "Throne_AbyssBright",
           "Value": {
             "R": 0.434154,
             "G": 0.0,
@@ -200,6 +219,7 @@
         },
         {
           "Key": "Throne_AbyssDark",
+          "Name": "Throne_AbyssDark",
           "Value": {
             "R": 0.0,
             "G": 0.564712,

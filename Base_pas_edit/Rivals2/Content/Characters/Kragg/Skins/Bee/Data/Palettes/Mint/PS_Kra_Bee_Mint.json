@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Bee_Mint_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Bee_Mint_C'Default__PS_Kra_Bee_Mint_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Bee/Data/Palettes/Mint/PS_Kra_Bee_Mint.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Bee_Mint_C",
+    "Name": "Default__PS_Kra_Bee_Mint_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Bee/Data/Palettes/Mint/PS_Kra_Bee_Mint.PS_Kra_Bee_Mint_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.001085,
+            "G": 0.104167,
+            "B": 0.067595,
+            "A": 1.0,
+            "Hex": "035B49"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 0.59375,
+            "G": 0.411192,
+            "B": 0.095866,
+            "A": 1.0,
+            "Hex": "CBAC57"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Name": "Spikes",
+          "Value": {
+            "R": 0.880208,
+            "G": 0.206299,
+            "B": 0.374775,
+            "A": 1.0,
+            "Hex": "F27DA5"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.146647,
+            "G": 0.53125,
+            "B": 0.345355,
+            "A": 1.0,
+            "Hex": "6BC19F"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.114583,
+            "B": 0.335937,
+            "A": 1.0,
+            "Hex": "FF5F9D"
+          }
+        },
+        {
+          "Key": "Rock",
+          "Name": "Rock",
+          "Value": {
+            "R": 0.59375,
+            "G": 0.411192,
+            "B": 0.095866,
+            "A": 1.0,
+            "Hex": "CBAC57"
+          }
+        }
+      ]
+    }
+  }
+]

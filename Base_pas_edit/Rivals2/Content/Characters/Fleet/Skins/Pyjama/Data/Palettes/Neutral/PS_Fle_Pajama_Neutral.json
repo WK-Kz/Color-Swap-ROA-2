@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Pajama_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Pajama_Neutral_C'Default__PS_Fle_Pajama_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Neutral/PS_Fle_Pajama_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Pajama_Neutral_C",
+    "Name": "Default__PS_Fle_Pajama_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Neutral/PS_Fle_Pajama_Neutral.PS_Fle_Pajama_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.0,
+            "G": 0.291493,
+            "B": 0.380208,
+            "A": 1.0,
+            "Hex": "0093A6"
+          }
+        },
+        {
+          "Key": "CapeTrim",
+          "Name": "CapeTrim",
+          "Value": {
+            "R": 0.822786,
+            "G": 0.822786,
+            "B": 0.822786,
+            "A": 1.0,
+            "Hex": "EAEAEA"
+          }
+        },
+        {
+          "Key": "Accent",
+          "Name": "Accent",
+          "Value": {
+            "R": 1.0,
+            "G": 0.610395,
+            "B": 0.165132,
+            "A": 1.0,
+            "Hex": "FFCD71"
+          }
+        },
+        {
+          "Key": "ClothingTrim",
+          "Name": "ClothingTrim",
+          "Value": {
+            "R": 0.770833,
+            "G": 0.289062,
+            "B": 0.706597,
+            "A": 1.0,
+            "Hex": "E492DB"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.292495,
+            "G": 0.090196,
+            "B": 0.494792,
+            "A": 1.0,
+            "Hex": "9355BB"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Eta_Striped_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Eta_Striped_Blue_C'Default__PS_Eta_Striped_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Etalus/Skins/Striped/Data/Palettes/Blue/PS_Eta_Striped_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Eta_Striped_Blue_C",
+    "Name": "Default__PS_Eta_Striped_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Etalus/Skins/Striped/Data/Palettes/Blue/PS_Eta_Striped_Blue.PS_Eta_Striped_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.019,
+            "G": 0.019,
+            "B": 0.019,
+            "A": 1.0,
+            "Hex": "252525"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.01323,
+            "G": 0.140899,
+            "B": 0.378,
+            "A": 1.0,
+            "Hex": "1E69A5"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.445201,
+            "G": 0.585673,
+            "B": 0.617207,
+            "A": 1.0,
+            "Hex": "B2CACE"
+          }
+        },
+        {
+          "Key": "Stripes",
+          "Name": "Stripes",
+          "Value": {
+            "R": 0.026977,
+            "G": 0.031314,
+            "B": 0.053,
+            "A": 1.0,
+            "Hex": "2D3141"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.049,
+            "G": 0.035382,
+            "B": 0.030429,
+            "A": 1.0,
+            "Hex": "3E3530"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.049,
+            "G": 0.035382,
+            "B": 0.030429,
+            "A": 1.0,
+            "Hex": "3E3530"
+          }
+        },
+        {
+          "Key": "RightIris",
+          "Name": "RightIris",
+          "Value": {
+            "R": 0.062296,
+            "G": 0.52,
+            "B": 0.01144,
+            "A": 1.0,
+            "Hex": "46BF1B"
+          }
+        },
+        {
+          "Key": "LeftIris",
+          "Name": "LeftIris",
+          "Value": {
+            "R": 0.062296,
+            "G": 0.52,
+            "B": 0.01144,
+            "A": 1.0,
+            "Hex": "46BF1B"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.469,
+            "G": 0.096926,
+            "B": 0.022512,
+            "A": 1.0,
+            "Hex": "B65829"
+          }
+        }
+      ]
+    }
+  }
+]

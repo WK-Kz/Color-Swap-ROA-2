@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Wra_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Wra_Abyss_Blue_C",
     "Name": "Default__PS_Wra_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Abyss/Data/Palettes/Blue/PS_Wra_Abyss_Blue.PS_Wra_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.045972,
             "G": 0.111975,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Wings",
+          "Name": "Wings",
           "Value": {
             "R": 0.056128,
             "G": 0.067075,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Legs",
+          "Name": "Legs",
           "Value": {
             "R": 0.327778,
             "G": 0.418672,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.068478,
             "G": 0.751594,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Eyes2",
+          "Name": "Eyes2",
           "Value": {
             "R": 0.002729,
             "G": 0.256126,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Scarf",
+          "Name": "Scarf",
           "Value": {
             "R": 0.0,
             "G": 0.235061,

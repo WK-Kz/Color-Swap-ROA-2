@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Summer_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Summer_Neutral_C'Default__PS_Cla_Summer_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Summer/Data/Palettes/Neutral/PS_Cla_Summer_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Summer_Neutral_C",
+    "Name": "Default__PS_Cla_Summer_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Summer/Data/Palettes/Neutral/PS_Cla_Summer_Neutral.PS_Cla_Summer_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Straps",
+          "Name": "Straps",
+          "Value": {
+            "R": 0.034,
+            "G": 0.03302,
+            "B": 0.032708,
+            "A": 1.0,
+            "Hex": "333332"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.01884,
+            "G": 0.0159,
+            "B": 0.06,
+            "A": 1.0,
+            "Hex": "252245"
+          }
+        },
+        {
+          "Key": "ClothingAccent",
+          "Name": "ClothingAccent",
+          "Value": {
+            "R": 0.12968,
+            "G": 0.02436,
+            "B": 0.42,
+            "A": 1.0,
+            "Hex": "652BAE"
+          }
+        },
+        {
+          "Key": "SafetyVest",
+          "Name": "SafetyVest",
+          "Value": {
+            "R": 0.921582,
+            "G": 0.48515,
+            "B": 0.084376,
+            "A": 1.0,
+            "Hex": "F6B952"
+          }
+        },
+        {
+          "Key": "Sandals",
+          "Name": "Sandals",
+          "Value": {
+            "R": 0.099421,
+            "G": 0.018676,
+            "B": 0.322,
+            "A": 1.0,
+            "Hex": "59259A"
+          }
+        },
+        {
+          "Key": "Knot",
+          "Name": "Knot",
+          "Value": {
+            "R": 0.647831,
+            "G": 0.619168,
+            "B": 0.720486,
+            "A": 1.0,
+            "Hex": "D3CFDD"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.008568,
+            "G": 0.074214,
+            "B": 0.238398,
+            "A": 1.0,
+            "Hex": "174D86"
+          }
+        },
+        {
+          "Key": "Cape2",
+          "Name": "Cape2",
+          "Value": {
+            "R": 0.012983,
+            "G": 0.371238,
+            "B": 0.278894,
+            "A": 1.0,
+            "Hex": "1EA490"
+          }
+        },
+        {
+          "Key": "CapeDetail",
+          "Name": "CapeDetail",
+          "Value": {
+            "R": 0.637597,
+            "G": 0.617207,
+            "B": 0.57758,
+            "A": 1.0,
+            "Hex": "D1CEC8"
+          }
+        },
+        {
+          "Key": "Visor",
+          "Name": "Visor",
+          "Value": {
+            "R": 0.027777,
+            "G": 0.027777,
+            "B": 0.027777,
+            "A": 1.0,
+            "Hex": "2E2E2E"
+          }
+        },
+        {
+          "Key": "Snorkel",
+          "Name": "Snorkel",
+          "Value": {
+            "R": 0.239583,
+            "G": 0.239583,
+            "B": 0.239583,
+            "A": 1.0,
+            "Hex": "868686"
+          }
+        },
+        {
+          "Key": "Glow",
+          "Name": "Glow",
+          "Value": {
+            "R": 0.192375,
+            "G": 0.453904,
+            "B": 0.513,
+            "A": 1.0,
+            "Hex": "79B4BE"
+          }
+        },
+        {
+          "Key": "Sword",
+          "Name": "Sword",
+          "Value": {
+            "R": 0.651406,
+            "G": 0.62396,
+            "B": 0.590619,
+            "A": 1.0,
+            "Hex": "D3CFCA"
+          }
+        }
+      ]
+    }
+  }
+]

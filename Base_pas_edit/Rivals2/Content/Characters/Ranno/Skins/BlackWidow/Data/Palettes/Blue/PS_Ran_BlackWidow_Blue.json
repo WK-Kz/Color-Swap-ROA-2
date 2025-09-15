@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Ran_BlackWidow_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Ran_BlackWidow_Blue_C",
     "Name": "Default__PS_Ran_BlackWidow_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/BlackWidow/Data/Palettes/Blue/PS_Ran_BlackWidow_Blue.PS_Ran_BlackWidow_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.062634,
             "G": 0.117362,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.396032,
             "G": 0.534135,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.029216,
             "G": 0.040539,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Emblem",
+          "Name": "Emblem",
           "Value": {
             "R": 0.0,
             "G": 0.115628,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Mouth",
+          "Name": "Mouth",
           "Value": {
             "R": 0.520996,
             "G": 0.093059,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.077572,
             "G": 0.123602,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Wraps",
+          "Name": "Wraps",
           "Value": {
             "R": 0.011765,
             "G": 0.14902,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.0,
             "G": 1.0,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Tongue",
+          "Name": "Tongue",
           "Value": {
             "R": 0.26244,
             "G": 0.53622,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.011765,
             "G": 0.14902,
@@ -129,37 +141,8 @@
           }
         },
         {
-          "Key": "Bug1",
-          "Value": {
-            "R": 0.028426,
-            "G": 0.039546,
-            "B": 0.082283,
-            "A": 1.0,
-            "Hex": "2F3851"
-          }
-        },
-        {
-          "Key": "Bug2",
-          "Value": {
-            "R": 0.0,
-            "G": 0.114435,
-            "B": 0.991102,
-            "A": 1.0,
-            "Hex": "005FFE"
-          }
-        },
-        {
-          "Key": "Rope",
-          "Value": {
-            "R": 0.133,
-            "G": 0.109947,
-            "B": 0.0798,
-            "A": 1.0,
-            "Hex": "665D50"
-          }
-        },
-        {
           "Key": "Skull",
+          "Name": "Skull",
           "Value": {
             "R": 0.576684,
             "G": 0.758978,
@@ -169,7 +152,52 @@
           }
         },
         {
+          "Key": "Rope",
+          "Name": "Rope",
+          "Value": {
+            "R": 0.133,
+            "G": 0.109947,
+            "B": 0.0798,
+            "A": 1.0,
+            "Hex": "665D50"
+          }
+        },
+        {
+          "Key": "Limbs",
+          "Name": "Limbs",
+          "Value": {
+            "R": 0.029216,
+            "G": 0.040539,
+            "B": 0.083,
+            "A": 1.0,
+            "Hex": "2F3851"
+          }
+        },
+        {
+          "Key": "Color",
+          "Name": "Color",
+          "Value": {
+            "R": 0.0,
+            "G": 0.115628,
+            "B": 0.991102,
+            "A": 1.0,
+            "Hex": "005FFE"
+          }
+        },
+        {
+          "Key": "Joints",
+          "Name": "Joints",
+          "Value": {
+            "R": 0.003391,
+            "G": 0.042945,
+            "B": 0.165,
+            "A": 1.0,
+            "Hex": "0B3A71"
+          }
+        },
+        {
           "Key": "Webbing",
+          "Name": "Webbing",
           "Value": {
             "R": 0.361897,
             "G": 0.481659,

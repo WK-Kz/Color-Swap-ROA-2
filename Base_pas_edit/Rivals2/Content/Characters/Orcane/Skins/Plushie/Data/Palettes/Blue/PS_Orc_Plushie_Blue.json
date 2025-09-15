@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Orc_Plushie_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Orc_Plushie_Blue_C'Default__PS_Orc_Plushie_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Orcane/Skins/Plushie/Data/Palettes/Blue/PS_Orc_Plushie_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Orc_Plushie_Blue_C",
+    "Name": "Default__PS_Orc_Plushie_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Plushie/Data/Palettes/Blue/PS_Orc_Plushie_Blue.PS_Orc_Plushie_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.0,
+            "G": 0.444267,
+            "B": 0.476,
+            "A": 1.0,
+            "Hex": "00B2B8"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.730461,
+            "G": 1.0,
+            "B": 0.921582,
+            "A": 1.0,
+            "Hex": "DEFFF6"
+          }
+        },
+        {
+          "Key": "Pads",
+          "Name": "Pads",
+          "Value": {
+            "R": 0.913099,
+            "G": 0.450786,
+            "B": 0.450786,
+            "A": 1.0,
+            "Hex": "F5B3B3"
+          }
+        },
+        {
+          "Key": "Stitches",
+          "Name": "Stitches",
+          "Value": {
+            "R": 0.730461,
+            "G": 1.0,
+            "B": 0.921582,
+            "A": 1.0,
+            "Hex": "DEFFF6"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.806952,
+            "G": 0.610496,
+            "B": 0.078187,
+            "A": 1.0,
+            "Hex": "E8CD4F"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.090842,
+            "B": 0.06301,
+            "A": 1.0,
+            "Hex": "895547"
+          }
+        },
+        {
+          "Key": "Eyeliner",
+          "Name": "Eyeliner",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.090842,
+            "B": 0.06301,
+            "A": 1.0,
+            "Hex": "895547"
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Name": "Mouth",
+          "Value": {
+            "R": 0.467784,
+            "G": 0.078187,
+            "B": 0.078187,
+            "A": 1.0,
+            "Hex": "B64F4F"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 1.0,
+            "G": 0.205079,
+            "B": 0.205079,
+            "A": 1.0,
+            "Hex": "FF7D7D"
+          }
+        },
+        {
+          "Key": "Teeth",
+          "Name": "Teeth",
+          "Value": {
+            "R": 0.887923,
+            "G": 0.822786,
+            "B": 0.822786,
+            "A": 1.0,
+            "Hex": "F2EAEA"
+          }
+        },
+        {
+          "Key": "Tag",
+          "Name": "Tag",
+          "Value": {
+            "R": 0.4,
+            "G": 0.4,
+            "B": 0.4,
+            "A": 1.0,
+            "Hex": "AAAAAA"
+          }
+        }
+      ]
+    }
+  }
+]

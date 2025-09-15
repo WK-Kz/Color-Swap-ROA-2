@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_DarkFuture_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_DarkFuture_Red_C'Default__PS_Lox_DarkFuture_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/DarkFuture/Data/Palettes/Red/PS_Lox_DarkFuture_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_DarkFuture_Red_C",
+    "Name": "Default__PS_Lox_DarkFuture_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/DarkFuture/Data/Palettes/Red/PS_Lox_DarkFuture_Red.PS_Lox_DarkFuture_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Lights",
+          "Name": "Lights",
+          "Value": {
+            "R": 3.0,
+            "G": 0.25,
+            "B": 0.57389,
+            "A": 1.0,
+            "Hex": "FF89C8"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.026042,
+            "G": 0.016276,
+            "B": 0.016276,
+            "A": 1.0,
+            "Hex": "2C2222"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.177083,
+            "G": 0.079318,
+            "B": 0.080948,
+            "A": 1.0,
+            "Hex": "754F50"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.182292,
+            "G": 0.028483,
+            "B": 0.064372,
+            "A": 1.0,
+            "Hex": "762F48"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.65625,
+            "G": 0.371676,
+            "B": 0.060814,
+            "A": 1.0,
+            "Hex": "D4A446"
+          }
+        },
+        {
+          "Key": "Hands",
+          "Name": "Hands",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "AxeMetal",
+          "Name": "AxeMetal",
+          "Value": {
+            "R": 0.177083,
+            "G": 0.079318,
+            "B": 0.080948,
+            "A": 1.0,
+            "Hex": "754F50"
+          }
+        },
+        {
+          "Key": "AxeCloth",
+          "Name": "AxeCloth",
+          "Value": {
+            "R": 0.182292,
+            "G": 0.028483,
+            "B": 0.064372,
+            "A": 1.0,
+            "Hex": "762F48"
+          }
+        },
+        {
+          "Key": "BoulderMetal",
+          "Name": "BoulderMetal",
+          "Value": {
+            "R": 0.239583,
+            "G": 0.107313,
+            "B": 0.109518,
+            "A": 1.0,
+            "Hex": "865C5D"
+          }
+        }
+      ]
+    }
+  }
+]

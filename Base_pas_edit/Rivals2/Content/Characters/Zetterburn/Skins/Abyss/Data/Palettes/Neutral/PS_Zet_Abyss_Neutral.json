@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Zet_Abyss_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Zet_Abyss_Neutral_C",
     "Name": "Default__PS_Zet_Abyss_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Abyss/Data/Palettes/Neutral/PS_Zet_Abyss_Neutral.PS_Zet_Abyss_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Corruption",
+          "Name": "Corruption",
           "Value": {
             "R": 0.027283,
             "G": 0.028485,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Corruption2",
+          "Name": "Corruption2",
           "Value": {
             "R": 0.533999,
             "G": 0.108399,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.102242,
             "G": 0.048172,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.420139,
             "G": 0.392497,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Leather",
+          "Name": "Leather",
           "Value": {
             "R": 0.016807,
             "G": 0.019382,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.238255,
             "G": 0.037145,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.708376,
             "G": 0.177888,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 1.0,
             "G": 0.708376,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Pupil",
+          "Name": "Pupil",
           "Value": {
             "R": 0.726,
             "G": 0.31915,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.158961,
             "G": 0.0865,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.382187,
             "G": 0.298201,

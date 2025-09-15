@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Abyss_Midnight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Abyss_Midnight_C'Default__PS_Cla_Abyss_Midnight_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Midnight/PS_Cla_Abyss_Midnight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Abyss_Midnight_C",
+    "Name": "Default__PS_Cla_Abyss_Midnight_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Abyss/Data/Palettes/Midnight/PS_Cla_Abyss_Midnight.PS_Cla_Abyss_Midnight_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.036889,
+            "G": 0.059511,
+            "B": 0.168269,
+            "A": 1.0,
+            "Hex": "364572"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.547,
+            "G": 0.129639,
+            "B": 0.149737,
+            "A": 1.0,
+            "Hex": "C3656C"
+          }
+        },
+        {
+          "Key": "Corruption",
+          "Name": "Corruption",
+          "Value": {
+            "R": 0.155624,
+            "G": 0.272659,
+            "B": 0.794,
+            "A": 1.0,
+            "Hex": "6E8FE7"
+          }
+        },
+        {
+          "Key": "Corruption2",
+          "Name": "Corruption2",
+          "Value": {
+            "R": 0.900452,
+            "G": 0.298893,
+            "B": 0.993,
+            "A": 1.0,
+            "Hex": "F495FF"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.768151,
+            "G": 0.806952,
+            "B": 0.887923,
+            "A": 1.0,
+            "Hex": "E3E8F2"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.036889,
+            "G": 0.059511,
+            "B": 0.168269,
+            "A": 1.0,
+            "Hex": "364572"
+          }
+        },
+        {
+          "Key": "ClothingAccent",
+          "Name": "ClothingAccent",
+          "Value": {
+            "R": 0.547,
+            "G": 0.129639,
+            "B": 0.149737,
+            "A": 1.0,
+            "Hex": "C3656C"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.036889,
+            "G": 0.059511,
+            "B": 0.168269,
+            "A": 1.0,
+            "Hex": "364572"
+          }
+        },
+        {
+          "Key": "Sclera",
+          "Name": "Sclera",
+          "Value": {
+            "R": 0.000282,
+            "G": 0.000554,
+            "B": 0.003,
+            "A": 1.0,
+            "Hex": "000109"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 0.547,
+            "G": 0.073845,
+            "B": 0.081731,
+            "A": 1.0,
+            "Hex": "C34D51"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

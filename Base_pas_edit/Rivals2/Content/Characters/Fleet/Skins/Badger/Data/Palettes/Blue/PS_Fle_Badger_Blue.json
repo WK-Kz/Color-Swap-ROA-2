@@ -1,0 +1,212 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Badger_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Badger_Blue_C'Default__PS_Fle_Badger_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Badger/Data/Palettes/Blue/PS_Fle_Badger_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Badger_Blue_C",
+    "Name": "Default__PS_Fle_Badger_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Badger/Data/Palettes/Blue/PS_Fle_Badger_Blue.PS_Fle_Badger_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.085786,
+            "G": 0.08265,
+            "B": 0.114,
+            "A": 1.0,
+            "Hex": "52515F"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.766122,
+            "G": 0.771742,
+            "B": 0.777,
+            "A": 1.0,
+            "Hex": "E3E4E5"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.025406,
+            "G": 0.025406,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "2C2C37"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.008,
+            "G": 0.007432,
+            "B": 0.007216,
+            "A": 1.0,
+            "Hex": "161414"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.136,
+            "G": 0.072606,
+            "B": 0.035904,
+            "A": 1.0,
+            "Hex": "674C35"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.021515,
+            "G": 0.073096,
+            "B": 0.331,
+            "A": 1.0,
+            "Hex": "284C9C"
+          }
+        },
+        {
+          "Key": "Shirt2",
+          "Name": "Shirt2",
+          "Value": {
+            "R": 0.17821,
+            "G": 0.232175,
+            "B": 0.502,
+            "A": 1.0,
+            "Hex": "7584BC"
+          }
+        },
+        {
+          "Key": "Belts",
+          "Name": "Belts",
+          "Value": {
+            "R": 0.136,
+            "G": 0.044381,
+            "B": 0.01904,
+            "A": 1.0,
+            "Hex": "673B25"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.160128,
+            "G": 0.312614,
+            "B": 0.576,
+            "A": 1.0,
+            "Hex": "6F98C8"
+          }
+        },
+        {
+          "Key": "CapeTrim",
+          "Name": "CapeTrim",
+          "Value": {
+            "R": 0.021515,
+            "G": 0.073096,
+            "B": 0.331,
+            "A": 1.0,
+            "Hex": "284C9C"
+          }
+        },
+        {
+          "Key": "BowWraps",
+          "Name": "BowWraps",
+          "Value": {
+            "R": 0.35,
+            "G": 0.3825,
+            "B": 0.5,
+            "A": 1.0,
+            "Hex": "A0A6BC"
+          }
+        },
+        {
+          "Key": "BowGem",
+          "Name": "BowGem",
+          "Value": {
+            "R": 0.03,
+            "G": 0.3695,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "30A4FF"
+          }
+        },
+        {
+          "Key": "Wood",
+          "Name": "Wood",
+          "Value": {
+            "R": 0.332452,
+            "G": 0.102242,
+            "B": 0.057805,
+            "A": 1.0,
+            "Hex": "9C5A44"
+          }
+        },
+        {
+          "Key": "Bow",
+          "Name": "Bow",
+          "Value": {
+            "R": 0.021515,
+            "G": 0.073096,
+            "B": 0.331,
+            "A": 1.0,
+            "Hex": "284C9C"
+          }
+        },
+        {
+          "Key": "BowMetal",
+          "Name": "BowMetal",
+          "Value": {
+            "R": 0.1,
+            "G": 0.16,
+            "B": 0.25,
+            "A": 1.0,
+            "Hex": "596F89"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.002355,
+            "G": 0.440177,
+            "B": 0.878,
+            "A": 1.0,
+            "Hex": "07B1F1"
+          }
+        }
+      ]
+    }
+  }
+]

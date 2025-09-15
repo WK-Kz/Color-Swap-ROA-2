@@ -1,0 +1,234 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Pirate_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Pirate_Red_C'Default__PS_Wra_Pirate_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Pirate/Data/Palettes/Red/PS_Wra_Pirate_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Pirate_Red_C",
+    "Name": "Default__PS_Wra_Pirate_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Pirate/Data/Palettes/Red/PS_Wra_Pirate_Red.PS_Wra_Pirate_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.764,
+            "G": 0.029796,
+            "B": 0.029796,
+            "A": 1.0,
+            "Hex": "E33030"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.53948,
+            "G": 0.473532,
+            "B": 0.473532,
+            "A": 1.0,
+            "Hex": "C2B7B7"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.359,
+            "G": 0.012565,
+            "B": 0.012565,
+            "A": 1.0,
+            "Hex": "A21D1D"
+          }
+        },
+        {
+          "Key": "Pattern2",
+          "Name": "Pattern2",
+          "Value": {
+            "R": 0.0174,
+            "G": 0.07308,
+            "B": 0.435,
+            "A": 1.0,
+            "Hex": "234CB0"
+          }
+        },
+        {
+          "Key": "Legs/Beak",
+          "Name": "Legs/Beak",
+          "Value": {
+            "R": 0.028426,
+            "G": 0.026241,
+            "B": 0.025187,
+            "A": 1.0,
+            "Hex": "2F2D2C"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.015209,
+            "G": 0.01096,
+            "B": 0.01033,
+            "A": 1.0,
+            "Hex": "211B1A"
+          }
+        },
+        {
+          "Key": "Earrings",
+          "Name": "Earrings",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.396755,
+            "B": 0.391573,
+            "A": 1.0,
+            "Hex": "ADA9A8"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.002668,
+            "G": 0.058,
+            "B": 0.054311,
+            "A": 1.0,
+            "Hex": "084442"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.057,
+            "G": 0.022766,
+            "B": 0.010317,
+            "A": 1.0,
+            "Hex": "43291A"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.276042,
+            "G": 0.218054,
+            "B": 0.117893,
+            "A": 1.0,
+            "Hex": "8F8160"
+          }
+        },
+        {
+          "Key": "Goggles Lens",
+          "Name": "Goggles Lens",
+          "Value": {
+            "R": 0.017642,
+            "G": 0.095307,
+            "B": 0.278894,
+            "A": 1.0,
+            "Hex": "245790"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Shirt Stripes",
+          "Name": "Shirt Stripes",
+          "Value": {
+            "R": 0.03287,
+            "G": 0.15,
+            "B": 0.01485,
+            "A": 1.0,
+            "Hex": "336C20"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.621,
+            "G": 0.121716,
+            "B": 0.121716,
+            "A": 1.0,
+            "Hex": "CF6262"
+          }
+        },
+        {
+          "Key": "Vest",
+          "Name": "Vest",
+          "Value": {
+            "R": 0.0625,
+            "G": 0.00675,
+            "B": 0.00675,
+            "A": 1.0,
+            "Hex": "461313"
+          }
+        },
+        {
+          "Key": "Vest Trim",
+          "Name": "Vest Trim",
+          "Value": {
+            "R": 0.459,
+            "G": 0.167168,
+            "B": 0.061047,
+            "A": 1.0,
+            "Hex": "B57246"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.338542,
+            "G": 0.090278,
+            "B": 0.541667,
+            "A": 1.0,
+            "Hex": "9D55C3"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

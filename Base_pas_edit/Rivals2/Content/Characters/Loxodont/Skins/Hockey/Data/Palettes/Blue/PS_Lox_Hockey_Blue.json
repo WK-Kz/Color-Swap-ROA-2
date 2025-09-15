@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Hockey_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Hockey_Blue_C'Default__PS_Lox_Hockey_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Hockey/Data/Palettes/Blue/PS_Lox_Hockey_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Hockey_Blue_C",
+    "Name": "Default__PS_Lox_Hockey_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Hockey/Data/Palettes/Blue/PS_Lox_Hockey_Blue.PS_Lox_Hockey_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Flames",
+          "Name": "Flames",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.427083,
+            "B": 0.427083,
+            "A": 1.0,
+            "Hex": "AFAFAF"
+          }
+        },
+        {
+          "Key": "Inner",
+          "Name": "Inner",
+          "Value": {
+            "R": 0.185004,
+            "G": 0.572917,
+            "B": 0.572917,
+            "A": 1.0,
+            "Hex": "77C8C8"
+          }
+        },
+        {
+          "Key": "Main",
+          "Name": "Main",
+          "Value": {
+            "R": 0.079391,
+            "G": 0.251982,
+            "B": 0.403,
+            "A": 1.0,
+            "Hex": "4F89AA"
+          }
+        },
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.0,
+            "G": 0.006995,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "001425"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.185004,
+            "G": 0.572917,
+            "B": 0.572917,
+            "A": 1.0,
+            "Hex": "77C8C8"
+          }
+        },
+        {
+          "Key": "Padding",
+          "Name": "Padding",
+          "Value": {
+            "R": 0.0,
+            "G": 0.006995,
+            "B": 0.0185,
+            "A": 1.0,
+            "Hex": "001425"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.192871,
+            "G": 0.219382,
+            "B": 0.234375,
+            "A": 1.0,
+            "Hex": "798185"
+          }
+        },
+        {
+          "Key": "Mask",
+          "Name": "Mask",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.427083,
+            "B": 0.427083,
+            "A": 1.0,
+            "Hex": "AFAFAF"
+          }
+        }
+      ]
+    }
+  }
+]

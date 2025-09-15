@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Oly_Default_Blue_BadgerCo_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Oly_Default_Blue_BadgerCo_C'Default__PE_Oly_Default_Blue_BadgerCo_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Olympia/Skins/BadgerCo/Data/Palettes/Blue/PE_Oly_Default_Blue_BadgerCo.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Oly_Default_Blue_BadgerCo_C",
+    "Name": "Default__PE_Oly_Default_Blue_BadgerCo_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Olympia/Skins/BadgerCo/Data/Palettes/Blue/PE_Oly_Default_Blue_BadgerCo.PE_Oly_Default_Blue_BadgerCo_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.019845,
+            "G": 0.04023,
+            "B": 0.081,
+            "A": 1.0,
+            "Hex": "263850"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.041661,
+            "G": 0.099728,
+            "B": 0.215861,
+            "A": 1.0,
+            "Hex": "395980"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.1127,
+            "G": 0.232977,
+            "B": 0.473531,
+            "A": 1.0,
+            "Hex": "5E85B7"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 0.1127,
+            "G": 0.232977,
+            "B": 0.473531,
+            "A": 1.0,
+            "Hex": "5E85B7"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.041661,
+            "G": 0.099728,
+            "B": 0.215861,
+            "A": 1.0,
+            "Hex": "395980"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 0.019845,
+            "G": 0.04023,
+            "B": 0.081,
+            "A": 1.0,
+            "Hex": "263850"
+          }
+        },
+        {
+          "Key": "Element8",
+          "Name": "Element8",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        }
+      ]
+    }
+  }
+]

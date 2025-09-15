@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Oly_Lovers_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Oly_Lovers_Blue_C'Default__PS_Oly_Lovers_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Olympia/Skins/Lovers/Data/Palettes/Blue/PS_Oly_Lovers_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Oly_Lovers_Blue_C",
+    "Name": "Default__PS_Oly_Lovers_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Olympia/Skins/Lovers/Data/Palettes/Blue/PS_Oly_Lovers_Blue.PS_Oly_Lovers_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Necklace",
+          "Name": "Necklace",
+          "Value": {
+            "R": 0.351533,
+            "G": 0.351533,
+            "B": 0.351533,
+            "A": 1.0,
+            "Hex": "A0A0A0"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.0,
+            "G": 0.059375,
+            "B": 0.296875,
+            "A": 1.0,
+            "Hex": "004594"
+          }
+        },
+        {
+          "Key": "Glove/Shoe",
+          "Name": "Glove/Shoe",
+          "Value": {
+            "R": 0.081887,
+            "G": 0.008681,
+            "B": 0.208333,
+            "A": 1.0,
+            "Hex": "51177E"
+          }
+        },
+        {
+          "Key": "Glove/Shoe Trim",
+          "Name": "Glove/Shoe Trim",
+          "Value": {
+            "R": 0.610496,
+            "G": 0.610496,
+            "B": 0.610496,
+            "A": 1.0,
+            "Hex": "CDCDCD"
+          }
+        },
+        {
+          "Key": "Pant",
+          "Name": "Pant",
+          "Value": {
+            "R": 0.0,
+            "G": 0.059375,
+            "B": 0.296875,
+            "A": 1.0,
+            "Hex": "004594"
+          }
+        },
+        {
+          "Key": "Clothing Trim",
+          "Name": "Clothing Trim",
+          "Value": {
+            "R": 0.610496,
+            "G": 0.610496,
+            "B": 0.610496,
+            "A": 1.0,
+            "Hex": "CDCDCD"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.635417,
+            "G": 0.619531,
+            "B": 0.61556,
+            "A": 1.0,
+            "Hex": "D1CFCE"
+          }
+        },
+        {
+          "Key": "Shoe Tongue",
+          "Name": "Shoe Tongue",
+          "Value": {
+            "R": 0.02002,
+            "G": 0.028442,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "262F31"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.02002,
+            "G": 0.028442,
+            "B": 0.03125,
+            "A": 1.0,
+            "Hex": "262F31"
+          }
+        },
+        {
+          "Key": "Necklace Crystal",
+          "Name": "Necklace Crystal",
+          "Value": {
+            "R": 0.145833,
+            "G": 0.515972,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "6BBEFF"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.973446,
+            "G": 0.603828,
+            "B": 0.376262,
+            "A": 1.0,
+            "Hex": "FCCCA5"
+          }
+        },
+        {
+          "Key": "Earhair",
+          "Name": "Earhair",
+          "Value": {
+            "R": 0.973446,
+            "G": 0.603828,
+            "B": 0.376262,
+            "A": 1.0,
+            "Hex": "FCCCA5"
+          }
+        },
+        {
+          "Key": "HairDye",
+          "Name": "HairDye",
+          "Value": {
+            "R": 0.054308,
+            "G": 0.295977,
+            "B": 0.744792,
+            "A": 1.0,
+            "Hex": "4294E0"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.973958,
+            "G": 0.604835,
+            "B": 0.37538,
+            "A": 1.0,
+            "Hex": "FDCCA5"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.991102,
+            "G": 0.371238,
+            "B": 0.361307,
+            "A": 1.0,
+            "Hex": "FEA4A2"
+          }
+        },
+        {
+          "Key": "Paws",
+          "Name": "Paws",
+          "Value": {
+            "R": 0.991102,
+            "G": 0.371238,
+            "B": 0.361307,
+            "A": 1.0,
+            "Hex": "FEA4A2"
+          }
+        },
+        {
+          "Key": "Nose",
+          "Name": "Nose",
+          "Value": {
+            "R": 0.015996,
+            "G": 0.011612,
+            "B": 0.012286,
+            "A": 1.0,
+            "Hex": "221C1D"
+          }
+        },
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.015996,
+            "G": 0.011612,
+            "B": 0.012286,
+            "A": 1.0,
+            "Hex": "221C1D"
+          }
+        },
+        {
+          "Key": "Tail",
+          "Name": "Tail",
+          "Value": {
+            "R": 0.991102,
+            "G": 0.371238,
+            "B": 0.361307,
+            "A": 1.0,
+            "Hex": "FEA4A2"
+          }
+        }
+      ]
+    }
+  }
+]

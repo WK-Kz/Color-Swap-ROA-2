@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Snowman_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Snowman_Blue_C'Default__PS_Kra_Snowman_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Snowman/Data/Palettes/Blue/PS_Kra_Snowman_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Snowman_Blue_C",
+    "Name": "Default__PS_Kra_Snowman_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Snowman/Data/Palettes/Blue/PS_Kra_Snowman_Blue.PS_Kra_Snowman_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.057183,
+            "G": 0.15794,
+            "B": 0.354167,
+            "A": 1.0,
+            "Hex": "436FA1"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 0.796875,
+            "G": 0.884895,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "E7F2FF"
+          }
+        },
+        {
+          "Key": "Spikes",
+          "Name": "Spikes",
+          "Value": {
+            "R": 0.734375,
+            "G": 0.173591,
+            "B": 0.015299,
+            "A": 1.0,
+            "Hex": "DF7421"
+          }
+        },
+        {
+          "Key": "Hat",
+          "Name": "Hat",
+          "Value": {
+            "R": 0.004557,
+            "G": 0.019871,
+            "B": 0.109375,
+            "A": 1.0,
+            "Hex": "0E265D"
+          }
+        },
+        {
+          "Key": "HatRibbon",
+          "Name": "HatRibbon",
+          "Value": {
+            "R": 0.875,
+            "G": 0.454775,
+            "B": 0.031901,
+            "A": 1.0,
+            "Hex": "F1B432"
+          }
+        },
+        {
+          "Key": "Branches",
+          "Name": "Branches",
+          "Value": {
+            "R": 0.151042,
+            "G": 0.071736,
+            "B": 0.044054,
+            "A": 1.0,
+            "Hex": "6C4C3B"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.480516,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFB800"
+          }
+        },
+        {
+          "Key": "Ice",
+          "Name": "Ice",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.619912,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "AFCFFF"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 1.0,
+            "G": 0.965858,
+            "B": 0.932292,
+            "A": 1.0,
+            "Hex": "FFFCF8"
+          }
+        },
+        {
+          "Key": "Scarf2",
+          "Name": "Scarf2",
+          "Value": {
+            "R": 0.024095,
+            "G": 0.011041,
+            "B": 0.192708,
+            "A": 1.0,
+            "Hex": "2B1B79"
+          }
+        },
+        {
+          "Key": "Scarf3",
+          "Name": "Scarf3",
+          "Value": {
+            "R": 0.796875,
+            "G": 0.375878,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E7A500"
+          }
+        }
+      ]
+    }
+  }
+]

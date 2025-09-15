@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Kra_Soccer_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,23 @@
     "Type": "PS_Kra_Soccer_Red_C",
     "Name": "Default__PS_Kra_Soccer_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Soccer/Data/Palettes/Red/PS_Kra_Soccer_Red.PS_Kra_Soccer_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
+          "Key": "ShoeSole",
+          "Name": "ShoeSole",
+          "Value": {
+            "R": 0.008681,
+            "G": 0.008681,
+            "B": 0.008681,
+            "A": 1.0,
+            "Hex": "171717"
+          }
+        },
+        {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.314,
             "G": 0.099433,
@@ -40,6 +54,7 @@
         },
         {
           "Key": "Shorts",
+          "Name": "Shorts",
           "Value": {
             "R": 0.017,
             "G": 0.015453,
@@ -50,6 +65,7 @@
         },
         {
           "Key": "Shirt",
+          "Name": "Shirt",
           "Value": {
             "R": 0.586,
             "G": 0.011025,
@@ -60,6 +76,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 1.0,
             "G": 0.881432,
@@ -70,6 +87,7 @@
         },
         {
           "Key": "Shoes",
+          "Name": "Shoes",
           "Value": {
             "R": 0.584078,
             "G": 0.01096,
@@ -79,7 +97,30 @@
           }
         },
         {
+          "Key": "ShoeTrim",
+          "Name": "ShoeTrim",
+          "Value": {
+            "R": 0.560764,
+            "G": 0.560764,
+            "B": 0.560764,
+            "A": 1.0,
+            "Hex": "C6C6C6"
+          }
+        },
+        {
+          "Key": "ShinTrim",
+          "Name": "ShinTrim",
+          "Value": {
+            "R": 0.617207,
+            "G": 0.011612,
+            "B": 0.003677,
+            "A": 1.0,
+            "Hex": "CE1C0C"
+          }
+        },
+        {
           "Key": "Shin",
+          "Name": "Shin",
           "Value": {
             "R": 0.016807,
             "G": 0.015209,
@@ -90,36 +131,7 @@
         },
         {
           "Key": "BallBlack",
-          "Value": {
-            "R": 0.617207,
-            "G": 0.011612,
-            "B": 0.003677,
-            "A": 1.0,
-            "Hex": "CE1C0C"
-          }
-        },
-        {
-          "Key": "Helmet",
-          "Value": {
-            "R": 0.016807,
-            "G": 0.015209,
-            "B": 0.015209,
-            "A": 1.0,
-            "Hex": "232121"
-          }
-        },
-        {
-          "Key": "Spike",
-          "Value": {
-            "R": 0.590619,
-            "G": 0.473531,
-            "B": 0.177888,
-            "A": 1.0,
-            "Hex": "CAB775"
-          }
-        },
-        {
-          "Key": "ShinTrim",
+          "Name": "BallBlack",
           "Value": {
             "R": 0.617207,
             "G": 0.011612,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "BallWhite",
+          "Name": "BallWhite",
           "Value": {
             "R": 0.016807,
             "G": 0.015209,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "HelmTrim",
+          "Name": "HelmTrim",
           "Value": {
             "R": 0.617207,
             "G": 0.011612,
@@ -149,7 +163,30 @@
           }
         },
         {
+          "Key": "Helmet",
+          "Name": "Helmet",
+          "Value": {
+            "R": 0.016807,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "232121"
+          }
+        },
+        {
+          "Key": "Spike",
+          "Name": "Spike",
+          "Value": {
+            "R": 0.590619,
+            "G": 0.473531,
+            "B": 0.177888,
+            "A": 1.0,
+            "Hex": "CAB775"
+          }
+        },
+        {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.780392,
             "G": 0.07451,
@@ -160,6 +197,7 @@
         },
         {
           "Key": "EmblemTop",
+          "Name": "EmblemTop",
           "Value": {
             "R": 1.0,
             "G": 0.887923,
@@ -170,6 +208,7 @@
         },
         {
           "Key": "EmblemBack",
+          "Name": "EmblemBack",
           "Value": {
             "R": 0.016807,
             "G": 0.015209,

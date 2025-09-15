@@ -1,0 +1,311 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cla_Pirate_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cla_Pirate_Red_C'Default__PS_Cla_Pirate_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Clairen/Skins/Pirate/Data/Palettes/Red/PS_Cla_Pirate_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cla_Pirate_Red_C",
+    "Name": "Default__PS_Cla_Pirate_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Clairen/Skins/Pirate/Data/Palettes/Red/PS_Cla_Pirate_Red.PS_Cla_Pirate_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Piping",
+          "Name": "Piping",
+          "Value": {
+            "R": 0.533276,
+            "G": 0.189882,
+            "B": 0.137052,
+            "A": 1.0,
+            "Hex": "C17967"
+          }
+        },
+        {
+          "Key": "Hat",
+          "Name": "Hat",
+          "Value": {
+            "R": 0.052,
+            "G": 0.01976,
+            "B": 0.01976,
+            "A": 1.0,
+            "Hex": "402626"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.127438,
+            "G": 0.023321,
+            "B": 0.023321,
+            "A": 1.0,
+            "Hex": "642A2A"
+          }
+        },
+        {
+          "Key": "Bandana",
+          "Name": "Bandana",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.009089,
+            "B": 0.005003,
+            "A": 1.0,
+            "Hex": "89180F"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.40724,
+            "G": 0.366253,
+            "B": 0.351533,
+            "A": 1.0,
+            "Hex": "ABA3A0"
+          }
+        },
+        {
+          "Key": "BootTrim",
+          "Name": "BootTrim",
+          "Value": {
+            "R": 0.253,
+            "G": 0.120175,
+            "B": 0.120175,
+            "A": 1.0,
+            "Hex": "8A6161"
+          }
+        },
+        {
+          "Key": "Feather",
+          "Name": "Feather",
+          "Value": {
+            "R": 0.695,
+            "G": 0.07986,
+            "B": 0.070195,
+            "A": 1.0,
+            "Hex": "DA504B"
+          }
+        },
+        {
+          "Key": "FeatherTip",
+          "Name": "FeatherTip",
+          "Value": {
+            "R": 0.637597,
+            "G": 0.208637,
+            "B": 0.013702,
+            "A": 1.0,
+            "Hex": "D17E1F"
+          }
+        },
+        {
+          "Key": "SwordHilt",
+          "Name": "SwordHilt",
+          "Value": {
+            "R": 0.229,
+            "G": 0.087467,
+            "B": 0.048319,
+            "A": 1.0,
+            "Hex": "84533E"
+          }
+        },
+        {
+          "Key": "SwordBlade",
+          "Name": "SwordBlade",
+          "Value": {
+            "R": 0.139,
+            "G": 0.135815,
+            "B": 0.139,
+            "A": 1.0,
+            "Hex": "686768"
+          }
+        },
+        {
+          "Key": "SwordHandle",
+          "Name": "SwordHandle",
+          "Value": {
+            "R": 0.063,
+            "G": 0.041468,
+            "B": 0.036888,
+            "A": 1.0,
+            "Hex": "473936"
+          }
+        },
+        {
+          "Key": "SwordTipper",
+          "Name": "SwordTipper",
+          "Value": {
+            "R": 0.637597,
+            "G": 0.208637,
+            "B": 0.013702,
+            "A": 1.0,
+            "Hex": "D17E1F"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.250158,
+            "G": 0.009089,
+            "B": 0.005003,
+            "A": 1.0,
+            "Hex": "89180F"
+          }
+        },
+        {
+          "Key": "CapePiping",
+          "Name": "CapePiping",
+          "Value": {
+            "R": 0.533276,
+            "G": 0.189882,
+            "B": 0.137052,
+            "A": 1.0,
+            "Hex": "C17967"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.031481,
+            "G": 0.031481,
+            "B": 0.061,
+            "A": 1.0,
+            "Hex": "313146"
+          }
+        },
+        {
+          "Key": "Braid",
+          "Name": "Braid",
+          "Value": {
+            "R": 0.907,
+            "G": 0.241867,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "F58700"
+          }
+        },
+        {
+          "Key": "Sail",
+          "Name": "Sail",
+          "Value": {
+            "R": 0.125,
+            "G": 0.016927,
+            "B": 0.016927,
+            "A": 1.0,
+            "Hex": "632323"
+          }
+        },
+        {
+          "Key": "Wood",
+          "Name": "Wood",
+          "Value": {
+            "R": 0.104616,
+            "G": 0.057983,
+            "B": 0.039546,
+            "A": 1.0,
+            "Hex": "5B4438"
+          }
+        },
+        {
+          "Key": "Dirt",
+          "Name": "Dirt",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.041402,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "3C3923"
+          }
+        },
+        {
+          "Key": "WoodAccent",
+          "Name": "WoodAccent",
+          "Value": {
+            "R": 0.102242,
+            "G": 0.033372,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "5A3328"
+          }
+        },
+        {
+          "Key": "Rope",
+          "Name": "Rope",
+          "Value": {
+            "R": 0.366253,
+            "G": 0.351533,
+            "B": 0.278894,
+            "A": 1.0,
+            "Hex": "A3A090"
+          }
+        },
+        {
+          "Key": "Seaweed",
+          "Name": "Seaweed",
+          "Value": {
+            "R": 0.05448,
+            "G": 0.171441,
+            "B": 0.043735,
+            "A": 1.0,
+            "Hex": "42733B"
+          }
+        },
+        {
+          "Key": "Starfish",
+          "Name": "Starfish",
+          "Value": {
+            "R": 0.328125,
+            "G": 0.18457,
+            "B": 0.082031,
+            "A": 1.0,
+            "Hex": "9B7751"
+          }
+        },
+        {
+          "Key": "Canon",
+          "Name": "Canon",
+          "Value": {
+            "R": 0.044892,
+            "G": 0.046875,
+            "B": 0.046875,
+            "A": 1.0,
+            "Hex": "3C3D3D"
+          }
+        },
+        {
+          "Key": "Rust",
+          "Name": "Rust",
+          "Value": {
+            "R": 0.155926,
+            "G": 0.056128,
+            "B": 0.033105,
+            "A": 1.0,
+            "Hex": "6E4333"
+          }
+        }
+      ]
+    }
+  }
+]

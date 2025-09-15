@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Abs_BoerGoat_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Abs_BoerGoat_Blue_C'Default__PE_Abs_BoerGoat_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Absa/Skins/BoerGoat/Data/Palettes/Blue/PE_Abs_BoerGoat_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Abs_BoerGoat_Blue_C",
+    "Name": "Default__PE_Abs_BoerGoat_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Absa/Skins/BoerGoat/Data/Palettes/Blue/PE_Abs_BoerGoat_Blue.PE_Abs_BoerGoat_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.0,
+            "G": 0.209375,
+            "B": 0.697917,
+            "A": 1.0,
+            "Hex": "007EDA"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.006836,
+            "G": 0.028564,
+            "B": 0.09375,
+            "A": 1.0,
+            "Hex": "132F56"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.058815,
+            "G": 0.19601,
+            "B": 0.973446,
+            "A": 1.0,
+            "Hex": "447AFC"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.078559,
+            "G": 0.582646,
+            "B": 0.942708,
+            "A": 1.0,
+            "Hex": "4FC9F9"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 1.0,
+            "G": 0.216667,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF8000"
+          }
+        }
+      ]
+    }
+  }
+]

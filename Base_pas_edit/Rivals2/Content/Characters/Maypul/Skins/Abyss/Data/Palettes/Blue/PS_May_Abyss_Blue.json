@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_May_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_May_Abyss_Blue_C",
     "Name": "Default__PS_May_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Abyss/Data/Palettes/Blue/PS_May_Abyss_Blue.PS_May_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.081537,
             "G": 0.214131,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Pattern",
+          "Name": "Pattern",
           "Value": {
             "R": 0.012775,
             "G": 0.023184,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.508881,
             "G": 0.667852,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Body2",
+          "Name": "Body2",
           "Value": {
             "R": 0.007499,
             "G": 0.009481,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Stripes",
+          "Name": "Stripes",
           "Value": {
             "R": 0.116971,
             "G": 0.982251,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Leaf",
+          "Name": "Leaf",
           "Value": {
             "R": 0.022217,
             "G": 0.14268,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Eye",
+          "Name": "Eye",
           "Value": {
             "R": 0.982251,
             "G": 0.662431,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Eye2",
+          "Name": "Eye2",
           "Value": {
             "R": 0.008023,
             "G": 0.247178,
@@ -110,6 +120,7 @@
         },
         {
           "Key": "Vine",
+          "Name": "Vine",
           "Value": {
             "R": 0.024158,
             "G": 0.054904,

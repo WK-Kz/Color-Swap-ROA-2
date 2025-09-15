@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Wasteland_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Wasteland_Red_C",
     "Name": "Default__PS_For_Wasteland_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Red/PS_For_Wasteland_Red.PS_For_Wasteland_Red_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.057292,
             "G": 0.021783,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.213542,
             "G": 0.170166,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "PaddingTrim",
+          "Name": "PaddingTrim",
           "Value": {
             "R": 0.057292,
             "G": 0.036106,
@@ -59,7 +64,41 @@
           }
         },
         {
+          "Key": "Padding",
+          "Name": "Padding",
+          "Value": {
+            "R": 0.205079,
+            "G": 0.01709,
+            "B": 0.01709,
+            "A": 1.0,
+            "Hex": "7D2323"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.038255,
+            "G": 0.020833,
+            "B": 0.041667,
+            "A": 1.0,
+            "Hex": "372739"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Name": "Straps",
+          "Value": {
+            "R": 0.052083,
+            "G": 0.015734,
+            "B": 0.015734,
+            "A": 1.0,
+            "Hex": "402121"
+          }
+        },
+        {
           "Key": "Belt",
+          "Name": "Belt",
           "Value": {
             "R": 0.40625,
             "G": 0.006348,
@@ -70,6 +109,7 @@
         },
         {
           "Key": "MaskEyes",
+          "Name": "MaskEyes",
           "Value": {
             "R": 1.0,
             "G": 0.216667,
@@ -79,37 +119,8 @@
           }
         },
         {
-          "Key": "Pants",
-          "Value": {
-            "R": 0.038255,
-            "G": 0.020833,
-            "B": 0.041667,
-            "A": 1.0,
-            "Hex": "372739"
-          }
-        },
-        {
-          "Key": "Padding",
-          "Value": {
-            "R": 0.205079,
-            "G": 0.01709,
-            "B": 0.01709,
-            "A": 1.0,
-            "Hex": "7D2323"
-          }
-        },
-        {
-          "Key": "Straps",
-          "Value": {
-            "R": 0.052083,
-            "G": 0.015734,
-            "B": 0.015734,
-            "A": 1.0,
-            "Hex": "402121"
-          }
-        },
-        {
           "Key": "Mask",
+          "Name": "Mask",
           "Value": {
             "R": 0.786458,
             "G": 0.661936,
@@ -120,6 +131,7 @@
         },
         {
           "Key": "MetalTrim",
+          "Name": "MetalTrim",
           "Value": {
             "R": 0.578125,
             "G": 0.469727,
@@ -130,6 +142,7 @@
         },
         {
           "Key": "Pipe",
+          "Name": "Pipe",
           "Value": {
             "R": 0.276042,
             "G": 0.085832,
@@ -140,6 +153,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 1.0,
             "G": 0.338542,
@@ -150,6 +164,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.536458,
             "G": 0.078233,
@@ -160,6 +175,7 @@
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,

@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Lox_Hockey_BC_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Lox_Hockey_BC_C'Default__PS_Lox_Hockey_BC_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Loxodont/Skins/Hockey/Data/Palettes/BC/PS_Lox_Hockey_BC.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Lox_Hockey_BC_C",
+    "Name": "Default__PS_Lox_Hockey_BC_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Loxodont/Skins/Hockey/Data/Palettes/BC/PS_Lox_Hockey_BC.PS_Lox_Hockey_BC_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Flames",
+          "Name": "Flames",
+          "Value": {
+            "R": 0.703125,
+            "G": 0.308761,
+            "B": 0.01367,
+            "A": 1.0,
+            "Hex": "DB971F"
+          }
+        },
+        {
+          "Key": "Inner",
+          "Name": "Inner",
+          "Value": {
+            "R": 0.0,
+            "G": 0.093059,
+            "B": 0.337164,
+            "A": 1.0,
+            "Hex": "00569D"
+          }
+        },
+        {
+          "Key": "Main",
+          "Name": "Main",
+          "Value": {
+            "R": 0.604167,
+            "G": 0.604167,
+            "B": 0.604167,
+            "A": 1.0,
+            "Hex": "CCCCCC"
+          }
+        },
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.0,
+            "G": 0.057501,
+            "B": 0.208333,
+            "A": 1.0,
+            "Hex": "00447E"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.447917,
+            "G": 0.199717,
+            "B": 0.013997,
+            "A": 1.0,
+            "Hex": "B37B1F"
+          }
+        },
+        {
+          "Key": "Padding",
+          "Name": "Padding",
+          "Value": {
+            "R": 0.01671,
+            "G": 0.028887,
+            "B": 0.057292,
+            "A": 1.0,
+            "Hex": "232F43"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.24859,
+            "G": 0.28276,
+            "B": 0.302083,
+            "A": 1.0,
+            "Hex": "899195"
+          }
+        },
+        {
+          "Key": "Mask",
+          "Name": "Mask",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.427083,
+            "B": 0.427083,
+            "A": 1.0,
+            "Hex": "AFAFAF"
+          }
+        },
+        {
+          "Key": "LogoColorX",
+          "Name": "LogoColorX",
+          "Value": {
+            "R": 0.854993,
+            "G": 0.401978,
+            "B": 0.021219,
+            "A": 1.0,
+            "Hex": "EEAA28"
+          }
+        },
+        {
+          "Key": "LogoColor0",
+          "Name": "LogoColor0",
+          "Value": {
+            "R": 0.015209,
+            "G": 0.016807,
+            "B": 0.072272,
+            "A": 1.0,
+            "Hex": "21234C"
+          }
+        },
+        {
+          "Key": "LogoColor1",
+          "Name": "LogoColor1",
+          "Value": {
+            "R": 0.03434,
+            "G": 0.104616,
+            "B": 0.396755,
+            "A": 1.0,
+            "Hex": "345BA9"
+          }
+        },
+        {
+          "Key": "LogoColor2",
+          "Name": "LogoColor2",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

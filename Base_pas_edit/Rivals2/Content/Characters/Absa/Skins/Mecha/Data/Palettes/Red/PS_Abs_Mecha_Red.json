@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Abs_Mecha_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Abs_Mecha_Red_C'Default__PS_Abs_Mecha_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Absa/Skins/Mecha/Data/Palettes/Red/PS_Abs_Mecha_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Abs_Mecha_Red_C",
+    "Name": "Default__PS_Abs_Mecha_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Absa/Skins/Mecha/Data/Palettes/Red/PS_Abs_Mecha_Red.PS_Abs_Mecha_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Rubber",
+          "Name": "Rubber",
+          "Value": {
+            "R": 0.038204,
+            "G": 0.040915,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "373937"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.447917,
+            "G": 0.083984,
+            "B": 0.114312,
+            "A": 1.0,
+            "Hex": "B3525F"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.171875,
+            "G": 0.011194,
+            "B": 0.007161,
+            "A": 1.0,
+            "Hex": "731B14"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.57,
+            "G": 0.276145,
+            "B": 0.09348,
+            "A": 1.0,
+            "Hex": "C78F56"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.5,
+            "G": 0.5,
+            "B": 0.5,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          }
+        },
+        {
+          "Key": "LightPanels",
+          "Name": "LightPanels",
+          "Value": {
+            "R": 0.009155,
+            "G": 0.002686,
+            "B": 0.015625,
+            "A": 1.0,
+            "Hex": "180821"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.265625,
+            "G": 0.017985,
+            "B": 0.022112,
+            "A": 1.0,
+            "Hex": "8D2429"
+          }
+        },
+        {
+          "Key": "EmissiveColor",
+          "Name": "EmissiveColor",
+          "Value": {
+            "R": 0.002,
+            "G": 0.4012,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "06AAFF"
+          }
+        }
+      ]
+    }
+  }
+]

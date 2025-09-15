@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Abyss_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Abyss_Blue_C",
     "Name": "Default__PS_For_Abyss_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Abyss/Data/Palettes/Blue/PS_For_Abyss_Blue.PS_For_Abyss_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.089518,
             "G": 0.257569,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Horn",
+          "Name": "Horn",
           "Value": {
             "R": 0.020833,
             "G": 0.015263,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.0,
             "G": 0.182595,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.231279,
             "G": 0.524556,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Cloth",
+          "Name": "Cloth",
           "Value": {
             "R": 0.024972,
             "G": 0.022659,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Bone",
+          "Name": "Bone",
           "Value": {
             "R": 0.455375,
             "G": 0.452577,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "AbyssEyesSclera",
+          "Name": "AbyssEyesSclera",
           "Value": {
             "R": 0.439657,
             "G": 0.41904,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "AbyssEyesIris",
+          "Name": "AbyssEyesIris",
           "Value": {
             "R": 0.009721,
             "G": 0.144404,

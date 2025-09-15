@@ -1,0 +1,421 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_May_Birder_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_May_Birder_Neutral_C'Default__PS_May_Birder_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Maypul/Skins/Birder/Data/Palettes/Neutral/PS_May_Birder_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_May_Birder_Neutral_C",
+    "Name": "Default__PS_May_Birder_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Birder/Data/Palettes/Neutral/PS_May_Birder_Neutral.PS_May_Birder_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Terry",
+          "Name": "Terry",
+          "Value": {
+            "R": 0.147027,
+            "G": 0.130136,
+            "B": 0.116971,
+            "A": 1.0,
+            "Hex": "6B6560"
+          }
+        },
+        {
+          "Key": "TPattern",
+          "Name": "TPattern",
+          "Value": {
+            "R": 0.072272,
+            "G": 0.042311,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "4C3A31"
+          }
+        },
+        {
+          "Key": "TBelly",
+          "Name": "TBelly",
+          "Value": {
+            "R": 0.022174,
+            "G": 0.011612,
+            "B": 0.048172,
+            "A": 1.0,
+            "Hex": "291C3E"
+          }
+        },
+        {
+          "Key": "THead",
+          "Name": "THead",
+          "Value": {
+            "R": 0.036889,
+            "G": 0.174647,
+            "B": 0.030713,
+            "A": 1.0,
+            "Hex": "367431"
+          }
+        },
+        {
+          "Key": "TBeak",
+          "Name": "TBeak",
+          "Value": {
+            "R": 0.5625,
+            "G": 0.229434,
+            "B": 0.046822,
+            "A": 1.0,
+            "Hex": "C6843D"
+          }
+        },
+        {
+          "Key": "TNeck",
+          "Name": "TNeck",
+          "Value": {
+            "R": 0.617051,
+            "G": 0.625,
+            "B": 0.617051,
+            "A": 1.0,
+            "Hex": "CECFCE"
+          }
+        },
+        {
+          "Key": "TFeathers",
+          "Name": "TFeathers",
+          "Value": {
+            "R": 0.244792,
+            "G": 0.139432,
+            "B": 0.104025,
+            "A": 1.0,
+            "Hex": "88685B"
+          }
+        },
+        {
+          "Key": "Lily",
+          "Name": "Lily",
+          "Value": {
+            "R": 0.088883,
+            "G": 0.084961,
+            "B": 0.151042,
+            "A": 1.0,
+            "Hex": "54526C"
+          }
+        },
+        {
+          "Key": "LPattern",
+          "Name": "LPattern",
+          "Value": {
+            "R": 0.630208,
+            "G": 0.61214,
+            "B": 0.5182,
+            "A": 1.0,
+            "Hex": "D0CEBF"
+          }
+        },
+        {
+          "Key": "LBeak",
+          "Name": "LBeak",
+          "Value": {
+            "R": 0.557292,
+            "G": 0.285937,
+            "B": 0.028358,
+            "A": 1.0,
+            "Hex": "C5922F"
+          }
+        },
+        {
+          "Key": "LBeakTip",
+          "Name": "LBeakTip",
+          "Value": {
+            "R": 0.171875,
+            "G": 0.060156,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "734500"
+          }
+        },
+        {
+          "Key": "LTongue",
+          "Name": "LTongue",
+          "Value": {
+            "R": 0.484375,
+            "G": 0.11006,
+            "B": 0.203082,
+            "A": 1.0,
+            "Hex": "B95D7C"
+          }
+        },
+        {
+          "Key": "LFeathers",
+          "Name": "LFeathers",
+          "Value": {
+            "R": 0.02257,
+            "G": 0.02257,
+            "B": 0.02257,
+            "A": 1.0,
+            "Hex": "292929"
+          }
+        },
+        {
+          "Key": "PVine",
+          "Name": "PVine",
+          "Value": {
+            "R": 0.411458,
+            "G": 0.10154,
+            "B": 0.040717,
+            "A": 1.0,
+            "Hex": "AC5A39"
+          }
+        },
+        {
+          "Key": "Base",
+          "Name": "Base",
+          "Value": {
+            "R": 0.045186,
+            "G": 0.038204,
+            "B": 0.03434,
+            "A": 1.0,
+            "Hex": "3C3734"
+          }
+        },
+        {
+          "Key": "Rubber",
+          "Name": "Rubber",
+          "Value": {
+            "R": 0.171441,
+            "G": 0.141263,
+            "B": 0.130136,
+            "A": 1.0,
+            "Hex": "736965"
+          }
+        },
+        {
+          "Key": "Clasp",
+          "Name": "Clasp",
+          "Value": {
+            "R": 0.693872,
+            "G": 0.610496,
+            "B": 0.074214,
+            "A": 1.0,
+            "Hex": "D9CD4D"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.290616,
+            "G": 0.281715,
+            "B": 0.333333,
+            "A": 1.0,
+            "Hex": "93919C"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.374747,
+            "G": 0.672443,
+            "B": 0.672443,
+            "A": 1.0,
+            "Hex": "A5D6D6"
+          }
+        },
+        {
+          "Key": "ClaspAccent",
+          "Name": "ClaspAccent",
+          "Value": {
+            "R": 0.921875,
+            "G": 0.777865,
+            "B": 0.057617,
+            "A": 1.0,
+            "Hex": "F6E544"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.109462,
+            "G": 0.270498,
+            "B": 0.057805,
+            "A": 1.0,
+            "Hex": "5D8E44"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.434154,
+            "G": 0.371238,
+            "B": 0.223228,
+            "A": 1.0,
+            "Hex": "B0A482"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.036458,
+            "G": 0.022882,
+            "B": 0.017771,
+            "A": 1.0,
+            "Hex": "352924"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.036889,
+            "G": 0.450786,
+            "B": 0.637597,
+            "A": 1.0,
+            "Hex": "36B3D1"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Name": "Poppy",
+          "Value": {
+            "R": 0.043735,
+            "G": 0.074214,
+            "B": 0.274677,
+            "A": 1.0,
+            "Hex": "3B4D8F"
+          }
+        },
+        {
+          "Key": "PBelly",
+          "Name": "PBelly",
+          "Value": {
+            "R": 0.671875,
+            "G": 0.662485,
+            "B": 0.555759,
+            "A": 1.0,
+            "Hex": "D6D5C5"
+          }
+        },
+        {
+          "Key": "PSkin",
+          "Name": "PSkin",
+          "Value": {
+            "R": 0.760417,
+            "G": 0.393837,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "E2A900"
+          }
+        },
+        {
+          "Key": "PEyes",
+          "Name": "PEyes",
+          "Value": {
+            "R": 0.526042,
+            "G": 0.068495,
+            "B": 0.16763,
+            "A": 1.0,
+            "Hex": "C04A72"
+          }
+        },
+        {
+          "Key": "Shirt",
+          "Name": "Shirt",
+          "Value": {
+            "R": 0.799103,
+            "G": 0.73791,
+            "B": 0.715693,
+            "A": 1.0,
+            "Hex": "E7DFDC"
+          }
+        },
+        {
+          "Key": "Vest",
+          "Name": "Vest",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.153565,
+            "B": 0.040039,
+            "A": 1.0,
+            "Hex": "AF6D38"
+          }
+        },
+        {
+          "Key": "VestAccent",
+          "Name": "VestAccent",
+          "Value": {
+            "R": 0.828125,
+            "G": 0.556334,
+            "B": 0.241536,
+            "A": 1.0,
+            "Hex": "EBC587"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.116971,
+            "G": 0.08022,
+            "B": 0.057805,
+            "A": 1.0,
+            "Hex": "605044"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.03434,
+            "G": 0.019382,
+            "B": 0.01096,
+            "A": 1.0,
+            "Hex": "34261B"
+          }
+        },
+        {
+          "Key": "Hat",
+          "Name": "Hat",
+          "Value": {
+            "R": 0.508881,
+            "G": 0.571125,
+            "B": 0.212231,
+            "A": 1.0,
+            "Hex": "BDC77F"
+          }
+        }
+      ]
+    }
+  }
+]

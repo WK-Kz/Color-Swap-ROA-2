@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PE_May_Bandit_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PE_May_Bandit_Neutral_C",
     "Name": "Default__PE_May_Bandit_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Bandit/Data/Palettes/Neutral/PE_May_Bandit_Neutral.PE_May_Bandit_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Element0",
+          "Name": "Element0",
           "Value": {
             "R": 0.772549,
             "G": 0.618848,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Element1",
+          "Name": "Element1",
           "Value": {
             "R": 0.135417,
             "G": 0.110282,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Element2",
+          "Name": "Element2",
           "Value": {
             "R": 0.0,
             "G": 0.0,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Element3",
+          "Name": "Element3",
           "Value": {
             "R": 0.158176,
             "G": 0.318547,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Element4",
+          "Name": "Element4",
           "Value": {
             "R": 0.587759,
             "G": 0.913099,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Element5",
+          "Name": "Element5",
           "Value": {
             "R": 0.94542,
             "G": 0.955973,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Element6",
+          "Name": "Element6",
           "Value": {
             "R": 1.0,
             "G": 1.0,

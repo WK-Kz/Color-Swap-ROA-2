@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Lovers_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Lovers_Neutral_C'Default__PS_Fle_Lovers_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Lovers/Data/Palettes/Neutral/PS_Fle_Lovers_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Lovers_Neutral_C",
+    "Name": "Default__PS_Fle_Lovers_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Lovers/Data/Palettes/Neutral/PS_Fle_Lovers_Neutral.PS_Fle_Lovers_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Bow",
+          "Name": "Bow",
+          "Value": {
+            "R": 0.3564,
+            "G": 0.234551,
+            "B": 0.064803,
+            "A": 1.0,
+            "Hex": "A18548"
+          }
+        },
+        {
+          "Key": "Accent",
+          "Name": "Accent",
+          "Value": {
+            "R": 0.417885,
+            "G": 0.545724,
+            "B": 0.045186,
+            "A": 1.0,
+            "Hex": "ADC33C"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.049707,
+            "G": 0.045186,
+            "B": 0.130136,
+            "A": 1.0,
+            "Hex": "3F3C65"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.309469,
+            "G": 0.174647,
+            "B": 0.341914,
+            "A": 1.0,
+            "Hex": "97749E"
+          }
+        }
+      ]
+    }
+  }
+]

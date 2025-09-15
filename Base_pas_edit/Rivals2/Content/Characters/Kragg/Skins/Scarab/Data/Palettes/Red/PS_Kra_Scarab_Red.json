@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Kra_Scarab_Red_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Kra_Scarab_Red_C",
     "Name": "Default__PS_Kra_Scarab_Red_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Scarab/Data/Palettes/Red/PS_Kra_Scarab_Red.PS_Kra_Scarab_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.030713,
             "G": 0.011069,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Gold",
+          "Name": "Gold",
           "Value": {
             "R": 0.723958,
             "G": 0.249947,
@@ -50,16 +54,18 @@
         },
         {
           "Key": "Shell",
+          "Name": "Shell",
           "Value": {
             "R": 1.0,
             "G": 1.0,
             "B": 1.0,
-            "A": 0.0,
+            "A": 1.0,
             "Hex": "FFFFFF"
           }
         },
         {
           "Key": "Paint",
+          "Name": "Paint",
           "Value": {
             "R": 0.140625,
             "G": 0.003662,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Gem",
+          "Name": "Gem",
           "Value": {
             "R": 0.0,
             "G": 0.822917,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.0,
             "G": 0.614583,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.287441,
             "G": 0.18791,
@@ -100,6 +109,7 @@
         },
         {
           "Key": "Stone",
+          "Name": "Stone",
           "Value": {
             "R": 0.723055,
             "G": 0.250158,

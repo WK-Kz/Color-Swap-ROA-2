@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Kra_Goliath_Purple_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Kra_Goliath_Purple_C'Default__PS_Kra_Goliath_Purple_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Purple/PS_Kra_Goliath_Purple.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Kra_Goliath_Purple_C",
+    "Name": "Default__PS_Kra_Goliath_Purple_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Kragg/Skins/Goliath/Data/Palettes/Purple/PS_Kra_Goliath_Purple.PS_Kra_Goliath_Purple_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Head",
+          "Name": "Head",
+          "Value": {
+            "R": 0.091146,
+            "G": 0.028125,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "552E7C"
+          }
+        },
+        {
+          "Key": "Back",
+          "Name": "Back",
+          "Value": {
+            "R": 0.179688,
+            "G": 0.078125,
+            "B": 0.3125,
+            "A": 1.0,
+            "Hex": "764F98"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.84375,
+            "G": 0.411108,
+            "B": 0.057129,
+            "A": 1.0,
+            "Hex": "EDAC43"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.871367,
+            "G": 0.791298,
+            "B": 0.651406,
+            "A": 1.0,
+            "Hex": "F0E6D3"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.041667,
+            "G": 0.028385,
+            "B": 0.019531,
+            "A": 1.0,
+            "Hex": "392F26"
+          }
+        },
+        {
+          "Key": "Chest",
+          "Name": "Chest",
+          "Value": {
+            "R": 0.526042,
+            "G": 0.38549,
+            "B": 0.082194,
+            "A": 1.0,
+            "Hex": "C0A751"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 1.0,
+            "G": 0.472917,
+            "B": 0.041667,
+            "A": 1.0,
+            "Hex": "FFB739"
+          }
+        },
+        {
+          "Key": "Shell",
+          "Name": "Shell",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

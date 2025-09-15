@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Zet_Vampire_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Zet_Vampire_Neutral_C",
     "Name": "Default__PS_Zet_Vampire_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Zetterburn/Skins/Vampire/Data/Palettes/Neutral/PS_Zet_Vampire_Neutral.PS_Zet_Vampire_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.439657,
             "G": 0.300544,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Pads",
+          "Name": "Pads",
           "Value": {
             "R": 0.031,
             "G": 0.022816,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Iris",
+          "Name": "Iris",
           "Value": {
             "R": 0.42,
             "G": 0.0,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.527115,
             "G": 0.539479,
@@ -69,7 +75,19 @@
           }
         },
         {
+          "Key": "Cravat",
+          "Name": "Cravat",
+          "Value": {
+            "R": 0.451389,
+            "G": 0.451389,
+            "B": 0.451389,
+            "A": 1.0,
+            "Hex": "B3B3B3"
+          }
+        },
+        {
           "Key": "Pants",
+          "Name": "Pants",
           "Value": {
             "R": 0.035601,
             "G": 0.023153,
@@ -80,6 +98,7 @@
         },
         {
           "Key": "Coat",
+          "Name": "Coat",
           "Value": {
             "R": 0.030713,
             "G": 0.031896,
@@ -90,6 +109,7 @@
         },
         {
           "Key": "Inner",
+          "Name": "Inner",
           "Value": {
             "R": 0.42869,
             "G": 0.021219,
@@ -100,6 +120,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.313989,
             "G": 0.194618,

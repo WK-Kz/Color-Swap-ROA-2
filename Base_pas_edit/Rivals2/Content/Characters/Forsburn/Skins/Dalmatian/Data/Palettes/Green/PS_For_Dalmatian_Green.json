@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Dalmatian_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Dalmatian_Green_C'Default__PS_For_Dalmatian_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Dalmatian/Data/Palettes/Green/PS_For_Dalmatian_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Dalmatian_Green_C",
+    "Name": "Default__PS_For_Dalmatian_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Dalmatian/Data/Palettes/Green/PS_For_Dalmatian_Green.PS_For_Dalmatian_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.48974,
+            "G": 0.57758,
+            "B": 0.366763,
+            "A": 1.0,
+            "Hex": "BAC8A3"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.024257,
+            "G": 0.026241,
+            "B": 0.006403,
+            "A": 1.0,
+            "Hex": "2B2D12"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.871367,
+            "G": 0.381326,
+            "B": 0.381326,
+            "A": 1.0,
+            "Hex": "F0A6A6"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.015209,
+            "G": 0.097587,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "215800"
+          }
+        },
+        {
+          "Key": "Bone",
+          "Name": "Bone",
+          "Value": {
+            "R": 0.386429,
+            "G": 0.341914,
+            "B": 0.258183,
+            "A": 1.0,
+            "Hex": "A79E8B"
+          }
+        },
+        {
+          "Key": "ClothTrim",
+          "Name": "ClothTrim",
+          "Value": {
+            "R": 0.039,
+            "G": 0.0195,
+            "B": 0.0195,
+            "A": 1.0,
+            "Hex": "372626"
+          }
+        },
+        {
+          "Key": "Belt",
+          "Name": "Belt",
+          "Value": {
+            "R": 0.039,
+            "G": 0.0195,
+            "B": 0.0195,
+            "A": 1.0,
+            "Hex": "372626"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 0.88368,
+            "G": 0.88368,
+            "B": 0.88368,
+            "A": 1.0,
+            "Hex": "F2F2F2"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Basketball_BigMoves_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Basketball_BigMoves_C'Default__PS_Ran_Basketball_BigMoves_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/BigMoves/PS_Ran_Basketball_BigMoves.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Basketball_BigMoves_C",
+    "Name": "Default__PS_Ran_Basketball_BigMoves_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Basketball/Data/Palettes/BigMoves/PS_Ran_Basketball_BigMoves.PS_Ran_Basketball_BigMoves_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Jersey",
+          "Name": "Jersey",
+          "Value": {
+            "R": 0.002428,
+            "G": 0.162029,
+            "B": 0.491021,
+            "A": 1.0,
+            "Hex": "0870BA"
+          }
+        },
+        {
+          "Key": "JerseyAccent",
+          "Name": "JerseyAccent",
+          "Value": {
+            "R": 0.677083,
+            "G": 0.186383,
+            "B": 0.017632,
+            "A": 1.0,
+            "Hex": "D77824"
+          }
+        },
+        {
+          "Key": "JerseyTrim",
+          "Name": "JerseyTrim",
+          "Value": {
+            "R": 0.402937,
+            "G": 0.412342,
+            "B": 0.421875,
+            "A": 1.0,
+            "Hex": "AAACAE"
+          }
+        },
+        {
+          "Key": "Armband",
+          "Name": "Armband",
+          "Value": {
+            "R": 0.434154,
+            "G": 0.444066,
+            "B": 0.533276,
+            "A": 1.0,
+            "Hex": "B0B2C1"
+          }
+        },
+        {
+          "Key": "Basketball",
+          "Name": "Basketball",
+          "Value": {
+            "R": 0.708376,
+            "G": 0.215861,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "DB8021"
+          }
+        },
+        {
+          "Key": "BasketballLines",
+          "Name": "BasketballLines",
+          "Value": {
+            "R": 0.024685,
+            "G": 0.038739,
+            "B": 0.067708,
+            "A": 1.0,
+            "Hex": "2B3749"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.179083,
+            "G": 0.183263,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "757778"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.454102,
+            "G": 0.539014,
+            "B": 0.5625,
+            "A": 1.0,
+            "Hex": "B4C2C6"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.028483,
+            "G": 0.039496,
+            "B": 0.052083,
+            "A": 1.0,
+            "Hex": "2F3840"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.708376,
+            "G": 0.215861,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "DB8021"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.947917,
+            "G": 0.304522,
+            "B": 0.024685,
+            "A": 1.0,
+            "Hex": "FA962B"
+          }
+        }
+      ]
+    }
+  }
+]

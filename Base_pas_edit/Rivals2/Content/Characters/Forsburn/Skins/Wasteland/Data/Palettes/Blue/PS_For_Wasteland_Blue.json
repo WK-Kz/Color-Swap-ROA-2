@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_For_Wasteland_Blue_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_For_Wasteland_Blue_C",
     "Name": "Default__PS_For_Wasteland_Blue_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Wasteland/Data/Palettes/Blue/PS_For_Wasteland_Blue.PS_For_Wasteland_Blue_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Cape",
+          "Name": "Cape",
           "Value": {
             "R": 0.008952,
             "G": 0.010532,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Metal",
+          "Name": "Metal",
           "Value": {
             "R": 0.113281,
             "G": 0.131532,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "PaddingTrim",
+          "Name": "PaddingTrim",
           "Value": {
             "R": 0.499674,
             "G": 0.496419,
@@ -59,7 +64,41 @@
           }
         },
         {
+          "Key": "Padding",
+          "Name": "Padding",
+          "Value": {
+            "R": 0.427083,
+            "G": 0.228973,
+            "B": 0.022244,
+            "A": 1.0,
+            "Hex": "AF8429"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.018989,
+            "G": 0.02749,
+            "B": 0.260417,
+            "A": 1.0,
+            "Hex": "252E8C"
+          }
+        },
+        {
+          "Key": "Straps",
+          "Name": "Straps",
+          "Value": {
+            "R": 0.015096,
+            "G": 0.012722,
+            "B": 0.036458,
+            "A": 1.0,
+            "Hex": "201D35"
+          }
+        },
+        {
           "Key": "Belt",
+          "Name": "Belt",
           "Value": {
             "R": 0.42869,
             "G": 0.23074,
@@ -70,6 +109,7 @@
         },
         {
           "Key": "MaskEyes",
+          "Name": "MaskEyes",
           "Value": {
             "R": 1.0,
             "G": 0.0,
@@ -79,37 +119,8 @@
           }
         },
         {
-          "Key": "Pants",
-          "Value": {
-            "R": 0.018989,
-            "G": 0.02749,
-            "B": 0.260417,
-            "A": 1.0,
-            "Hex": "252E8C"
-          }
-        },
-        {
-          "Key": "Padding",
-          "Value": {
-            "R": 0.427083,
-            "G": 0.228973,
-            "B": 0.022244,
-            "A": 1.0,
-            "Hex": "AF8429"
-          }
-        },
-        {
-          "Key": "Straps",
-          "Value": {
-            "R": 0.015096,
-            "G": 0.012722,
-            "B": 0.036458,
-            "A": 1.0,
-            "Hex": "201D35"
-          }
-        },
-        {
           "Key": "Mask",
+          "Name": "Mask",
           "Value": {
             "R": 0.314426,
             "G": 0.331692,
@@ -119,17 +130,8 @@
           }
         },
         {
-          "Key": "WeaponCloth",
-          "Value": {
-            "R": 0.027317,
-            "G": 0.085352,
-            "B": 0.276042,
-            "A": 1.0,
-            "Hex": "2E528F"
-          }
-        },
-        {
           "Key": "MetalTrim",
+          "Name": "MetalTrim",
           "Value": {
             "R": 0.102242,
             "G": 0.078187,
@@ -140,6 +142,7 @@
         },
         {
           "Key": "Pipe",
+          "Name": "Pipe",
           "Value": {
             "R": 0.242281,
             "G": 0.099899,
@@ -150,6 +153,7 @@
         },
         {
           "Key": "Hair",
+          "Name": "Hair",
           "Value": {
             "R": 0.236979,
             "G": 0.546636,
@@ -160,6 +164,7 @@
         },
         {
           "Key": "Hair2",
+          "Name": "Hair2",
           "Value": {
             "R": 0.645833,
             "G": 0.976417,
@@ -170,6 +175,7 @@
         },
         {
           "Key": "White",
+          "Name": "White",
           "Value": {
             "R": 1.0,
             "G": 1.0,

@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_Summer_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_Summer_Green_C'Default__PS_Ran_Summer_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/Summer/Data/Palettes/Green/PS_Ran_Summer_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_Summer_Green_C",
+    "Name": "Default__PS_Ran_Summer_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/Summer/Data/Palettes/Green/PS_Ran_Summer_Green.PS_Ran_Summer_Green_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.110936,
+            "G": 0.508881,
+            "B": 0.296644,
+            "A": 1.0,
+            "Hex": "5DBD94"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.508881,
+            "G": 0.760525,
+            "B": 0.508881,
+            "A": 1.0,
+            "Hex": "BDE2BD"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.018653,
+            "G": 0.158,
+            "B": 0.088327,
+            "A": 1.0,
+            "Hex": "256F54"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.094355,
+            "G": 0.412543,
+            "B": 0.038204,
+            "A": 1.0,
+            "Hex": "56AC37"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.119635,
+            "G": 0.04669,
+            "B": 0.203,
+            "A": 1.0,
+            "Hex": "613D7C"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.838799,
+            "G": 0.745404,
+            "B": 0.545724,
+            "A": 1.0,
+            "Hex": "ECE0C3"
+          }
+        },
+        {
+          "Key": "Flowers",
+          "Name": "Flowers",
+          "Value": {
+            "R": 0.119635,
+            "G": 0.04669,
+            "B": 0.203,
+            "A": 1.0,
+            "Hex": "613D7C"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.026285,
+            "G": 0.376564,
+            "B": 0.751,
+            "A": 1.0,
+            "Hex": "2DA5E1"
+          }
+        },
+        {
+          "Key": "Duck",
+          "Name": "Duck",
+          "Value": {
+            "R": 0.014141,
+            "G": 0.293,
+            "B": 0.028197,
+            "A": 1.0,
+            "Hex": "1F932E"
+          }
+        },
+        {
+          "Key": "Beak",
+          "Name": "Beak",
+          "Value": {
+            "R": 0.904661,
+            "G": 0.238398,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "F4862E"
+          }
+        }
+      ]
+    }
+  }
+]

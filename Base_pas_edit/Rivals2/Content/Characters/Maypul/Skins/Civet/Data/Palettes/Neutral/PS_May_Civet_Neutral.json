@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_May_Civet_Neutral_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_May_Civet_Neutral_C",
     "Name": "Default__PS_May_Civet_Neutral_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Maypul/Skins/Civet/Data/Palettes/Neutral/PS_May_Civet_Neutral.PS_May_Civet_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Nose",
+          "Name": "Nose",
           "Value": {
             "R": 0.005,
             "G": 0.005,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.212231,
             "G": 0.142407,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Belly",
+          "Name": "Belly",
           "Value": {
             "R": 0.539479,
             "G": 0.47932,
@@ -60,6 +65,7 @@
         },
         {
           "Key": "Stripes",
+          "Name": "Stripes",
           "Value": {
             "R": 0.03,
             "G": 0.024562,
@@ -70,6 +76,7 @@
         },
         {
           "Key": "Pads",
+          "Name": "Pads",
           "Value": {
             "R": 0.105,
             "G": 0.04641,
@@ -80,6 +87,7 @@
         },
         {
           "Key": "Eyes",
+          "Name": "Eyes",
           "Value": {
             "R": 0.093,
             "G": 0.031789,
@@ -90,6 +98,7 @@
         },
         {
           "Key": "Leaf",
+          "Name": "Leaf",
           "Value": {
             "R": 0.559,
             "G": 0.25346,
@@ -100,12 +109,68 @@
         },
         {
           "Key": "Vine",
+          "Name": "Vine",
           "Value": {
             "R": 0.071,
             "G": 0.049707,
             "B": 0.034861,
             "A": 1.0,
             "Hex": "4B3F34"
+          }
+        },
+        {
+          "Key": "PVine",
+          "Name": "PVine",
+          "Value": {
+            "R": 0.188,
+            "G": 0.119744,
+            "B": 0.041736,
+            "A": 1.0,
+            "Hex": "786139"
+          }
+        },
+        {
+          "Key": "Pal",
+          "Name": "Pal",
+          "Value": {
+            "R": 0.556,
+            "G": 0.250478,
+            "B": 0.032248,
+            "A": 1.0,
+            "Hex": "C58932"
+          }
+        },
+        {
+          "Key": "Vine2",
+          "Name": "Vine2",
+          "Value": {
+            "R": 0.074,
+            "G": 0.055662,
+            "B": 0.047286,
+            "A": 1.0,
+            "Hex": "4D423D"
+          }
+        },
+        {
+          "Key": "Poppy",
+          "Name": "Poppy",
+          "Value": {
+            "R": 0.539479,
+            "G": 0.47932,
+            "B": 0.351533,
+            "A": 1.0,
+            "Hex": "C2B8A0"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.03,
+            "G": 0.024562,
+            "B": 0.022078,
+            "A": 1.0,
+            "Hex": "302B29"
           }
         }
       ]

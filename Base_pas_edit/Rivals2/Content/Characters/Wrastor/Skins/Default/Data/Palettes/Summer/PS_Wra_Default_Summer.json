@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Wra_Default_Summer_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Wra_Default_Summer_C'Default__PS_Wra_Default_Summer_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Wrastor/Skins/Default/Data/Palettes/Summer/PS_Wra_Default_Summer.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Wra_Default_Summer_C",
+    "Name": "Default__PS_Wra_Default_Summer_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Wrastor/Skins/Default/Data/Palettes/Summer/PS_Wra_Default_Summer.PS_Wra_Default_Summer_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.02464,
+            "G": 0.4087,
+            "B": 0.56,
+            "A": 1.0,
+            "Hex": "2BABC6"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.508881,
+            "G": 0.913099,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "BDF5FF"
+          }
+        },
+        {
+          "Key": "Wings",
+          "Name": "Wings",
+          "Value": {
+            "R": 0.007436,
+            "G": 0.169,
+            "B": 0.090911,
+            "A": 1.0,
+            "Hex": "147255"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.604,
+            "G": 0.474744,
+            "B": 0.086976,
+            "A": 1.0,
+            "Hex": "CCB753"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.0,
+            "G": 0.854993,
+            "B": 0.099749,
+            "A": 1.0,
+            "Hex": "00EE59"
+          }
+        },
+        {
+          "Key": "Scarf",
+          "Name": "Scarf",
+          "Value": {
+            "R": 0.665387,
+            "G": 0.198064,
+            "B": 0.013308,
+            "A": 1.0,
+            "Hex": "D57B1E"
+          }
+        },
+        {
+          "Key": "Goggles",
+          "Name": "Goggles",
+          "Value": {
+            "R": 0.051,
+            "G": 0.051,
+            "B": 0.051,
+            "A": 1.0,
+            "Hex": "404040"
+          }
+        },
+        {
+          "Key": "Lens",
+          "Name": "Lens",
+          "Value": {
+            "R": 0.053664,
+            "G": 0.06622,
+            "B": 0.129,
+            "A": 1.0,
+            "Hex": "414964"
+          }
+        },
+        {
+          "Key": "LensGradient",
+          "Name": "LensGradient",
+          "Value": {
+            "R": 0.204952,
+            "G": 0.275389,
+            "B": 0.374,
+            "A": 1.0,
+            "Hex": "7D8FA5"
+          }
+        },
+        {
+          "Key": "White",
+          "Name": "White",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

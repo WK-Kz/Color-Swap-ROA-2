@@ -1,0 +1,102 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Ran_SnowDay_Blue_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Ran_SnowDay_Blue_C'Default__PE_Ran_SnowDay_Blue_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/SnowDay/Data/Palettes/Blue/PE_Ran_SnowDay_Blue.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Ran_SnowDay_Blue_C",
+    "Name": "Default__PE_Ran_SnowDay_Blue_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/SnowDay/Data/Palettes/Blue/PE_Ran_SnowDay_Blue.PE_Ran_SnowDay_Blue_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element0",
+          "Name": "Element0",
+          "Value": {
+            "R": 0.174,
+            "G": 0.174,
+            "B": 0.174,
+            "A": 1.0,
+            "Hex": "747474"
+          }
+        },
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.084527,
+            "G": 0.328246,
+            "B": 0.854167,
+            "A": 1.0,
+            "Hex": "529BEE"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.286458,
+            "G": 0.631336,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "92D0FF"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.692708,
+            "G": 0.774651,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "D9E4FF"
+          }
+        },
+        {
+          "Key": "Element4",
+          "Name": "Element4",
+          "Value": {
+            "R": 0.713968,
+            "G": 0.728801,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "DCDEFF"
+          }
+        },
+        {
+          "Key": "Element5",
+          "Name": "Element5",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

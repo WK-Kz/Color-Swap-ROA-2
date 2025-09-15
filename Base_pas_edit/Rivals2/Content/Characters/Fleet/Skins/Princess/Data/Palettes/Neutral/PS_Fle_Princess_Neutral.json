@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Fle_Princess_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Fle_Princess_Neutral_C'Default__PS_Fle_Princess_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Princess/Data/Palettes/Neutral/PS_Fle_Princess_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Fle_Princess_Neutral_C",
+    "Name": "Default__PS_Fle_Princess_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Princess/Data/Palettes/Neutral/PS_Fle_Princess_Neutral.PS_Fle_Princess_Neutral_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Gemstone",
+          "Name": "Gemstone",
+          "Value": {
+            "R": 0.246201,
+            "G": 0.028426,
+            "B": 0.55834,
+            "A": 1.0,
+            "Hex": "882FC5"
+          }
+        },
+        {
+          "Key": "Cloth",
+          "Name": "Cloth",
+          "Value": {
+            "R": 0.71,
+            "G": 0.14697,
+            "B": 0.293011,
+            "A": 1.0,
+            "Hex": "DC6B93"
+          }
+        },
+        {
+          "Key": "Accent",
+          "Name": "Accent",
+          "Value": {
+            "R": 0.439657,
+            "G": 0.028578,
+            "B": 0.029984,
+            "A": 1.0,
+            "Hex": "B12F30"
+          }
+        },
+        {
+          "Key": "Trim",
+          "Name": "Trim",
+          "Value": {
+            "R": 0.621,
+            "G": 0.407185,
+            "B": 0.077625,
+            "A": 1.0,
+            "Hex": "CFAB4F"
+          }
+        },
+        {
+          "Key": "Legs",
+          "Name": "Legs",
+          "Value": {
+            "R": 0.590619,
+            "G": 0.584078,
+            "B": 0.590619,
+            "A": 1.0,
+            "Hex": "CAC9CA"
+          }
+        },
+        {
+          "Key": "Gem2",
+          "Name": "Gem2",
+          "Value": {
+            "R": 0.439657,
+            "G": 0.028578,
+            "B": 0.029984,
+            "A": 1.0,
+            "Hex": "B12F30"
+          }
+        },
+        {
+          "Key": "Stem",
+          "Name": "Stem",
+          "Value": {
+            "R": 0.013702,
+            "G": 0.132868,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "1F6629"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.607,
+            "G": 0.48009,
+            "B": 0.383576,
+            "A": 1.0,
+            "Hex": "CDB8A7"
+          }
+        },
+        {
+          "Key": "Dark",
+          "Name": "Dark",
+          "Value": {
+            "R": 0.038204,
+            "G": 0.025187,
+            "B": 0.020289,
+            "A": 1.0,
+            "Hex": "372C27"
+          }
+        }
+      ]
+    }
+  }
+]

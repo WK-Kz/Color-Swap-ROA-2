@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PE_Fle_Pajama_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Fle_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Neutral/PE_Fle_Default_Neutral.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PE_Fle_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Neutral/PE_Fle_Default_Neutral.0"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PE_Fle_Pajama_Neutral_C'Default__PE_Fle_Pajama_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Neutral/PE_Fle_Pajama_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PE_Fle_Pajama_Neutral_C",
+    "Name": "Default__PE_Fle_Pajama_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Fleet/Skins/Pyjama/Data/Palettes/Neutral/PE_Fle_Pajama_Neutral.PE_Fle_Pajama_Neutral_C'",
+    "Template": {
+      "ObjectName": "PE_Fle_Default_Neutral_C'Default__PE_Fle_Default_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Fleet/Skins/Default/Data/Palettes/Neutral/PE_Fle_Default_Neutral.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Element1",
+          "Name": "Element1",
+          "Value": {
+            "R": 0.106288,
+            "G": 0.034017,
+            "B": 0.34375,
+            "A": 1.0,
+            "Hex": "5C339F"
+          }
+        },
+        {
+          "Key": "Element2",
+          "Name": "Element2",
+          "Value": {
+            "R": 0.287975,
+            "G": 0.071886,
+            "B": 0.552083,
+            "A": 1.0,
+            "Hex": "924CC4"
+          }
+        },
+        {
+          "Key": "Element3",
+          "Name": "Element3",
+          "Value": {
+            "R": 0.927604,
+            "G": 0.276042,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "F78FFF"
+          }
+        },
+        {
+          "Key": "Element6",
+          "Name": "Element6",
+          "Value": {
+            "R": 0.954,
+            "G": 0.876019,
+            "B": 0.156891,
+            "A": 1.0,
+            "Hex": "FAF16E"
+          }
+        },
+        {
+          "Key": "Element7",
+          "Name": "Element7",
+          "Value": {
+            "R": 1.0,
+            "G": 0.616157,
+            "B": 0.086891,
+            "A": 1.0,
+            "Hex": "FFCE53"
+          }
+        }
+      ]
+    }
+  }
+]

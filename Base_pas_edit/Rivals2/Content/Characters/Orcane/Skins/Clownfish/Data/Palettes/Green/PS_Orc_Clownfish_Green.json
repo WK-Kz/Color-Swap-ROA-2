@@ -3,6 +3,7 @@
     "Type": "BlueprintGeneratedClass",
     "Name": "PS_Orc_Clownfish_Green_C",
     "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "SuperStruct": {
       "ObjectName": "Class'RivalsColorPalette'",
       "ObjectPath": "/Script/Rivals2"
@@ -26,10 +27,12 @@
     "Type": "PS_Orc_Clownfish_Green_C",
     "Name": "Default__PS_Orc_Clownfish_Green_C",
     "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Orcane/Skins/Clownfish/Data/Palettes/Green/PS_Orc_Clownfish_Green.PS_Orc_Clownfish_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "CustomColorSlotDefinitions": [
         {
           "Key": "Body",
+          "Name": "Body",
           "Value": {
             "R": 0.250541,
             "G": 0.458333,
@@ -40,6 +43,7 @@
         },
         {
           "Key": "Stripe",
+          "Name": "Stripe",
           "Value": {
             "R": 0.895833,
             "G": 0.844073,
@@ -50,6 +54,7 @@
         },
         {
           "Key": "Trim",
+          "Name": "Trim",
           "Value": {
             "R": 0.005208,
             "G": 0.004086,

@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_TreeFrog_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_TreeFrog_Neutral_C'Default__PS_Ran_TreeFrog_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/TreeFrog/Data/Palettes/Neutral/PS_Ran_TreeFrog_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_TreeFrog_Neutral_C",
+    "Name": "Default__PS_Ran_TreeFrog_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/TreeFrog/Data/Palettes/Neutral/PS_Ran_TreeFrog_Neutral.PS_Ran_TreeFrog_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.171001,
+            "G": 0.359375,
+            "B": 0.03182,
+            "A": 1.0,
+            "Hex": "73A232"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.693872,
+            "G": 0.55834,
+            "B": 0.371238,
+            "A": 1.0,
+            "Hex": "D9C5A4"
+          }
+        },
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.008545,
+            "G": 0.061239,
+            "B": 0.234375,
+            "A": 1.0,
+            "Hex": "174685"
+          }
+        },
+        {
+          "Key": "Hands",
+          "Name": "Hands",
+          "Value": {
+            "R": 0.833333,
+            "G": 0.098839,
+            "B": 0.013021,
+            "A": 1.0,
+            "Hex": "EC581E"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.976444,
+            "G": 1.0,
+            "B": 0.161458,
+            "A": 1.0,
+            "Hex": "FDFF70"
+          }
+        },
+        {
+          "Key": "Wraps",
+          "Name": "Wraps",
+          "Value": {
+            "R": 0.693872,
+            "G": 0.55834,
+            "B": 0.371238,
+            "A": 1.0,
+            "Hex": "D9C5A4"
+          }
+        },
+        {
+          "Key": "Eyes",
+          "Name": "Eyes",
+          "Value": {
+            "R": 0.895833,
+            "G": 0.023329,
+            "B": 0.023329,
+            "A": 1.0,
+            "Hex": "F32A2A"
+          }
+        }
+      ]
+    }
+  }
+]

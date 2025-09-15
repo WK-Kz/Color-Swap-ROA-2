@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Cha_Retro_Neutral_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Cha_Retro_Neutral_C'Default__PS_Cha_Retro_Neutral_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Shared/Retro/PS_Cha_Retro_Neutral.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Cha_Retro_Neutral_C",
+    "Name": "Default__PS_Cha_Retro_Neutral_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Shared/Retro/PS_Cha_Retro_Neutral.PS_Cha_Retro_Neutral_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Dark",
+          "Name": "Dark",
+          "Value": {
+            "R": 0.015209,
+            "G": 0.05448,
+            "B": 0.027321,
+            "A": 1.0,
+            "Hex": "21422E"
+          }
+        },
+        {
+          "Key": "Mid",
+          "Name": "Mid",
+          "Value": {
+            "R": 0.0865,
+            "G": 0.191202,
+            "B": 0.046665,
+            "A": 1.0,
+            "Hex": "53793D"
+          }
+        },
+        {
+          "Key": "Bright",
+          "Name": "Bright",
+          "Value": {
+            "R": 0.38643,
+            "G": 0.491021,
+            "B": 0.066626,
+            "A": 1.0,
+            "Hex": "A7BA49"
+          }
+        },
+        {
+          "Key": "Highlight",
+          "Name": "Highlight",
+          "Value": {
+            "R": 0.651406,
+            "G": 0.760525,
+            "B": 0.323143,
+            "A": 1.0,
+            "Hex": "D3E29A"
+          }
+        }
+      ]
+    }
+  }
+]

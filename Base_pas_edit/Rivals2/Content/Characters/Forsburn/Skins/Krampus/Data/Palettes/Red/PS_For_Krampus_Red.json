@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_For_Krampus_Red_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_For_Krampus_Red_C'Default__PS_For_Krampus_Red_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Forsburn/Skins/Krampus/Data/Palettes/Red/PS_For_Krampus_Red.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_For_Krampus_Red_C",
+    "Name": "Default__PS_For_Krampus_Red_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Forsburn/Skins/Krampus/Data/Palettes/Red/PS_For_Krampus_Red.PS_For_Krampus_Red_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Nails",
+          "Name": "Nails",
+          "Value": {
+            "R": 0.003035,
+            "G": 0.003035,
+            "B": 0.003035,
+            "A": 1.0,
+            "Hex": "0A0A0A"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.311,
+            "G": 0.061283,
+            "B": 0.028301,
+            "A": 1.0,
+            "Hex": "97462F"
+          }
+        },
+        {
+          "Key": "Hoofs",
+          "Name": "Hoofs",
+          "Value": {
+            "R": 0.018,
+            "G": 0.007416,
+            "B": 0.007416,
+            "A": 1.0,
+            "Hex": "241414"
+          }
+        },
+        {
+          "Key": "Belly",
+          "Name": "Belly",
+          "Value": {
+            "R": 0.049,
+            "G": 0.011156,
+            "B": 0.009163,
+            "A": 1.0,
+            "Hex": "3E1B18"
+          }
+        },
+        {
+          "Key": "Hair",
+          "Name": "Hair",
+          "Value": {
+            "R": 0.049,
+            "G": 0.011156,
+            "B": 0.009163,
+            "A": 1.0,
+            "Hex": "3E1B18"
+          }
+        },
+        {
+          "Key": "CapeAccent",
+          "Name": "CapeAccent",
+          "Value": {
+            "R": 0.270498,
+            "G": 0.016807,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "8E2323"
+          }
+        },
+        {
+          "Key": "Cape",
+          "Name": "Cape",
+          "Value": {
+            "R": 0.04218,
+            "G": 0.00654,
+            "B": 0.06,
+            "A": 1.0,
+            "Hex": "3A1345"
+          }
+        },
+        {
+          "Key": "CapeFur",
+          "Name": "CapeFur",
+          "Value": {
+            "R": 0.332452,
+            "G": 0.192822,
+            "B": 0.192822,
+            "A": 1.0,
+            "Hex": "9C7979"
+          }
+        },
+        {
+          "Key": "Horn",
+          "Name": "Horn",
+          "Value": {
+            "R": 0.365,
+            "G": 0.20659,
+            "B": 0.20659,
+            "A": 1.0,
+            "Hex": "A37D7D"
+          }
+        },
+        {
+          "Key": "Clothing",
+          "Name": "Clothing",
+          "Value": {
+            "R": 0.04218,
+            "G": 0.00654,
+            "B": 0.06,
+            "A": 1.0,
+            "Hex": "3A1345"
+          }
+        },
+        {
+          "Key": "ClothingAccent",
+          "Name": "ClothingAccent",
+          "Value": {
+            "R": 0.270498,
+            "G": 0.016807,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "8E2323"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.368,
+            "G": 0.250492,
+            "B": 0.061456,
+            "A": 1.0,
+            "Hex": "A38946"
+          }
+        },
+        {
+          "Key": "ArmFur",
+          "Name": "ArmFur",
+          "Value": {
+            "R": 0.049,
+            "G": 0.011156,
+            "B": 0.009163,
+            "A": 1.0,
+            "Hex": "3E1B18"
+          }
+        },
+        {
+          "Key": "ClothingFur",
+          "Name": "ClothingFur",
+          "Value": {
+            "R": 0.332452,
+            "G": 0.192822,
+            "B": 0.192822,
+            "A": 1.0,
+            "Hex": "9C7979"
+          }
+        },
+        {
+          "Key": "Weapon",
+          "Name": "Weapon",
+          "Value": {
+            "R": 0.090842,
+            "G": 0.05448,
+            "B": 0.026241,
+            "A": 1.0,
+            "Hex": "55422D"
+          }
+        },
+        {
+          "Key": "WeaponWrap",
+          "Name": "WeaponWrap",
+          "Value": {
+            "R": 0.270498,
+            "G": 0.016807,
+            "B": 0.016807,
+            "A": 1.0,
+            "Hex": "8E2323"
+          }
+        },
+        {
+          "Key": "Pupil",
+          "Name": "Pupil",
+          "Value": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        {
+          "Key": "Iris",
+          "Name": "Iris",
+          "Value": {
+            "R": 0.0,
+            "G": 0.470475,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "00B7FF"
+          }
+        },
+        {
+          "Key": "Scelera",
+          "Name": "Scelera",
+          "Value": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        }
+      ]
+    }
+  }
+]

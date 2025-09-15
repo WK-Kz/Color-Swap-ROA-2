@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PS_Ran_SnowDay_Green_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'RivalsColorPalette'",
+      "ObjectPath": "/Script/Rivals2"
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PS_Ran_SnowDay_Green_C'Default__PS_Ran_SnowDay_Green_C'",
+      "ObjectPath": "Rivals2/Content/Characters/Ranno/Skins/SnowDay/Data/Palettes/Green/PS_Ran_SnowDay_Green.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "PS_Ran_SnowDay_Green_C",
+    "Name": "Default__PS_Ran_SnowDay_Green_C",
+    "Class": "BlueprintGeneratedClass'Rivals2/Content/Characters/Ranno/Skins/SnowDay/Data/Palettes/Green/PS_Ran_SnowDay_Green.PS_Ran_SnowDay_Green_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CustomColorSlotDefinitions": [
+        {
+          "Key": "Pants",
+          "Name": "Pants",
+          "Value": {
+            "R": 0.515625,
+            "G": 0.471493,
+            "B": 0.437744,
+            "A": 1.0,
+            "Hex": "BEB7B1"
+          }
+        },
+        {
+          "Key": "Jacket",
+          "Name": "Jacket",
+          "Value": {
+            "R": 0.01888,
+            "G": 0.041667,
+            "B": 0.025724,
+            "A": 1.0,
+            "Hex": "25392C"
+          }
+        },
+        {
+          "Key": "Metal",
+          "Name": "Metal",
+          "Value": {
+            "R": 0.505208,
+            "G": 0.496775,
+            "B": 0.505208,
+            "A": 1.0,
+            "Hex": "BDBBBD"
+          }
+        },
+        {
+          "Key": "Mitts",
+          "Name": "Mitts",
+          "Value": {
+            "R": 0.20515,
+            "G": 0.416667,
+            "B": 0.043403,
+            "A": 1.0,
+            "Hex": "7DAD3A"
+          }
+        },
+        {
+          "Key": "Lining",
+          "Name": "Lining",
+          "Value": {
+            "R": 0.609375,
+            "G": 0.507812,
+            "B": 0.228516,
+            "A": 1.0,
+            "Hex": "CDBD83"
+          }
+        },
+        {
+          "Key": "BootSole",
+          "Name": "BootSole",
+          "Value": {
+            "R": 0.020833,
+            "G": 0.015849,
+            "B": 0.009332,
+            "A": 1.0,
+            "Hex": "272118"
+          }
+        },
+        {
+          "Key": "BootLeather",
+          "Name": "BootLeather",
+          "Value": {
+            "R": 0.177083,
+            "G": 0.072493,
+            "B": 0.027669,
+            "A": 1.0,
+            "Hex": "754C2E"
+          }
+        },
+        {
+          "Key": "Snow",
+          "Name": "Snow",
+          "Value": {
+            "R": 0.75,
+            "G": 0.740625,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "E1E078"
+          }
+        },
+        {
+          "Key": "Body",
+          "Name": "Body",
+          "Value": {
+            "R": 0.635417,
+            "G": 0.387318,
+            "B": 0.062879,
+            "A": 1.0,
+            "Hex": "D1A747"
+          }
+        },
+        {
+          "Key": "Pattern",
+          "Name": "Pattern",
+          "Value": {
+            "R": 0.09375,
+            "G": 0.053158,
+            "B": 0.009766,
+            "A": 1.0,
+            "Hex": "564119"
+          }
+        },
+        {
+          "Key": "Tongue",
+          "Name": "Tongue",
+          "Value": {
+            "R": 0.458197,
+            "G": 0.661458,
+            "B": 0.051676,
+            "A": 1.0,
+            "Hex": "B5D540"
+          }
+        }
+      ]
+    }
+  }
+]
