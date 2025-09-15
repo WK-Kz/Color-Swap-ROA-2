@@ -9,11 +9,10 @@ import time
 import pickle
 import threading
 from PIL import Image, ImageTk
-import sys
 
 CONFIG_FILE = 'config.pkl'
 
-BASE_DIR = r"Base_pas_edit\Rivals2\Content\Characters"
+BASE_DIR = os.path.join("Base_pas_edit", "Rivals2","Content", "Characters")
 
 # Initialisation des variables globales
 unrealpak_script_path = None
@@ -88,7 +87,7 @@ translations = {
 }
 
 # Langue actuelle
-current_language = 'fr'  # Valeur par défaut, sera chargée depuis la config
+current_language = 'en'  # Valeur par défaut, sera chargée depuis la config
 
 
 def update_texts():
@@ -105,12 +104,10 @@ def update_texts():
         text=translations[current_language]['replace_colors'])
 
     # Mettre à jour les labels
-    character_label.config(
-        text=translations[current_language]['character'])
+    character_label.config(text=translations[current_language]['character'])
     skin_label.config(text=translations[current_language]['skin'])
     color_label.config(text=translations[current_language]['color'])
-    file_type_label.config(
-        text=translations[current_language]['file_type'])
+    file_type_label.config(text=translations[current_language]['file_type'])
 
     # Mettre à jour le menu des langues
     language_menu['text'] = selected_language.get()
@@ -172,7 +169,25 @@ def get_output_and_unrealpak_dirs():
         # Chemin de sortie pour DartFrog
         output_folder_path = os.path.join(
             unrealpak_folder_path,
-            "Rivals2", "Content", "Characters", character, "Skins", skin, "Data"
+            "Rivals2", "Content", "Characters", character, "Skins", skin, "Data", "Palettes", color
+        )
+    elif character == 'Retro':
+        # Chemin de sortie pour Retro
+        output_folder_path = os.path.join(
+            unrealpak_folder_path,
+            "Rivals2", "Content", "Characters", "Shared", "Retro"
+        )
+    elif character == 'Champion':
+        # Chemin de sortie pour Retro
+        output_folder_path = os.path.join(
+            unrealpak_folder_path,
+            "Rivals2", "Content", "Characters", "Shared", "Champion"
+        )
+    elif character == 'Loxodont' and skin == 'default':
+        # Chemin de sortie pour Retro
+        output_folder_path = os.path.join(
+            unrealpak_folder_path,
+            "Rivals2", "Content", "Characters", "Shared", "Retro"
         )
     else:
         # Chemin de sortie général
@@ -189,8 +204,8 @@ def get_output_and_unrealpak_dirs():
 def save_preset():
     # Vérifier que les données JSON sont chargées
     if json_data is None:
-        messagebox.showerror(
-            translations[current_language]['error_title'], translations[current_language]['no_json_loaded'])
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['no_json_loaded'])
         return
     preset_file = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[
                                                ("JSON files", "*.json")], initialdir=preset_dir)
@@ -233,7 +248,7 @@ def load_preset():
             try:
                 preset_data = json.load(f)
                 # Vérifier que le preset correspond au personnage et au skin actuels
-                if preset_data.get("Character") != selected_character.get() or preset_data.get("Skin") != selected_skin.get():
+                if preset_data.get("Character") != selected_character.get() or (preset_data.get("Skin") != selected_skin.get() and selected_character.get() != 'Retro'):
                     messagebox.showerror(
                         translations[current_language]['error_title'],
                         translations[current_language]['preset_mismatch'])
@@ -258,8 +273,8 @@ def load_preset():
                                     color_entries[key].delete(0, tk.END)
                                     color_entries[key].insert(0, hex_color)
                                     update_color_display(key)
-                messagebox.showinfo(translations[current_language]['success_title'],
-                                    translations[current_language]['preset_loaded'])
+                messagebox.showinfo(
+                    translations[current_language]['success_title'], translations[current_language]['preset_loaded'])
             except json.JSONDecodeError:
                 messagebox.showerror(
                     translations[current_language]['error_title'], translations[current_language]['json_load_error'])
@@ -308,8 +323,8 @@ def load_json():
 
     # Vérifier si le fichier JSON existe
     if not os.path.exists(json_file_path):
-        messagebox.showerror(
-            translations[current_language]['error_title'], translations[current_language]['json_not_found'].format(json_file_path))
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['json_not_found'].format(json_file_path))
         return False
 
     # Charger le fichier JSON
@@ -327,8 +342,8 @@ def load_json():
                 print(f"Fichier JSON chargé et filtré : {json_file_path}")
                 return True
             else:
-                messagebox.showerror(
-                    translations[current_language]['error_title'], translations[current_language]['unexpected_json_format'])
+                messagebox.showerror(translations[current_language]['error_title'],
+                                     translations[current_language]['unexpected_json_format'])
                 return False
         except json.JSONDecodeError:
             messagebox.showerror(
@@ -358,7 +373,7 @@ def load_files():
     # Charge le fichier UEXP et le JSON associé
     try:
         # Afficher le curseur d'attente
-        root.config(cursor="wait")
+        root.config(cursor="watch")
         root.update()
         # Désactiver les menus déroulants
         disable_selection_menus()
@@ -454,6 +469,7 @@ def populate_color_selectors(data):
         if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
             for color in entry["Properties"]["CustomColorSlotDefinitions"]:
                 key = color["Key"]
+                name = color["Name"]
 
                 # Ignorer "Element0"
                 if key == "Element0":
@@ -464,7 +480,8 @@ def populate_color_selectors(data):
                     f"Affichage de la couleur '{key}' avec correspondance trouvée")
 
                 # Créer les champs pour chaque clé filtrée
-                label = tk.Label(color_frame, text=key,
+                # fuckingshit
+                label = tk.Label(color_frame, text=name,
                                  font=("Arial", 10, "bold"))
                 label.grid(row=row, column=col*3, padx=5, pady=5, sticky="w")
 
@@ -477,8 +494,7 @@ def populate_color_selectors(data):
 
                 color_display = tk.Label(
                     color_frame, width=2, height=1, bg="#FFFFFF", relief="solid", borderwidth=1)
-                color_display.grid(
-                    row=row, column=col*3 + 2, padx=5, pady=5)
+                color_display.grid(row=row, column=col*3 + 2, padx=5, pady=5)
                 color_displays[key] = color_display
 
                 # Ajouter l'événement de clic sur le carré de couleur
@@ -521,21 +537,85 @@ def load_uexp():
     color = selected_color.get()
     file_type_code = file_type_codes.get(selected_file_type.get())
 
-    # Cas particulier pour Ranno - DartFrog
-    if character == 'Ranno' and skin == 'DartFrog':
-        # Les fichiers sont dans Data, pas dans Data/Palettes/Color
+    if character == 'Retro':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, 'Shared', 'Retro')
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Cha'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"{file_type_code}_{prefix}_Retro_{color}.uexp"
+    elif character == 'Champion':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, 'Shared', 'Champion')
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Cha'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"{file_type_code}_{prefix}_Champion_{color}.uexp"
+    elif character == 'Olympia' and skin == 'BadgerCo' and file_type_code == 'PS':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Oly'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"{file_type_code}_{prefix}_BadgerCo_{color}.uexp"
+    elif character == 'Olympia' and skin == 'BadgerCo' and file_type_code == 'PE' and color != 'Green':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Oly'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"{file_type_code}_{prefix}_Default_{color}_BadgerCo.uexp"
+    elif character == 'Olympia' and skin == 'BadgerCo' and file_type_code == 'PE' and color == 'Green':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Oly'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"{file_type_code}_{prefix}_{color}_Neutral_BadgerCo.uexp"
+    elif character == 'Fleet' and skin == 'Princess' and file_type_code == 'PE' and color == 'Kickstarter':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Fle'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"PE_Fle_Princess_Red.uexp"
+    elif character == 'Forsburn' and skin == 'Krampus' and file_type_code == 'PE' and color == 'Blue':
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'For'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"PE_For_Krampus_Neutral.uexp"
+    elif character == 'LoxRock':
+        character_prefix = character[:3].capitalize()
+        # Chemin spécifique pour Retro
+        uexp_directory = os.path.join(BASE_DIR, 'Loxodont', 'Skins', 'Default')
+        # Utiliser 'Cha' comme préfixe spécifique pour Retro
+        prefix = 'Lox'
+        # Le nom du fichier est au format : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+        uexp_filename = f"MI_Lox_StandardMolten.uexp"
+    elif character == 'Ranno' and skin == 'DartFrog':
+        # Cas existant pour DartFrog
         uexp_directory = os.path.join(
-            BASE_DIR, character, "Skins", skin, "Data")
-
-        # Le nom du fichier est au format : PS_Ran_Dart_Color.uexp
+            BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
         character_prefix = character[:3].capitalize()
         uexp_filename = f"{file_type_code}_{character_prefix}_Dart_{color}.uexp"
+    elif character == 'Fleet' and skin == 'Pyjama':
+        # Cas existant pour DartFrog
+        uexp_directory = os.path.join(
+            BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        character_prefix = character[:3].capitalize()
+        uexp_filename = f"{file_type_code}_{character_prefix}_Pajama_{color}.uexp"
+    elif character == 'Etalus' and skin == 'HoneyBear' and color == 'Extra1':
+        uexp_directory = os.path.join(
+            BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
+        character_prefix = character[:3].capitalize()
+        uexp_filename = f"{file_type_code}_{character_prefix}_{skin}_Valentine.uexp"
     else:
         # Cas général
-        # Construction du nom de fichier selon le format
         character_prefix = character[:3].capitalize()
         uexp_filename = f"{file_type_code}_{character_prefix}_{skin}_{color}.uexp"
-        # Chemin du dossier UEXP
+        # Inclure "Palettes" dans le chemin
         uexp_directory = os.path.join(
             BASE_DIR, character, "Skins", skin, "Data", "Palettes", color)
 
@@ -554,8 +634,8 @@ def load_uexp():
 def replace_colors_in_uexp():
     # Remplace les couleurs dans le fichier UEXP en fonction des entrées utilisateur
     if json_data is None:
-        messagebox.showerror(
-            translations[current_language]['error_title'], translations[current_language]['no_json_loaded'])
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['no_json_loaded'])
         return
 
     try:
@@ -601,8 +681,7 @@ def replace_colors_in_uexp():
             if selected_color_entry:
                 original_hex = selected_color_entry["UEXP_Hex"]
                 # Rechercher la première occurrence après la position courante
-                position = modified_data.find(
-                    original_hex, current_position)
+                position = modified_data.find(original_hex, current_position)
                 if position != -1:
                     # Remplacer cette occurrence uniquement et afficher les informations de modification
                     modified_data = (
@@ -618,8 +697,7 @@ def replace_colors_in_uexp():
                     # Mettre à jour la position courante pour continuer après cet emplacement
                     current_position = position + len(new_hex)
                 else:
-                    print(
-                        f"Couleur '{key}' non trouvée dans le fichier UEXP.")
+                    print(f"Couleur '{key}' non trouvée dans le fichier UEXP.")
             else:
                 print(
                     f"Aucune correspondance trouvée pour la clé '{key}' dans le JSON.")
@@ -680,25 +758,37 @@ def ask_for_pak_directory_and_create(unrealpak_folder_path):
             messagebox.showerror(
                 translations[current_language]['error_title'], translations[current_language]['pak_not_found'])
     except subprocess.CalledProcessError as e:
-        messagebox.showerror(
-            translations[current_language]['error_title'], translations[current_language]['script_execution_failed'].format(e))
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['script_execution_failed'].format(e))
     except PermissionError as e:
         if e.errno == 13:
             messagebox.showerror(
                 translations[current_language]['error_title'], translations[current_language]['game_not_closed'])
         else:
-            messagebox.showerror(
-                translations[current_language]['error_title'], translations[current_language]['pak_creation_failed'].format(e))
+            messagebox.showerror(translations[current_language]['error_title'],
+                                 translations[current_language]['pak_creation_failed'].format(e))
     except Exception as e:
-        messagebox.showerror(
-            translations[current_language]['error_title'], translations[current_language]['pak_creation_failed'].format(e))
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['pak_creation_failed'].format(e))
 
 
 def load_character_icons():
     # Charge les icônes des personnages depuis le dossier 'icons'
     characters_path = os.path.join(BASE_DIR)
-    characters = [name for name in os.listdir(
-        characters_path) if os.path.isdir(os.path.join(characters_path, name))]
+    # Exclure 'Shared' de la liste des personnages
+    characters = [name for name in os.listdir(characters_path) if os.path.isdir(
+        os.path.join(characters_path, name)) and name != 'Shared']
+
+    # Ajouter manuellement "Retro" si ce n'est pas déjà dans le dossier Shared
+    shared_path = os.path.join(characters_path, 'Shared')
+    if os.path.exists(shared_path):
+        shared_subdirs = [name for name in os.listdir(
+            shared_path) if os.path.isdir(os.path.join(shared_path, name))]
+        if 'Retro' in shared_subdirs:
+            characters.append('Retro')
+        if 'Champion' in shared_subdirs:
+            characters.append('Champion')
+
     for character in characters:
         image_path = f"icons/{character}.png"  # Chemin de chaque icône PNG
         if os.path.exists(image_path):  # Vérifie si l'image existe
@@ -731,26 +821,40 @@ def update_skin_menu(*args):
     # Met à jour le menu des skins en fonction du personnage sélectionné
     character_name = selected_character.get()
     skins_path = os.path.join(BASE_DIR, character_name, 'Skins')
-    if os.path.exists(skins_path):
-        skins = [name for name in os.listdir(
-            skins_path) if os.path.isdir(os.path.join(skins_path, name))]
-        # Trier les skins pour un affichage cohérent
-        skins.sort()
-        # Effacer les anciennes options du menu
+
+    if character_name == 'Retro':
+        # Pour "Retro", il n'y a pas de skins, donc vider et désactiver le menu des skins
         skin_menu['menu'].delete(0, 'end')
-        for skin in skins:
-            skin_menu['menu'].add_command(
-                label=skin, command=tk._setit(selected_skin, skin))
-        # Sélectionner 'Default' si disponible, sinon le premier skin
-        if 'Default' in skins:
-            selected_skin.set('Default')
-        elif skins:
-            selected_skin.set(skins[0])
+        selected_skin.set('')  # Laisser vide
+        skin_menu.config(state='disabled')
+    elif character_name == 'Champion':
+        # Pour "Retro", il n'y a pas de skins, donc vider et désactiver le menu des skins
+        skin_menu['menu'].delete(0, 'end')
+        selected_skin.set('')  # Laisser vide
+        skin_menu.config(state='disabled')
+    else:
+        # Réactiver le menu des skins si un autre personnage est sélectionné
+        skin_menu.config(state='normal')
+        if os.path.exists(skins_path):
+            skins = [name for name in os.listdir(
+                skins_path) if os.path.isdir(os.path.join(skins_path, name))]
+            skins.sort()
+            # Effacer les anciennes options du menu
+            skin_menu['menu'].delete(0, 'end')
+            for skin in skins:
+                skin_menu['menu'].add_command(
+                    label=skin, command=tk._setit(selected_skin, skin))
+            # Sélectionner 'Default' si disponible, sinon le premier skin
+            if 'Default' in skins:
+                selected_skin.set('Default')
+            elif skins:
+                selected_skin.set(skins[0])
+            else:
+                selected_skin.set('')
         else:
             selected_skin.set('')
-    else:
-        selected_skin.set('')
-        skin_menu['menu'].delete(0, 'end')
+            skin_menu['menu'].delete(0, 'end')
+
     # Mettre à jour le menu des couleurs
     update_color_menu()
 
@@ -760,22 +864,48 @@ def update_color_menu(*args):
     character_name = selected_character.get()
     skin_name = selected_skin.get()
 
-    if character_name == 'Ranno' and skin_name == 'DartFrog':
-        # Les couleurs sont déterminées par les fichiers dans le dossier Data
-        data_path = os.path.join(
-            BASE_DIR, character_name, 'Skins', skin_name, 'Data')
+    if character_name == 'Retro':
+        # Les fichiers PE et PS sont directement dans Shared\Retro
+        data_path = os.path.join(BASE_DIR, 'Shared', 'Retro')
         if os.path.exists(data_path):
             colors = []
             for file in os.listdir(data_path):
                 if file.endswith('.uexp'):
                     # Extraire la couleur du nom du fichier
-                    # Format attendu : PS_Ran_Dart_Color.uexp
+                    # Format attendu : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
                     parts = file.replace('.uexp', '').split('_')
-                    if len(parts) >= 4:
+                    if len(parts) >= 4 and parts[2] == 'Retro':
                         color = parts[3]
                         colors.append(color)
             # Supprimer les doublons et trier
             colors = sorted(set(colors))
+        else:
+            colors = []
+    elif character_name == 'Champion':
+        # Les fichiers PE et PS sont directement dans Shared\Retro
+        data_path = os.path.join(BASE_DIR, 'Shared', 'Champion')
+        if os.path.exists(data_path):
+            colors = []
+            for file in os.listdir(data_path):
+                if file.endswith('.uexp'):
+                    # Extraire la couleur du nom du fichier
+                    # Format attendu : PE_Cha_Retro_Color.uexp ou PS_Cha_Retro_Color.uexp
+                    parts = file.replace('.uexp', '').split('_')
+                    if len(parts) >= 4 and parts[2] == 'Champion':
+                        color = parts[3]
+                        colors.append(color)
+            # Supprimer les doublons et trier
+            colors = sorted(set(colors))
+        else:
+            colors = []
+    elif character_name == 'Ranno' and skin_name == 'DartFrog':
+        # Cas existant pour DartFrog
+        palettes_path = os.path.join(
+            BASE_DIR, character_name, 'Skins', skin_name, 'Data', 'Palettes')
+        if os.path.exists(palettes_path):
+            colors = [name for name in os.listdir(palettes_path) if os.path.isdir(
+                os.path.join(palettes_path, name))]
+            colors.sort()
         else:
             colors = []
     else:
@@ -798,6 +928,7 @@ def update_color_menu(*args):
         selected_color.set(colors[0])
     else:
         selected_color.set('')
+
     # Mettre à jour le menu des types de fichiers
     update_file_type_menu()
 
@@ -808,10 +939,9 @@ def update_file_type_menu(*args):
     skin_name = selected_skin.get()
     color_name = selected_color.get()
 
-    if character_name == 'Ranno' and skin_name == 'DartFrog':
-        # Les fichiers sont dans Data
-        data_path = os.path.join(
-            BASE_DIR, character_name, 'Skins', skin_name, 'Data')
+    if character_name == 'Retro':
+        # Les fichiers PE et PS sont directement dans Shared\Retro
+        data_path = os.path.join(BASE_DIR, 'Shared', 'Retro')
         file_types_found = []
         if os.path.exists(data_path):
             files = os.listdir(data_path)
@@ -825,10 +955,42 @@ def update_file_type_menu(*args):
             file_types_found.sort()
         else:
             file_types_found = []
+    elif character_name == 'Champion':
+        # Les fichiers PE et PS sont directement dans Shared\Retro
+        data_path = os.path.join(BASE_DIR, 'Shared', 'Champion')
+        file_types_found = []
+        if os.path.exists(data_path):
+            files = os.listdir(data_path)
+            for file in files:
+                if file.endswith('.uexp') and color_name in file:
+                    if file.startswith('PE_'):
+                        file_types_found.append('Element/Energy')
+                    elif file.startswith('PS_'):
+                        file_types_found.append('Skin')
+            file_types_found = list(set(file_types_found))
+            file_types_found.sort()
+        else:
+            file_types_found = []
+    elif character_name == 'Ranno' and skin_name == 'DartFrog':
+        # Cas existant pour DartFrog
+        data_path = os.path.join(
+            BASE_DIR, character_name, 'Skins', skin_name, 'Data', 'Palettes', color_name)
+        file_types_found = []
+        if os.path.exists(data_path):
+            files = os.listdir(data_path)
+            for file in files:
+                if file.startswith('PE_'):
+                    file_types_found.append('Element/Energy')
+                elif file.startswith('PS_'):
+                    file_types_found.append('Skin')
+            file_types_found = list(set(file_types_found))
+            file_types_found.sort()
+        else:
+            file_types_found = []
     else:
         # Cas général
-        data_path = os.path.join(BASE_DIR, character_name,
-                                 'Skins', skin_name, 'Data', 'Palettes', color_name)
+        data_path = os.path.join(
+            BASE_DIR, character_name, 'Skins', skin_name, 'Data', 'Palettes', color_name)
         file_types_found = []
         if os.path.exists(data_path):
             files = os.listdir(data_path)
@@ -913,9 +1075,22 @@ def delayed_load():
     # Vérifier si suffisamment de temps s'est écoulé depuis le dernier changement
     if time.time() - last_change_time >= 0.5:
         # Vérifie que toutes les sélections sont faites
-        if selected_character.get() and selected_skin.get() and selected_color.get() and selected_file_type.get():
-            # Charger les fichiers sur le thread principal
-            root.after(0, load_files)
+        character = selected_character.get()
+        skin = selected_skin.get()
+        color = selected_color.get()
+        file_type = selected_file_type.get()
+
+        if character == 'Retro':
+            # Pour "Retro", le skin peut être vide
+            if character and color and file_type:
+                root.after(0, load_files)
+        elif character == 'Champion':
+            # Pour "Retro", le skin peut être vide
+            if character and color and file_type:
+                root.after(0, load_files)
+        else:
+            if character and skin and color and file_type:
+                root.after(0, load_files)
 
 
 def on_closing():
@@ -976,20 +1151,25 @@ selected_character_icon_label.grid(row=0, column=1, padx=2, pady=5)
 # Labels pour les menus déroulants
 character_label = tk.Label(header_frame, font=("Arial", 10))
 character_label.grid(row=0, column=2, padx=2, pady=5, sticky="e")
+character_label.config(text=translations[current_language]['character'])
 
 skin_label = tk.Label(header_frame, font=("Arial", 10))
 skin_label.grid(row=0, column=4, padx=2, pady=5, sticky="e")
+skin_label.config(text=translations[current_language]['skin'])
 
 color_label = tk.Label(header_frame, font=("Arial", 10))
 color_label.grid(row=0, column=6, padx=2, pady=5, sticky="e")
+color_label.config(text=translations[current_language]['color'])
 
 file_type_label = tk.Label(header_frame, font=("Arial", 10))
 file_type_label.grid(row=0, column=8, padx=2, pady=5, sticky="e")
+file_type_label.config(text=translations[current_language]['file_type'])
 
 # Menu déroulant pour le personnage avec icônes
 character_menu = create_character_menu(characters)
 selected_character.trace("w", update_selected_character_icon)
-selected_character.set(characters[0])
+if characters:
+    selected_character.set(characters[0])
 
 # Menu pour le skin
 skin_menu = tk.OptionMenu(header_frame, selected_skin, '')
@@ -1020,15 +1200,18 @@ update_skin_menu()
 config_button = tk.Button(header_frame, command=configure_script_and_mods_folder,
                           font=("Arial", 10), bg="#FFC107", fg="black")
 config_button.grid(row=1, column=0, columnspan=10, pady=10)
+config_button.config(text=translations[current_language]['configure_mods'])
 
 # Boutons pour sauvegarder et charger des presets
 save_preset_button = tk.Button(header_frame, command=save_preset,
                                font=("Arial", 9), bg="#2196F3", fg="white")
 save_preset_button.grid(row=2, column=0, padx=(5, 5), pady=5, sticky="w")
+save_preset_button.config(text=translations[current_language]['save_preset'])
 
 load_preset_button = tk.Button(header_frame, command=load_preset,
                                font=("Arial", 9), bg="#2196F3", fg="white")
 load_preset_button.grid(row=2, column=1, padx=(5, 5), pady=5, sticky="w")
+load_preset_button.config(text=translations[current_language]['load_preset'])
 
 # Frame pour afficher les couleurs
 color_frame = tk.Frame(root, bg="#ffffff", borderwidth=1, relief="solid")
@@ -1041,6 +1224,7 @@ action_frame.pack(pady=5)
 replace_button = tk.Button(action_frame, command=replace_colors_in_uexp,
                            font=("Arial", 10), bg="#4CAF50", fg="white", state='disabled')
 replace_button.grid(row=0, column=0, padx=5, pady=2)
+replace_button.config(text=translations[current_language]['replace_colors'])
 
 # Mise à jour initiale des textes
 update_texts()
