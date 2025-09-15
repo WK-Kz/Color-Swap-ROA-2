@@ -32,7 +32,8 @@ Pillow
 - Make sure to close the game before using the program.
 
 ### Launching the Program
-- Open the application with Start.vbs .
+- Open terminal and navigate to this folder
+- Run python couleur.py
 
 ### Selecting the Mods Folder
 - Click on the yellow button and select the location of the `Mods` folder you created.
