@@ -18,6 +18,7 @@ BASE_DIR = os.path.join("Base_pas_edit",
                         "Characters")
 
 # Initialisation des variables globales
+rivals_path = None
 unrealpak_script_path = None
 mods_folder_path = None
 json_data = None
@@ -33,6 +34,7 @@ __version__ = "1.3.4.1"
 translations = {
     'fr': {
         'title': "ROA 2 Colorswap" + " " + __version__,
+        'provide_rivals_pak_path_title' : "Fournir le chemin vers le dossier Rivals 2 Paks",
         'configure_mods': "Configurer le dossier Mods",
         'save_preset': "Sauvegarder Preset",
         'load_preset': "Charger Preset",
@@ -42,6 +44,9 @@ translations = {
         'color': "Couleur:",
         'file_type': "Type de fichier:",
         'success_title': "Succès",
+        'rivals_path_detected' : 'Chemin détecté',
+        'rivals_path_success' : "Répertoire Rivals 2 enregistré avec succès",
+        'rivals_path_failed' : "Ce n'est pas un répertoire valide",
         'preset_loaded': "Preset chargé avec succès.",
         'preset_saved': "Preset sauvegardé avec succès.",
         'error_title': "Erreur",
@@ -63,6 +68,7 @@ translations = {
     },
     'en': {
         'title': "ROA 2 Colorswap" + " " + __version__,
+        'provide_rivals_pak_path_title' : "Provide Path to Rivals 2 Paks Folder",
         'configure_mods': "Configure Mods Folder",
         'save_preset': "Save Preset",
         'load_preset': "Load Preset",
@@ -72,6 +78,9 @@ translations = {
         'color': "Color:",
         'file_type': "File Type:",
         'success_title': "Success",
+        'rivals_path_detected' : 'Path Detected',
+        'rivals_path_success' : "Rivals 2 directory saved successfully.",
+        'rivals_path_failed' : "Not a valid directory",
         'preset_loaded': "Preset loaded successfully.",
         'preset_saved': "Preset saved successfully.",
         'error_title': "Error",
@@ -125,10 +134,32 @@ def change_language(*args):
     current_language = language_options[selected_language.get()]
     update_texts()
 
+def get_rivals_path() -> None:
+    global rivals_path
+    try:
+        if rivals_path is None:
+            rivals_path = filedialog.askdirectory(title=translations[current_language]['provide_rivals_pak_path_title'])
+            if rivals_path is not None:
+                # Check if mods directory already exists
+                MOD_PATH = os.path.join(rivals_path, "Mods")
+                if os.path.exists(MOD_PATH):
+                    messagebox.showinfo(translations[current_language]['success_title'],
+                                        translations[current_language]['rivals_path_detected'])
+                    return
+                else:
+                    os.mkdir(MOD_PATH)
+                    save_config()
+                    messagebox.showinfo(translations[current_language]['success_title'],
+                                        translations[current_language]['rivals_path_success'])
+    except Exception as e:
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['rivals_path_failed'].format(e))
+        exit(-1)
 
 def save_config():
     # Sauvegarde de la configuration dans un fichier pickle
     config = {
+        'rivals_path': rivals_path,
         'unrealpak_script_path': unrealpak_script_path,
         'mods_folder_path': mods_folder_path,
         'selected_language': current_language
@@ -139,7 +170,7 @@ def save_config():
 
 def load_config():
     # Chargement de la configuration depuis le fichier pickle
-    global unrealpak_script_path, mods_folder_path, preset_dir, current_language
+    global rivals_path, unrealpak_script_path, mods_folder_path, preset_dir, current_language
     project_root = os.path.dirname(
         os.path.abspath(__file__))  # Chemin du projet racine
 
@@ -157,9 +188,9 @@ def load_config():
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, 'rb') as f:
             config = pickle.load(f)
+            rivals_path = config.get('rivals_path')
             mods_folder_path = config.get('mods_folder_path')
-            current_language = config.get('selected_language', 'fr')
-
+            current_language = config.get('selected_language')
 
 def get_output_and_unrealpak_dirs():
     # Obtient les chemins des dossiers de sortie pour UnrealPak
@@ -722,10 +753,15 @@ def replace_colors_in_uexp():
 
 def configure_script_and_mods_folder():
     # Permet à l'utilisateur de sélectionner le dossier mods
-    global mods_folder_path
+    global rivals_path, mods_folder_path
     # Demander uniquement le dossier mods
-    mods_folder_path = filedialog.askdirectory(
-        title="Choisir le dossier mods existant")
+    if mods_folder_path is not None:
+        mods_folder_path = filedialog.askdirectory(initialdir=mods_folder_path,
+                                                   title="Choisir le dossier mods existant")
+    else:
+        mods_folder_path = filedialog.askdirectory(
+            initialdir=rivals_path, title="Choisir le dossier mods existant")
+
     save_config()
     messagebox.showinfo(translations[current_language]['success_title'],
                         translations[current_language]['mods_configured'])
@@ -1109,7 +1145,7 @@ def on_closing():
 # Créer la fenêtre Tkinter
 root = tk.Tk()
 root.title(translations[current_language]['title'])
-root.geometry("900x600")
+root.geometry("900x700")
 root.configure(bg="#f2f2f2")
 
 # Définir l'icône de la fenêtre
@@ -1122,6 +1158,7 @@ if os.path.exists(icon_path):
 else:
     print("Icône de l'application non trouvée.")
 
+# Check if wine exists.
 wine_in_path = shutil.which("wine")
 if wine_in_path is None:
     messagebox.showerror(translations[current_language]['error_title'],
@@ -1139,6 +1176,8 @@ last_change_time = 0
 
 # Charger la configuration au démarrage
 load_config()
+
+get_rivals_path()
 
 # Charger les icônes et les personnages
 characters = load_character_icons()
