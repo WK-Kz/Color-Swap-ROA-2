@@ -24,10 +24,12 @@ color_displays = {}
 character_icons = {}
 file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 
+__version__ = "1.3.4"
+
 # Dictionnaire des traductions
 translations = {
     'fr': {
-        'title': "ROA 2 Colorswap",
+        'title': "ROA 2 Colorswap" + " " + __version__,
         'configure_mods': "Configurer le dossier Mods",
         'save_preset': "Sauvegarder Preset",
         'load_preset': "Charger Preset",
@@ -56,7 +58,7 @@ translations = {
         'preset_mismatch': "Le preset ne correspond pas au personnage ou au skin sélectionné.",
     },
     'en': {
-        'title': "ROA 2 Colorswap",
+        'title': "ROA 2 Colorswap" + " " + __version__,
         'configure_mods': "Configure Mods Folder",
         'save_preset': "Save Preset",
         'load_preset': "Load Preset",
