@@ -45,6 +45,7 @@ translations = {
         'preset_loaded': "Preset chargé avec succès.",
         'preset_saved': "Preset sauvegardé avec succès.",
         'error_title': "Erreur",
+        'wine_error': "Erreur - Vin non installé",
         'json_decode_error': "Erreur de décodage JSON.",
         'no_json_loaded': "Aucun fichier JSON chargé.",
         'json_load_error': "Erreur de chargement du preset.",
@@ -74,6 +75,7 @@ translations = {
         'preset_loaded': "Preset loaded successfully.",
         'preset_saved': "Preset saved successfully.",
         'error_title': "Error",
+        'wine_error': "Error - Wine not installed.",
         'json_decode_error': "JSON decoding error.",
         'no_json_loaded': "No JSON file loaded.",
         'json_load_error': "Error loading preset.",
@@ -143,7 +145,7 @@ def load_config():
 
     # Chemin de UnrealPak-With-Compression.bat dans Upack
     unrealpak_script_path = os.path.join(
-        project_root, "Upack_Linux", "UnrealPak-With-Compression.sh")
+        project_root, "Upack", "UnrealPak-With-Compression.bat")
 
     # Chemin du dossier Preset à la racine du projet
     preset_dir = os.path.join(project_root, "Preset")
@@ -742,7 +744,7 @@ def ask_for_pak_directory_and_create(unrealpak_folder_path):
     try:
         # Exécuter UnrealPak-With-Compression.bat en utilisant le dossier unrealpak_folder_path
         subprocess.run(
-            [unrealpak_script_path, unrealpak_folder_path], check=True)
+            ["wine", unrealpak_script_path, unrealpak_folder_path], check=True)
         time.sleep(0.2)  # Pause pour s'assurer que le fichier est créé
 
         # Rechercher le fichier .pak dans le répertoire UnrealPak
@@ -1119,6 +1121,12 @@ if os.path.exists(icon_path):
     root.iconphoto(False, icon_image)
 else:
     print("Icône de l'application non trouvée.")
+
+wine_in_path = shutil.which("wine")
+if wine_in_path is None:
+    messagebox.showerror(translations[current_language]['error_title'],
+                         translations[current_language]['wine_error'])
+    exit(-1)
 
 # Variables pour les menus déroulants (après création de root)
 selected_character = tk.StringVar()
