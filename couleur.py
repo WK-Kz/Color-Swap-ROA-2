@@ -27,7 +27,7 @@ color_displays = {}
 character_icons = {}
 file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 
-__version__ = "1.3.4"
+__version__ = "1.3.4.1"
 
 # Dictionnaire des traductions
 translations = {
