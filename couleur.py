@@ -12,7 +12,10 @@ from PIL import Image, ImageTk
 
 CONFIG_FILE = 'config.pkl'
 
-BASE_DIR = os.path.join("Base_pas_edit", "Rivals2","Content", "Characters")
+BASE_DIR = os.path.join("Base_pas_edit", 
+                        "Rivals2",
+                        "Content", 
+                        "Characters")
 
 # Initialisation des variables globales
 unrealpak_script_path = None
