@@ -17,7 +17,7 @@ Pillow
 ## Installation
 
 ### Download
-- Download and extract the ZIP file of the program.
+- Download the zip file from [Releases](https://github.com/WK-Kz/Color-Swap-ROA-2/releases) and extract the ZIP file of the program.
 
 ### Creating the Mods Folder
 - Create a folder named `Mods` in the following location within your game directory:
@@ -33,7 +33,7 @@ Pillow
 
 ### Launching the Program
 - Open terminal and navigate to this folder
-- Run python couleur.py
+- Type in your terminal `python couleur.py`
 
 ### Selecting the Mods Folder
 - Click on the yellow button and select the location of the `Mods` folder you created.
