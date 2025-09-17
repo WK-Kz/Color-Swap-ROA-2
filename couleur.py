@@ -491,6 +491,11 @@ def filter_colors_in_uexp(data):
                 filtered_data.append(filtered_entry)
     return filtered_data
 
+def display_match(key) -> None:
+    if current_language == 'fr':
+        print(f"Affichage de la couleur '{key}' avec correspondance trouvée")
+    else:
+        print(f"Displaying color '{key}' with match found")
 
 def populate_color_selectors(data):
     # Effacer les widgets précédents
@@ -514,11 +519,9 @@ def populate_color_selectors(data):
                     continue  # Passe à la couleur suivante
 
                 # Afficher les informations de la couleur qui va être ajoutée
-                print(
-                    f"Affichage de la couleur '{key}' avec correspondance trouvée")
+                display_match(key)
 
                 # Créer les champs pour chaque clé filtrée
-                # fuckingshit
                 label = tk.Label(color_frame, text=name,
                                  font=("Arial", 10, "bold"))
                 label.grid(row=row, column=col*3, padx=5, pady=5, sticky="w")
