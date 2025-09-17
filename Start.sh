@@ -21,12 +21,14 @@ if command -v python3 &>/dev/null; then
         flatpak install flathub org.winehq.Wine
       else
         echo "[Error] - Exiting -- Valid response was not chosen. Please install wine via flatpak or from your package manager."
+        sleep 2
         exit
       fi
     fi
   fi
 else
   echo "[Error] - Exiting -- Python 3 is not installed"
+  sleep 2
   exit
 fi
 
