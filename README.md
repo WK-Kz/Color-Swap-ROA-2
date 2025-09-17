@@ -12,10 +12,14 @@ This program allows you to change character colors in **Rivals of Aether 2** on 
 1. `sudo dnf install python3-pillow-tk`
 1. `sudo dnf install wine`
 
-#### Arch/Steam Deck:
+#### Arch:
 1. `sudo pacman -S python-pillow`
-2. Wine install on Steam Deck is under investigation right now.
-* I am not in possession of a steam deck / arch distro, so this can be subject to change.
+2. `sudo pacman -S wine`
+
+#### Steam Deck:
+On the steam deck, the python package should be provided already. If wine is already not installed on the device, it should automatically be installed when `Start.sh` is ran.
+Only this command should be required to run:
+1. `sudo pacman -S python-pillow`
 
 ## Installation
 
@@ -75,6 +79,9 @@ If this folder already exists, nothing will happen, and the program will continu
 
 - Why is wine required?
     - Based on investigation, UnrealPak provided from the orgiinal creator is version 4.17.2. Unreal Engine does not provide that binary, and attempting to build it from source requires a number of tweaks to an xml file and also requires clang < 4.0. It is not within the scope of this repository at this point in time to get an isolated UnrealPak 4.17.2 binary for Linux Systems.
+
+- Can I run this on Windows?
+    - You are free to do so; however, I have not tested on whether or not it will work on Windows machines. Please feel free to do so and submit an issue if problems occur.
 
 ## Terms of Use:
 This repository is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
