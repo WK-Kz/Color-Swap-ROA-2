@@ -33,7 +33,7 @@ character_icons = {}
 file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
 wine_cmd: str = str()
 
-__version__ = "1.3.4.1a"
+__version__ = "1.3.4.1-stable"
 
 wine_cmds: dict[str, str] = {'system_wine': "wine",
                              'flatpak_wine': "org.winehq.Wine"
@@ -1215,14 +1215,14 @@ else:
 # This step below only applies to Linux Systems
 if platform == "linux":
     print("Linux System Detected, verifying wine installation and is in path")
-    # Force wine from flatpak usage for testing
-    # wine_cmd = wine_cmds['flatpak_wine']
+    ## Force wine from flatpak usage for testing
+    wine_cmd = wine_cmds['flatpak_wine']
 
-    # Check if wine exists.
-    if not verify_wine_exists():
-        messagebox.showerror(translations[current_language]['error_title'],
-                             translations[current_language]['wine_error'])
-        exit(-1)
+    # # Check if wine exists.
+    # if not verify_wine_exists():
+    #     messagebox.showerror(translations[current_language]['error_title'],
+    #                          translations[current_language]['wine_error'])
+    #     exit(-1)
 
 # Variables pour les menus déroulants (après création de root)
 selected_character = tk.StringVar()

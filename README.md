@@ -8,23 +8,26 @@ This program allows you to change character colors in **Rivals of Aether 2** on 
 - wine
 - Pillow
 
-#### Fedora:
-1. `sudo dnf install python3-pillow-tk`
-1. `sudo dnf install wine`
-
-#### Arch:
-1. `sudo pacman -S python-pillow`
-2. `sudo pacman -S wine`
-
-#### Steam Deck:
-On the steam deck, the python package should be provided already. If wine is already not installed on the device, it should automatically be installed when `Start.sh` is ran.
-Only this command should be required to run:
-1. `sudo pacman -S python-pillow`
-
 ## Installation
 
 ### Download
 - Download the zip file from [Releases](https://github.com/WK-Kz/Color-Swap-ROA-2/releases) and extract the ZIP file of the program.
+
+#### Devices
+##### Fedora:
+1. `sudo dnf install python3-pillow-tk`
+1. `sudo dnf install wine`
+
+##### Arch:
+1. `sudo pacman -S python-pillow`
+2. `sudo pacman -S wine`
+
+##### Steam Deck:
+1. Navigate to Installers/
+2. Run either `install-pillow-pip.sh` or `install-pillow-arch-based.sh`
+This can be done by either running these scripts via terminal or by right clicking the shell script and selecting `Run as a Program`
+
+On the steam deck, the python package should be provided already. If wine is already not installed on the device, it should automatically be installed when `Start.sh` is ran.
 
 ### [Optional] Creating the Mods Folder 
 With the new fork, it will prompt you to provide a direct path to the Rivals2/Paks folder. Once a valid directory has been provided, it will generate a Mods folder. However, you must still select the mods folder when generating your recolored skin.
@@ -43,8 +46,12 @@ If this folder already exists, nothing will happen, and the program will continu
 ### Warning
 - Make sure to close the game before using the program.
 
-### Launching the Program
-- Unzip this folder
+### Launching the Program 
+- Navigate to it in your file explorer and unzip this folder.
+#### Windows
+- Run Start.bat
+
+#### Linux
 - Right click Start.sh
 - Click `Run as Program`
 
@@ -57,31 +64,42 @@ If this folder already exists, nothing will happen, and the program will continu
 - After making changes, you can save the preset to reuse these colors later.
 - Finally, click on "Replace Colors" to apply the modification in the game.
 
-### Troubleshooting:
+### Troubleshooting (Linux):
 - I can't run the Start.sh script
     - Open terminal and navigate to this folder
     - Type in your terminal `chmod +x Start.sh` and press enter. Keep the terminal open.
-    - Go back to your file explorer (ie. Nautilus / Dolphin / Etc ), attempt to right click again, and click on 'Run As Program'
-    - "That still doesn't work"
+    - Go back to your file explorer (ie. Nautilus / Dolphin / Etc ), attempt to right click again, and click on 'Run As Program'.
+    - "That still doesn't work".
         - In your terminal: type `./Start.sh`
+        - If you are still running into issues, then it might be a directory permissions issue.
 
-- I'm geting `Python3 is not installed` 
-    - Make sure your system has python3 installed. Based on your distro, use your package manager to install python3 and python3-pillow
+- I'm getting `Python3 is not installed` 
+    - Make sure your system has python3 installed. Based on your distro, use your package manager to install python3 and python3-pillow.
 
 - I'm able to successfully run the program; however, it's stating that wine isn't installed.
     - Make sure your system has wine installed. Based on your distro, use your package manager to install wine.
 
+- I'm getting an issue with pillow not being found on the Steam Deck.
+    - Run the [installer instructions](##### Steam Deck:) provided above.
+    - If there are persistent issues, please submit an issue.
 
-#### Q&A:
+#### General Q&A:
 - How often will this tool be updated?
     - Whenever I have time or if someone wants to make a PR.
     - It also depends on when new files are provided from Pixels956. This repository was originally focused on getting the Color Mod tool to work and generate the appropriate .pak files.
+    - Maintainers of this tool can be easily notified by making an issue on the github page.
 
 - Why is wine required?
     - Based on investigation, UnrealPak provided from the orgiinal creator is version 4.17.2. Unreal Engine does not provide that binary, and attempting to build it from source requires a number of tweaks to an xml file and also requires clang < 4.0. It is not within the scope of this repository at this point in time to get an isolated UnrealPak 4.17.2 binary for Linux Systems.
 
 - Can I run this on Windows?
     - You are free to do so; however, I have not tested on whether or not it will work on Windows machines. Please feel free to do so and submit an issue if problems occur.
+
+#### Credits:
+- beastmode\_md 
+    - I've bugged them to test this multiple times
+- jazsoundwav 
+    - For putting me in contact with beastmode\_md, so that this can be achieved.
 
 ## Terms of Use:
 This repository is licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
