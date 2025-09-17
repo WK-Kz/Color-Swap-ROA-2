@@ -1,14 +1,18 @@
+from sys import platform
 import tkinter as tk
 from tkinter import filedialog, messagebox, colorchooser
 import struct
 import json
 import os
+import sys
 import shutil
 import subprocess
 import time
 import pickle
 import threading
 from PIL import Image, ImageTk
+
+# TODO: Add logger and change print statements and create log directory if it exists
 
 CONFIG_FILE = 'config.pkl'
 
@@ -18,23 +22,29 @@ BASE_DIR = os.path.join("Base_pas_edit",
                         "Characters")
 
 # Initialisation des variables globales
-rivals_path = None
-unrealpak_script_path = None
-mods_folder_path = None
+rivals_path : str = str()
+unrealpak_script_path : str = str()
+mods_folder_path : str = str()
 json_data = None
-uexp_file_path = None
+uexp_file_path : str = str()
 color_entries = {}
 color_displays = {}
 character_icons = {}
 file_type_codes = {'Element/Energy': 'PE', 'Skin': 'PS'}
+wine_cmd: str = str()
 
-__version__ = "1.3.4.1"
+__version__ = "1.3.4.1a"
+
+wine_cmds: dict[str, str] = {'system_wine': "wine",
+                             'flatpak_wine': "org.winehq.Wine"
+                             }
 
 # Dictionnaire des traductions
-translations = {
+translations: dict[str,dict[str,str]] = {
     'fr': {
         'title': "ROA 2 Colorswap" + " " + __version__,
         'provide_rivals_pak_path_title' : "Fournir le chemin vers le dossier Rivals 2 Paks",
+        'provide_mod_folder_title' : "Choisir·le·dossier·mods·existant",
         'configure_mods': "Configurer le dossier Mods",
         'save_preset': "Sauvegarder Preset",
         'load_preset': "Charger Preset",
@@ -50,7 +60,7 @@ translations = {
         'preset_loaded': "Preset chargé avec succès.",
         'preset_saved': "Preset sauvegardé avec succès.",
         'error_title': "Erreur",
-        'wine_error': "Erreur - Vin non installé",
+        'wine_error': "Erreur - Wine n'est pas installé, installez Wine dans votre gestionnaire de paquets ou assurez-vous que flatpak est dans le chemin",
         'json_decode_error': "Erreur de décodage JSON.",
         'no_json_loaded': "Aucun fichier JSON chargé.",
         'json_load_error': "Erreur de chargement du preset.",
@@ -65,10 +75,12 @@ translations = {
         'load_error': "Une erreur s'est produite lors du chargement du preset : {}",
         'pak_creation_success': "Fichier .pak créé et déplacé vers le dossier mods",
         'preset_mismatch': "Le preset ne correspond pas au personnage ou au skin sélectionné.",
+        'path_not_selected' : "Chemin non sélectionné - Le chemin du mod n'a pas été enregistré"
     },
     'en': {
         'title': "ROA 2 Colorswap" + " " + __version__,
         'provide_rivals_pak_path_title' : "Provide Path to Rivals 2 Paks Folder",
+        'provide_mod_folder_title' : "Choose the existing mods folder",
         'configure_mods': "Configure Mods Folder",
         'save_preset': "Save Preset",
         'load_preset': "Load Preset",
@@ -84,7 +96,7 @@ translations = {
         'preset_loaded': "Preset loaded successfully.",
         'preset_saved': "Preset saved successfully.",
         'error_title': "Error",
-        'wine_error': "Error - Wine not installed.",
+        'wine_error': "Error - Wine not installed, install wine in your package manager or make sure flatpak is in path",
         'json_decode_error': "JSON decoding error.",
         'no_json_loaded': "No JSON file loaded.",
         'json_load_error': "Error loading preset.",
@@ -99,11 +111,13 @@ translations = {
         'load_error': "An error occurred while loading the preset: {}",
         'pak_creation_success': "Pak file created and moved to mods folder",
         'preset_mismatch': "The preset does not match the selected character or skin.",
+        'path_not_selected' : "Path not selected - Mod Path has not been saved"
     }
 }
 
 # Langue actuelle
 current_language = 'en'  # Valeur par défaut, sera chargée depuis la config
+display_language = translations[current_language]
 
 
 def update_texts():
@@ -130,14 +144,15 @@ def update_texts():
 
 
 def change_language(*args):
-    global current_language
+    global current_language, display_language
     current_language = language_options[selected_language.get()]
+    display_language = translations[current_language]
     update_texts()
 
 def get_rivals_path() -> None:
     global rivals_path
     try:
-        if rivals_path is None:
+        if not rivals_path:
             rivals_path = filedialog.askdirectory(title=translations[current_language]['provide_rivals_pak_path_title'])
             if rivals_path is not None:
                 # Check if mods directory already exists
@@ -182,7 +197,7 @@ def load_config():
     preset_dir = os.path.join(project_root, "Preset")
 
     # Valeur par défaut de la langue
-    current_language = 'fr'
+    current_language = 'en'
 
     # Charger le dossier mods et la langue depuis le fichier de configuration si disponible
     if os.path.exists(CONFIG_FILE):
@@ -197,7 +212,6 @@ def get_output_and_unrealpak_dirs():
     character = selected_character.get()
     skin = selected_skin.get()
     color = selected_color.get()
-    file_type = selected_file_type.get()
 
     # Dossier à utiliser pour UnrealPak
     unrealpak_folder_path = os.path.join(
@@ -508,6 +522,7 @@ def populate_color_selectors(data):
 
     row = 0
     col = 0
+
     for entry in data:
         if "Properties" in entry and "CustomColorSlotDefinitions" in entry["Properties"]:
             for color in entry["Properties"]["CustomColorSlotDefinitions"]:
@@ -758,32 +773,45 @@ def configure_script_and_mods_folder():
     # Permet à l'utilisateur de sélectionner le dossier mods
     global rivals_path, mods_folder_path
     # Demander uniquement le dossier mods
-    if mods_folder_path is not None:
+    TITLE_TO_DISPLAY = display_language['provide_mod_folder_title']
+    if not mods_folder_path :
         mods_folder_path = filedialog.askdirectory(initialdir=mods_folder_path,
-                                                   title="Choisir le dossier mods existant")
+                                                   title=TITLE_TO_DISPLAY)
     else:
         mods_folder_path = filedialog.askdirectory(
-            initialdir=rivals_path, title="Choisir le dossier mods existant")
+            initialdir=rivals_path, title=TITLE_TO_DISPLAY)
 
-    save_config()
-    messagebox.showinfo(translations[current_language]['success_title'],
-                        translations[current_language]['mods_configured'])
+    # Check if user selected a path correctly:
+    if mods_folder_path:
+        save_config()
+        messagebox.showinfo(display_language['success_title'],
+                            display_language['mods_configured'])
+    else:
+        messagebox.showinfo(display_language['error_title'],
+                            display_language['path_not_selected'])
 
 
 def ask_for_pak_directory_and_create(unrealpak_folder_path):
     # Exécute UnrealPak pour créer le fichier .pak et le déplace dans le dossier mods
     character = selected_character.get()
     # Construire le chemin du dossier de sortie pour UnrealPak basé sur le personnage sélectionné
+    character_path = f"{character}_P"
     unrealpak_folder_path = os.path.join(
-        os.path.dirname(unrealpak_script_path), f"{character}_P")
+        os.path.dirname(unrealpak_script_path), character_path)
 
     # Créer le dossier si nécessaire
     os.makedirs(unrealpak_folder_path, exist_ok=True)
 
     try:
         # Exécuter UnrealPak-With-Compression.bat en utilisant le dossier unrealpak_folder_path
-        subprocess.run(
-            ["wine", unrealpak_script_path, unrealpak_folder_path], check=True)
+        if sys.platform == "linux":
+            print(f"Wine being used: {wine_cmd}")
+            subprocess.run(
+                [wine_cmd, unrealpak_script_path, unrealpak_folder_path], check=True)
+        else:
+            subprocess.run(
+                [unrealpak_script_path, unrealpak_folder_path], check=True)
+
         time.sleep(0.2)  # Pause pour s'assurer que le fichier est créé
 
         # Rechercher le fichier .pak dans le répertoire UnrealPak
@@ -851,7 +879,7 @@ def load_character_icons():
     return characters
 
 
-def update_selected_character_icon(*args):
+def update_selected_character_icon(*args : str):
     # Met à jour l'icône affichée du personnage sélectionné
     selected_character_name = selected_character.get()
     # Mettre à jour l'icône dans le Label
@@ -1144,6 +1172,29 @@ def on_closing():
     save_config()
     root.destroy()
 
+def verify_wine_exists() -> bool:
+    global wine_cmd
+    system_wine_installed = shutil.which(wine_cmds['system_wine'])
+    if system_wine_installed:
+        wine_cmd = wine_cmds['system_wine']
+        return True
+    else:
+        FLATPAK_BIN_PATH = os.path.abspath("/var/lib/flatpak/exports/bin")
+
+        # Handle edge case where flatpak may not be installed on the user system. Add it temporarily to the system path.
+        if FLATPAK_BIN_PATH in sys.path:
+            print(f"{FLATPAK_BIN_PATH} was found in system path")
+        else:
+            print("Wine was not detected in system path...")
+            print("Checking if /var/lib/flatpak/exports/bin exists")
+            sys.path.append(FLATPAK_BIN_PATH)
+
+        flatpak_installed = shutil.which(wine_cmds['flatpak_wine'])
+        if flatpak_installed:
+            wine_cmd = wine_cmds['flatpak_wine']
+            return True
+    return False
+
 
 # Créer la fenêtre Tkinter
 root = tk.Tk()
@@ -1161,12 +1212,17 @@ if os.path.exists(icon_path):
 else:
     print("Icône de l'application non trouvée.")
 
-# Check if wine exists.
-wine_in_path = shutil.which("wine")
-if wine_in_path is None:
-    messagebox.showerror(translations[current_language]['error_title'],
-                         translations[current_language]['wine_error'])
-    exit(-1)
+# This step below only applies to Linux Systems
+if platform == "linux":
+    print("Linux System Detected, verifying wine installation and is in path")
+    # Force wine from flatpak usage for testing
+    # wine_cmd = wine_cmds['flatpak_wine']
+
+    # Check if wine exists.
+    if not verify_wine_exists():
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['wine_error'])
+        exit(-1)
 
 # Variables pour les menus déroulants (après création de root)
 selected_character = tk.StringVar()
