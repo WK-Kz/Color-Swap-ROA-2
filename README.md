@@ -14,7 +14,7 @@ This program allows you to change character colors in **Rivals of Aether 2** on 
 
 #### Arch/Steam Deck:
 1. `sudo pacman -S python-pillow`
-2. `sudo pacman -S wine`
+2. Wine install on Steam Deck is under investigation right now.
 * I am not in possession of a steam deck / arch distro, so this can be subject to change.
 
 ## Installation
