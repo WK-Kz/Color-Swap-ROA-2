@@ -1194,7 +1194,7 @@ selected_language.set(next(
 language_menu = tk.OptionMenu(
     header_frame, selected_language, *language_options.keys())
 language_menu.grid(row=0, column=0, padx=5, pady=5, sticky="w")
-selected_language.trace('w', change_language)
+selected_language.trace_add('write', change_language)
 
 # Label pour afficher l'icône sélectionnée
 selected_character_icon_label = tk.Label(header_frame, bg="#f2f2f2")
@@ -1221,27 +1221,27 @@ file_type_label.config(text=translations[current_language]['file_type'])
 # Menu pour le skin
 skin_menu = tk.OptionMenu(header_frame, selected_skin, '')
 skin_menu.grid(row=0, column=5, padx=2, pady=5, sticky="w")
-selected_skin.trace('w', update_color_menu)
+selected_skin.trace_add('write', update_color_menu)
 
 # Menus déroulants pour la couleur et le type de fichier
 color_menu = tk.OptionMenu(header_frame, selected_color, '')
 color_menu.grid(row=0, column=7, padx=2, pady=5, sticky="w")
-selected_color.trace('w', update_file_type_menu)
+selected_color.trace_add('write', update_file_type_menu)
 
 file_type_menu = tk.OptionMenu(header_frame, selected_file_type, '')
 file_type_menu.grid(row=0, column=9, padx=2, pady=5, sticky="w")
 
 # Menu déroulant pour le personnage avec icônes
 character_menu = create_character_menu(characters)
-selected_character.trace("w", update_selected_character_icon)
+selected_character.trace_add("write", update_selected_character_icon)
 if characters:
     selected_character.set(characters[0])
 
 # Lier les variables de sélection à la fonction de changement
-selected_character.trace('w', on_selection_change)
-selected_skin.trace('w', on_selection_change)
-selected_color.trace('w', on_selection_change)
-selected_file_type.trace('w', on_selection_change)
+selected_character.trace_add('write', on_selection_change)
+selected_skin.trace_add('write', on_selection_change)
+selected_color.trace_add('write', on_selection_change)
+selected_file_type.trace_add('write', on_selection_change)
 
 # Mettre à jour l'icône du personnage initial
 update_selected_character_icon()
