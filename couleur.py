@@ -1219,10 +1219,10 @@ if platform == "linux":
     wine_cmd = wine_cmds['flatpak_wine']
 
     # # Check if wine exists.
-    # if not verify_wine_exists():
-    #     messagebox.showerror(translations[current_language]['error_title'],
-    #                          translations[current_language]['wine_error'])
-    #     exit(-1)
+    if not verify_wine_exists():
+        messagebox.showerror(translations[current_language]['error_title'],
+                             translations[current_language]['wine_error'])
+        exit(-1)
 
 # Variables pour les menus déroulants (après création de root)
 selected_character = tk.StringVar()
